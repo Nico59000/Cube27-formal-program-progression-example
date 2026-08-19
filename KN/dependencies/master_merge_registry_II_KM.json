@@ -1,0 +1,175 @@
+{
+  "append_rows": [
+    {
+      "adapter_or_obstruction": "localization at (2) and 2-primary Smith reduction",
+      "id": "PM-KM-01",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "integral Cube27 Smith data",
+      "source_phase": "II-KM",
+      "target_carrier": "2-local primary graded modules"
+    },
+    {
+      "adapter_or_obstruction": "Noetherian exact completion theorem on finite R_(2)-modules",
+      "id": "PM-KM-02",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "finite Cube27 filtered steps",
+      "source_phase": "II-KM",
+      "target_carrier": "their I-adic completions"
+    },
+    {
+      "adapter_or_obstruction": "2-primary localization preserves the explicit detector",
+      "id": "PM-KM-03",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "conductor Ext class",
+      "source_phase": "II-KM",
+      "target_carrier": "2-local conductor Ext class"
+    },
+    {
+      "adapter_or_obstruction": "Newton identity on the same trace-class carrier",
+      "id": "PM-KM-04",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "Gauss traces1-8",
+      "source_phase": "II-KM",
+      "target_carrier": "Fredholm d8"
+    },
+    {
+      "adapter_or_obstruction": "same axis-start return function and nested Arb interval-Newton enclosure",
+      "id": "PM-KM-05",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "II-KL regular crossings",
+      "source_phase": "II-KM",
+      "target_carrier": "II-KM sharper crossings"
+    },
+    {
+      "adapter_or_obstruction": "direct-sum E8 restrictions modulo actual independent B5 blocks",
+      "id": "PM-KM-06",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "native Golden type3 products",
+      "source_phase": "II-KM",
+      "target_carrier": "type3 H5 quotient"
+    },
+    {
+      "adapter_or_obstruction": "same FLINT factor/order ABI and exact tap identifiers",
+      "id": "PM-KM-07",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "selected recurrence 91/93/95",
+      "source_phase": "II-KM",
+      "target_carrier": "full repaired scans"
+    },
+    {
+      "adapter_or_obstruction": "disjoint exact (k,v) keys plus repaired odd-order replacements",
+      "id": "PM-KM-08",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "predecessor recurrence atlases45-105",
+      "source_phase": "II-KM",
+      "target_carrier": "full recurrence atlas45-115"
+    },
+    {
+      "adapter_or_obstruction": "explicit similarity to -C^-1 plus determinant parity theorem",
+      "id": "PM-KM-09",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "reflection polynomial involution",
+      "source_phase": "II-KM",
+      "target_carrier": "equal-order collision quotient"
+    },
+    {
+      "adapter_or_obstruction": "ordC=4k and v=k/2 imply the gcd/divisibility identities",
+      "id": "PM-KM-10",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "fixed-center recurrence theorem",
+      "source_phase": "II-KM",
+      "target_carrier": "divisibility corollary"
+    },
+    {
+      "adapter_or_obstruction": "exact equality equivalence relation on one recurrence carrier",
+      "id": "PM-KM-11",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "matrix-order equality records",
+      "source_phase": "II-KM",
+      "target_carrier": "collision quotient classes"
+    },
+    {
+      "adapter_or_obstruction": "same exact required-field schemas for D5/Pisano/Stone/Fibonacci",
+      "id": "PM-KM-12",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "historical ABI contracts",
+      "source_phase": "II-KM",
+      "target_carrier": "II-KM source preflight"
+    },
+    {
+      "adapter_or_obstruction": "missing extension/splitting data block the merge",
+      "id": "PNM-KM-01",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "associated-graded period-two tail",
+      "source_phase": "II-KM",
+      "target_carrier": "split filtered/completed Rees algebra"
+    },
+    {
+      "adapter_or_obstruction": "bounded existence does not provide a quantitative norm certificate",
+      "id": "PNM-KM-02",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "abstract reduced resolvent existence",
+      "source_phase": "II-KM",
+      "target_carrier": "numerical resolvent norm"
+    },
+    {
+      "adapter_or_obstruction": "distinct analytic evidence channels without a summability adapter",
+      "id": "PNM-KM-03",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "Fredholm trace coefficients",
+      "source_phase": "II-KM",
+      "target_carrier": "absolute time-domain third cumulant summability"
+    },
+    {
+      "adapter_or_obstruction": "missing source-bound holonomy transitions",
+      "id": "PNM-KM-04",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "regular codim3 Arb germs",
+      "source_phase": "II-KM",
+      "target_carrier": "cross-singular leaf groupoid"
+    },
+    {
+      "adapter_or_obstruction": "no restriction-rank transport or carrier identification",
+      "id": "PNM-KM-05",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "type3 native H5 closure",
+      "source_phase": "II-KM",
+      "target_carrier": "remaining Golden stabilizer H5 carriers"
+    },
+    {
+      "adapter_or_obstruction": "free equivariant lift data are absent",
+      "id": "PNM-KM-06",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "coinvariant/native Golden bytes",
+      "source_phase": "II-KM",
+      "target_carrier": "free F2[H]-Wall degree4 producer"
+    },
+    {
+      "adapter_or_obstruction": "sign does not determine additive character/Haar/coordinates",
+      "id": "PNM-KM-07",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "historical p5 sign/shadow",
+      "source_phase": "II-KM",
+      "target_carrier": "full local Tate packet"
+    },
+    {
+      "adapter_or_obstruction": "decisive same-carrier ABI fields remain absent",
+      "id": "PNM-KM-08",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "partial Stone/Fibonacci source objects",
+      "source_phase": "II-KM",
+      "target_carrier": "promoted project values"
+    }
+  ],
+  "counts": {
+    "PROVEN-MERGEABLE": 687,
+    "PROVEN-NOT-MERGEABLE": 464
+  },
+  "inherited_counts": {
+    "PROVEN-MERGEABLE": 675,
+    "PROVEN-NOT-MERGEABLE": 456
+  },
+  "note": "mergeability axis independent from truth-status axis",
+  "phase": "II-KM",
+  "predecessor": "II-KL"
+}

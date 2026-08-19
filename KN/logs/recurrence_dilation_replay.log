@@ -1,0 +1,12 @@
+{
+  "main_records": 6804,
+  "all_records": 7750,
+  "dilation_checks": 7750,
+  "divisor_checks": 12217,
+  "collisions": 1354,
+  "cross": 351,
+  "norm_classes": 1443,
+  "norm_cross_rays": 898,
+  "multi_rays": 1117
+}
+07e18a5c853309343fa2a3041486d0aafa6e3cc24194684c3d3529cf7f86ee09

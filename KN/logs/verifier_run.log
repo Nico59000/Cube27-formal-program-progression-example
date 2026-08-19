@@ -1,0 +1,110 @@
+{
+  "active_project_gates": 37,
+  "coverage_units": 20741896,
+  "explicit_assertions": 20960,
+  "explicit_witness_instances": 258990,
+  "families": 12,
+  "family_records": [
+    {
+      "coverage_units": 128,
+      "explicit_assertions": 13,
+      "family": "cube27_completed_rees_nonsplitting",
+      "statement": "flat/torsion-free completion plus nonzero 2-primary graded quotients forbids all completed filtration splittings",
+      "witness_records": 3
+    },
+    {
+      "coverage_units": 10077696,
+      "explicit_assertions": 6,
+      "family": "gauss_ninth_fredholm_certificate",
+      "statement": "ninth trace exact finite core plus positive zeta tail and Newton d9 enclosure",
+      "witness_records": 2
+    },
+    {
+      "coverage_units": 425,
+      "explicit_assertions": 8,
+      "family": "gauss_hardy_reduced_resolvent",
+      "statement": "source-bound H2 contour plus Laurent regular-part identity gives ||S_H||<=425",
+      "witness_records": 3
+    },
+    {
+      "coverage_units": 557056,
+      "explicit_assertions": 13,
+      "family": "golden_type5_native_H5_closure",
+      "statement": "actual type5 native cocycles and 17 E8 quotient blocks reach independent H5 dimension 56",
+      "witness_records": 17
+    },
+    {
+      "coverage_units": 1195,
+      "explicit_assertions": 31,
+      "family": "recurrence_full_116_125",
+      "statement": "full exact FLINT census, odd determinant zeros, fixed centers and no linear formula hits",
+      "witness_records": 1195
+    },
+    {
+      "coverage_units": 7750,
+      "explicit_assertions": 7751,
+      "family": "recurrence_primitive_dilation",
+      "statement": "ordC(k,v)=gcd(k,v)*ordC(k/g,v/g) on the full exact 2--125 atlas",
+      "witness_records": 7750
+    },
+    {
+      "coverage_units": 12217,
+      "explicit_assertions": 12218,
+      "family": "recurrence_all_divisor_scalings",
+      "statement": "every divisor scaling instance of the polynomial dilation theorem through order125",
+      "witness_records": 12217
+    },
+    {
+      "coverage_units": 840,
+      "explicit_assertions": 841,
+      "family": "recurrence_reflection_extension",
+      "statement": "all 840 unordered even-k odd-v reflection pairs on 45--125 have equal matrix order",
+      "witness_records": 840
+    },
+    {
+      "coverage_units": 6804,
+      "explicit_assertions": 11,
+      "family": "recurrence_collision_divisibility_strata",
+      "statement": "45--125 matrix-order collisions and primitive-normalized dilation rays are exactly serialized",
+      "witness_records": 1354
+    },
+    {
+      "coverage_units": 37,
+      "explicit_assertions": 9,
+      "family": "source_gates_and_project_ABI",
+      "statement": "fresh scoped retrieval preserves codim3/D5/p5 and Stone/Fibonacci missing-byte gates without promotion",
+      "witness_records": 9
+    },
+    {
+      "coverage_units": 52,
+      "explicit_assertions": 57,
+      "family": "append_only_registries",
+      "statement": "truth and mergeability axes append independently from frozen II-KM counts",
+      "witness_records": 52
+    },
+    {
+      "coverage_units": 10077696,
+      "explicit_assertions": 2,
+      "family": "deep_gauss_ninth_replay",
+      "statement": "full 6^9 finite-core recurrence plus Arb fixed-point sum replay",
+      "witness_records": 235548
+    }
+  ],
+  "historical_exhaustive_replay": "NT_NOT_EXHAUSTIVE",
+  "merge_counts": {
+    "PROVEN-MERGEABLE": 695,
+    "PROVEN-NOT-MERGEABLE": 472
+  },
+  "observational_continuity": "PASS_299",
+  "overall": "PASS",
+  "phase": "II-KN",
+  "predecessor": "II-KM",
+  "promoted_project_values": 0,
+  "status_counts": {
+    "NT": 93,
+    "PASS": 1479,
+    "REFUTED": 297,
+    "SEPARATED": 467,
+    "ZERO": 102
+  }
+}

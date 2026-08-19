@@ -1,0 +1,147 @@
+{
+  "phase": "II-KM",
+  "predecessor": "II-KL",
+  "carrier": "Cube27 ordinary split Green ring R localized at (2), its dimension-augmentation ideal I_(2), finite I-adic filtered modules, and the separately typed conductor Ext class",
+  "source": {
+    "name": "II_KL_cube27_filtered_rees_ext.json",
+    "sha256": "8d9cfeefb6e6f70022dab8cfa303866ce3e07c61a4af15cbb7a504bf080cf6b4"
+  },
+  "ring_finiteness_noetherian_input": {
+    "project_authority": "II-KB gives an integral monic presentation with 16 standard monomials, hence R is finite free of rank 16 over Z on the declared carrier",
+    "local_consequence": "R_(2) is module-finite over the Noetherian ring Z_(2), hence Noetherian",
+    "status": "PASS_PROJECT_INPUT_PLUS_STANDARD_NOETHERIAN_CONSEQUENCE"
+  },
+  "two_local_associated_graded": {
+    "records": {
+      "R1": {
+        "integral_SNF_nontrivial": [
+          2,
+          2,
+          12
+        ],
+        "two_local_invariant_factors": [
+          2,
+          2,
+          4
+        ],
+        "two_local_module": "(Z/2)^2 + (Z/4)^1",
+        "dim_F2_M_mod_2M": 3,
+        "dim_F2_2M": 1,
+        "dim_F2_M_2torsion": 3,
+        "rank_relation_mod2": 12,
+        "ambient_generators": 15
+      },
+      "R2": {
+        "integral_SNF_nontrivial": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          12
+        ],
+        "two_local_invariant_factors": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          4
+        ],
+        "two_local_module": "(Z/2)^5 + (Z/4)^1",
+        "dim_F2_M_mod_2M": 6,
+        "dim_F2_2M": 1,
+        "dim_F2_M_2torsion": 6,
+        "rank_relation_mod2": 9,
+        "ambient_generators": 15
+      },
+      "R3": {
+        "integral_SNF_nontrivial": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          12
+        ],
+        "two_local_invariant_factors": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          4
+        ],
+        "two_local_module": "(Z/2)^6 + (Z/4)^1",
+        "dim_F2_M_mod_2M": 7,
+        "dim_F2_2M": 1,
+        "dim_F2_M_2torsion": 7,
+        "rank_relation_mod2": 8,
+        "ambient_generators": 15
+      }
+    },
+    "tail_for_every_n_ge_3": {
+      "integral_SNF_nontrivial": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        12
+      ],
+      "two_local_invariant_factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "two_local_module": "(Z/2)^6 + (Z/4)^1",
+      "dim_F2_M_mod_2M": 7,
+      "dim_F2_2M": 1,
+      "dim_F2_M_2torsion": 7,
+      "rank_relation_mod2": 8,
+      "ambient_generators": 15
+    },
+    "tail_period_two_action": "PASS_INHERITED_AND_REPLAYED_FROM_II_KL",
+    "operator_family_count": 60,
+    "operator_filtration_preservation_checks": 60,
+    "filtration": "0 subset 2M subset M; every integer-linear augmentation multiplication map preserves 2M functorially",
+    "status": "PASS_EXACT_2LOCAL_PRIMARY_MODULE_FILTRATION_ALL_DECLARED_GRADES"
+  },
+  "conductor_ext_2local": {
+    "A2_mod_2_dimension": 13,
+    "class": "e=[2x] in Ext^1_Z(Z/2,A2) ~= A2/2A2",
+    "detector_value": 1,
+    "at_2": "NONZERO_PRESERVED: A2 tensor Z_(2)=A2 and Z/2 tensor Z_(2)=Z/2",
+    "away_from_2": "ZERO: A2 tensor Z[1/2]=0 and Z/2 tensor Z[1/2]=0",
+    "pushout": "detector pushes e to a nonzero epsilon in Ext^1_Z(Z/2,Z/2)=Z/2",
+    "yoneda_square": "epsilon^2=0 in Ext^2_Z(Z/2,Z/2), since 0->Z --2--> Z -> Z/2 ->0 has projective length 1",
+    "status": "PASS_NONZERO_2LOCAL_CONDUCTOR_EXT_CLASS_WITH_13_DIMENSIONAL_MOD2_DETECTION"
+  },
+  "completed_filtration_exactness": {
+    "theorem_input": "For a Noetherian ring and ideal I, I-adic completion is exact on finite modules (Stacks Project, Algebra Lemma 10.97.2 / tag 00MB; based on Artin-Rees).",
+    "application": "For every n, 0 -> I^(n+1)_(2) -> I^n_(2) -> gr_I^n(R)_(2) -> 0 is a short exact sequence of finite R_(2)-modules; completion stays short exact. Since I annihilates gr_I^n, its I-adic completion is itself.",
+    "exact_sequence": "0 -> completion(I^(n+1)_(2)) -> completion(I^n_(2)) -> gr_I^n(R)_(2) -> 0",
+    "status": "PASS_NOETHERIAN_IADIC_COMPLETION_EXACTNESS_ON_EVERY_FINITE_FILTERED_STEP"
+  },
+  "stronger_completed_rees_claims": {
+    "split_as_product_of_associated_grades": "SEPARATED_NO_COMPATIBLE_SPLITTING_OF_FILTERED_EXTENSIONS_SERIALIZED",
+    "new_polynomial_quotient_presentation": "SEPARATED_NOT_DERIVED_FROM_ASSOCIATED_GRADED_PERIODICITY",
+    "period_two_associated_graded_implies_period_two_filtered_completion": "REFUTED_AS_UNJUSTIFIED_INFERENCE_WITHOUT_EXTENSION_DATA_OR_SPLITTING",
+    "guard": "exact completion preserves the short exact filtration sequences; it does not canonically split them or reconstruct the completed Rees algebra from gr alone"
+  },
+  "machine_checks": {
+    "SNF_recomputations": 3,
+    "mod2_rank_checks": 3,
+    "augmentation_operator_shape_checks": 60,
+    "filtration_functoriality_instances": 60,
+    "Ext_detector_checks": 4
+  },
+  "decision": "PASS_2LOCAL_PRIMARY_MODULE_FILTRATION_AND_IADIC_COMPLETION_EXACTNESS__SPLIT_OR_POLYNOMIAL_COMPLETED_REES_PRESENTATION_SEPARATED"
+}

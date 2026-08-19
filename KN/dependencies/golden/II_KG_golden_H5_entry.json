@@ -1,0 +1,2342 @@
+{
+  "H5_E2_dimensions": [
+    38,
+    38,
+    14,
+    56,
+    34,
+    56,
+    34
+  ],
+  "abstract_H5_status": "PASS_TOTAL_DEGREE5_LHS_SURVIVAL_AND_ABSTRACT_H5_DIMENSIONS",
+  "guards": [
+    "degree-five survival is an abstract spectral-sequence argument, not a native bar basis computation",
+    "no blanket all-degree collapse is inferred beyond the proved total degree",
+    "native H5 products are not identified bytewise with the small-resolution representatives without the corrected Wall comparison"
+  ],
+  "model": "II-JS exact split-LHS small cohomology extended to total degree 5",
+  "native_bar_H5_basis_status": "SEPARATED_NO_NATIVE_BAR_H5_BASIS_B5_REDUCER_SERIALIZED",
+  "phase": "II-KG",
+  "records": [
+    {
+      "H5_E2_bidegree_dims_p0q5_to_p5q0": [
+        16,
+        9,
+        6,
+        4,
+        2,
+        1
+      ],
+      "H5_E2_total_dimension": 38,
+      "H5_lower_product_ranks": [
+        16,
+        9,
+        6,
+        4,
+        2,
+        1
+      ],
+      "H5_product_generated": true,
+      "kernel_rank": 4,
+      "quotient_order": 6,
+      "runtime_seconds": 10.603,
+      "sample_products": [
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              2
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              3
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              4
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              5
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              6
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              7
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              8
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              9
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              10
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              2
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              3
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              4
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        }
+      ],
+      "stabilizer_order": 96,
+      "type_index": 0
+    },
+    {
+      "H5_E2_bidegree_dims_p0q5_to_p5q0": [
+        16,
+        9,
+        6,
+        4,
+        2,
+        1
+      ],
+      "H5_E2_total_dimension": 38,
+      "H5_lower_product_ranks": [
+        16,
+        9,
+        6,
+        4,
+        2,
+        1
+      ],
+      "H5_product_generated": true,
+      "kernel_rank": 4,
+      "quotient_order": 6,
+      "runtime_seconds": 10.51,
+      "sample_products": [
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              2
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              3
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              4
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              5
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              6
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              7
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              8
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              9
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              10
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              2
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              3
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              4
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        }
+      ],
+      "stabilizer_order": 96,
+      "type_index": 1
+    },
+    {
+      "H5_E2_bidegree_dims_p0q5_to_p5q0": [
+        5,
+        3,
+        2,
+        2,
+        1,
+        1
+      ],
+      "H5_E2_total_dimension": 14,
+      "H5_lower_product_ranks": [
+        5,
+        3,
+        2,
+        2,
+        1,
+        1
+      ],
+      "H5_product_generated": true,
+      "kernel_rank": 3,
+      "quotient_order": 6,
+      "runtime_seconds": 8.869,
+      "sample_products": [
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              2
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              3
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              2,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            2,
+            3
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              2,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            2,
+            3
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            3,
+            2
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              4,
+              0,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            4,
+            1
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              2
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              3
+            ]
+          ],
+          "to_bidegree": [
+            1,
+            4
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              3,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            2,
+            3
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              3,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            2,
+            3
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            3,
+            2
+          ],
+          "type": "H1xH4"
+        }
+      ],
+      "stabilizer_order": 48,
+      "type_index": 2
+    },
+    {
+      "H5_E2_bidegree_dims_p0q5_to_p5q0": [
+        34,
+        9,
+        6,
+        4,
+        2,
+        1
+      ],
+      "H5_E2_total_dimension": 56,
+      "H5_lower_product_ranks": [
+        34,
+        9,
+        6,
+        4,
+        2,
+        1
+      ],
+      "H5_product_generated": true,
+      "kernel_rank": 4,
+      "quotient_order": 2,
+      "runtime_seconds": 0.189,
+      "sample_products": [
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              2
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              3
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              4
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              5
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              6
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              7
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              8
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              9
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              10
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              11
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              12
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              13
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              14
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              15
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        }
+      ],
+      "stabilizer_order": 32,
+      "type_index": 3
+    },
+    {
+      "H5_E2_bidegree_dims_p0q5_to_p5q0": [
+        28,
+        3,
+        0,
+        2,
+        0,
+        1
+      ],
+      "H5_E2_total_dimension": 34,
+      "H5_lower_product_ranks": [
+        28,
+        3,
+        0,
+        2,
+        0,
+        1
+      ],
+      "H5_product_generated": true,
+      "kernel_rank": 4,
+      "quotient_order": 2,
+      "runtime_seconds": 0.192,
+      "sample_products": [
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              2
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              3
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              4
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              5
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              6
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              7
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              8
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              9
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              10
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              11
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              12
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              13
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              14
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              15
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        }
+      ],
+      "stabilizer_order": 32,
+      "type_index": 4
+    },
+    {
+      "H5_E2_bidegree_dims_p0q5_to_p5q0": [
+        34,
+        9,
+        6,
+        4,
+        2,
+        1
+      ],
+      "H5_E2_total_dimension": 56,
+      "H5_lower_product_ranks": [
+        34,
+        9,
+        6,
+        4,
+        2,
+        1
+      ],
+      "H5_product_generated": true,
+      "kernel_rank": 4,
+      "quotient_order": 2,
+      "runtime_seconds": 0.194,
+      "sample_products": [
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              2
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              3
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              4
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              5
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              6
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              7
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              8
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              9
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              10
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              11
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              12
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              13
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              14
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              15
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        }
+      ],
+      "stabilizer_order": 32,
+      "type_index": 5
+    },
+    {
+      "H5_E2_bidegree_dims_p0q5_to_p5q0": [
+        28,
+        3,
+        0,
+        2,
+        0,
+        1
+      ],
+      "H5_E2_total_dimension": 34,
+      "H5_lower_product_ranks": [
+        28,
+        3,
+        0,
+        2,
+        0,
+        1
+      ],
+      "H5_product_generated": true,
+      "kernel_rank": 4,
+      "quotient_order": 2,
+      "runtime_seconds": 0.195,
+      "sample_products": [
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              0
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              1
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              2
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              3
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              4
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              5
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              6
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              7
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              8
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              9
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              10
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              11
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              12
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              13
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              14
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        },
+        {
+          "from": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              4,
+              15
+            ]
+          ],
+          "to_bidegree": [
+            0,
+            5
+          ],
+          "type": "H1xH4"
+        }
+      ],
+      "stabilizer_order": 32,
+      "type_index": 6
+    }
+  ],
+  "status": "PASS_EXACT_H5_E2_PRODUCT_GENERATION_AND_TOTAL_DEGREE5_SURVIVAL__NATIVE_BAR_H5_ENTRY_SEPARATED",
+  "survival_argument": "II-KC established permanence through total degree 4. Every E2 total-degree-5 class is generated here by products H1*H4, H2*H3 and reversed factors. Since d_r is a derivation, all outgoing differentials vanish; incoming differentials originate total degree 4 and vanish by its permanence. Hence E2=E_infinity in total degree 5.",
+  "wall_comparison_status": "SEPARATED_ABOVE_DEGREE2"
+}

@@ -1,0 +1,84 @@
+{
+  "phase": "II-KN",
+  "predecessor": "II-KM",
+  "codimension3": {
+    "carrier": "Epstein-Vogt source-bound alternating C8 bad-stratum incidence plus regular germinal return family",
+    "fresh_complete_cross_singular_packet_found": false,
+    "required_for_compactified_leaf_groupoid": [
+      "actual cross-singular source and target charts",
+      "cross-singular holonomy arrows/return germs",
+      "composition and inverse bytes on overlaps",
+      "topology/continuity data for the compactified arrow space",
+      "cocycle values and gauge/coboundary provenance"
+    ],
+    "incidence_only_no_go": "preserved: the alternating C8 incidence and local link data do not determine actual foliation holonomy; previous source-bound lanes admit inequivalent rank-one holonomy realizations on the same incidence support",
+    "compactified_leaf_groupoid": "SEPARATED_NO_SOURCE_BOUND_CROSS_SINGULAR_ARROW_PACKET",
+    "cocycle_audit": "SEPARATED_NO_ACTUAL_ARROW_CARRIER_ON_WHICH_TO_EVALUATE_COCYCLE_LAW",
+    "decision": "PASS_FRESH_SCOPED_INGESTION_AUDIT__ACTUAL_CROSS_SINGULAR_GROUPOID_AND_COCYCLE_SEPARATED"
+  },
+  "D5": {
+    "fresh_complete_packet_found": false,
+    "required_packet": [
+      "continuous base B",
+      "open cover U_i",
+      "rank-3 local trivializations phi_i",
+      "continuous overlap transition maps g_ij",
+      "inverse and Cech triple-law certificates",
+      "metric/norm transport provenance"
+    ],
+    "status": "NT_PRESERVED_POST_A1BJ_A1BK_SOURCE_NOT_RECOVERED"
+  },
+  "Pisano_p5": {
+    "fresh_complete_packet_found": false,
+    "required_packet": [
+      "explicit K_5/local extension identifier",
+      "explicit additive character psi5 byte formula",
+      "self-dual Haar measure convention",
+      "conductor and different exponents in finite Tate denominator",
+      "uniformizer/coordinate representative list",
+      "finite Gauss/Tate sum bytes"
+    ],
+    "status": "SEPARATED_FULL_HISTORICAL_LOCAL_TATE_PACKET_NOT_RECOVERED",
+    "nonuniqueness_guard": "the inherited epsilon5=-1 sign still selects only a nonsquare residue scale, not the exact additive-character/Haar normalization"
+  },
+  "Stone": {
+    "ABI_complete": false,
+    "missing": [
+      "project differential d",
+      "project theta row",
+      "primitive K_Z",
+      "integer-surjective incidence coupling C",
+      "stable residue/framing anchor",
+      "secondary-chain provenance"
+    ],
+    "project_value": "NT"
+  },
+  "Fibonacci": {
+    "ABI_complete": false,
+    "missing": [
+      "instantiated carrier_id",
+      "localization family",
+      "represented cofinal basis",
+      "same-carrier trace table or decisive trace-zero witness"
+    ],
+    "project_value": "NT"
+  },
+  "project_summary": {
+    "ABI_complete_actual_packets": 0,
+    "promoted_project_values": 0,
+    "active_project_gates": 37
+  },
+  "retrieval_scope": {
+    "library_and_current_conversation": "fresh semantic scan on 2026-08-19",
+    "connected_github_repository": "Nico59000/Modular-recurrence-symetry-analyzer-",
+    "github_queries": [
+      "A1BK D5 transition rank-3 trivialization Cech gij",
+      "cross singular holonomy compactified leaf groupoid",
+      "Pisano psi5 Haar Tate additive character p=5",
+      "Stone theta K_Z coupling framing Fibonacci trace table carrier localization cofinal"
+    ],
+    "github_complete_packet_hits": 0,
+    "guard": "zero retrieval hits are scoped discovery evidence only and are not mathematical nonexistence theorems"
+  },
+  "decision": "PASS_FRESH_SCOPED_SOURCE_AUDIT__CODIM3_SEPARATED_D5_NT_P5_SEPARATED_STONE_FIB_UNPROMOTED"
+}

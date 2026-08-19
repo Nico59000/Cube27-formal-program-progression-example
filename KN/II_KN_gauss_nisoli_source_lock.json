@@ -1,0 +1,24 @@
+{
+  "phase": "II-KN",
+  "role": "external primary-source lock for quantitative Hardy reduced-resolvent bound",
+  "repository": "orkolorko/GKWExperiments.jl",
+  "observed_main_commit": "9c0b701f16b41fc94e7dec55f88add183521f915",
+  "observed_commit_message": "WIP checkpoint before 6-month travel (20260803)",
+  "source_files": {
+    "data/supplementary_material.tex": {
+      "blob_sha": "59f2bb21e3a9d380c85e50549a1a3568f9bf99d5",
+      "fact": "row j=1 certifies M_inf=||R_L|| <= 4.25e2 on the excluding circle centered at lambda_1=1 with radius 1.00e-2"
+    },
+    "scripts/full_certification_50eigs.jl": {
+      "blob_sha": "069d592925223c1524f19992438ad97b04e08210",
+      "fact": "M_inf is obtained from a finite-dimensional resolvent certificate by the directed-rounding Neumann small-gain lift"
+    },
+    "data/tail_bound_N50.txt": {
+      "blob_sha": "0d272b0a16335daa1484b3e32f355b1e466ea956",
+      "fact": "independent tail-resolvent certificate exists for the N=50 spectral remainder; not used as an operator-norm substitute for S_H"
+    }
+  },
+  "derived_identity": "S_H=(2*pi*i)^(-1) integral_Gamma (z-1)^(-1)(zI-L)^(-1) dz, so ||S_H|| <= sup_Gamma ||(zI-L)^(-1)|| <= 425",
+  "guard": "repository source certification is external evidence; II-KN locally verifies only the contour deduction and does not claim to replay the 2048-bit Julia certification pipeline",
+  "status": "PASS_SOURCE_LOCK_AND_LOCAL_CONTOUR_DEDUCTION"
+}

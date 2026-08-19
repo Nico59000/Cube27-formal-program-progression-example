@@ -1,0 +1,47 @@
+{
+  "phase": "II-KN",
+  "carrier": "2-local Cube27 ordinary split Green order R_(2), augmentation ideal I_(2), and its I-adic completion",
+  "predecessor": "II-KM",
+  "associated_graded": {
+    "gr1": "(Z/2)^2 + Z/4",
+    "gr2": "(Z/2)^5 + Z/4",
+    "gr_n_n_ge_3": "(Z/2)^6 + Z/4",
+    "tail_period": 2,
+    "source": "II-KI exact normalized lattice period-two theorem plus II-KM 2-local filtration"
+  },
+  "completion_exactness": {
+    "statement": "0 -> completed(I^(n+1)_(2)) -> completed(I^n_(2)) -> gr^n_{I,(2)}R -> 0 is exact for every n>=1",
+    "reason": "R_(2) is Noetherian and the modules are finite; I-adic completion is exact on finite modules in the frozen Noetherian setting",
+    "status": "PASS_PRESERVED_FROM_II_KM"
+  },
+  "torsion_free_middle_terms": {
+    "statement": "each completed(I^n_(2)) is Z_(2)-torsion-free",
+    "proof": [
+      "R_(2) is finite free over Z_(2), hence Z_(2)-flat",
+      "the I-adic completion Rhat_(2) is flat over the Noetherian ring R_(2)",
+      "therefore Rhat_(2) is flat, hence torsion-free, over Z_(2)",
+      "the injection I^n_(2) -> R_(2) remains injective after tensoring with the flat Rhat_(2)",
+      "for finite modules, completed(I^n_(2)) = I^n_(2) tensor_{R_(2)} Rhat_(2), so it embeds in Rhat_(2)"
+    ],
+    "status": "PASS"
+  },
+  "completed_extension_nonsplitting": {
+    "statement": "for every n>=1 the completed filtration exact sequence does not split as a Z_(2)-module (hence not as a continuous Rhat_(2)-module or topological-algebra extension)",
+    "proof": "a splitting would inject the nonzero 2-primary torsion quotient gr^n into the Z_(2)-torsion-free middle term completed(I^n_(2)), impossible",
+    "decision": "REFUTED_SPLITTING_ALL_COMPLETED_FILTRATION_STAGES",
+    "scope": "splitting of the completed augmentation-filtration extension; distinct from the conductor Ext^1 class"
+  },
+  "topological_algebra_presentation": {
+    "inverse_limit_presentation": "Rhat_(2) = lim_m R_(2)/I^m_(2) as a complete separated I-adic topological algebra",
+    "split_product_of_grades": "REFUTED_BY_NONSPLITTING",
+    "polynomial_generators_relations_presentation": "SEPARATED_NOT_DERIVED_FROM_PERIODIC_ASSOCIATED_GRADED_DATA",
+    "periodic_associated_graded_implies_periodic_completed_algebra": "REFUTED_INFERENCE"
+  },
+  "guards": [
+    "associated-graded period two is not a splitting theorem",
+    "the conductor Ext class and the filtered Rees extension classes remain distinct carriers",
+    "no new polynomial presentation is manufactured",
+    "completion exactness and nonsplitting are compatible: exact does not mean split"
+  ],
+  "status": "PASS_COMPLETED_REES_EXACTNESS_PLUS_INTRINSIC_ALL_STAGE_NONSPLITTING__POLYNOMIAL_PRESENTATION_SEPARATED"
+}

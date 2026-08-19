@@ -1,0 +1,35 @@
+{
+  "phase": "II-KN",
+  "carrier": "Gauss-Kuzmin-Wirsing operator L on the certified source Hardy space H^2(D_1); weighted-carrier norm transport kept separate",
+  "ninth_fredholm_dependency": "II_KN_gauss_ninth_fredholm.json",
+  "source_bound_resolvent_certificate": {
+    "source_repository": "orkolorko/GKWExperiments.jl",
+    "source_file": "data/supplementary_material.tex",
+    "source_blob_sha": "59f2bb21e3a9d380c85e50549a1a3568f9bf99d5",
+    "eigenvalue_index": 1,
+    "center": 1,
+    "excluding_circle_radius": 0.01,
+    "certified_resolvent_supremum_upper": 425.0,
+    "source_table_entry": "j=1, K_low=48, ||R_LK|| <= 4.25e2, M_inf=||R_L|| <= 4.25e2",
+    "status": "PASS_SOURCE_BOUND_QUANTITATIVE_RESOLVENT_CONTOUR"
+  },
+  "reduced_resolvent": {
+    "definition": "S_H = Q (I-L|_{QH})^{-1} Q, Q=I-P_1",
+    "contour_identity": "S_H=(2 pi i)^(-1) integral_Gamma (z-1)^(-1) (zI-L)^(-1) dz",
+    "norm_derivation": "length(Gamma)=2 pi r and |z-1|=r, hence ||S_H|| <= sup_Gamma ||(zI-L)^(-1)||",
+    "certified_operator_norm_upper": 425.0,
+    "status": "PASS_CERTIFIED_QUANTITATIVE_REDUCED_RESOLVENT_NORM_ON_H2_D1"
+  },
+  "weighted_carrier_transport": {
+    "status": "SEPARATED_NORM_NOT_TRANSPORTED_BY_SPECTRAL_AB_BA_IDENTITY_ALONE",
+    "reason": "the inherited AB/BA adapter transfers nonzero spectrum/Riesz data but does not by itself preserve operator norms of the reduced resolvent"
+  },
+  "third_pressure_numeric": "SEPARATED_NOT_NEEDED_FOR_FRONTIER_AFTER_RESOLVENT_NORM_CLOSURE",
+  "guards": [
+    "the 425 bound is source-bound to H^2(D_1)",
+    "no normality assumption is used",
+    "no weighted-carrier norm equality is inferred",
+    "the numerical P''' value remains distinct from existence and norm control of S_H"
+  ],
+  "status": "PASS_NINTH_FREDHOLM_PLUS_CERTIFIED_HARDY_REDUCED_RESOLVENT_NORM__WEIGHTED_NORM_AND_NUMERICAL_P3_SEPARATED"
+}

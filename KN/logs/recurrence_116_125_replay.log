@@ -1,0 +1,11 @@
+{"order": 116, "records": 115, "seconds": 0.66, "distinct_matrix_orders": 71, "global_antiperiod_count": 9}
+{"order": 117, "records": 116, "seconds": 0.787, "distinct_matrix_orders": 112, "global_antiperiod_count": 0}
+{"order": 118, "records": 117, "seconds": 0.316, "distinct_matrix_orders": 85, "global_antiperiod_count": 1}
+{"order": 119, "records": 118, "seconds": 0.431, "distinct_matrix_orders": 111, "global_antiperiod_count": 0}
+{"order": 120, "records": 119, "seconds": 0.22, "distinct_matrix_orders": 63, "global_antiperiod_count": 17}
+{"order": 121, "records": 120, "seconds": 0.892, "distinct_matrix_orders": 113, "global_antiperiod_count": 0}
+{"order": 122, "records": 121, "seconds": 0.351, "distinct_matrix_orders": 86, "global_antiperiod_count": 3}
+{"order": 123, "records": 122, "seconds": 0.701, "distinct_matrix_orders": 118, "global_antiperiod_count": 0}
+{"order": 124, "records": 123, "seconds": 0.33, "distinct_matrix_orders": 75, "global_antiperiod_count": 5}
+{"order": 125, "records": 124, "seconds": 0.359, "distinct_matrix_orders": 120, "global_antiperiod_count": 0}
+{"status": "DONE", "records": 1195, "qualification": {"checked": 15, "matches": 15, "mismatches": []}, "runtime_seconds": 5.152}

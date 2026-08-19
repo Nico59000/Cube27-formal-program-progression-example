@@ -1,0 +1,382 @@
+{
+  "active_project_NT_count": 37,
+  "append_rows": [
+    {
+      "domain": "Cube27",
+      "id": "PASS-KN-01",
+      "last_reassessment": "II-KN",
+      "reason": "Noetherian completion is flat over R_(2); finite I^n complete by tensoring and inject into the torsion-free completed order",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "Z_(2)-torsion-freeness of every completed augmentation power",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KN-02",
+      "last_reassessment": "II-KN",
+      "reason": "every quotient gr^n contains nonzero 2-primary torsion whereas the completed middle term is Z_(2)-torsion-free",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "all-stage completed filtration non-splitting theorem",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KN-03",
+      "last_reassessment": "II-KN",
+      "reason": "Rhat_(2)=lim R_(2)/I^m_(2) is the exact I-adic topological-algebra presentation on the frozen carrier",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "complete separated inverse-limit topological algebra presentation",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "REF-KN-01",
+      "last_reassessment": "II-KN",
+      "reason": "a section would inject nonzero finite 2-torsion into a torsion-free completed augmentation module",
+      "source_phase": "II-KN",
+      "status": "REFUTED",
+      "subject": "completed filtration exact sequence splits as a Z_(2)-module",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "REF-KN-02",
+      "last_reassessment": "II-KN",
+      "reason": "associated-graded periodicity does not erase the proven nonzero filtered extension classes",
+      "source_phase": "II-KN",
+      "status": "REFUTED",
+      "subject": "period-two associated graded yields a split product presentation of the completed Rees algebra",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "SEP-KN-01",
+      "last_reassessment": "II-KN",
+      "reason": "inverse-limit presentation is exact, but no source-bound convergent polynomial presentation has been serialized",
+      "source_phase": "II-KN",
+      "status": "SEPARATED",
+      "subject": "explicit polynomial generators/relations for the completed topological algebra",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KN-04",
+      "last_reassessment": "II-KN",
+      "reason": "10,077,696 exact branch words with rigorous positive complement majorant give the certified tr(L^9) interval",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "ninth Fredholm trace enclosure",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KN-05",
+      "last_reassessment": "II-KN",
+      "reason": "Newton identity applied to certified trace/coefficient intervals gives a proof-grade enclosure crossing zero",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "ninth Fredholm coefficient d9",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KN-06",
+      "last_reassessment": "II-KN",
+      "reason": "Nisoli primary-source certification gives sup_Gamma1 ||(zI-L)^-1|| <= 4.25e2 on H^2(D1)",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "source-bound leading-eigenvalue resolvent contour",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KN-07",
+      "last_reassessment": "II-KN",
+      "reason": "the Laurent regular-part contour identity gives ||S_H|| <= sup_Gamma1 ||R(z)|| <= 425 without normality",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "quantitative reduced-resolvent norm on H^2(D1)",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "SEP-KN-02",
+      "last_reassessment": "II-KN",
+      "reason": "AB/BA transports nonzero spectrum/Riesz data but does not by itself preserve the H^2 operator norm",
+      "source_phase": "II-KN",
+      "status": "SEPARATED",
+      "subject": "weighted-branch reduced-resolvent operator norm",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "SEP-KN-03",
+      "last_reassessment": "II-KN",
+      "reason": "the exact Riesz identity and resolvent norm do not yet evaluate S on the perturbative vectors u1,u2 with certified weighted norms",
+      "source_phase": "II-KN",
+      "status": "SEPARATED",
+      "subject": "proof-grade numerical third-pressure P third derivative",
+      "tier": "head"
+    },
+    {
+      "domain": "Golden",
+      "id": "PASS-KN-08",
+      "last_reassessment": "II-KN",
+      "reason": "29 actual E8 subgroups are enumerated from the native type5 multiplication table",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "type5/order32 elementary-abelian E8 restriction census",
+      "tier": "head"
+    },
+    {
+      "domain": "Golden",
+      "id": "PASS-KN-09",
+      "last_reassessment": "II-KN",
+      "reason": "17 actual E8 restriction/coboundary blocks process 557056 rows and raise the quotient candidate rank to the independent upper bound 56",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "type5 native H5/B5 product-span rank",
+      "tier": "head"
+    },
+    {
+      "domain": "Golden",
+      "id": "PASS-KN-10",
+      "last_reassessment": "II-KN",
+      "reason": "type5 closes at dim H5=56 from its own bytes, after the previously independent type2,type4,type3 closures",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "fourth independent native H5 closure",
+      "tier": "head"
+    },
+    {
+      "domain": "Golden",
+      "id": "SEP-KN-04",
+      "last_reassessment": "II-KN",
+      "reason": "native/coinvariant restriction closure does not manufacture the missing equivariant free basis,d4,twisting and free Phi lifts",
+      "source_phase": "II-KN",
+      "status": "SEPARATED",
+      "subject": "free F2[H]-Wall degree-four producer",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KN-11",
+      "last_reassessment": "II-KN",
+      "reason": "all 1195 tap-pair polynomials are factorized exactly after 15/15 qualification against frozen records",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "full FLINT orders 116--125",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KN-12",
+      "last_reassessment": "II-KN",
+      "reason": "k=116,118,120,122,124 at v=k/2 satisfy ordC=4k and global antiperiod h=2k",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "five new fixed-reflection centers",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KN-13",
+      "last_reassessment": "II-KN",
+      "reason": "for monic f over F_p with f(0)!=0, ord(f(x^d))=d ord(f), proved using prime-to-p root orbit, p-power multiplicity, and injective substitution",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "general polynomial dilation-order theorem",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KN-14",
+      "last_reassessment": "II-KN",
+      "reason": "f_{dk,dv}(x)=f_{k,v}(x^d) gives ord C(dk,dv)=d ord C(k,v)",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "tap-pair dilation theorem",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KN-15",
+      "last_reassessment": "II-KN",
+      "reason": "with g=gcd(k,v), ordC(k,v)=g ordC(k/g,v/g), so g divides every matrix order",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "primitive-ray reduction and divisibility law",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KN-16",
+      "last_reassessment": "II-KN",
+      "reason": "7750 primitive-reduction checks and 12217 divisor-scaling checks on full orders2--125 have zero violations",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "full exact theorem qualification through order125",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KN-17",
+      "last_reassessment": "II-KN",
+      "reason": "6804 exact main-atlas records give 1354 matrix-order collision classes, 351 cross-order, with normalized primitive-ray invariants serialized",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "45--125 collision/divisibility stratification",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KN-18",
+      "last_reassessment": "II-KN",
+      "reason": "the inherited even-k odd-v reflection law remains exact on all applicable 45--125 pairs and is compatible with the dilation stratification",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "equal-order reflection theorem extension through 125",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "ZERO-KN-01",
+      "last_reassessment": "II-KN",
+      "reason": "orders117,119,121,123,125 have zero global-antiperiod families, consistent with the determinant obstruction",
+      "source_phase": "II-KN",
+      "status": "ZERO",
+      "subject": "odd-order global-antiperiod sector for new full orders",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "ZERO-KN-02",
+      "last_reassessment": "II-KN",
+      "reason": "the full 116--125 records contain no such equality hits",
+      "source_phase": "II-KN",
+      "status": "ZERO",
+      "subject": "new linear formula hits ordC=k or ordC=k+v",
+      "tier": "head"
+    },
+    {
+      "domain": "SourceAudit",
+      "id": "PASS-KN-19",
+      "last_reassessment": "II-KN",
+      "reason": "Library/current-input and connected-repository searches are replayed with zero-hit scope guards and exact required-field lists",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "fresh codim3/D5/p5/Stone/Fibonacci scoped ingestion audit",
+      "tier": "head"
+    },
+    {
+      "domain": "Codimension3",
+      "id": "SEP-KN-05",
+      "last_reassessment": "II-KN",
+      "reason": "no source-bound cross-singular arrow/topology/composition packet was recovered",
+      "source_phase": "II-KN",
+      "status": "SEPARATED",
+      "subject": "actual compactified cross-singular leaf groupoid",
+      "tier": "head"
+    },
+    {
+      "domain": "Codimension3",
+      "id": "SEP-KN-06",
+      "last_reassessment": "II-KN",
+      "reason": "without the actual cross-singular arrow carrier there is no project cocycle domain on which to certify composition/gauge laws",
+      "source_phase": "II-KN",
+      "status": "SEPARATED",
+      "subject": "compactified leaf-groupoid holonomy cocycle",
+      "tier": "head"
+    },
+    {
+      "domain": "D5",
+      "id": "PASS-KN-20",
+      "last_reassessment": "II-KN",
+      "reason": "declared Library/current-input/GitHub scope was searched against the frozen rank3 transition ABI",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "fresh post-A1BJ/A1BK source retrieval attempt",
+      "tier": "head"
+    },
+    {
+      "domain": "D5",
+      "id": "NT-KN-01",
+      "last_reassessment": "II-KN",
+      "reason": "base, cover, local trivializations, continuous gij, Cech laws and metric/norm transport provenance remain unrecovered",
+      "source_phase": "II-KN",
+      "status": "NT",
+      "subject": "continuous rank3 D5 transition bundle",
+      "tier": "head"
+    },
+    {
+      "domain": "Pisano",
+      "id": "PASS-KN-21",
+      "last_reassessment": "II-KN",
+      "reason": "the stored sign/residue lineage and current scopes were re-audited against the exact six-field local normalization ABI",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "fresh historical p5 local Tate packet retrieval attempt",
+      "tier": "head"
+    },
+    {
+      "domain": "Pisano",
+      "id": "SEP-KN-07",
+      "last_reassessment": "II-KN",
+      "reason": "psi5 bytes, Haar convention, conductor/different denominator, uniformizer coordinates and finite sum bytes remain absent",
+      "source_phase": "II-KN",
+      "status": "SEPARATED",
+      "subject": "historical p5 additive-character/self-dual-Haar/Tate packet",
+      "tier": "head"
+    },
+    {
+      "domain": "ProjectABI",
+      "id": "PASS-KN-22",
+      "last_reassessment": "II-KN",
+      "reason": "the exact same-carrier decisive fields are checked before any value promotion; complete packet count remains zero",
+      "source_phase": "II-KN",
+      "status": "PASS",
+      "subject": "fresh Stone/Fibonacci ABI-completeness preflight",
+      "tier": "head"
+    },
+    {
+      "domain": "Stone",
+      "id": "NT-KN-02",
+      "last_reassessment": "II-KN",
+      "reason": "project d,theta,K_Z,C,residue/framing and secondary-chain provenance remain absent",
+      "source_phase": "II-KN",
+      "status": "NT",
+      "subject": "actual project lambdaTheta/integer value",
+      "tier": "head"
+    },
+    {
+      "domain": "Fibonacci",
+      "id": "NT-KN-03",
+      "last_reassessment": "II-KN",
+      "reason": "instantiated carrier, localization/cofinal basis and decisive trace table or trace-zero witness remain absent",
+      "source_phase": "II-KN",
+      "status": "NT",
+      "subject": "actual same-carrier project support/complement value",
+      "tier": "head"
+    }
+  ],
+  "counts": {
+    "NT": 93,
+    "PASS": 1479,
+    "REFUTED": 297,
+    "SEPARATED": 467,
+    "ZERO": 102
+  },
+  "inherited_counts": {
+    "NT": 90,
+    "PASS": 1457,
+    "REFUTED": 295,
+    "SEPARATED": 460,
+    "ZERO": 100
+  },
+  "note": "append-only truth axis; active project-gate count is distinct from raw NT ledger count",
+  "phase": "II-KN",
+  "predecessor": "II-KM"
+}

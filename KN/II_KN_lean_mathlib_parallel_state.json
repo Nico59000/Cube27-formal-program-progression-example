@@ -1,0 +1,29 @@
+{
+  "phase": "II-KN",
+  "role": "parallel infrastructure lane; not used to prove II-KN mathematical closures",
+  "lean": {
+    "version": "4.30.0",
+    "commit": "d024af099ca4bf2c86f649261ebf59565dc8c622",
+    "install_path": "/mnt/data/lean_toolchain/lean-4.30.0-linux",
+    "stable_symlink": "/mnt/data/lean_toolchain/current",
+    "env_script": "/mnt/data/lean_workspace/env.sh",
+    "archive_sha256": "1e334ce3f54d3f2b82556ef5bb36c94bf40d79eb817a987a4aa007c7c210a611",
+    "source_entry_count": 14486,
+    "source_tree_sha256": "61dcbcd44581b5e89b65af005ffba8468eb82de6308228c3b3c83f01e4d38054",
+    "source_manifest_entry_verification": "PASS_14486_OF_14486",
+    "lean_version_replay": "PASS",
+    "lake_version_replay": "PASS"
+  },
+  "mathlib": {
+    "fragment_manifest_upstream": "NOT_EXPECTED_BY_USER_FOR_THIS_FRAGMENTATION",
+    "visible_mathlib_fragments_at_II_KN_preflight": 0,
+    "ingestion_policy": [
+      "record local SHA-256 and size for every received fragment",
+      "order fragments by the six-letter suffix and require a contiguous sequence",
+      "concatenate only after the terminal fragment can be validated from compressed-stream/TAR integrity",
+      "validate compressed stream and TAR before extraction",
+      "install into the local Lean workspace and run a native import Mathlib smoke test before claiming compilation"
+    ],
+    "status": "WAITING_FOR_TRANSFER__TARGETED_FOR_II_KO"
+  }
+}

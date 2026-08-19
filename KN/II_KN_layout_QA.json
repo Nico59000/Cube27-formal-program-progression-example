@@ -1,0 +1,16 @@
+{
+  "decision": "PASS_ZERO_OVERFULL_AND_ZERO_RENDERED_PAGE_OVERFLOW",
+  "overfull_box_count": 0,
+  "page_size": "A4",
+  "pages": 4,
+  "pdf": "II_KN_CompletedRees_Resolvent_Golden_Dilation_R1.pdf",
+  "phase": "II-KN",
+  "render_edge_violation_count": 0,
+  "rendered_pages": 4,
+  "renderer": "render_pdf.py/pdfium at 180 dpi",
+  "underfull_box_count": 1,
+  "visual_contact_sheet_inspection": "PASS_NO_CLIPPING_OVERLAP_BLACK_BOX_OR_BROKEN_GLYPH",
+  "word_bbox_examples": [],
+  "word_bbox_page_violations": 0,
+  "word_count": 1626
+}

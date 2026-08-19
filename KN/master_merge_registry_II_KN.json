@@ -1,0 +1,143 @@
+{
+  "append_rows": [
+    {
+      "adapter_or_obstruction": "Noetherian finite-module completion/tensor identification and flatness",
+      "id": "PM-KN-01",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "finite I^n_(2) modules",
+      "source_phase": "II-KN",
+      "target_carrier": "their I-adic completions"
+    },
+    {
+      "adapter_or_obstruction": "Laurent regular-part contour integral at the isolated simple eigenvalue",
+      "id": "PM-KN-02",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "certified H^2(D1) resolvent contour",
+      "source_phase": "II-KN",
+      "target_carrier": "H^2(D1) reduced resolvent"
+    },
+    {
+      "adapter_or_obstruction": "actual subgroup restriction plus actual B5 block quotient rank",
+      "id": "PM-KN-03",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "type5 native cocycles and E8 restrictions",
+      "source_phase": "II-KN",
+      "target_carrier": "type5 native H5 quotient"
+    },
+    {
+      "adapter_or_obstruction": "minimal-polynomial order equals least N with f|x^N-1",
+      "id": "PM-KN-04",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "polynomial substitution f(y)->f(x^d)",
+      "source_phase": "II-KN",
+      "target_carrier": "companion matrix order"
+    },
+    {
+      "adapter_or_obstruction": "exact dilation theorem with g=gcd(k,v)",
+      "id": "PM-KN-05",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "nonprimitive tap pair (k,v)",
+      "source_phase": "II-KN",
+      "target_carrier": "primitive ray (k/g,v/g) plus scale g"
+    },
+    {
+      "adapter_or_obstruction": "same recurrence ABI and exact factor/order schema",
+      "id": "PM-KN-06",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "orders116--125 exact FLINT records",
+      "source_phase": "II-KN",
+      "target_carrier": "45--125 collision atlas"
+    },
+    {
+      "adapter_or_obstruction": "typed missing-field ABI is reused without changing project semantics",
+      "id": "PM-KN-07",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "source requirement ledgers",
+      "source_phase": "II-KN",
+      "target_carrier": "fresh scoped retrieval audit"
+    },
+    {
+      "adapter_or_obstruction": "torsion-free middle-term theorem decides the previously separated splitting question",
+      "id": "PM-KN-08",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "II-KM exact completion sequences",
+      "source_phase": "II-KN",
+      "target_carrier": "II-KN non-splitting decision"
+    },
+    {
+      "adapter_or_obstruction": "proven torsion obstruction forbids stagewise sections",
+      "id": "PNM-KN-01",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "period-two associated graded",
+      "source_phase": "II-KN",
+      "target_carrier": "split completed Rees/topological product"
+    },
+    {
+      "adapter_or_obstruction": "different exact sequences and carriers; no identification is used",
+      "id": "PNM-KN-02",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "conductor Ext^1 class",
+      "source_phase": "II-KN",
+      "target_carrier": "completed augmentation-filtration extension classes"
+    },
+    {
+      "adapter_or_obstruction": "AB/BA spectral transport is not an isometric norm adapter",
+      "id": "PNM-KN-03",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "H^2(D1) reduced-resolvent norm",
+      "source_phase": "II-KN",
+      "target_carrier": "weighted-branch reduced-resolvent norm"
+    },
+    {
+      "adapter_or_obstruction": "incidence/local links omit cross-singular arrows and topology",
+      "id": "PNM-KN-04",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "alternating C8 bad-stratum incidence",
+      "source_phase": "II-KN",
+      "target_carrier": "actual compactified leaf groupoid"
+    },
+    {
+      "adapter_or_obstruction": "coinvariant/native cocycles do not determine equivariant free lifts",
+      "id": "PNM-KN-05",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "native Golden H5 closure",
+      "source_phase": "II-KN",
+      "target_carrier": "free F2[H]-Wall degree4 producer"
+    },
+    {
+      "adapter_or_obstruction": "sign does not determine additive-character scale,Haar,denominator or coordinates",
+      "id": "PNM-KN-06",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "historical p5 sign/residue shadow",
+      "source_phase": "II-KN",
+      "target_carrier": "full p5 local Tate normalization packet"
+    },
+    {
+      "adapter_or_obstruction": "same-carrier ABI decisive fields remain absent",
+      "id": "PNM-KN-07",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "partial Stone/Fibonacci source objects",
+      "source_phase": "II-KN",
+      "target_carrier": "promoted project values"
+    },
+    {
+      "adapter_or_obstruction": "arithmetic coincidences provide no typed cross-carrier adapter",
+      "id": "PNM-KN-08",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "recurrence primitive-ray/order strata",
+      "source_phase": "II-KN",
+      "target_carrier": "Golden/Cube27/D5/Stone/Fibonacci carriers"
+    }
+  ],
+  "counts": {
+    "PROVEN-MERGEABLE": 695,
+    "PROVEN-NOT-MERGEABLE": 472
+  },
+  "inherited_counts": {
+    "PROVEN-MERGEABLE": 687,
+    "PROVEN-NOT-MERGEABLE": 464
+  },
+  "note": "mergeability axis remains orthogonal to PASS/ZERO/SEPARATED/REFUTED/NT",
+  "phase": "II-KN",
+  "predecessor": "II-KM"
+}

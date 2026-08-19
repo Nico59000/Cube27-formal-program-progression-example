@@ -1,0 +1,102 @@
+{
+  "carrier": "Gauss analytic trace-class transfer operator on inherited Hardy/weighted nuclear lane",
+  "eighth_trace": {
+    "box_N": 6,
+    "certified_interval_decimal": [
+      "0.1690543204202985498109606488353669926595651743065625902266429919572364",
+      "39.0058606009923406230781859160206634247949445286131743707552810352788964"
+    ],
+    "certified_total_ball": "[0.1690543204202985498109606488353669926595651743065625902266429919572364, 39.0058606009923406230781859160206634247949445286131743707552810352788964]",
+    "distinct_exact_matrices": 1679616,
+    "distinct_matrix_traces": 53613,
+    "max_trace_in_box": 2079362,
+    "min_trace_in_box": 47,
+    "ordered_word_count": 1679616,
+    "orientation": "eight inverse branches have determinant +1; fixed-point contribution q/(1-q)",
+    "partial_ball": "[0.1690543204202985498109606488353669926595651743065625923166429919572364 +/- 2.09e-54]",
+    "status": "PASS_CERTIFIED_TR_L8_CONSERVATIVE_TAIL",
+    "tail_bound": "q/(1-q) <= (4/3)q and q <= prod(digit)^-2; complement <= (4/3)(zeta(2)^8-S_N^8)",
+    "tail_bound_ball": "[38.83680628057204207326722526718529643213537935430661177576363804332166 +/- 5.85e-55]"
+  },
+  "fredholm_d8": {
+    "certified_interval_decimal": [
+      "-5.0380881233896280076604998656729872530993680660766467963444101294098620500",
+      "2.1134621218463115008829960596947332509175543532116796762216696260053454500"
+    ],
+    "newton_identity": "8 d8=-(d7 trL+d6 trL2+d5 trL3+d4 trL4+d3 trL5+d2 trL6+d1 trL7+trL8)",
+    "status": "PASS_CERTIFIED_D8_FROM_FROZEN_PREDECESSOR_INTERVALS_AND_NEW_TRL8",
+    "term_intervals": [
+      {
+        "d": 7,
+        "interval": [
+          "-1.6324481320045522699814091242984",
+          "0.92176229602785581379448185829312"
+        ],
+        "trace_power": 1
+      },
+      {
+        "d": 6,
+        "interval": [
+          "-1.44306876143918364880454167204032",
+          "0.42788744451465807839929096724736"
+        ],
+        "trace_power": 2
+      },
+      {
+        "d": 5,
+        "interval": [
+          "-0.365476387036236751923405108370516",
+          "0.124941748826995796289539973383935"
+        ],
+        "trace_power": 3
+      },
+      {
+        "d": 4,
+        "interval": [
+          "-0.090919669260270173112155316756952",
+          "0.044245356423362259204172476185582"
+        ],
+        "trace_power": 4
+      },
+      {
+        "d": 3,
+        "interval": [
+          "0.009479781415279303096021523134415",
+          "0.09036888721800545637862613848338"
+        ],
+        "trace_power": 5
+      },
+      {
+        "d": 2,
+        "interval": [
+          "-2.14372328911853985625742945265186",
+          "-0.1100650317841731291077037398426424"
+        ],
+        "trace_power": 6
+      },
+      {
+        "d": 1,
+        "interval": [
+          "-11.4105948377472871598920099754096",
+          "-0.2002963151020208367525946643875"
+        ],
+        "trace_power": 7
+      }
+    ]
+  },
+  "guards": [
+    "eighth-trace tail is positive and deliberately conservative",
+    "no numerical reduced-resolvent norm is inferred from existence alone",
+    "no numerical third-pressure value is fabricated"
+  ],
+  "phase": "II-KM",
+  "reduced_resolvent_norm": "SEPARATED_NO_NEW_CERTIFIED_OPERATOR_NORM_BOUND",
+  "runtime": {
+    "arb_precision_bits": 192,
+    "python": "3.13.5",
+    "python_flint": "0.9.0",
+    "seconds": 2.248652935028076
+  },
+  "status": "PASS_EIGHTH_FREDHOLM_TRACE_COEFFICIENT__NUMERICAL_RESOLVENT_NORM_AND_THIRD_PRESSURE_REMAIN_SEPARATED",
+  "third_pressure_numeric": "SEPARATED_NO_NEW_PROOF_GRADE_NUMERICAL_P3_ENCLOSURE"
+}

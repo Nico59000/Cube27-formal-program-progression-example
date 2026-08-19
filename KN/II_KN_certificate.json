@@ -1,0 +1,89 @@
+{
+  "active_project_gates": 37,
+  "external_source_lock": {
+    "GKW_repository": "orkolorko/GKWExperiments.jl",
+    "observed_main_commit": "9c0b701f16b41fc94e7dec55f88add183521f915",
+    "scope": "external primary-source numerical certification; local II-KN deduction is the contour bound for S_H",
+    "supplementary_blob": "59f2bb21e3a9d380c85e50549a1a3568f9bf99d5"
+  },
+  "guards": [
+    "truth and mergeability axes remain orthogonal",
+    "associated graded does not identify with a split filtered completion",
+    "Hardy and weighted reduced-resolvent norms are not identified without a normed adapter",
+    "native Golden closure does not produce free Wall bytes",
+    "recurrence arithmetic strata are not cross-carrier geometry",
+    "zero retrieval hits are scoped evidence only",
+    "historical exhaustive replay remains NT_NOT_EXHAUSTIVE"
+  ],
+  "historical_exhaustive_replay": "NT_NOT_EXHAUSTIVE",
+  "layout": {
+    "decision": "PASS_ZERO_OVERFULL_AND_ZERO_RENDERED_PAGE_OVERFLOW",
+    "overfull_box_count": 0,
+    "page_size": "A4",
+    "pages": 4,
+    "pdf": "II_KN_CompletedRees_Resolvent_Golden_Dilation_R1.pdf",
+    "phase": "II-KN",
+    "render_edge_violation_count": 0,
+    "rendered_pages": 4,
+    "renderer": "render_pdf.py/pdfium at 180 dpi",
+    "underfull_box_count": 1,
+    "visual_contact_sheet_inspection": "PASS_NO_CLIPPING_OVERLAP_BLACK_BOX_OR_BROKEN_GLYPH",
+    "word_bbox_examples": [],
+    "word_bbox_page_violations": 0,
+    "word_count": 1626
+  },
+  "main_results": [
+    "Cube27: exact I-adic completion is sharpened to intrinsic non-splitting at every completed filtration stage because completed powers are Z_(2)-torsion-free while every graded quotient has nonzero 2-primary torsion; inverse-limit topological presentation PASS, split-product presentation REFUTED, explicit polynomial presentation SEPARATED.",
+    "Gauss: 10,077,696 exact ninth-order branch words give 0.13535937115927398<tr(L^9)<51.806406032125764 and -6.164604946255728<d9<4.656333397050539; source-bound H^2(D1) resolvent contour plus Laurent regular-part identity gives ||S_H||<=425; weighted norm and numerical P3 remain SEPARATED.",
+    "Golden: fourth independent native H5/B5 closure on actual type5/order32 bytes; 29 E8 subgroups found, 17 used, 557056 rows, quotient candidate rank reaches independent dimension 56.",
+    "Recurrence: full orders116-125 add 1195 exact records; general polynomial theorem ord(f(x^d))=d ord(f) yields ordC(k,v)=gcd(k,v) ordC(k/g,v/g); 7750 primitive and 12217 divisor-scaling checks through order125 have zero violations; main 45-125 atlas has 6804 records, 1354 collision classes and 351 cross-order classes.",
+    "Codim3/D5/p5/Stone/Fibonacci: fresh scoped retrieval recovers no complete decisive packet; compactified cross-singular groupoid/cocycle stays SEPARATED, D5 continuous packet NT, p5 full Tate packet SEPARATED, actual ABI-complete project packets 0 and 37 active gates preserved."
+  ],
+  "merge_counts": {
+    "PROVEN-MERGEABLE": 695,
+    "PROVEN-NOT-MERGEABLE": 472
+  },
+  "observational_continuity": "PASS_299",
+  "overall": "PASS",
+  "parallel_formalization_infrastructure": {
+    "lean": "PASS_4.30.0_LOCAL_14486_MANIFEST_ENTRIES",
+    "mathlib": "WAITING_FOR_TRANSFER_TARGETED_II_KO",
+    "proof_scope": "infrastructure only; no II-KN theorem promoted from Lean"
+  },
+  "pdf": "II_KN_CompletedRees_Resolvent_Golden_Dilation_R1.pdf",
+  "pdf_sha256": "7975ceae58dfb92b953520fbf7521d3ce9a79fd544befdbf93be51234767a9f2",
+  "phase": "II-KN",
+  "predecessor": "II-KM",
+  "promoted_project_values": 0,
+  "safe_successor": "II-KO -- Cube27 explicit completed-Rees extension cocycle/pro-system and minimal topological generators-relations or obstruction audit; Gauss tenth Fredholm trace/coefficient plus weighted reduced-resolvent norm transport or proof-grade numerical third-pressure enclosure; codimension-3 cross-singular arrow/topology packet acquisition and compactified leaf-groupoid cocycle realization; Golden fifth native H5/B5 closure among types 0,1,6 or trusted free F2[H]-Wall degree-four producer; post-A1BK/A1BL D5 continuous transition-source ingestion; historical Pisano p=5 local Tate packet acquisition; recurrence full orders 126--135 and quotient classification modulo reflection/dilation primitive rays; local Lean/mathlib workspace reconstruction and first native formal replay when the transferred archive is complete; plus external Stone/Fibonacci ABI-complete packet execution.",
+  "source_sha256": {
+    "II_KN_authority_registry.json": "9cc3bcc23972c18261f1052f5c8f3607af53b89f1482f43d7fd8bcc93cba5687",
+    "II_KN_cube27_completed_rees_nonsplitting.json": "6ce684a3aa2b2783ed63254169c51f96d9a7d4a428499774cd1836c8a5bd3b13",
+    "II_KN_gauss_ninth_fredholm.json": "68d16633f2660b20019d5479b46e47130a6e06577c1cb43930a52c3a2561cfb4",
+    "II_KN_gauss_ninth_reduced_resolvent.json": "4d4f43ffa9d2c5257854327b6ec7f66dc5f60e717b8783214451c1376807119d",
+    "II_KN_gauss_nisoli_source_lock.json": "bafc9e5cced40b3e2e21928d403d57fb3f8a9cbbe0397b12cbb03cde31eb956d",
+    "II_KN_golden_native_H5_type5.json": "06e65bce037377aa6d2f959284d2a4d2386326d36aa1b462c8e95d91d5f349ec",
+    "II_KN_lean_mathlib_parallel_state.json": "8dbb863d345a38e35e3a6d1c235331c139b6e05270bd0196744e1360b5decbe5",
+    "II_KN_recurrence_116_125.json": "eb5c068182c3b19210eab48ef878fc5cf424f15a8dc941a8458751da9aecc5f0",
+    "II_KN_recurrence_45_125_dilation_collision.json": "07e18a5c853309343fa2a3041486d0aafa6e3cc24194684c3d3529cf7f86ee09",
+    "II_KN_recurrence_aux_2_44.json": "9903f1f65c629e312a40f0ed6e066c5c0bf2e504686b5792a5d2ff512bbd01f8",
+    "II_KN_source_codim_D5_p5_project_gates.json": "cb150ab9d52eaf01e14406c1d7eb671ca9435df4ac916cfb8f9d760274f81617",
+    "master_merge_registry_II_KN.json": "a5dbf7da0f1c1faa4f33aae532dd2a903eba52dde4e6ca4093fdac56262ba61e",
+    "master_status_registry_II_KN.json": "a1988605cef889aae6b794bf84dbcf05a0656fa98e8ea2516ae91555730b81c6",
+    "verifier_stdout_II_KN_deep.json": "fad344a0a3fec4404e68fee442d42ca3f3fd8146a5bf4aedad479a2da0dfd64f"
+  },
+  "status_counts": {
+    "NT": 93,
+    "PASS": 1479,
+    "REFUTED": 297,
+    "SEPARATED": 467,
+    "ZERO": 102
+  },
+  "title": "Completed Cube27 non-splitting; ninth Gauss Fredholm and quantitative Hardy reduced resolvent; fourth native Golden H5; recurrence dilation theorem through 125",
+  "verification": {
+    "assertion_count": 20960,
+    "coverage_units": 20741896,
+    "explicit_witness_instances": 258990,
+    "families": 12
+  }
+}

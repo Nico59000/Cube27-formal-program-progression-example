@@ -1,0 +1,194 @@
+\documentclass[9.5pt,a4paper]{article}
+\usepackage[margin=1.36cm]{geometry}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,mathtools,booktabs,array,tabularx,enumitem,xurl}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0.28em}\setlength{\emergencystretch}{4em}\setlist{nosep,leftmargin=*}
+\newcommand{\PASS}{\textsf{PASS}}\newcommand{\ZERO}{\textsf{ZERO}}\newcommand{\SEP}{\textsf{SEPARATED}}\newcommand{\REF}{\textsf{REFUTED}}\newcommand{\NT}{\textsf{NT}}
+\title{\textbf{II-KN -- Completed Cube27 non-splitting, ninth Gauss Fredholm}\
+\textbf{and quantitative reduced resolvent, fourth native Golden $H^5$,}\
+\textbf{and recurrence dilation-order stratification through $125$}}
+\author{Nico Begue Marquot -- formal HT+NT continuation bundle}\date{19 August 2026}
+\begin{document}\maketitle\vspace{-1.25em}
+\begin{abstract}\small
+II-KN freezes II-KM under the append-only HT+NT discipline.  It upgrades the exact $2$-local Cube27 completion to an intrinsic all-stage non-splitting theorem, computes the ninth Gauss transfer trace/Fredholm coefficient and obtains a source-bound quantitative Hardy reduced-resolvent norm, closes a fourth independent native Golden $H^5/B^5$ carrier (type 5, order 32), and extends the exact recurrence atlas through order $125$.  The recurrence lane is sharpened beyond reflection by the general polynomial theorem $\operatorname{ord}(f(x^d))=d\operatorname{ord}(f)$, yielding a primitive-ray divisor law.  Cross-singular codimension-three holonomy, the continuous $D_5$ bundle, the historical $p=5$ Tate packet, and Stone/Fibonacci project values remain source-gated.
+\end{abstract}
+
+\section{Frozen semantics and predecessor}
+Truth states remain $\{\PASS,\ZERO,\SEP,\REF,\NT\}$; mergeability remains an independent axis.  Retrieval, theorem application, external certification, local replay and project-value promotion remain separate evidence channels.  II-KM enters at
+\[
+(1457,100,460,295,90)_{\PASS,\ZERO,\SEP,\REF,\NT},\qquad
+(687,464)_{\mathrm{PM},\mathrm{PNM}},
+\]
+with observational continuity \texttt{PASS\_298} and historical exhaustive replay \texttt{NT\_NOT\_EXHAUSTIVE}.
+
+\section{Cube27: exact completion and intrinsic non-splitting}
+Retain the exact $2$-local associated graded from II-KM,
+\[
+\operatorname{gr}^1_{I,(2)}R\simeq(\mathbb Z/2)^2\oplus\mathbb Z/4,\qquad
+\operatorname{gr}^2_{I,(2)}R\simeq(\mathbb Z/2)^5\oplus\mathbb Z/4,
+\]
+\[
+\boxed{\operatorname{gr}^n_{I,(2)}R\simeq(\mathbb Z/2)^6\oplus\mathbb Z/4\qquad(n\ge3).}
+\]
+The normalized augmentation lattices satisfy the exact all-$n$ period-two theorem $K_{m+2}=K_m$ for $m\ge3$; this remains a theorem on the associated-graded/normalized lattice carrier, not a splitting statement.
+
+The ring $R_{(2)}$ is finite free over $\mathbb Z_{(2)}$ and Noetherian.  Its $I$-adic completion $\widehat R_{(2)}$ is flat over $R_{(2)}$.  Hence it is flat, therefore torsion-free, over $\mathbb Z_{(2)}$.  For every finite $I^n_{(2)}$,
+\[
+\widehat{I^n_{(2)}}\cong I^n_{(2)}\otimes_{R_{(2)}}\widehat R_{(2)},
+\]
+and flatness preserves the injection $I^n_{(2)}\hookrightarrow R_{(2)}$, so each $\widehat{I^n_{(2)}}$ is $\mathbb Z_{(2)}$-torsion-free.
+
+Exact completion gives
+\[
+0\longrightarrow\widehat{I^{n+1}_{(2)}}\longrightarrow\widehat{I^n_{(2)}}
+\longrightarrow\operatorname{gr}^n_{I,(2)}R\longrightarrow0.
+\]
+Every displayed quotient has nonzero $2$-primary torsion.  A $\mathbb Z_{(2)}$-linear section would inject that torsion into the torsion-free middle term.  Therefore
+\[
+\boxed{\text{the completed filtration sequence is non-split for every }n\ge1:\ \PASS/\REF\text{(splitting)}.}
+\]
+A fortiori there is no continuous $\widehat R_{(2)}$-linear section.  The exact topological-algebra presentation
+\[
+\boxed{\widehat R_{(2)}=\varprojlim_m R_{(2)}/I^m_{(2)}}
+\]
+is retained.  A split product of the graded pieces is \REF{}, while an explicit convergent polynomial generators/relations presentation remains \SEP.  The conductor $\operatorname{Ext}^1$ class is a distinct exact-sequence carrier and is not identified with these filtered extension classes.
+
+\section{Gauss: ninth Fredholm and a quantitative reduced resolvent}
+On the inherited nuclear Gauss carrier the cutoff $N=6$ gives $6^9=10{,}077{,}696$ exact branch words and $235{,}548$ distinct matrix traces.  Since nine inverse branches have determinant $-1$, each fixed-point contribution is $q/(1+q)$ and the positive complement is bounded by the product majorant.  At 192-bit Arb precision,
+\[
+\boxed{0.13535937115927398<\operatorname{tr}(L^9)<51.806406032125764.}
+\]
+With $\det(I-zL)=1+d_1z+d_2z^2+\cdots$, Newton's identity
+\[
+9d_9=-\bigl(d_8\operatorname{tr}L+d_7\operatorname{tr}L^2+\cdots+d_1\operatorname{tr}L^8+\operatorname{tr}L^9\bigr)
+\]
+yields
+\[
+\boxed{-6.164604946255728<d_9<4.656333397050539.}
+\]
+The interval crosses zero; no sign is promoted.
+
+For the quantitative lane, Nisoli's certified source data on $H^2(D_1)$ give, on the excluding circle $\Gamma_1$ centered at the simple leading eigenvalue $1$ with radius $10^{-2}$,
+\[
+\boxed{\sup_{z\in\Gamma_1}\|(zI-L)^{-1}\|\le4.25\times10^2.}
+\]
+The source repository was frozen at observed main commit \texttt{9c0b701f16b41fc94e7dec55f88add183521f915}; the supporting supplementary-data blob is \texttt{59f2bb21e3a9d380c85e50549a1a3568f9bf99d5}.
+
+Let $P$ be the leading Riesz projector, $Q=I-P$, and
+\[
+S_H=Q(I-L|_{QH})^{-1}Q.
+\]
+The regular Laurent coefficient satisfies the exact contour identity
+\[
+S_H=\frac1{2\pi i}\int_{\Gamma_1}\frac{(zI-L)^{-1}}{z-1}\,dz.
+\]
+Because $|z-1|=r$ and $|\Gamma_1|=2\pi r$,
+\[
+\boxed{\|S_H\|_{H^2(D_1)\to H^2(D_1)}\le425.}
+\]
+No normality hypothesis is used.  This closes the quantitative reduced-resolvent alternative of the II-KN frontier.  The inherited $AB/BA$ adapter transfers nonzero spectrum/Riesz data to the weighted branch carrier but is not an isometry; the corresponding weighted operator norm and a proof-grade numerical $P'''(0)$ remain \SEP.
+
+\section{Golden-Hodge: fourth native $H^5/B^5$ closure}
+II-KN uses the actual type-5 stabilizer, not a dimension pattern transferred from another type.  Its order is $32$ and the native multiplication table contains $29$ elementary-abelian $E_8$ subgroups.  The candidate family contains $3884$ products built from the actual native $H^1,H^2,H^3$ representatives.
+
+For each selected $E_8$, the verifier combines the restricted candidates with an independent actual coboundary block
+\[
+B^5(E)=\operatorname{im}\bigl(\delta:C^4(E;\mathbb F_2)\to C^5(E;\mathbb F_2)\bigr).
+\]
+The joint quotient-rank progression is
+\[
+21\to27\to33\to34\to\cdots\to49\to53\to\boxed{56}.
+\]
+After $17$ subgroups and
+\[
+\boxed{557056\text{ streamed }C^5(E_8)\text{ rows},}
+\]
+the candidate rank reaches the independently known upper bound $\dim H^5=56$.  Thus
+\[
+\boxed{\dim H^5_{\rm native}(\text{type }5)=56,\qquad
+\langle\text{displayed native products}\rangle=H^5:\ \PASS.}
+\]
+This is the fourth independent native closure after types $2,4,3$.  The free $\mathbb F_2[H]$-Wall degree-four producer remains \SEP; no equivariant free lift is inferred from native/coinvariant bytes.
+
+\section{Recurrence: exact orders $116$--$125$ and the dilation theorem}
+For
+\[
+f_{k,v}(x)=x^k-x^v-1\in\mathbb F_3[x],\qquad1\le v<k,
+\]
+python-flint factorization closes all
+\[
+\boxed{\sum_{k=116}^{125}(k-1)=1195}
+\]
+new families after a $15/15$ frozen-record qualification.  The odd orders $117,119,121,123,125$ have \ZERO{} global-antiperiod sector.  The five new fixed centers obey
+\[
+(116,58)\mapsto(464,232),\ (118,59)\mapsto(472,236),\ldots,\ (124,62)\mapsto(496,248),
+\]
+i.e. $\operatorname{ord}C=4k$ and $h_{\rm anti}=2k$.  No new family satisfies $\operatorname{ord}C=k$ or $k+v$.
+
+The main refinement is structural.  For a monic $f\in\mathbb F_p[x]$ with $f(0)\ne0$, define
+\[
+\operatorname{ord}(f)=\min\{N\ge1:f\mid x^N-1\}.
+\]
+Then for every $d\ge1$,
+\[
+\boxed{\operatorname{ord}(f(x^d))=d\,\operatorname{ord}(f).}
+\]
+Indeed the upper divisibility is immediate.  Conversely write $d=p^ae$ with $(e,p)=1$.  If $f(x^d)\mid x^M-1$, the $e$th-root-of-unity orbit forces $e\mid M$, while Frobenius substitution multiplies root multiplicities by $p^a$, forcing $p^a\mid M$.  Thus $d\mid M$; writing $M=dL$ and dividing before the injective substitution $y\mapsto x^d$ gives $f\mid y^L-1$, hence $\operatorname{ord}(f)\mid L$.
+
+Since
+\[
+f_{dk,dv}(x)=f_{k,v}(x^d),
+\]
+one obtains the exact companion-order law
+\[
+\boxed{\operatorname{ord}C(dk,dv)=d\,\operatorname{ord}C(k,v).}
+\]
+With $g=\gcd(k,v)$,
+\[
+\boxed{\operatorname{ord}C(k,v)=g\,\operatorname{ord}C(k/g,v/g),}
+\]
+so $g$ always divides the matrix order and $\operatorname{ord}C(k,v)/g$ is a primitive-ray invariant.  An auxiliary full atlas $2\le k\le125$ certifies $7750/7750$ primitive reductions and $12217/12217$ divisor scalings with zero violations; this auxiliary scope qualifies the theorem and does not replace earlier carriers.
+
+The main exact atlas $45\le k\le125$ contains
+\[
+\boxed{6804\text{ families},\quad1354\text{ matrix-order collision classes},\quad351\text{ cross-order classes}.}
+\]
+There are $1443$ normalized-order multiplicity classes, $898$ spanning multiple primitive rays and $1117$ primitive rays with multiple dilations in the main window.  The equal-order reflection theorem remains compatible with this quotient and passes all $840/840$ unordered even-$k$/odd-$v$ pairs through order $125$.
+
+\section{Cross-singular and external source gates}
+Fresh scoped Library/current-input and connected-repository retrieval finds no complete cross-singular codimension-three arrow packet.  The alternating $C_8$ incidence of four $S^3$ and four $T^2$ pieces remains a source-bound support shadow; without actual cross-singular arrows, composition/topology and the compactified leaf-groupoid cocycle law remain \SEP.
+
+No post-A1BJ/A1BK continuous rank-three $D_5$ packet is recovered: base, cover, local trivializations, continuous $g_{ij}$, Cech inverse/triple laws and metric/norm provenance remain \NT.  The historical $p=5$ lane still lacks the explicit additive character, self-dual Haar convention, conductor/different denominator, uniformizer/coordinates and finite Tate-sum bytes, so the complete local packet remains \SEP.  Search zeros are scoped retrieval evidence only.
+
+Stone still lacks project $d,\theta,K_Z,C$ and framing/residue provenance; Fibonacci still lacks an instantiated carrier/localization/cofinal-basis/trace-table decisive packet.  Therefore
+\[
+\boxed{\text{ABI-complete actual packets}=0,\quad\text{promoted project values}=0,\quad37\text{ active project gates}.}
+\]
+
+\paragraph{Parallel Lean/mathlib infrastructure.}
+The previously transferred Lean 4.30.0 fragments were reassembled at archive SHA-256 \texttt{1e334ce3...0a611}, extracted into the stable local toolchain, and replayed as Lean 4.30.0 / Lake 5.0.0.  All $14486$ source-manifest entries were checked bytewise (including the declared symlink-target convention) and the source-line digest reproduces \texttt{61dcbcd4...e4d38054}.  This is an infrastructure \PASS{}, not a new mathematical proof.  No mathlib fragment is mounted at the II-KN freeze; the user-declared no-upstream-manifest mathlib reconstruction is therefore carried to II-KO with local per-fragment SHA creation and archive/TAR validation required before any \texttt{import Mathlib} claim.
+
+\section{Checkpoint and safe continuation}
+The append-only checkpoint closes at
+\[
+\boxed{1479\ \PASS,\ 102\ \ZERO,\ 467\ \SEP,\ 297\ \REF,\ 93\ \NT},
+\]
+\[
+\boxed{695\ \textsf{PROVEN-MERGEABLE},\qquad472\ \textsf{PROVEN-NOT-MERGEABLE}.}
+\]
+The deep verifier closes $12$ families with $20{,}960$ explicit assertions, $258{,}990$ witness records and $20{,}741{,}896$ coverage units.  Observational continuity is \texttt{PASS\_299}; exhaustive historical replay remains \texttt{NT\_NOT\_EXHAUSTIVE}.
+
+\par\noindent\textbf{Safe successor.}\par\smallskip
+\begin{minipage}{\linewidth}\scriptsize\raggedright\sloppy
+II-KO -- Cube27 explicit completed-Rees extension cocycle/pro-system and minimal topological generators-relations or obstruction audit; Gauss tenth Fredholm trace/coefficient plus weighted reduced-resolvent norm transport or proof-grade numerical third-pressure enclosure; codimension-3 cross-singular arrow/topology packet acquisition and compactified leaf-groupoid cocycle realization; Golden fifth native $H^5/B^5$ closure among types $0,1,6$ or trusted free $\mathbb F_2[H]$-Wall degree-four producer; post-A1BK/A1BL $D_5$ continuous transition-source ingestion; historical Pisano $p=5$ local Tate packet acquisition; recurrence full orders $126$--$135$ and quotient classification modulo reflection/dilation primitive rays; local Lean/mathlib workspace reconstruction and first native formal replay when the transferred archive is complete; plus external Stone/Fibonacci ABI-complete packet execution.
+\end{minipage}
+
+\begin{thebibliography}{9}\small
+\bibitem{KM} II-KM frozen formal bundle, authority outputs and append-only registries.
+\bibitem{StacksCompletion} The Stacks Project, Algebra, Lemma 10.97.2 (tag 00MB), exactness properties of completion for finite modules over Noetherian rings.
+\bibitem{Nisoli} I. Nisoli, \emph{Certified spectral approximation of transfer operators and the Gauss map}, arXiv:2602.19435 (2026), with machine-readable certification repository \texttt{orkolorko/GKWExperiments.jl}; used as an external Hardy-space resolvent authority only.
+\bibitem{EV} D. B. A. Epstein and E. Vogt, \emph{A Counterexample to the Periodic Orbit Conjecture in Codimension 3}, Ann. of Math. 108 (1978), 539--552; inherited source-bound support carrier.
+\bibitem{Rec} \texttt{Nico59000/Modular-recurrence-symetry-analyzer-}; algorithmic recurrence context only, with II-KN high-order factor certification executed locally.
+\end{thebibliography}
+\end{document}

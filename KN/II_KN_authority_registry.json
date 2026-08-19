@@ -1,0 +1,29 @@
+{
+  "phase": "II-KN",
+  "predecessor": "II-KM",
+  "authority_order": [
+    "II_KN_cube27_completed_rees_nonsplitting.json",
+    "II_KN_gauss_ninth_fredholm.json",
+    "II_KN_gauss_nisoli_source_lock.json",
+    "II_KN_gauss_ninth_reduced_resolvent.json",
+    "II_KN_golden_native_H5_type5.json",
+    "II_KN_recurrence_116_125.json",
+    "II_KN_recurrence_aux_2_44.json",
+    "II_KN_recurrence_45_125_dilation_collision.json",
+    "II_KN_source_codim_D5_p5_project_gates.json",
+    "master_status_registry_II_KN.json",
+    "master_merge_registry_II_KN.json",
+    "verifier_stdout_II_KN_deep.json",
+    "II_KN_certificate.json"
+  ],
+  "external_authority": {
+    "Gauss_Hardy_resolvent": "orkolorko/GKWExperiments.jl observed main commit 9c0b701f16b41fc94e7dec55f88add183521f915; supplementary_material.tex blob 59f2bb21e3a9d380c85e50549a1a3568f9bf99d5"
+  },
+  "guards": [
+    "producer JSONs are authorities only on their declared carriers",
+    "external source certification is distinct from local replay",
+    "PDF is editorial synthesis, not the machine authority",
+    "source retrieval and zero-hit scans do not prove global nonexistence",
+    "truth and mergeability registries remain orthogonal"
+  ]
+}

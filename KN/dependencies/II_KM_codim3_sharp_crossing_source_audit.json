@@ -1,0 +1,69 @@
+{
+  "arb_crossing_localization": {
+    "distinct": true,
+    "method": "one higher-resolution interval-Newton contraction from each II-KL enclosure, 256-bit Arb, 50k integration cells per branch for midpoint and 4.4k per branch for derivative enclosure",
+    "pi_over_6": {
+      "II_KL_input": [
+        0.9223291900725781,
+        0.9235602912103968
+      ],
+      "du_dc": [
+        -0.6727773226781033,
+        -0.6617283332784942
+      ],
+      "final_interval": [
+        0.9226384987737402,
+        0.9232502005793504
+      ],
+      "u_mid": [
+        0.5233961266799947,
+        0.5238009070914071
+      ],
+      "width": 0.0006117018056102097
+    },
+    "sqrt5_over_4": {
+      "II_KL_input": [
+        0.8723484253712013,
+        0.8735363026114282
+      ],
+      "du_dc": [
+        -0.7583642203985899,
+        -0.7456795987686626
+      ],
+      "final_interval": [
+        0.8726469017985619,
+        0.8732370528298088
+      ],
+      "u_mid": [
+        0.5587966742479266,
+        0.5592367378269018
+      ],
+      "width": 0.0005901510312469327
+    },
+    "status": "PASS_HIGHER_RESOLUTION_256BIT_ARB_INTERVAL_NEWTON_CONTRACTION_BOTH_UNIQUE_REGULAR_CROSSINGS"
+  },
+  "carrier": "Epstein-Vogt source-bound regular axis-start return family; cross-singular quotient/holonomy kept as a distinct source-bound carrier",
+  "decision": "PASS_SHARPER_256BIT_ARB_CROSSINGS__CROSS_SINGULAR_QUOTIENT_HOLONOMY_SOURCE_GATE_SEPARATED",
+  "guards": [
+    "regular Arb roots are on the declared axis-start family only",
+    "strictly narrower crossing intervals do not manufacture missing singular holonomy arrows",
+    "C8 bad-stratum incidence remains a source shadow, not a quotient-groupoid identification"
+  ],
+  "phase": "II-KM",
+  "predecessor": "II-KL",
+  "runtime": {
+    "arb_precision_bits": 256,
+    "derivative_cells_per_crossing": 8800,
+    "point_cells_per_crossing": 100000
+  },
+  "source": {
+    "name": "II_KL_codim3_quotient_germinal.json",
+    "sha256": "83cb2b459fe6e871d11e9061309ebe64a30d47373294c8c0e9c3e2fab724c33c"
+  },
+  "source_ingestion": {
+    "compactified_germinal_leaf_groupoid": "SEPARATED_NO_ACTUAL_CROSS_SINGULAR_HOLONOMY_TRANSITION_BYTES",
+    "cross_singular_quotient_atlas": "SEPARATED_NO_SOURCE_BOUND_MAP_IDENTIFYING_REGULAR_GERMS_WITH_TRUE_C8_BAD_STRATUM_LEAF_QUOTIENT",
+    "inherited_source_bad_stratum": "alternating C8 incidence of four S3 and four T2 pieces",
+    "new_cross_singular_transition_packet_in_current_user_inputs": false
+  }
+}

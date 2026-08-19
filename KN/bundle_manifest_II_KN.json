@@ -1,0 +1,319 @@
+{
+  "bundle": "II_KN_formal_bundle_R1",
+  "file_count_before_manifest_and_sha": 61,
+  "files": [
+    {
+      "path": "II_KN_CompletedRees_Resolvent_Golden_Dilation_R1.pdf",
+      "sha256": "7975ceae58dfb92b953520fbf7521d3ce9a79fd544befdbf93be51234767a9f2",
+      "size_bytes": 445635
+    },
+    {
+      "path": "II_KN_CompletedRees_Resolvent_Golden_Dilation_R1.tex",
+      "sha256": "048577174fc4d7260566990293506dca1aa06e73c1f5aec78afb6e908d79033e",
+      "size_bytes": 13961
+    },
+    {
+      "path": "II_KN_authority_registry.json",
+      "sha256": "9cc3bcc23972c18261f1052f5c8f3607af53b89f1482f43d7fd8bcc93cba5687",
+      "size_bytes": 1208
+    },
+    {
+      "path": "II_KN_certificate.json",
+      "sha256": "790e1040bc4c13d5db3fad3d0670e75fc7f38b6205c794c8ac3c393f21786641",
+      "size_bytes": 6495
+    },
+    {
+      "path": "II_KN_compte_rendu.md",
+      "sha256": "7f3cfe839a0c1f3325f2524cd4eed8fa24c941e21e76aef848c136ff30d19b2f",
+      "size_bytes": 3183
+    },
+    {
+      "path": "II_KN_contact_sheet.png",
+      "sha256": "36671dbc2b77137d7d219a486e81c42e95c2987396313d1cd437de69f700ff1c",
+      "size_bytes": 1008046
+    },
+    {
+      "path": "II_KN_cube27_completed_rees_nonsplitting.json",
+      "sha256": "6ce684a3aa2b2783ed63254169c51f96d9a7d4a428499774cd1836c8a5bd3b13",
+      "size_bytes": 2730
+    },
+    {
+      "path": "II_KN_gauss_ninth_fredholm.json",
+      "sha256": "68d16633f2660b20019d5479b46e47130a6e06577c1cb43930a52c3a2561cfb4",
+      "size_bytes": 3833
+    },
+    {
+      "path": "II_KN_gauss_ninth_reduced_resolvent.json",
+      "sha256": "4d4f43ffa9d2c5257854327b6ec7f66dc5f60e717b8783214451c1376807119d",
+      "size_bytes": 1868
+    },
+    {
+      "path": "II_KN_gauss_nisoli_source_lock.json",
+      "sha256": "bafc9e5cced40b3e2e21928d403d57fb3f8a9cbbe0397b12cbb03cde31eb956d",
+      "size_bytes": 1439
+    },
+    {
+      "path": "II_KN_golden_native_H5_type5.json",
+      "sha256": "06e65bce037377aa6d2f959284d2a4d2386326d36aa1b462c8e95d91d5f349ec",
+      "size_bytes": 6297
+    },
+    {
+      "path": "II_KN_layout_QA.json",
+      "sha256": "ceabf9af608ae831fe1804e573bfce90b3e0bf864542346d1c95f5dd3e099b36",
+      "size_bytes": 529
+    },
+    {
+      "path": "II_KN_lean_mathlib_parallel_state.json",
+      "sha256": "8dbb863d345a38e35e3a6d1c235331c139b6e05270bd0196744e1360b5decbe5",
+      "size_bytes": 1424
+    },
+    {
+      "path": "II_KN_recurrence_116_125.json",
+      "sha256": "eb5c068182c3b19210eab48ef878fc5cf424f15a8dc941a8458751da9aecc5f0",
+      "size_bytes": 2120054
+    },
+    {
+      "path": "II_KN_recurrence_45_125_dilation_collision.json",
+      "sha256": "07e18a5c853309343fa2a3041486d0aafa6e3cc24194684c3d3529cf7f86ee09",
+      "size_bytes": 1039292
+    },
+    {
+      "path": "II_KN_recurrence_aux_2_44.json",
+      "sha256": "9903f1f65c629e312a40f0ed6e066c5c0bf2e504686b5792a5d2ff512bbd01f8",
+      "size_bytes": 1057712
+    },
+    {
+      "path": "II_KN_source_codim_D5_p5_project_gates.json",
+      "sha256": "cb150ab9d52eaf01e14406c1d7eb671ca9435df4ac916cfb8f9d760274f81617",
+      "size_bytes": 3578
+    },
+    {
+      "path": "dependencies/II_KI_cube27_aug_semigroup.json",
+      "sha256": "97903565416f8e26675dc22cd000b93ed11eb67c3e181361db53f57e3497a264",
+      "size_bytes": 4204
+    },
+    {
+      "path": "dependencies/II_KM_codim3_sharp_crossing_source_audit.json",
+      "sha256": "9dee719dccae0cbbb3a2b70e13a9fb787ec6779e8a3f398858ea7c4c917c112e",
+      "size_bytes": 2482
+    },
+    {
+      "path": "dependencies/II_KM_cube27_2local_completed_rees.json",
+      "sha256": "be98e1c9b7b28174d83a57cf5f41003965bee6b5563859f6427d560e2b20942a",
+      "size_bytes": 5184
+    },
+    {
+      "path": "dependencies/II_KM_golden_native_H5_type3.json",
+      "sha256": "8109b2a9a87d6a13f08fc82aab3da6a0cad8a9c60304d38211e2abaad72472a0",
+      "size_bytes": 6296
+    },
+    {
+      "path": "dependencies/II_KM_recurrence_full_45_115_collision_divisibility.json",
+      "sha256": "21371249d0bfae9d20dacd665802d60aa4d9d2fee3df0cba9ba65bcbf5374a77",
+      "size_bytes": 459692
+    },
+    {
+      "path": "dependencies/II_KM_source_project_gates.json",
+      "sha256": "87703d16e5b527881ec858b6d8eef147d05e838824b0b1f6bfd80fd200751634",
+      "size_bytes": 2597
+    },
+    {
+      "path": "dependencies/gauss/II_KH_gauss_fredholm_riesz.json",
+      "sha256": "1a5b167dde2312bb0bb4eb259b1a7cbd3f05a346b176735bd5fd9dd49bf9b5ff",
+      "size_bytes": 2473
+    },
+    {
+      "path": "dependencies/gauss/II_KI_gauss_fredholm_second_riesz.json",
+      "sha256": "2ab15268a33278921cd06196ab10d92c9d8990634c25d4785472be68e1413959",
+      "size_bytes": 2702
+    },
+    {
+      "path": "dependencies/gauss/II_KJ_gauss_fifth_third_riesz.json",
+      "sha256": "a09f1e3f934a21514970390ad0973a9bee651260d1b0c638e011ff950a0e98f0",
+      "size_bytes": 2976
+    },
+    {
+      "path": "dependencies/gauss/II_KK_gauss_sixth_threepoint.json",
+      "sha256": "de00e5bcb0087e0c4cb6f069896a33dea36f1b7a9884ae22a0349f62dcf7f7dc",
+      "size_bytes": 2773
+    },
+    {
+      "path": "dependencies/gauss/II_KL_gauss_seventh_reduced_resolvent.json",
+      "sha256": "a616f3dc6124a19001f8573c639f5c9b74d6cccf06bffe1e20be420029407a97",
+      "size_bytes": 3360
+    },
+    {
+      "path": "dependencies/gauss/II_KM_gauss_eighth_fredholm.json",
+      "sha256": "5b93d20a0daa29b4cedecf4f2cfb70f14890b1cd831e5c3c5b26df64f9724978",
+      "size_bytes": 3593
+    },
+    {
+      "path": "dependencies/golden/II_JY_golden_native_raw_all.json",
+      "sha256": "8cfe79fb56af3022bc8362f412a068f8952c41f3ca6e828ce4a48a4e06a877d0",
+      "size_bytes": 696044
+    },
+    {
+      "path": "dependencies/golden/II_JZ_golden_residual_H3.json",
+      "sha256": "3ef4d809c52205b9a0252d52a04dac23fd96391b57eb7762668e16e6a47fa5ea",
+      "size_bytes": 2909432
+    },
+    {
+      "path": "dependencies/golden/II_KG_golden_H5_entry.json",
+      "sha256": "2e12073ca25c5427184175b63873ddc74787845f22181251ce34992b2ea89f89",
+      "size_bytes": 38909
+    },
+    {
+      "path": "dependencies/master_merge_registry_II_KM.json",
+      "sha256": "d87c1aaa33b266653674a0199b952e0f78807a9c5a026c432d020508a405f0b1",
+      "size_bytes": 6568
+    },
+    {
+      "path": "dependencies/master_status_registry_II_KM.json",
+      "sha256": "f0a516366386a43f9cfb4b0a9a2553d18943d6fc4bfa3f3e42b4bc3ed0c2c3c6",
+      "size_bytes": 15055
+    },
+    {
+      "path": "dependencies/recurrence/II_KG_recurrence_order_value_45_55.json",
+      "sha256": "b4956a267797e2e345cbb5861312b11138b1258ad41e29dc2110f694048423bf",
+      "size_bytes": 773902
+    },
+    {
+      "path": "dependencies/recurrence/II_KH_recurrence_order_value_56_65.json",
+      "sha256": "632742c7e4e830e467bf5f85df0346bc6ecdd8bb0abe43b98b43ac656b8baad7",
+      "size_bytes": 809112
+    },
+    {
+      "path": "dependencies/recurrence/II_KI_recurrence_order_value_66_75.json",
+      "sha256": "6549cff5317efa80a6d01731f8069435fb170226e604028ee773831df5accef5",
+      "size_bytes": 988783
+    },
+    {
+      "path": "dependencies/recurrence/II_KJ_recurrence_order_value_76_85.json",
+      "sha256": "806da4e9df94d57c2ff69354c31485fae3c83adb82c3d4ec4b71fc4a784efaf7",
+      "size_bytes": 1156620
+    },
+    {
+      "path": "dependencies/recurrence/II_KK_recurrence_order_value_86_95.json",
+      "sha256": "8e9e723fe57f31a839151f92da9660a49aa9ede4a3bd18ca10b7b555322eb9f7",
+      "size_bytes": 831948
+    },
+    {
+      "path": "dependencies/recurrence/II_KL_recurrence_order_value_89_96_105.json",
+      "sha256": "8034adf544fc7741b6a4c0129256165add211b0d4c2d7f0e734c8922b80af307",
+      "size_bytes": 1858697
+    },
+    {
+      "path": "dependencies/recurrence/II_KM_recurrence_106_115.json",
+      "sha256": "21c9a2c95dc17f708d7b895b2644293c9bafcac53347028e3443a60358c67a91",
+      "size_bytes": 1851675
+    },
+    {
+      "path": "dependencies/recurrence/II_KM_recurrence_odd_repair_91_93_95.json",
+      "sha256": "41dabba5d111b25668f9f3da097b0d79cfdbc8642e07b9f0461f5c7004041a28",
+      "size_bytes": 447532
+    },
+    {
+      "path": "dependencies/work/gauss_eighth_fredholm_II_KM.py",
+      "sha256": "a6b66696e89062719f7d4c37f9ed72934fab7c224baf18d59262c0c158a789db",
+      "size_bytes": 5780
+    },
+    {
+      "path": "dependencies/work/golden_native_H5_type3_E8_II_KM.py",
+      "sha256": "e933f004740c7e69973a92fd687d4aee85b1a30849cc31196da26ba9a60d1946",
+      "size_bytes": 7747
+    },
+    {
+      "path": "dependencies/work/recurrence_flint_II_KM.py",
+      "sha256": "706490af33d407c146521972a019f018ef2c0c121837839473edcf94d3853113",
+      "size_bytes": 4859
+    },
+    {
+      "path": "logs/gauss_ninth_replay.log",
+      "sha256": "36894daee13c6181b9bd60d8362364c32cce1985de7bb3f35536c7e3fd6f7b68",
+      "size_bytes": 548
+    },
+    {
+      "path": "logs/golden_type5_replay.log",
+      "sha256": "59c7693437b29071a2ccb6557f974c2c0991345cb6a4b58105dd106ac5c3f2eb",
+      "size_bytes": 452
+    },
+    {
+      "path": "logs/pdf_preflight.txt",
+      "sha256": "ec5ff1ca98793bb6b77e8ac2adac0a19dfae688895f2ae6b430555f34bcd6e19",
+      "size_bytes": 166
+    },
+    {
+      "path": "logs/recurrence_116_125_replay.log",
+      "sha256": "3d86bd4dd59d3525ea9dbe689341c7a309a698a1053d6d12b2dd902be12089bc",
+      "size_bytes": 1222
+    },
+    {
+      "path": "logs/recurrence_dilation_replay.log",
+      "sha256": "6964e4f8c41c32f7467150e7a221429b77065385bf8eef1ea139afd8453ea560",
+      "size_bytes": 279
+    },
+    {
+      "path": "logs/verifier_run.log",
+      "sha256": "fad344a0a3fec4404e68fee442d42ca3f3fd8146a5bf4aedad479a2da0dfd64f",
+      "size_bytes": 3709
+    },
+    {
+      "path": "master_merge_registry_II_KN.json",
+      "sha256": "a5dbf7da0f1c1faa4f33aae532dd2a903eba52dde4e6ca4093fdac56262ba61e",
+      "size_bytes": 5574
+    },
+    {
+      "path": "master_status_registry_II_KN.json",
+      "sha256": "a1988605cef889aae6b794bf84dbcf05a0656fa98e8ea2516ae91555730b81c6",
+      "size_bytes": 13858
+    },
+    {
+      "path": "verifier_stdout_II_KN_deep.json",
+      "sha256": "fad344a0a3fec4404e68fee442d42ca3f3fd8146a5bf4aedad479a2da0dfd64f",
+      "size_bytes": 3709
+    },
+    {
+      "path": "verify_II_KN.py",
+      "sha256": "0fb0a8010eb1fb479945a9c5be8a42a82bd872844e5c6172e8add5a1d77eb799",
+      "size_bytes": 12518
+    },
+    {
+      "path": "work/build_certificate_II_KN.py",
+      "sha256": "0a0870eade2940af944b1ac8df3fae4be43cdcfefc4da56aa9e1e6a7384e8a7c",
+      "size_bytes": 7799
+    },
+    {
+      "path": "work/build_registries_II_KN.py",
+      "sha256": "1ac706e138d683776d138725c32585634868c73902d74ad09cf723f22ef3be57",
+      "size_bytes": 11405
+    },
+    {
+      "path": "work/gauss_ninth_fredholm_II_KN.py",
+      "sha256": "ffd30181cd67d218790edc15771389d4c6f00ea74c5cbf38b8f5485084675f71",
+      "size_bytes": 4760
+    },
+    {
+      "path": "work/golden_native_H5_type5_E8_II_KN.py",
+      "sha256": "64eb32d969770896e49a06d998c7748334d6d48e7db4e2bc1f3a223400131184",
+      "size_bytes": 7744
+    },
+    {
+      "path": "work/merge_recurrence_2_125.py",
+      "sha256": "38d24139ec6eb38aad3359afb99ebf8da3a3f1124878aefe1efa5b0fe8784f03",
+      "size_bytes": 6523
+    },
+    {
+      "path": "work/recurrence_flint_full_II_KN.py",
+      "sha256": "56211f57b13510b4454ec956727086f124d8f2fabe9ff0efd21aeea1bbf308c0",
+      "size_bytes": 4859
+    }
+  ],
+  "guards": [
+    "manifest hashes are integrity/provenance only",
+    "external GKW source is locked by commit/blob metadata, not redistributed",
+    "Lean toolchain is referenced by integrity state and is not embedded",
+    "mathlib fragments are not present at II-KN freeze"
+  ],
+  "phase": "II-KN",
+  "predecessor": "II-KM"
+}

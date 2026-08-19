@@ -1,0 +1,185 @@
+{
+  "all_n_associated_graded": {
+    "even_arrow_snf": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      12
+    ],
+    "index": 768,
+    "odd_arrow_snf": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      12
+    ],
+    "status": "PASS_ALL_N_FROM_EXPLICIT_TWO_CYCLE_NOT_FINITE_EXTRAPOLATION",
+    "theorem": "I^m/I^{m+1} has Smith invariants (2,2,2,2,2,2,12) for every m>=3"
+  },
+  "augmentation_extension_ideal": {
+    "J_equals_I_times_O_prime": true,
+    "O_prime": "Z^11 x Z[i]^2",
+    "augmentation_embedding_coordinate": {
+      "index": 8,
+      "root": -12,
+      "row_equals_dimension_character": true
+    },
+    "gaussian_component_ideals": [
+      "unit",
+      "unit"
+    ],
+    "norm_index_J": 768,
+    "principal_generator_integer_components": [
+      2,
+      1,
+      3,
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      4
+    ]
+  },
+  "carrier": "augmentation ideal I in the II-KA ordinary split Green order, embedded in the augmentation hyperplane O_prime of Omax",
+  "conductor_extension_splitting_class": {
+    "canonical_section": "SEPARATED_NONE_SELECTED_EVEN_ON_SPLIT_3_PRIMARY_PART",
+    "exact_sequence": "0 -> R/f -> Omax/f -> Omax/R -> 0",
+    "global_decision": "PROVEN_NOT_SPLIT_GLOBALLY_BECAUSE_2_PRIMARY_EXTENSION_CLASS_IS_NONZERO",
+    "p2": {
+      "decision": "REFUTED_SPLITTING_BY_PRIMARY_INVARIANT_FACTOR_MISMATCH",
+      "extension_class": "NONZERO_2_PRIMARY",
+      "kernel": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        8,
+        8,
+        16
+      ],
+      "middle": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        16,
+        16,
+        16,
+        16
+      ],
+      "quotient": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        8,
+        8,
+        16
+      ],
+      "split_middle_expected_primary_multiset": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8,
+        16,
+        16
+      ]
+    },
+    "p3": {
+      "decision": "PASS_SPLITS_NONCANONICALLY_AS_F3_VECTOR_SPACES",
+      "extension_class": "ZERO_3_PRIMARY",
+      "kernel": [
+        3,
+        3
+      ],
+      "middle": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "quotient": [
+        3,
+        3
+      ]
+    }
+  },
+  "guards": [
+    "the period-two theorem concerns normalized lattices after extension to the declared maximal-order augmentation hyperplane; it is not byte-constancy of HNF transition matrices",
+    "all-n associated-graded stability follows from the exact two-cycle, not from extrapolating n<=32",
+    "p=3 splitting is noncanonical; no distinguished section is manufactured",
+    "the nonzero p=2 extension class is an abelian-group extension statement on the conductor quotient, not a cross-carrier geometric identification"
+  ],
+  "normalized_transition_semigroup": {
+    "K1_index": 196608,
+    "K2_index": 12288,
+    "K3_index": 6144,
+    "K3_sha256": "f1201cb811151d78834429d58fa1c9504e9d312bdc359ba3518eee91f5fba98d",
+    "K4_index": 6144,
+    "K4_sha256": "b288aa9d173149053d1609f9fbe99bc91b9c37c1360b86a436a5602b671311f7",
+    "actual_power_formula": "Emb(I^m)=j^m K_odd for odd m>=3 and j^m K_even for even m>=4",
+    "all_normalized_generators_integral": true,
+    "definition": "K_m = j^{-m} Emb(I^m) in O_prime; F(K)=sum_i (a_i/j) K over the 15 augmentation generators a_i",
+    "exact_transition_checks": [
+      "F(K1)=K2",
+      "F(K2)=K3",
+      "F(K3)=K4",
+      "F(K4)=K3"
+    ],
+    "normalized_generator_count": 15,
+    "period": 2,
+    "status": "PASS_EXACT_ALL_N_NORMALIZED_PERIOD_TWO_STABILIZATION",
+    "theorem": "K_{m+2}=K_m for every m>=3 by induction on the fixed lattice endomorphism F"
+  },
+  "phase": "II-KI",
+  "status": "PASS_AUGMENTATION_TRANSITION_SEMIGROUP_ALL_N_PERIOD_TWO_AND_CONDUCTOR_EXTENSION_PRIMARY_SPLITTING_CLASS"
+}
