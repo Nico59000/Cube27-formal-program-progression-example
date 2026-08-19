@@ -1,0 +1,66 @@
+{
+  "fresh_storage_search": {
+    "full_historical_Tate_packet_found": false,
+    "query": "Pisano p=5 additive character self-dual Haar measure uniformizer finite Tate sum historical normalization"
+  },
+  "historical_sign_source": {
+    "available": [
+      "global/ring discriminants",
+      "ramified class g^2",
+      "chi_k(g^2)",
+      "epsilon5 sign formula"
+    ],
+    "epsilon5_odd": -1,
+    "file": "II_JT_theta_ramified_epsilon.json",
+    "sha256": "2ebb337c2105642e4346c0a4204cdfb479a9396677bbbbdfdffb0128c2785e24"
+  },
+  "independent_residue_shadow": {
+    "all_nonzero_scale_signs": [
+      {
+        "legendre_character": 1,
+        "predicted_normalized_gauss_sign": 1,
+        "scale_mod5": 1
+      },
+      {
+        "legendre_character": -1,
+        "predicted_normalized_gauss_sign": -1,
+        "scale_mod5": 2
+      },
+      {
+        "legendre_character": -1,
+        "predicted_normalized_gauss_sign": -1,
+        "scale_mod5": 3
+      },
+      {
+        "legendre_character": 1,
+        "predicted_normalized_gauss_sign": 1,
+        "scale_mod5": 4
+      }
+    ],
+    "file": "II_KF_Pisano_p5_independent_gauss.json",
+    "nonsquare_scale2_gauss": "-sqrt(5)",
+    "sha256": "c6a43832dacf8cbd53ebfb19b34e7b1e295ad924fd925aba492c514945996de5",
+    "standard_gauss": "+sqrt(5)"
+  },
+  "missing_exact_bytes": [
+    "explicit K_5/local extension identifier",
+    "explicit additive character psi5 byte formula",
+    "self-dual Haar measure convention",
+    "conductor and different exponents in finite Tate denominator",
+    "uniformizer/coordinate representative list",
+    "finite Gauss/Tate sum bytes"
+  ],
+  "nonuniqueness_preserved": {
+    "decision": "REFUTED_UNIQUE_ADDITIVE_CHARACTER_SCALE_FROM_HISTORICAL_SIGN_ALONE",
+    "negative_sign_compatible_residue_scales": [
+      2,
+      3
+    ],
+    "reason": "the historical sign epsilon5=-1 determines only the nonsquare residue class, not the exact scale 2 versus 3; Haar/self-dual measure, conductor denominator and local representative bytes are additionally absent"
+  },
+  "phase": "II-KK",
+  "predecessor": "II-KJ",
+  "reopen_rule": "a new historical p=5 local source with additive-character/Haar/conductor/uniformizer/Tate-sum bytes reopens the gate",
+  "status": "PASS_TERMINAL_SCOPED_P5_NORMALIZATION_OBSTRUCTION__FULL_HISTORICAL_TATE_PACKET_SEPARATED",
+  "terminal_scope": "retrieved II-JS/JT/JU historical normalization lineage plus current Library search only"
+}

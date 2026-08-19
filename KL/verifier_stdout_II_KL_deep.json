@@ -1,0 +1,102 @@
+{
+  "ABI_complete_actual_project_packets": 0,
+  "active_project_NT_count": 37,
+  "coverage_units": 1137096,
+  "deep_mode": true,
+  "evidence_families": [
+    {
+      "assertions": 270,
+      "coverage_units": 315,
+      "name": "Cube27_filtered_Rees_and_Ext_localization",
+      "note": "low maps/tail operators plus 2-primary Ext detector/localization/product",
+      "witnesses": 15
+    },
+    {
+      "assertions": 12,
+      "coverage_units": 823543,
+      "name": "Gauss_seventh_Fredholm_and_reduced_resolvent",
+      "note": "Arb word trace plus exact Riesz-complement existence",
+      "witnesses": 7
+    },
+    {
+      "assertions": 24,
+      "coverage_units": 115100,
+      "name": "Codim3_Arb_germs_and_source_atlas",
+      "note": "nested crossings, seven regular germs and C8 bad-stratum source atlas",
+      "witnesses": 9
+    },
+    {
+      "assertions": 18,
+      "coverage_units": 196608,
+      "name": "Golden_native_H5_type4_multi_E8",
+      "note": "six E8 blocks reach exact native H5 rank34",
+      "witnesses": 16
+    },
+    {
+      "assertions": 6,
+      "coverage_units": 5,
+      "name": "Golden_free_Wall_guard",
+      "note": "type2/type4 closed; free Wall degree4 remains typed separated",
+      "witnesses": 2
+    },
+    {
+      "assertions": 110,
+      "coverage_units": 88,
+      "name": "Recurrence_FLINT_full89_repair",
+      "note": "full order89, 9/9 qualification against predecessor probes",
+      "witnesses": 88
+    },
+    {
+      "assertions": 1120,
+      "coverage_units": 995,
+      "name": "Recurrence_full96_105",
+      "note": "all k-1 tap pairs on ten consecutive orders",
+      "witnesses": 995
+    },
+    {
+      "assertions": 145,
+      "coverage_units": 361,
+      "name": "Recurrence_reflection_collision_divisibility",
+      "note": "124 reflection pairs, five fixed centers and collision quotient",
+      "witnesses": 237
+    },
+    {
+      "assertions": 12,
+      "coverage_units": 20,
+      "name": "Source_gates_D5_Pisano_Project",
+      "note": "fresh scoped retrieval preflight; zero search hits never promoted to nonexistence",
+      "witnesses": 5
+    },
+    {
+      "assertions": 10,
+      "coverage_units": 61,
+      "name": "Append_only_ledgers",
+      "note": "truth and mergeability axes updated independently",
+      "witnesses": 2
+    }
+  ],
+  "explicit_verifier_assertions": 1727,
+  "explicit_witness_records": 1376,
+  "family_count": 10,
+  "guards": [
+    "deep verifier invokes local producer scripts only; no runtime connector/web/library calls; the 33s Arb codim producer is preexecuted/resource-gated and its frozen output is structurally verified",
+    "coverage units are producer-work units and are not mislabeled as proof assertions",
+    "source retrieval observations remain separate from local mathematical replay"
+  ],
+  "historical_replay": "NT_NOT_EXHAUSTIVE",
+  "merge_counts": {
+    "PROVEN-MERGEABLE": 675,
+    "PROVEN-NOT-MERGEABLE": 456
+  },
+  "observational_continuity": "PASS_297",
+  "overall": "PASS",
+  "phase": "II-KL",
+  "promoted_project_values": 0,
+  "status_counts": {
+    "NT": 87,
+    "PASS": 1432,
+    "REFUTED": 294,
+    "SEPARATED": 450,
+    "ZERO": 97
+  }
+}

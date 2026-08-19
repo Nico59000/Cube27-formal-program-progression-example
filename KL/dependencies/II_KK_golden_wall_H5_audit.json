@@ -1,0 +1,170 @@
+{
+  "free_Wall_degree4": {
+    "actual_free_degree4_map": "SEPARATED_REQUIRED_TWISTING_COCHAIN_FREE_BASIS_DIFFERENTIAL_AND_PHI4_BYTES",
+    "coinvariant_reconstruction_no_go": {
+      "coinvariant_image": "[he]+[e]=[e]+[e]=0",
+      "consequence": "coinvariant degree-3/4 bytes cannot uniquely determine an F2[H]-free lift",
+      "field": "F2",
+      "free_module": "F2[H] e",
+      "nonzero_kernel_element": "(h+1)e for any h != 1",
+      "nonzero_reason": "distinct group-basis elements h and 1 in F2[H]",
+      "scope_guard": "this refutes uniqueness/reconstruction from coinvariants alone, not existence of a genuine Wall comparison after supplying twisting/differential data"
+    },
+    "decision": "REFUTED_COINVARIANT_DATA_UNIQUELY_DETERMINE_FREE_WALL_LIFT",
+    "requested_bytes": [
+      "free Wall/projective basis through degree4",
+      "degree4 differential on that free basis",
+      "twisting cochain or contracting homotopy",
+      "degreewise Phi_0..Phi_4 matrices/bitsets",
+      "exact d_bar Phi_4 = Phi_3 d_Wall identity",
+      "compatibility with native H1/H2/H3/H4 representative bytes"
+    ]
+  },
+  "guards": [
+    "no failed exploratory subgroup reconstruction is authoritative",
+    "no rank pattern is transferred between stabilizer types",
+    "type2 closure uses odd-index injectivity and actual native bar products only"
+  ],
+  "naive_shuffle": "REFUTED_PRESERVED_FROM_II_KD",
+  "native_H5_B5": {
+    "KJ_remaining_lower_bounds": [
+      {
+        "abstract_H5_dimension_upper_bound": 38,
+        "candidate_count": 1139,
+        "decision": "PASS_RIGOROUS_NATIVE_H5_LOWER_BOUND_BY_C2_RESTRICTION__FULL_CLOSURE_SEPARATED",
+        "exact_native_H5_closed": false,
+        "group_order": 96,
+        "involution_C2_subgroups": 39,
+        "restriction_signature_rank_lower_bound": 10,
+        "type_index": 0
+      },
+      {
+        "abstract_H5_dimension_upper_bound": 38,
+        "candidate_count": 1139,
+        "decision": "PASS_RIGOROUS_NATIVE_H5_LOWER_BOUND_BY_C2_RESTRICTION__FULL_CLOSURE_SEPARATED",
+        "exact_native_H5_closed": false,
+        "group_order": 96,
+        "involution_C2_subgroups": 39,
+        "restriction_signature_rank_lower_bound": 10,
+        "type_index": 1
+      },
+      {
+        "abstract_H5_dimension_upper_bound": 14,
+        "candidate_count": 208,
+        "decision": "PASS_INHERITED_EXACT_TYPE2",
+        "exact_native_H5_closed": true,
+        "group_order": 48,
+        "involution_C2_subgroups": 19,
+        "restriction_signature_rank_lower_bound": 4,
+        "type_index": 2
+      },
+      {
+        "abstract_H5_dimension_upper_bound": 56,
+        "candidate_count": 3884,
+        "decision": "PASS_RIGOROUS_NATIVE_H5_LOWER_BOUND_BY_C2_RESTRICTION__FULL_CLOSURE_SEPARATED",
+        "exact_native_H5_closed": false,
+        "group_order": 32,
+        "involution_C2_subgroups": 23,
+        "restriction_signature_rank_lower_bound": 14,
+        "type_index": 3
+      },
+      {
+        "abstract_H5_dimension_upper_bound": 34,
+        "candidate_count": 1171,
+        "decision": "PASS_RIGOROUS_NATIVE_H5_LOWER_BOUND_BY_C2_RESTRICTION__FULL_CLOSURE_SEPARATED",
+        "exact_native_H5_closed": false,
+        "group_order": 32,
+        "involution_C2_subgroups": 19,
+        "restriction_signature_rank_lower_bound": 7,
+        "type_index": 4
+      },
+      {
+        "abstract_H5_dimension_upper_bound": 56,
+        "candidate_count": 3884,
+        "decision": "PASS_RIGOROUS_NATIVE_H5_LOWER_BOUND_BY_C2_RESTRICTION__FULL_CLOSURE_SEPARATED",
+        "exact_native_H5_closed": false,
+        "group_order": 32,
+        "involution_C2_subgroups": 23,
+        "restriction_signature_rank_lower_bound": 14,
+        "type_index": 5
+      },
+      {
+        "abstract_H5_dimension_upper_bound": 34,
+        "candidate_count": 1171,
+        "decision": "PASS_RIGOROUS_NATIVE_H5_LOWER_BOUND_BY_C2_RESTRICTION__FULL_CLOSURE_SEPARATED",
+        "exact_native_H5_closed": false,
+        "group_order": 32,
+        "involution_C2_subgroups": 19,
+        "restriction_signature_rank_lower_bound": 7,
+        "type_index": 6
+      }
+    ],
+    "abstract_dimensions": [
+      38,
+      38,
+      14,
+      56,
+      34,
+      56,
+      34
+    ],
+    "closed_native_types": [
+      2
+    ],
+    "remaining_types": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "status": "PASS_TYPE2_PRESERVED__REMAINING_NATIVE_H5_B5_SEPARATED_NO_TRUSTED_NEW_REDUCER",
+    "type2_authority": {
+      "Sylow2_generator_indices_in_G": [
+        0,
+        1,
+        2
+      ],
+      "Sylow2_index": 3,
+      "Sylow2_order": 16,
+      "decision": "PASS_TYPE2_ORDER48_NATIVE_H5_PRODUCT_CLOSURE_BY_FIRST_STREAMED_B5_REDUCTION_ON_ACTUAL_SYLOW2_RESTRICTION",
+      "group_order": 48,
+      "guards": [
+        "candidate cochains are restrictions of actual native G-bar cup products of inherited native H1/H2/H3 cocycles",
+        "the B5 matrix is the actual inhomogeneous coboundary C4(P)->C5(P); row streaming stops only after 14 independent quotient pivots",
+        "equality uses the independent II-KG abstract H5 dimension 14 as upper bound",
+        "this closes type2 only; types0,1,3,4,5,6 are not extrapolated"
+      ],
+      "native_candidate_family": {
+        "H1_H1_H3": 44,
+        "H1_H2_H2": 32,
+        "H1_H3_H1": 44,
+        "H2_H3": 44,
+        "H3_H2": 44,
+        "total": 208
+      },
+      "phase": "II-KI",
+      "runtime_seconds": 2.443,
+      "status": "PASS_FIRST_NATIVE_H5_B5_STREAMED_REDUCTION_TYPE2_ORDER48",
+      "streamed_B5_restriction_certificate": {
+        "candidate_pivots": 14,
+        "last_tuple": [
+          2,
+          2,
+          2,
+          2,
+          0
+        ],
+        "rows_processed": 139809,
+        "total_rank": 61686
+      },
+      "target_native_H5_dimension": 14,
+      "transfer_injectivity": "cor o res=[G:P]=3=1 in F2, hence res:H5(G;F2)->H5(P;F2) injective",
+      "type_index": 2
+    }
+  },
+  "phase": "II-KK",
+  "predecessor": "II-KJ",
+  "status": "PASS_EXACT_COINVARIANT_LIFT_NONUNIQUENESS_OBSTRUCTION_AND_TYPE2_H5_PRESERVATION__FREE_WALL4_AND_REMAINING_NATIVE_H5_SEPARATED"
+}

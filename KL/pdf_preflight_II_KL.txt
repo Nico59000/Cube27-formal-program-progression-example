@@ -1,0 +1,6 @@
+PDF: /mnt/data/ii_kl_work/II_KL_bundle/II_KL_FilteredRees_Fredholm_Germinal_Golden_FLINT_R1.pdf
+Pages: 3
+Encrypted: False
+Openable (PyMuPDF): True
+Likely scanned: False
+XFA present: False

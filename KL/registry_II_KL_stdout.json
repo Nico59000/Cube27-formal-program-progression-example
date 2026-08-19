@@ -1,0 +1,24 @@
+{
+  "append_status": {
+    "PASS": 28,
+    "ZERO": 1,
+    "SEPARATED": 8,
+    "REFUTED": 1,
+    "NT": 3
+  },
+  "counts": {
+    "NT": 87,
+    "PASS": 1432,
+    "REFUTED": 294,
+    "SEPARATED": 450,
+    "ZERO": 97
+  },
+  "append_merge": {
+    "PROVEN-MERGEABLE": 12,
+    "PROVEN-NOT-MERGEABLE": 8
+  },
+  "merge_counts": {
+    "PROVEN-MERGEABLE": 675,
+    "PROVEN-NOT-MERGEABLE": 456
+  }
+}

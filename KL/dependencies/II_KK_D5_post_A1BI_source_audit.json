@@ -1,0 +1,26 @@
+{
+  "actual_continuous_D5_transition_packet": "NT_NO_NEW_SOURCE_BOUND_PACKET",
+  "fresh_retrieval": {
+    "GitHub_matching_code_hits": 0,
+    "GitHub_org": "Nico59000",
+    "GitHub_query": "CORE7Q_A1BI A1BI transition D5 trivialization continuous",
+    "Library_query": "CORE7Q_A1BI A1BI successor degree 66 transition D5 continuous bundle rank 3",
+    "Library_relevant_new_packet_found": false
+  },
+  "guard": "zero retrieval hits are scoped discovery evidence only and any later A1BI+ or independent transition packet reopens the gate",
+  "last_recovered_finite_source": {
+    "name": "formalisation_morphisme_reversion_transfert_ternaire_A1BH.tex",
+    "sha256": "323876dcabf1b32275b172fdd2ac9900c1432cc63220f89aa076d5f1992203d2"
+  },
+  "phase": "II-KK",
+  "predecessor": "II-KJ",
+  "required_packet": [
+    "continuous base B",
+    "open cover {U_i}",
+    "rank-3 local trivializations phi_i",
+    "continuous transition maps g_ij",
+    "inverse and Cech triple law",
+    "metric/norm transport provenance"
+  ],
+  "status": "PASS_FRESH_POST_A1BH_A1BI_SCOPED_RETRIEVAL_AUDIT__CONTINUOUS_D5_TRANSITION_PACKET_NT"
+}

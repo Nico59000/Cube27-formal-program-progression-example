@@ -1,0 +1,133 @@
+{
+  "guards": [
+    "no doubled-origin homeomorphism to actual Epstein-Vogt leaf space is claimed",
+    "C8 bad-set incidence is documentary/source-bound and not Cube27/Golden/recurrence carrier",
+    "interval Newton refines already unique crossings; it does not create a limiting-constant claim"
+  ],
+  "interval_newton": {
+    "distinct": true,
+    "pi_over_6": {
+      "final_interval": [
+        0.922327800713465,
+        0.9235615899138065
+      ],
+      "history": [
+        {
+          "derivative_cells": 4400,
+          "derivative_on_input": [
+            -0.6790775903809091,
+            -0.655869750453233
+          ],
+          "input": [
+            0.9214045715575776,
+            0.9244900862409122
+          ],
+          "intersection": [
+            0.922327800713465,
+            0.9235615899138065
+          ],
+          "midpoint": 0.9229473288992449,
+          "newton_image": [
+            0.922327800713445,
+            0.9235615899138265
+          ],
+          "point_cells": 50000,
+          "step": 1,
+          "strict_contraction": true,
+          "u_mid": [
+            0.5231924458061052,
+            0.5240016508118255
+          ]
+        }
+      ],
+      "target": [
+        0.5235987755982789,
+        0.5235987755983189
+      ]
+    },
+    "sqrt5_over_4": {
+      "final_interval": [
+        0.8723470581996662,
+        0.8735375787243538
+      ],
+      "history": [
+        {
+          "derivative_cells": 4400,
+          "derivative_on_input": [
+            -0.7656059584786774,
+            -0.738957731033089
+          ],
+          "input": [
+            0.8714562324673534,
+            0.8744335991138723
+          ],
+          "intersection": [
+            0.8723470581996662,
+            0.8735375787243538
+          ],
+          "midpoint": 0.8729449157906128,
+          "newton_image": [
+            0.8723470581996462,
+            0.8735375787243738
+          ],
+          "point_cells": 50000,
+          "step": 1,
+          "strict_contraction": true,
+          "u_mid": [
+            0.5585752028903258,
+            0.5594549472264548
+          ]
+        }
+      ],
+      "target": [
+        0.5590169943749275,
+        0.5590169943749674
+      ]
+    },
+    "status": "PASS_FURTHER_ARB_INTERVAL_NEWTON_CONTRACTION_ON_BOTH_UNIQUE_CROSSINGS"
+  },
+  "phase": "II-KK",
+  "predecessor": "II-KJ",
+  "runtime": {
+    "arb_precision_bits": 160,
+    "python": "3.13.5",
+    "python_flint": "0.9.0"
+  },
+  "singular_return": {
+    "actual_source_bound_compactified_groupoid": "SEPARATED",
+    "finite_continuous_extension": "REFUTED_PRESERVED_SOURCE_DIVERGENCE",
+    "formal_KJ_germinal_model_project_binding": false
+  },
+  "source_bound_transition_skeleton": {
+    "actual_compactified_leaf_groupoid": "SEPARATED_NO_SOURCE_BOUND_QUOTIENT_ATLAS_OR_GERMINAL_HOLONOMY_BYTES",
+    "actual_cross_singular_leaf_transition_bytes": "SEPARATED_NOT_PRESENT",
+    "bad_stratum_incidence": {
+      "bead_types": "4*S3 + 4*T2 alternating",
+      "edges": 8,
+      "graph": "C8",
+      "two_step_rotation": "C4 on each bead-type four-set",
+      "vertices": 8
+    },
+    "local_nonhausdorff_support_model": {
+      "controlled_branch_retractions": "r_+ and r_- collapse the opposite origin and are continuous retractions onto either one-origin branch",
+      "guard": "L_dbl is a local support model motivated by the source non-Hausdorff leaf-space problem. No homeomorphism between the actual Epstein-Vogt leaf space and the doubled-origin line is claimed.",
+      "model": "line with doubled origin L_dbl",
+      "topology": "0+ and 0- each have neighborhoods consisting of that origin plus a punctured interval; all punctured points are shared"
+    },
+    "source_roles": [
+      {
+        "name": "PMIHES_1976__46__5_0.pdf",
+        "role": "Sullivan 1976 codimension-three boundary, bad-set hierarchy and obstruction context",
+        "sha256": "a01219d3a53c4fc9d980a7baa9c10a43a6cc95a83f1b21db44be14c75cd93fc1"
+      },
+      {
+        "name": "epstein1978.pdf",
+        "role": "Epstein-Vogt 1978 polynomial codimension-three example, spinning/doubling and stratified bad set",
+        "sha256": "e3e3f74ceef5c1d9bb3e1dbe1662c70ca46c893af1e50ae38a0b913cdbe70a8d"
+      }
+    ],
+    "status": "PASS_SOURCE_BOUND_BAD_STRATUM_C8_TRANSITION_SKELETON_AND_TYPED_NONHAUSDORFF_SUPPORT_CONTROL",
+    "typed_combination": "C8 bad-stratum incidence is source-bound; doubled-origin branch control is only a local support model"
+  },
+  "status": "PASS_SHARPER_ARB_NEWTON_AND_SOURCE_BOUND_BAD_STRATUM_TRANSITION_SKELETON__ACTUAL_COMPACTIFIED_LEAF_GROUPOID_SEPARATED"
+}

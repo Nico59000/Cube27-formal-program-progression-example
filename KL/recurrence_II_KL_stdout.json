@@ -1,0 +1,95 @@
+swept 89 records 88 sec 0.885306
+swept 96 records 95 sec 0.194199
+swept 97 records 96 sec 0.806191
+swept 98 records 97 sec 0.280607
+swept 99 records 98 sec 0.491844
+swept 100 records 99 sec 0.39114
+swept 101 records 100 sec 0.55207
+swept 102 records 101 sec 0.44278
+swept 103 records 102 sec 0.663502
+swept 104 records 103 sec 0.342646
+swept 105 records 104 sec 0.520915
+{
+  "full89": {
+    "record_count": 88,
+    "distinct_matrix_orders": 84,
+    "factor_count_histogram": {
+      "1": 2,
+      "2": 14,
+      "3": 6,
+      "4": 42,
+      "5": 6,
+      "6": 15,
+      "7": 1,
+      "8": 2
+    },
+    "k_divides_matrix_order": 3,
+    "v_divides_matrix_order": 16,
+    "k_plus_v_divides_matrix_order": 8,
+    "matrix_order_equals_k": 0,
+    "matrix_order_equals_k_plus_v": 0,
+    "max_matrix_order": 1454660594681285404315232913246121223340241,
+    "min_matrix_order": 6153880047176963920,
+    "global_antiperiod_count": 0,
+    "runtime_seconds": 0.885306,
+    "old_resource_issue_interpretation": "the prior bounded-window failure was implementation/resource behavior of the SymPy route, not evidence that order 89 is intrinsically computationally singular; the FLINT factor engine completes all 88 tap values."
+  },
+  "new96_105": 995,
+  "reflection_verified": 124,
+  "collision_classes": 237,
+  "cross_order": 68,
+  "largest": {
+    "matrix_order": 41745579179292917813953351511015323088870709282080,
+    "order_value_pairs": [
+      [
+        104,
+        5
+      ],
+      [
+        104,
+        11
+      ],
+      [
+        104,
+        15
+      ],
+      [
+        104,
+        29
+      ],
+      [
+        104,
+        75
+      ],
+      [
+        104,
+        89
+      ],
+      [
+        104,
+        93
+      ],
+      [
+        104,
+        99
+      ],
+      [
+        105,
+        64
+      ]
+    ],
+    "class_size": 9,
+    "recurrence_orders": [
+      104,
+      105
+    ],
+    "cross_order": true,
+    "contains_full89": false,
+    "contains_fixed_center": false
+  },
+  "formula_hits": {
+    "ord_eq_k": [],
+    "ord_eq_k_plus_v": []
+  },
+  "runtime_total": 5.656
+}

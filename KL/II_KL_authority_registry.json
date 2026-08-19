@@ -1,0 +1,31 @@
+{
+  "authority_order": [
+    "II_KL_cube27_filtered_rees_ext.json",
+    "II_KL_gauss_seventh_reduced_resolvent.json",
+    "II_KL_codim3_quotient_germinal.json",
+    "II_KL_golden_native_H5_type4.json",
+    "II_KL_golden_H5_wall_audit.json",
+    "II_KL_recurrence_order_value_89_96_105.json",
+    "II_KL_D5_post_A1BI_source_audit.json",
+    "II_KL_Pisano_p5_source_audit.json",
+    "II_KL_project_value_attempt.json",
+    "master_status_registry_II_KL.json",
+    "master_merge_registry_II_KL.json",
+    "verifier_stdout_II_KL_deep.json",
+    "II_KL_certificate.json"
+  ],
+  "failed_or_non_authoritative": [
+    "golden_type4_test.py",
+    "II_KL_golden_native_H5_type4_test.json",
+    "golden_e8_aug_diag.py",
+    "codim3_test_newton.py"
+  ],
+  "guards": [
+    "producer JSONs are authorities only on their declared carriers",
+    "PDF is editorial synthesis",
+    "source_recovery files are provenance dependencies and acquire no project authority by inclusion",
+    "diagnostic/failed candidate files are excluded from authority"
+  ],
+  "phase": "II-KL",
+  "safe_successor": "II-KM -- Cube27 2-local conductor-Ext module filtration and completed Rees exactness/periodic-module audit; Gauss eighth Fredholm trace/coefficient and certified reduced-resolvent norm or proof-grade numerical third-pressure enclosure; codimension-three cross-singular quotient/holonomy source ingestion with sharper Arb crossing localization; Golden third native H5/B5 closure or a trusted free F2[H]-Wall degree-four producer; post-A1BI/A1BJ D5 transition-source ingestion; Pisano historical p5 additive-character/Haar/Tate packet acquisition; recurrence FLINT repair of full orders 91/93/95 plus full orders 106--115 and divisibility/collision theorem refinement; plus external Stone/Fibonacci ABI-complete packet execution."
+}

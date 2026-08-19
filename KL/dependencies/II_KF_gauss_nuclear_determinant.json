@@ -1,0 +1,44 @@
+{
+  "guards": [
+    "the nuclear determinant lane uses the new weighted c0 branch carrier W^0_1, not the larger II-KE weighted sup carrier W_1",
+    "pressure derivative concerns the geometric potential -s log|G'| and is not identified with the Khinchin observable kappa=log a1",
+    "Nisoli certified eigenvalues/projectors are source-bound external certificates; this script audits functional transport and exact constants, not the Arb spectral computation"
+  ],
+  "phase": "II-KF",
+  "pressure_derivative": {
+    "P1": 0.0,
+    "Pprime1_decimal": -2.373138220831251,
+    "Pprime1_exact": "-pi^2/(6 log 2)",
+    "geometric_family": "L_s f(x)=sum_{n>=1}(n+x)^(-2s) f(1/(n+x)); cross-space branch majorants converge locally uniformly for Re(s)>3/4, giving an analytic trace-class family after restriction",
+    "integral_identity": "P'(1)=-int log|G'| dmu = -int_0^1[-2 log x]/[log2(1+x)] dx = -pi^2/(6 log2)",
+    "numerical_crosscheck": -2.373138220831251,
+    "status": "PASS_EXACT_PRESSURE_DERIVATIVE_AT_S1_ON_GEOMETRIC_POTENTIAL"
+  },
+  "source_hardy_trace_class": {
+    "source_result": "Nisoli Theorem 4.10/Corollary 4.11: approximation numbers <= C2(2/3)^(m-1), hence L1 and L3/2 are trace class with trace norm <=3 C2",
+    "status": "PASS_SOURCE_BOUND_TRACE_CLASS_NUCLEARITY_ON_H2_CARRIER"
+  },
+  "spectral_determinant": {
+    "equality": "D_W(z)=D_H(z) as normalized canonical products because AB/BA gives the same nonzero eigenvalues with algebraic multiplicities and both sequences are absolutely summable",
+    "hardy": "D_H(z)=det(I-z L1) is defined because L1 is trace class",
+    "status": "PASS_SPECTRAL_DETERMINANT_TRANSPORT_ON_THE_NUCLEAR_WEIGHTED_C0_CARRIER",
+    "weighted": "D_W(z)=det(I-z T) is defined on W^0_1 under the nuclear/MAP construction",
+    "zero_set": "zeros are z=lambda_j^{-1} for the nonzero GKW eigenvalues"
+  },
+  "status": "PASS_WEIGHTED_C0_NUCLEAR_TRANSFER_SPECTRAL_DETERMINANT_AND_PRESSURE_DERIVATIVE_AUDIT",
+  "weighted_c0_branch_carrier": {
+    "B": "B:W^0_1->H2(D3/2) is bounded by C1=sum sqrt(2n+1)(1+log n)/(n-1/2)^2",
+    "C1_partial": 16.419412212891256,
+    "C1_partial_N": 200000,
+    "C1_tail_upper": 0.47114292893886817,
+    "C1_upper_bound": 16.890555141830124,
+    "J": "J:H2(D1)->W^0_1 bounded because ||f o tau_n||<=sqrt(2n+1)||f|| and (1+log n)^(-1)->0",
+    "approximation_property": "weighted c0-sum carrier has the metric approximation property inherited from c0 of Hilbert blocks",
+    "definition": "W^0_1={branchwise germs f: ||f o tau_n||/[sqrt(2n+1)(1+log n)] ->0, with weighted sup norm}",
+    "factorization": "T=J S B on W^0_1; S is nuclear and J,B are bounded, hence T is nuclear/compact",
+    "kappa": "kappa o tau_n=log n, so normalized branch norm tends 0 and kappa in W^0_1",
+    "nuclear_norm_upper_bound": 50.67166542549037,
+    "restriction_S": "S:H2(D3/2)->H2(D1) has singular values (2/3)^m, m>=0, and trace/nuclear norm 3",
+    "status": "PASS_EXPLICIT_NUCLEAR_WEIGHTED_C0_HARDY_CARRIER_CONTAINING_KAPPA"
+  }
+}

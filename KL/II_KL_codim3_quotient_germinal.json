@@ -1,0 +1,241 @@
+{
+  "arb_crossing_localization": {
+    "distinct": true,
+    "method": "one further interval-Newton contraction from each II-KK enclosure",
+    "pi_over_6": {
+      "final_interval": [
+        0.9223291900725781,
+        0.9235602912103968
+      ],
+      "history": [
+        {
+          "derivative_cells": 4400,
+          "du_dc_on_input": [
+            -0.6775542407733606,
+            -0.6573046759906043
+          ],
+          "input": [
+            0.922327800713465,
+            0.9235615899138065
+          ],
+          "intersection": [
+            0.9223291900725781,
+            0.9235602912103968
+          ],
+          "midpoint": 0.9229446953136358,
+          "newton_image": [
+            0.9223291900725581,
+            0.9235602912104168
+          ],
+          "point_cells": 50000,
+          "strict_contraction": true,
+          "u_mid": [
+            0.5231942011290927,
+            0.5240034096563764
+          ]
+        }
+      ]
+    },
+    "sqrt5_over_4": {
+      "final_interval": [
+        0.8723484253712013,
+        0.8735363026114282
+      ],
+      "history": [
+        {
+          "derivative_cells": 4400,
+          "du_dc_on_input": [
+            -0.7638546908824245,
+            -0.7406053697308598
+          ],
+          "input": [
+            0.8723470581996662,
+            0.8735375787243538
+          ],
+          "intersection": [
+            0.8723484253712013,
+            0.8735363026114282
+          ],
+          "midpoint": 0.87294231846201,
+          "newton_image": [
+            0.8723484253711813,
+            0.8735363026114482
+          ],
+          "point_cells": 50000,
+          "strict_contraction": true,
+          "u_mid": [
+            0.5585771539678164,
+            0.5594569022211391
+          ]
+        }
+      ]
+    },
+    "status": "PASS_FURTHER_ARB_INTERVAL_NEWTON_CONTRACTION_ON_BOTH_UNIQUE_CROSSINGS"
+  },
+  "compactified_germinal_leaf_groupoid": "SEPARATED_NO_ACTUAL_CROSS_SINGULAR_HOLONOMY_TRANSITION_BYTES",
+  "cross_singular_quotient_atlas": "SEPARATED_NO_SOURCE_BOUND_MAP_IDENTIFYING_REGULAR_GERMS_WITH_THE_TRUE_C8_BAD_STRATUM_LEAF_QUOTIENT",
+  "guards": [
+    "regular germ records use the actual return-holonomy formula but only the declared axis-start family",
+    "C8 is a source-bound bad-stratum incidence shadow, not by itself a holonomy groupoid",
+    "the doubled-origin model remains a local non-Hausdorff support model and is not identified with the actual leaf space",
+    "crossing constants are exact target levels with unique roots on the certified strip, not asymptotic attractors"
+  ],
+  "nonhausdorff_support": {
+    "guard": "L_dbl is a local support model motivated by the source non-Hausdorff leaf-space problem. No homeomorphism between the actual Epstein-Vogt leaf space and the doubled-origin line is claimed.",
+    "model": "line with doubled origin L_dbl",
+    "status": "PASS_TYPED_LOCAL_SUPPORT_MODEL_ONLY",
+    "theorems": {
+      "Hausdorff_target_collapse": "every continuous map from L_dbl to a Hausdorff target identifies 0+ and 0-",
+      "controlled_branch_retractions": "r_+ and r_- collapse the opposite origin and are continuous retractions onto either one-origin branch",
+      "no_simultaneous_Hausdorff_resolver": "a Hausdorff-valued quotient cannot preserve the distinction of the two origins",
+      "non_Hausdorff": "0+ and 0- admit no disjoint neighborhoods"
+    }
+  },
+  "phase": "II-KL",
+  "regular_germinal_holonomy_atlas": {
+    "carrier": "axis-start regular transverse one-parameter family on the certified regular level strip",
+    "germ_formula": "H_c=R_{u(c)}S_0T and H_c^2=1",
+    "records": [
+      {
+        "cells": 900,
+        "half_return_germ": "H_c=R_{u(c)} S_0 T",
+        "involution_identity": "H_c^2=1",
+        "level": 0.84,
+        "u_interval": [
+          0.5598982438878849,
+          0.6124003333008078
+        ],
+        "w_angle": "0 on the declared axis-start representative"
+      },
+      {
+        "cells": 900,
+        "half_return_germ": "H_c=R_{u(c)} S_0 T",
+        "involution_identity": "H_c^2=1",
+        "level": 0.86,
+        "u_interval": [
+          0.5448268699884504,
+          0.5955010831431975
+        ],
+        "w_angle": "0 on the declared axis-start representative"
+      },
+      {
+        "cells": 900,
+        "half_return_germ": "H_c=R_{u(c)} S_0 T",
+        "involution_identity": "H_c^2=1",
+        "level": 0.88,
+        "u_interval": [
+          0.5304832720656952,
+          0.5794329649879139
+        ],
+        "w_angle": "0 on the declared axis-start representative"
+      },
+      {
+        "cells": 900,
+        "half_return_germ": "H_c=R_{u(c)} S_0 T",
+        "involution_identity": "H_c^2=1",
+        "level": 0.9,
+        "u_interval": [
+          0.5168171469326519,
+          0.5641376712214989
+        ],
+        "w_angle": "0 on the declared axis-start representative"
+      },
+      {
+        "cells": 900,
+        "half_return_germ": "H_c=R_{u(c)} S_0 T",
+        "involution_identity": "H_c^2=1",
+        "level": 0.92,
+        "u_interval": [
+          0.5037826755614051,
+          0.5495621597109793
+        ],
+        "w_angle": "0 on the declared axis-start representative"
+      },
+      {
+        "cells": 900,
+        "half_return_germ": "H_c=R_{u(c)} S_0 T",
+        "involution_identity": "H_c^2=1",
+        "level": 0.94,
+        "u_interval": [
+          0.4913380372763268,
+          0.535658076378243
+        ],
+        "w_angle": "0 on the declared axis-start representative"
+      },
+      {
+        "cells": 900,
+        "half_return_germ": "H_c=R_{u(c)} S_0 T",
+        "involution_identity": "H_c^2=1",
+        "level": 0.96,
+        "u_interval": [
+          0.479444985918112,
+          0.522381251794203
+        ],
+        "w_angle": "0 on the declared axis-start representative"
+      }
+    ],
+    "status": "PASS_SOURCE_FORMULA_PLUS_ARB_INTERVAL_GERMS_ON_SEVEN_REGULAR_LEVELS"
+  },
+  "runtime": {
+    "arb_precision_bits": 160,
+    "python": "3.13.5",
+    "python_flint": "0.9.0"
+  },
+  "source_bound_bad_stratum_atlas": {
+    "incidence_cycle": "C8",
+    "objects": [
+      {
+        "bead": 0,
+        "shared_circle_left": 7,
+        "shared_circle_right": 0,
+        "type": "S3"
+      },
+      {
+        "bead": 1,
+        "shared_circle_left": 0,
+        "shared_circle_right": 1,
+        "type": "T2"
+      },
+      {
+        "bead": 2,
+        "shared_circle_left": 1,
+        "shared_circle_right": 2,
+        "type": "S3"
+      },
+      {
+        "bead": 3,
+        "shared_circle_left": 2,
+        "shared_circle_right": 3,
+        "type": "T2"
+      },
+      {
+        "bead": 4,
+        "shared_circle_left": 3,
+        "shared_circle_right": 4,
+        "type": "S3"
+      },
+      {
+        "bead": 5,
+        "shared_circle_left": 4,
+        "shared_circle_right": 5,
+        "type": "T2"
+      },
+      {
+        "bead": 6,
+        "shared_circle_left": 5,
+        "shared_circle_right": 6,
+        "type": "S3"
+      },
+      {
+        "bead": 7,
+        "shared_circle_left": 6,
+        "shared_circle_right": 7,
+        "type": "T2"
+      }
+    ],
+    "shared_circle_count": 8,
+    "source_role": "bad-set stratum incidence only; not a leaf holonomy quotient atlas",
+    "two_step_rotation": "C4 on each bead-type four-set"
+  },
+  "status": "PASS_SHARPER_ARB_CROSSINGS_AND_REGULAR_GERMINAL_HOLONOMY_ATLAS__CROSS_SINGULAR_QUOTIENT_GROUPOID_SEPARATED"
+}

@@ -1,0 +1,75 @@
+{
+  "carrier": "Gauss analytic trace-class transfer operator and digit perturbation L_t=sum n^t W_n",
+  "fifth_trace": {
+    "box_N": 16,
+    "certified_interval": [
+      0.644239197629935,
+      2.704689218807682
+    ],
+    "ordered_word_count": 1048576,
+    "orientation": "five inverse branches have determinant -1, contribution q/(1+q)",
+    "partial_ball": "[0.644239200574684330075660488493812956950203 +/- 6.83e-43]",
+    "status": "PASS_CERTIFIED_TR_L5",
+    "tail_ball": "[2.060450015288247927925837992607831049577410747 +/- 7.58e-46]",
+    "tail_bound": "positive continuant D5>=abcde gives q/(1+q)<=q<=1/(abcde)^2; complement <=zeta(2)^5-S_N^5"
+  },
+  "fredholm_d5": {
+    "certified_interval": [
+      -0.36732768185988196,
+      0.12557463243060235
+    ],
+    "newton_identity": "5 d5=-(d4 trL+d3 trL2+d2 trL3+d1 trL4+trL5)",
+    "normalization": "det(I-zL)=1+d1 z+...",
+    "status": "PASS_CERTIFIED_D5_FROM_PREDECESSOR_TRACE_COEFFICIENT_INTERVALS_AND_NEW_TRL5"
+  },
+  "guards": [
+    "fifth trace uses the same analytic trace-class carrier as KH/KI",
+    "single-symbol third cumulant is not the asymptotic third pressure cumulant",
+    "no three-point cumulant summability is inferred from the previously used two-point Green-Kubo bound"
+  ],
+  "phase": "II-KJ",
+  "runtime": {
+    "arb_precision_bits": 160,
+    "python": "3.13.5",
+    "python_flint": "0.9.0"
+  },
+  "runtime_seconds": 3.319,
+  "status": "PASS_FIFTH_FREDHOLM_TRACE_COEFFICIENT_AND_THIRD_KHINCHIN_RIESZ_AUDIT_WITH_NUMERIC_THIRD_RESPONSE_SEPARATED",
+  "third_khinchin_audit": {
+    "asymptotic_third_cumulant_relation": "P'(0)=lambda3-3 lambda2 lambda1+2 lambda1^3; equivalently the stationary asymptotic third cumulant when the 3-point cumulant series is justified",
+    "direct_diagonal_term": "ell(L3 h)=E[(log a1)^3] is certified above",
+    "lambda_third_numeric_value": "SEPARATED",
+    "pressure_third_numeric_value": "SEPARATED",
+    "single_symbol_moments": {
+      "E_log_a2_interval": [
+        2.3843810718032694,
+        2.38527686019998
+      ],
+      "E_log_a3_interval": [
+        7.813613153799515,
+        7.825946744672144
+      ],
+      "E_log_a_interval": [
+        0.9877835994849086,
+        0.9878490571451731
+      ],
+      "partial_N": 300000,
+      "tail_formulas": [
+        "(log N+1)/(N log2)",
+        "(log^2 N+2log N+2)/(N log2)",
+        "(log^3 N+3log^2 N+6log N+6)/(N log2)"
+      ],
+      "third_central_single_symbol_interval": [
+        2.6723260421514134,
+        2.6881659069716375
+      ]
+    },
+    "status": "PASS_FORMAL_THIRD_RIESZ_IDENTITY_AND_CERTIFIED_SINGLE_SYMBOL_THIRD_CUMULANT__ASYMPTOTIC_THIRD_RESPONSE_SEPARATED",
+    "third_riesz_formal_identity": [
+      "u1=L1 h-lambda1 h; h1=S u1",
+      "u2=(L2-lambda2)h+2(L1-lambda1)h1; h2=S u2",
+      "lambda3=ell(L3 h)+3 ell(L2 h1)+3 ell(L1 h2)"
+    ],
+    "three_point_correlation_certificate": "SEPARATED_NO_SOURCE_BOUND_ABSOLUTE_THREE_POINT_CUMULANT_SUM_OR_FULL_REDUCED_RESOLVENT_NORM"
+  }
+}

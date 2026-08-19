@@ -1,0 +1,42 @@
+{
+  "ABI_complete_actual_project_packets": 0,
+  "Fibonacci": {
+    "new_complete_packet_found": false,
+    "required_decisive_fields": [
+      "carrier_id",
+      "localization_family_U",
+      "cofinal_basis_B",
+      "trace_table"
+    ],
+    "state": "NT_THEOREM_WITHOUT_PROJECT_INSTANCE"
+  },
+  "Stone": {
+    "carrier_id": "A1BE-F1-real-source",
+    "new_complete_packet_found": false,
+    "required_decisive_fields": [
+      "project_differential_d",
+      "project_theta_row",
+      "project_cycle_basis_K_Z",
+      "incidence_to_project_cycle_coupling_C",
+      "project_framing_anchor"
+    ],
+    "state": "NT_PARTIAL_SOURCE_ONLY"
+  },
+  "active_project_NT_count": 37,
+  "fresh_retrieval": {
+    "Fibonacci_exact_query_hits": 0,
+    "GitHub_org": "Nico59000",
+    "Library": "exact-field search returned prior ABI/manifests and same partial/theorem authorities only",
+    "Stone_exact_query_hits": 0
+  },
+  "guards": [
+    "field names in templates/schemas are not payload bytes",
+    "a theorem is not an instantiated same-carrier witness",
+    "zero hits are scoped discovery evidence only",
+    "partial/synthetic packets cannot generate project values"
+  ],
+  "phase": "II-KK",
+  "predecessor": "II-KJ",
+  "promoted_project_values": 0,
+  "status": "PASS_FRESH_ABI_PREFLIGHT__NO_COMPLETE_STONE_FIBONACCI_PACKET_NO_PROMOTION"
+}

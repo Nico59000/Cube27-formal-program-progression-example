@@ -1,0 +1,336 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.45cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,mathtools,amsthm}
+\usepackage{booktabs,tabularx,array,longtable,enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.30em}
+\setlist{nosep,leftmargin=*}
+\newcommand{\PASS}{\texttt{PASS}}
+\newcommand{\NT}{\texttt{NT}}
+\newcommand{\REF}{\texttt{REFUTED}}
+\newcommand{\ZERO}{\texttt{ZERO}}
+\newcommand{\SEP}{\texttt{SEPARATED}}
+\newcommand{\PM}{\texttt{PROVEN-MERGEABLE}}
+\newcommand{\PNM}{\texttt{PROVEN-NOT-MERGEABLE}}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\C}{\mathbb C}
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\Supp}{\operatorname{Supp}}
+\newcommand{\cfm}{\operatorname{cf}_{\rm fm}}
+\newcommand{\clM}[1]{\overline{#1}^{\,M}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newenvironment{guard}[1][]{\par\smallskip\noindent\begin{minipage}{0.97\linewidth}\small\textbf{Guard #1. }}{\end{minipage}\par\smallskip}
+\hypersetup{pdftitle={II-HQ - RLM cofinal trace, J descent, zR tail certificates, Rees cokernel, H3 axis quotients},pdfauthor={Nico Begue Marquot}}
+
+\title{\textbf{II-HQ -- Fibonacci RLM Witness/Finite-Mass Cofinality Certificate and Hadamardization Obstruction,}\\
+\textbf{Stone $C_{12}$ $24\Z$ Gauge-Fiber Descent/Secondary Chain-Level Comparison and Project Framing-Selector Search,}\\
+\textbf{Bornological $z_R$ Tail-Sensitive Non-Hausdorff Certificate/Actual Kappa Decision,}\\
+\textbf{and 2-Adic Full-Rees Extension-Image Cokernel Obstruction/Colimit Survival plus $H_3$-Equivariant Common-Ideal Quotient/Katsura Fiber Audit}}
+\author{Nico Begue Marquot -- formal HT+NT continuation bundle}
+\date{16 August 2026}
+
+\begin{document}
+\maketitle\vspace{-1.25em}
+
+\begin{abstract}\small
+II-HQ re-observes the complete predecessor line II-A through II-HP (224 predecessor phases), while historical machine re-execution remains separately \NT.  It preserves the five truth statuses \PASS/\ZERO/\SEP/\REF/\NT and the orthogonal comparison classes \PM/\PNM.  Fibonacci support is recast exactly as an ultrafilter trace condition on finite-mass ideals; every reverse-inclusion cofinal family decides the same trace test.  Local mass values alone are proved insufficient to force a Hadamard/RHM realization, without refuting a future tensor-geometric project adapter.  The Stone stable-$J$ quotient is characterized by strict $24\Z$ descent: coordinate observables descend exactly when $24$-periodic, whereas an exact secondary chain boundary cannot be sent to a nonzero stable-$J$ class by an ordinary chain-map/homology comparison.  The bornological branch freezes a tail-sensitive non-Hausdorff certificate format but still finds no actual $z_R$ value.  On the Rees branch, filtered colimits commute with the connecting cokernel and yield an exact eventual-hit criterion.  Finally, the explicit II-GZ Katsura ideal closes a non-scalar $H_3$-equivariant subcategory of all closed coefficient quotients supported on the two axes.  The bundle closes with \texttt{OVERALL=PASS} and keeps all 37 deduplicated project NT gates visible.
+\end{abstract}
+
+\section{Frozen entry, re-parcours, and registry discipline}
+II-HP is frozen at \PASS.  Its append-only correction is retained: for a short exact sequence
+\[
+0\to C^\bullet\to F^\bullet\to Q^\bullet\to0,
+\qquad
+\partial:H^0(Q)\to H^1(C),
+\]
+the expression $\partial([b])$ is ill typed when $[b]\in H^1(C)$.  The correct survival question is membership $[b]\in\im\partial$, equivalently the cokernel class $[b]+\im\partial$.
+
+The II-HQ observational ledger contains exactly
+\[
+26+7\cdot26+16=224
+\]
+predecessor codes, from II-A to II-HP.  This is contextual observation, not hidden replay.  The symmetric registry remains a navigation/reconsideration index only: source artifacts retain proof authority.  HT+NT remains context and typing management only.
+
+\section{Fibonacci: RLM trace, cofinal certification, and the Hadamardization boundary}
+For every admissible witness $m$, retain the finite-mass ideal
+\[
+\mathcal I(m)=\{A:\mu_A(m)<\infty\},
+\qquad
+\Sigma_{\rm fm}=\{\mathcal I(m):m\in\mathfrak W\},
+\]
+ordered by reverse inclusion.  Let $\mathcal U$ be the inner ultrafilter at the point under audit.
+
+\begin{theorem}[Ultrafilter trace form of the support dichotomy]
+On the frozen local-mass carrier,
+\[
+\boxed{
+\chi\notin\Supp(\mathcal D)
+\iff
+\forall m:\ \mathcal I(m)\cap\mathcal U\ne\varnothing,
+}
+\tag{1}
+\]
+and hence
+\[
+\boxed{
+\chi\in\Supp(\mathcal D)
+\iff
+\exists m:\ \mathcal I(m)\cap\mathcal U=\varnothing.
+}
+\tag{2}
+\]
+The right side of (2) is exactly existence of an RLM witness.
+\end{theorem}
+
+Thus support and RLM are not merely implication-related:
+\[
+\boxed{\exists\,\mathrm{RLM}\ \Longleftrightarrow\ \chi\in\Supp(\mathcal D):\PASS.}
+\tag{3}
+\]
+
+The cofinality carrier can now be used without changing quantifiers.
+
+\begin{theorem}[Cofinal trace certificate]
+Let $\mathcal C\subset\Sigma_{\rm fm}$ be cofinal for reverse inclusion. Then
+\[
+\boxed{
+\forall I\in\Sigma_{\rm fm}: I\cap\mathcal U\ne\varnothing
+\iff
+\forall J\in\mathcal C: J\cap\mathcal U\ne\varnothing.
+}
+\tag{4}
+\]
+\end{theorem}
+\begin{proof}
+Only the reverse implication needs proof.  Given $I\in\Sigma_{\rm fm}$, cofinality supplies $J\in\mathcal C$ with $J\subseteq I$.  A localization $A\in J\cap\mathcal U$ then belongs to $I\cap\mathcal U$.
+\end{proof}
+
+Thus an actual countable or finite cofinal basis would reduce the universal complement test to that basis exactly.  No such project basis is presently materialized, so $\cfm$ remains \NT.
+
+The Hadamard question has a different status.  RHM gives quantitative retained-minor lower bounds and hence RLM, but local mass values do not encode the finite-minor geometry in the converse direction.
+
+\begin{proposition}[Mass-only Hadamardization no-go]
+There are abstract local-mass data for which every relevant localization has infinite mass while every good-minor hypergraph $\mathcal H_N$ is empty.  Therefore
+\[
+\boxed{\text{RLM mass values alone}\Rightarrow\text{RHM}:\REF.}
+\tag{5}
+\]
+\end{proposition}
+
+\begin{guard}[Scope of (5)]
+Equation (5) is a carrier-insufficiency theorem.  It does not refute a future project theorem using extra tensor geometry, cancellation structure, or a retained-minor extraction operator.  Therefore project-specific $\mathrm{RLM}\Rightarrow\mathrm{RHM}$ remains \NT, and the two statements are \SEP.
+\end{guard}
+
+The storage search still finds no actual rapid-point RLM witness and no actual cofinal trace certificate.  Rapid support/complement therefore remains \NT.
+
+\section{\texorpdfstring{Stone $C_{12}$: $24\Z$ descent and the secondary comparison interface}{Stone C12: 24Z descent and the secondary comparison interface}}
+The stable coordinate sequence remains
+\[
+0\longrightarrow24\Z\longrightarrow\Z\xrightarrow{q}\Z/24\longrightarrow0.
+\tag{6}
+\]
+Each fiber $q^{-1}([r])=r+24\Z$ is the gauge torsor established in II-HP.
+
+\begin{theorem}[Gauge descent criterion]
+For any set $X$, a coordinate observable $f:\Z\to X$ factors uniquely through $q$,
+\[
+f=\bar f\circ q,
+\]
+if and only if
+\[
+\boxed{f(k+24)=f(k)\quad\text{for all }k\in\Z.}
+\tag{7}
+\]
+\end{theorem}
+\begin{proof}
+Factorization implies invariance on every fiber.  Conversely, (7) makes $\bar f([k]):=f(k)$ independent of the representative.
+\end{proof}
+
+Hence gauge-invariant stable information is \PM{} with functions on $\Z/24$, while every genuinely non-$24$-periodic coordinate remains framing choice data and is \REF{} as intrinsic stable-$J$ descent.
+
+The secondary Stone carrier remains more delicate.  II-GL provides a chain-level cocycle $\Sigma_T$ that is nonzero on chains but exact, so $[\Sigma_T]=0$ in ordinary homology.  Therefore any ordinary chain-map/homology comparison to a complex carrying a nonzero $J(1)\in\Z/24$ kills the boundary class:
+\[
+\boxed{
+\text{direct ordinary chain-map }\Sigma_T\mapsto J(1)\ne0:\REF.
+}
+\tag{8}
+\]
+A possible future bridge must instead be genuinely secondary: it must include homotopy/transgression data and must not factor through the vanished ordinary homology class.  This secondary route is \SEP{} from (8), not refuted.
+
+No frozen project datum selects a lift inside one $24\Z$ gauge fiber.  The actual tangent-framing selector remains \NT.
+
+\section{\texorpdfstring{Bornological $z_R$: tail-sensitive non-Hausdorff certification}{Bornological zR: tail-sensitive non-Hausdorff certification}}
+Freeze
+\[
+W_L\subset M_L:=\clM{W_L}\subset B_L:=W_L^{\perp\perp}\subset Z_I^1.
+\tag{9}
+\]
+The four strata remain exact: $W_L$ (actual lift), $M_L\setminus W_L$ (completion-only), $B_L\setminus M_L$ (scalar-free nonapproximable), and $Z_I^1\setminus B_L$ (bounded-scalar visible).
+
+The model $c_{00}\subset\ell^1$ shows exactly why the middle stratum is tail-sensitive.  For
+\[
+z=(2^{-n})_{n\ge1},\qquad z^{(N)}=(2^{-1},\ldots,2^{-N},0,\ldots),
+\]
+one has
+\[
+\|z-z^{(N)}\|_1=\sum_{n>N}2^{-n}=2^{-N},
+\tag{10}
+\]
+so the truncations form a norm/Mackey net although $z\notin c_{00}$.
+
+II-HQ freezes the following project certificate payload:
+\begin{enumerate}
+\item the actual representative $z_R$;
+\item an exact $W_L$-membership payload when available;
+\item a Mackey net $(w_i)\subset W_L$;
+\item one absorbing bounded disk $B$;
+\item $\varepsilon_i\to0$ with $z_R-w_i\in\varepsilon_iB$;
+\item an explicit tail bound controlling the net;
+\item a nonmembership or nonzero quotient witness if the completion-only branch is claimed;
+\item an optional bounded scalar separator for the outside-bipolar branch.
+\end{enumerate}
+This schema is \PASS.
+
+However, once $z_R\in M_L$ is known, every bounded map
+\[
+D_M=M_L/W_L\longrightarrow Y
+\]
+to a Hausdorff bornological carrier is zero.  Thus
+\[
+\boxed{
+\text{bounded Hausdorff scalar separates a nonzero completion defect}:\REF.
+}
+\tag{11}
+\]
+A completion-only certificate must therefore contain genuinely non-Hausdorff/tail data or an explicit algebraic quotient value; ordinary bounded scalar testing cannot close it.
+
+No stored payload supplies the actual net, exact lift, nonzero quotient value, or outside-bipolar separator for $z_R$.  Hence
+\[
+\boxed{z_R\text{ stratum},\ \delta_M,\ \omega_\Delta,\ \kappa_1^L:\NT.}
+\tag{12}
+\]
+
+\section{\texorpdfstring{Full Rees cokernels and $H_3$ axis-closed quotient targets}{Full Rees cokernels and H3 axis-closed quotient targets}}
+\subsection*{Rees: cokernel then colimit equals colimit then cokernel}
+At each stage $r$, let
+\[
+\partial_r:H^0(Q_r)\to H^1(C_r),
+\qquad
+O_r:=\operatorname{coker}\partial_r.
+\tag{13}
+\]
+Filtered colimits are exact in modules, hence preserve cokernels:
+\[
+\boxed{
+\operatorname*{colim}_r O_r
+\cong
+\operatorname{coker}\!\left(
+\operatorname*{colim}_r H^0(Q_r)
+\xrightarrow{\operatorname*{colim}\partial_r}
+\operatorname*{colim}_r H^1(C_r)
+\right).
+}
+\tag{14}
+\]
+
+For a restricted class represented by $b_r\in H^1(C_r)$, the direct-limit class vanishes if and only if some later transition hits the connecting image.  Therefore
+\[
+\boxed{
+[b_r]\text{ survives}
+\iff
+\forall s\ge r:\ b_s\notin\im\partial_s.
+}
+\tag{15}
+\]
+One eventual hit is sufficient to kill the direct-limit class.  Equation (15) is the exact machine target for the next actual extension computation.  The full $F_r,Q_r$, extension class and transition-compatible images $\im\partial_r$ are not yet frozen, so project survival and full Rees/Bockstein convergence remain \NT.
+
+\subsection*{$H_3$: an actual non-scalar quotient subcategory}
+II-GZ gives the project Katsura ideal
+\[
+J_E=\{f\in C(X_\lambda^2):f|_{x=0}=f|_{y=0}=0,\ f(1,1)=0\}.
+\tag{16}
+\]
+Let $Y\subset X_\lambda^2$ be closed and contained in the union of the two coordinate axes.  Restriction gives
+\[
+q_Y:C(X_\lambda^2)\longrightarrow C(Y),
+\qquad
+E\longrightarrow E|_Y.
+\tag{17}
+\]
+By (16),
+\[
+\boxed{q_Y(J_E)=0.}
+\tag{18}
+\]
+Every nonzero pure-axis fiber contains infinitely many one-dimensional summands, so the scalar identity left action is noncompact.  At the origin the correspondence fiber is zero.  Consequently
+\[
+\boxed{J_{E|_Y}=0.}
+\tag{19}
+\]
+Equations (18)--(19) prove Katsura compatibility for every such $Y$:
+\[
+\boxed{
+(E,A_{\rm wt})\to(E|_Y,C(Y))
+\text{ is an }H_3\text{-equivariant KP quotient}:\PASS.
+}
+\tag{20}
+\]
+Because $H_3$ fixes the coefficient algebra pointwise, no extra coefficient-equivariance obstruction appears.  Multi-point $Y$ yields a genuinely non-scalar target algebra, so (20) is a new cross-object essential-image family, not merely an automorphism sector.
+
+The common-ideal condition from II-HP remains necessary for standard quotient kernels, but it is not sufficient by itself: an interior singleton is a perfectly valid coefficient quotient yet its scalar correspondence evaluation was already excluded by the project left-action gate.  Hence
+\[
+\boxed{\text{common ideal alone}\Rightarrow\text{KP quotient}:\REF.}
+\tag{21}
+\]
+Off-axis closed quotients, arbitrary source changes and the full essential-image classification remain \NT.
+
+\section{Seven-layer closure ledger and safe successor}
+\begin{center}\small
+\begin{tabularx}{0.98\textwidth}{@{}>{\raggedright\arraybackslash}p{0.64\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Object & II-HQ verdict\\\midrule
+II-A--II-HP observational re-parcours (224 predecessors) & \PASS; historical replay \NT\\
+Finite-mass ideal ultrafilter trace / cofinal trace reduction & \PASS / \PASS\\
+Actual $\cfm$ / actual rapid RLM witness & \NT / \NT\\
+Mass-only RLM$\Rightarrow$RHM / enriched project Hadamardization & \REF / \NT, \SEP\\
+$24\Z$ gauge descent iff periodic / project framing selector & \PASS / \NT\\
+Direct exact-secondary chain map to nonzero $J$ / secondary transgression adapter & \REF / \SEP, \NT\\
+Tail-sensitive $z_R$ certificate schema / actual $z_R,\kappa_1^L$ & \PASS / \NT\\
+Bounded Hausdorff detector of nonzero $D_M$ & \REF\\
+Rees colim--cokernel commutation / eventual-hit criterion / actual connecting images & \PASS / \PASS / \NT\\
+Axis-closed $H_3$ quotient subcategory / full essential image & \PASS / \NT\\
+Common coefficient ideal alone sufficient for KP quotient & \REF\\
+Truth registry & 79 \PASS, 7 \ZERO, 8 \SEP, 27 \REF, 37 \NT\\
+Merge registry & 18 \PM, 18 \PNM\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+The deterministic verifier records
+\[
+\boxed{\texttt{OVERALL=PASS},\qquad
+\texttt{PASS\_WITH\_TYPED\_NT\_GATES\_AND\_SEVEN\_LAYER\_REGISTRY\_PRESERVED}.}
+\tag{22}
+\]
+
+The natural safe successor is
+\[
+\boxed{\begin{aligned}
+\textbf{II-HR -- }&\text{Fibonacci Actual Rapid RLM Witness/Cofinal Trace Spectrum and Enriched Hadamardization Decision,}\\
+&\text{Stone }C_{12}\text{ }24\Z\text{ Gauge-Descent Obstruction Class/Secondary Transgression Adapter}\\
+&\text{and Project Framing Selector,}\\
+&\text{Bornological }z_R\text{ Tail-Functional/Non-Hausdorff Quotient Evaluation and Kappa Value,}\\
+&\text{and 2-Adic Full-Rees Actual Connecting-Image/Eventual-Hit Decision plus }H_3\text{-Equivariant}\\
+&\text{Axis-Closed Quotient Gluing/Off-Axis Katsura Boundary Audit.}
+\end{aligned}}
+\tag{23}
+\]
+
+\end{document}

@@ -1,0 +1,137 @@
+left,right,decomposition
+T,T,T
+T,M_ST,M_ST
+T,S,S
+T,M_TS,M_TS
+T,P_T,P_T
+T,P_S,P_S
+T,T*eta,T*eta
+T,M_ST*eta,M_ST*eta
+T,S*eta,S*eta
+T,M_TS*eta,M_TS*eta
+T,P_T*eta,P_T*eta
+T,P_S*eta,P_S*eta
+T,V1+,V1+
+T,V1-,V1-
+T,V2+,V2+
+T,V2-,V2-
+M_ST,M_ST,S + P_T
+M_ST,S,M_TS
+M_ST,M_TS,T + P_S
+M_ST,P_T,P_T + P_S
+M_ST,P_S,P_T + P_S
+M_ST,T*eta,M_ST*eta
+M_ST,M_ST*eta,S*eta + P_T*eta
+M_ST,S*eta,M_TS*eta
+M_ST,M_TS*eta,T*eta + P_S*eta
+M_ST,P_T*eta,P_T*eta + P_S*eta
+M_ST,P_S*eta,P_T*eta + P_S*eta
+M_ST,V1+,V1+ + V1-
+M_ST,V1-,V1+ + V1-
+M_ST,V2+,V2+ + V2-
+M_ST,V2-,V2+ + V2-
+S,S,T
+S,M_TS,M_ST
+S,P_T,P_S
+S,P_S,P_T
+S,T*eta,S*eta
+S,M_ST*eta,M_TS*eta
+S,S*eta,T*eta
+S,M_TS*eta,M_ST*eta
+S,P_T*eta,P_S*eta
+S,P_S*eta,P_T*eta
+S,V1+,V1-
+S,V1-,V1+
+S,V2+,V2-
+S,V2-,V2+
+M_TS,M_TS,S + P_T
+M_TS,P_T,P_T + P_S
+M_TS,P_S,P_T + P_S
+M_TS,T*eta,M_TS*eta
+M_TS,M_ST*eta,T*eta + P_S*eta
+M_TS,S*eta,M_ST*eta
+M_TS,M_TS*eta,S*eta + P_T*eta
+M_TS,P_T*eta,P_T*eta + P_S*eta
+M_TS,P_S*eta,P_T*eta + P_S*eta
+M_TS,V1+,V1+ + V1-
+M_TS,V1-,V1+ + V1-
+M_TS,V2+,V2+ + V2-
+M_TS,V2-,V2+ + V2-
+P_T,P_T,2 P_T + P_S
+P_T,P_S,P_T + 2 P_S
+P_T,T*eta,P_T*eta
+P_T,M_ST*eta,P_T*eta + P_S*eta
+P_T,S*eta,P_S*eta
+P_T,M_TS*eta,P_T*eta + P_S*eta
+P_T,P_T*eta,2 P_T*eta + P_S*eta
+P_T,P_S*eta,P_T*eta + 2 P_S*eta
+P_T,V1+,2 V1+ + V1-
+P_T,V1-,V1+ + 2 V1-
+P_T,V2+,2 V2+ + V2-
+P_T,V2-,V2+ + 2 V2-
+P_S,P_S,2 P_T + P_S
+P_S,T*eta,P_S*eta
+P_S,M_ST*eta,P_T*eta + P_S*eta
+P_S,S*eta,P_T*eta
+P_S,M_TS*eta,P_T*eta + P_S*eta
+P_S,P_T*eta,P_T*eta + 2 P_S*eta
+P_S,P_S*eta,2 P_T*eta + P_S*eta
+P_S,V1+,V1+ + 2 V1-
+P_S,V1-,2 V1+ + V1-
+P_S,V2+,V2+ + 2 V2-
+P_S,V2-,2 V2+ + V2-
+T*eta,T*eta,T
+T*eta,M_ST*eta,M_ST
+T*eta,S*eta,S
+T*eta,M_TS*eta,M_TS
+T*eta,P_T*eta,P_T
+T*eta,P_S*eta,P_S
+T*eta,V1+,V2+
+T*eta,V1-,V2-
+T*eta,V2+,V1+
+T*eta,V2-,V1-
+M_ST*eta,M_ST*eta,S + P_T
+M_ST*eta,S*eta,M_TS
+M_ST*eta,M_TS*eta,T + P_S
+M_ST*eta,P_T*eta,P_T + P_S
+M_ST*eta,P_S*eta,P_T + P_S
+M_ST*eta,V1+,V2+ + V2-
+M_ST*eta,V1-,V2+ + V2-
+M_ST*eta,V2+,V1+ + V1-
+M_ST*eta,V2-,V1+ + V1-
+S*eta,S*eta,T
+S*eta,M_TS*eta,M_ST
+S*eta,P_T*eta,P_S
+S*eta,P_S*eta,P_T
+S*eta,V1+,V2-
+S*eta,V1-,V2+
+S*eta,V2+,V1-
+S*eta,V2-,V1+
+M_TS*eta,M_TS*eta,S + P_T
+M_TS*eta,P_T*eta,P_T + P_S
+M_TS*eta,P_S*eta,P_T + P_S
+M_TS*eta,V1+,V2+ + V2-
+M_TS*eta,V1-,V2+ + V2-
+M_TS*eta,V2+,V1+ + V1-
+M_TS*eta,V2-,V1+ + V1-
+P_T*eta,P_T*eta,2 P_T + P_S
+P_T*eta,P_S*eta,P_T + 2 P_S
+P_T*eta,V1+,2 V2+ + V2-
+P_T*eta,V1-,V2+ + 2 V2-
+P_T*eta,V2+,2 V1+ + V1-
+P_T*eta,V2-,V1+ + 2 V1-
+P_S*eta,P_S*eta,2 P_T + P_S
+P_S*eta,V1+,V2+ + 2 V2-
+P_S*eta,V1-,2 V2+ + V2-
+P_S*eta,V2+,V1+ + 2 V1-
+P_S*eta,V2-,2 V1+ + V1-
+V1+,V1+,P_T + V2+ + V2-
+V1+,V1-,P_S + V2+ + V2-
+V1+,V2+,P_T*eta + V1+ + V1-
+V1+,V2-,P_S*eta + V1+ + V1-
+V1-,V1-,P_T + V2+ + V2-
+V1-,V2+,P_S*eta + V1+ + V1-
+V1-,V2-,P_T*eta + V1+ + V1-
+V2+,V2+,P_T + V2+ + V2-
+V2+,V2-,P_S + V2+ + V2-
+V2-,V2-,P_T + V2+ + V2-

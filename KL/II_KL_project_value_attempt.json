@@ -1,0 +1,39 @@
+{
+  "ABI_complete_actual_project_packets": 0,
+  "Fibonacci": {
+    "ABI_complete": false,
+    "actual_instance_fields_found": [],
+    "required_decisive_fields": [
+      "carrier_id",
+      "localization_family_U",
+      "cofinal_basis_B",
+      "trace_table"
+    ],
+    "sha256": "3bd1117ccbac3c92304b04055875dc0a27b10fed30530a86581530f39e5cea21",
+    "source": "II_HQ_RLM_cofinal_Jdescent_zRtail_ReesCoker_H3axis_R1.tex",
+    "theorem_source_present": true
+  },
+  "Stone": {
+    "ABI_complete": false,
+    "carrier_id": "A1BE-F1-real-source",
+    "missing_decisive_fields": [
+      "project_differential_d",
+      "project_theta_row",
+      "project_cycle_basis_K_Z",
+      "incidence_to_project_cycle_coupling_C",
+      "project_framing_anchor"
+    ],
+    "sha256": "067dcf2d769477f3ce2727b415278c075c6bb3a62ba9312b1e29770453ad6b57",
+    "source": "II_IK_stone_real_partial_payload.json"
+  },
+  "active_project_NT_count": 37,
+  "fresh_connected_search": {
+    "GitHub_Nico59000_Fibonacci_combined_exact_query_hits": 0,
+    "GitHub_Nico59000_Stone_combined_exact_query_hits": 0,
+    "Library": "prior ABI/manifests/partial authorities only; no new same-carrier complete packet",
+    "guard": "zero hits are scoped discovery evidence only"
+  },
+  "phase": "II-KL",
+  "promoted_project_values": 0,
+  "status": "PASS_FRESH_EXTERNAL_ABI_PREFLIGHT__NO_COMPLETE_STONE_FIBONACCI_PACKET_NO_PROMOTION"
+}

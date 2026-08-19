@@ -1,0 +1,130 @@
+{
+  "F1_decomposition": {
+    "intersection": 95,
+    "rectangle": 36,
+    "star": 59,
+    "unique_star_fixed": [
+      3,
+      26
+    ]
+  },
+  "analytic_intertwiner": {
+    "det_abs": "536870912",
+    "identity": "J_STAR * PHI = PHI * diag(+I_30,-I_29)",
+    "inverse_denominator": 2
+  },
+  "audit_sha256": "9d3499719e81999bcf59f92e6b6b9b10850129c7b87659eb5a756df691642f81",
+  "carrier_id": "A1BE-F1-real-source",
+  "f1_sha256": "b3ff6920ef9b1303892f5ced198fc1f33154194682891a9856bb545ea436a8c6",
+  "fixed_pairs": [
+    [
+      0,
+      29
+    ],
+    [
+      1,
+      28
+    ],
+    [
+      2,
+      27
+    ],
+    [
+      3,
+      26
+    ],
+    [
+      5,
+      24
+    ],
+    [
+      6,
+      23
+    ],
+    [
+      7,
+      22
+    ]
+  ],
+  "integer_framing_state": "NT_MISSING_PROJECT_ANCHOR",
+  "journal": {
+    "file": "A1BE_direct_tail_pairs.jsonl",
+    "rows": 371,
+    "sha256": "7fa2ac47faa32aa5170da5e18bb4fff236239b9d52f55021292b75a3e907e881",
+    "wave_prefix_sha256": "77aa5cd0d15166b392f72e66c2142cf4b80873b4a707a3ec94fc28242778be04"
+  },
+  "lambda_theta_state": "NT_MISSING_THETA_AND_CHAIN_COUPLING",
+  "missing_project_fields": [
+    "project_differential_d",
+    "project_theta_row",
+    "project_cycle_basis_K_Z",
+    "incidence_to_project_cycle_coupling_C",
+    "project_framing_anchor"
+  ],
+  "ordered_1plus6_adapter": [
+    {
+      "a1be_pair": [
+        0,
+        29
+      ],
+      "component": "rectangle",
+      "stone_residue": 3
+    },
+    {
+      "a1be_pair": [
+        1,
+        28
+      ],
+      "component": "rectangle",
+      "stone_residue": 6
+    },
+    {
+      "a1be_pair": [
+        2,
+        27
+      ],
+      "component": "rectangle",
+      "stone_residue": 10
+    },
+    {
+      "a1be_pair": [
+        3,
+        26
+      ],
+      "component": "star",
+      "stone_residue": 13
+    },
+    {
+      "a1be_pair": [
+        5,
+        24
+      ],
+      "component": "rectangle",
+      "stone_residue": 16
+    },
+    {
+      "a1be_pair": [
+        6,
+        23
+      ],
+      "component": "rectangle",
+      "stone_residue": 20
+    },
+    {
+      "a1be_pair": [
+        7,
+        22
+      ],
+      "component": "rectangle",
+      "stone_residue": 23
+    }
+  ],
+  "reversal_census": {
+    "closure": 329,
+    "missing_images": 117,
+    "support": 212,
+    "two_cycles": 44,
+    "with_image": 95
+  },
+  "state": "REAL_SOURCE_BOUND_PARTIAL_STONE_PACKET"
+}

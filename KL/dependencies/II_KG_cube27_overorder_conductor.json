@@ -1,0 +1,509 @@
+{
+  "augmentation_filtration_n1_to_n8": [
+    {
+      "index": 48,
+      "n": 1,
+      "nontrivial_smith": [
+        2,
+        2,
+        12
+      ]
+    },
+    {
+      "index": 384,
+      "n": 2,
+      "nontrivial_smith": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        12
+      ]
+    },
+    {
+      "index": 768,
+      "n": 3,
+      "nontrivial_smith": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        12
+      ]
+    },
+    {
+      "index": 768,
+      "n": 4,
+      "nontrivial_smith": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        12
+      ]
+    },
+    {
+      "index": 768,
+      "n": 5,
+      "nontrivial_smith": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        12
+      ]
+    },
+    {
+      "index": 768,
+      "n": 6,
+      "nontrivial_smith": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        12
+      ]
+    },
+    {
+      "index": 768,
+      "n": 7,
+      "nontrivial_smith": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        12
+      ]
+    },
+    {
+      "index": 768,
+      "n": 8,
+      "nontrivial_smith": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        12
+      ]
+    }
+  ],
+  "carrier": "II-KA/KB ordinary split Green order R",
+  "conductor": {
+    "Gaussian_components": [
+      {
+        "denominator_modulus": 4,
+        "index": 16,
+        "lattice_basis": [
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "offset": 12,
+        "valid_residue_count": 1
+      },
+      {
+        "denominator_modulus": 4,
+        "index": 16,
+        "lattice_basis": [
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "offset": 14,
+        "valid_residue_count": 1
+      }
+    ],
+    "Z_component_moduli": [
+      8,
+      24,
+      24,
+      8,
+      8,
+      8,
+      8,
+      16,
+      48,
+      8,
+      48,
+      16
+    ],
+    "equals_discriminant_ratio": true,
+    "ideal_formula": "8Z x 24Z x 24Z x 8Z x 8Z x 8Z x 8Z x 16Z x 48Z x 8Z x 48Z x 16Z x 4Z[i] x 4Z[i]",
+    "norm_factorization": {
+      "2": 48,
+      "3": 4
+    },
+    "norm_index_in_maximal_order": 22799473113563136
+  },
+  "finite_stabilization_observation": {
+    "n4_to_n8_equal_nontrivial_smith": true,
+    "status": "PASS_FINITE_OBSERVATION_ONLY"
+  },
+  "guards": [
+    "explicit overorder embedding is tied to the frozen separator/root ordering",
+    "finite n<=8 Smith stabilization is not an all-n theorem",
+    "2-adic and 3-adic inverse limits remain separated until transition maps/all-n stabilization are proved"
+  ],
+  "inverse_limit_status": "SEPARATED_ALL_N_STABILIZATION_OR_EXPLICIT_PRO2_PRO3_LIMIT_NOT_PROVED",
+  "maximal_overorder_embedding": {
+    "absolute_index": 150994944,
+    "all_256_products_componentwise_verified": true,
+    "determinant": -150994944,
+    "gaussian_root_order": [
+      "13+2i",
+      "3+2i"
+    ],
+    "linear_root_order": [
+      12,
+      11,
+      9,
+      8,
+      6,
+      1,
+      -2,
+      -4,
+      -12,
+      -13,
+      -16,
+      -24
+    ],
+    "matrix_rows_by_basis_columns": [
+      [
+        1,
+        0,
+        -1,
+        0,
+        1,
+        -1,
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        -1,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      [
+        1,
+        0,
+        -1,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        -1,
+        0,
+        1,
+        -1,
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        3,
+        3,
+        -1,
+        -2,
+        -1,
+        -2,
+        -3,
+        -3,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        3,
+        3,
+        1,
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        3,
+        3,
+        -1,
+        -2,
+        -1,
+        -2,
+        -3,
+        -3,
+        -3,
+        -3,
+        3,
+        3
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        3,
+        3,
+        1,
+        2,
+        1,
+        2,
+        3,
+        3,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "sha256": "1067d6a23b40d964a027f026c56f2d71318917b55ca694d85cf81616915cd584",
+    "target": "Z^12 x Z[i] x Z[i]"
+  },
+  "phase": "II-KG",
+  "separator": {
+    "charpoly_factorization": "(t - 12)*(t - 11)*(t - 9)*(t - 8)*(t - 6)*(t - 1)*(t + 2)*(t + 4)*(t + 12)*(t + 13)*(t + 16)*(t + 24)*(t**2 - 26*t + 173)*(t**2 - 6*t + 13)",
+    "coefficients": [
+      5,
+      -3,
+      -3,
+      -5,
+      -1,
+      1,
+      4,
+      2,
+      -1,
+      2,
+      -5,
+      -1,
+      0,
+      3,
+      2,
+      -2
+    ]
+  },
+  "status": "PASS_EXPLICIT_OVERORDER_EMBEDDING_AND_EXACT_CONDUCTOR__FINITE_N1_TO8_AUGMENTATION_TOWER_PASS__INVERSE_LIMIT_SEPARATED"
+}

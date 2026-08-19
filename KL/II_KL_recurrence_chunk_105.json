@@ -1,0 +1,5691 @@
+{
+  "engine": "python-flint nmod_poly factor + fmpz factor",
+  "k": 105,
+  "python_flint": "0.9.0",
+  "record_count": 104,
+  "records": [
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          10,
+          1,
+          29524,
+          29524
+        ],
+        [
+          16,
+          1,
+          21523360,
+          21523360
+        ],
+        [
+          24,
+          1,
+          282429536480,
+          282429536480
+        ],
+        [
+          55,
+          1,
+          174449211009120179071170506,
+          174449211009120179071170506
+        ]
+      ],
+      "factor_strings": [
+        "x^10 + x^8 + 2*x^6 + x^4 + 2*x^3 + x^2 + x + 1",
+        "x^16 + x^14 + x^13 + 2*x^12 + x^11 + x^10 + x^9 + 2*x^7 + 2*x^5 + x^2 + 2*x + 1",
+        "x^24 + 2*x^22 + 2*x^20 + x^17 + x^16 + 2*x^14 + x^12 + 2*x^10 + 2*x^9 + x^8 + x^6 + x + 2",
+        "x^55 + 2*x^53 + 2*x^52 + 2*x^51 + x^50 + 2*x^49 + 2*x^48 + 2*x^47 + x^46 + x^44 + 2*x^43 + x^42 + x^41 + x^40 + 2*x^38 + 2*x^36 + 2*x^35 + x^34 + 2*x^33 + x^32 + x^31 + x^30 + 2*x^29 + x^25 + 2*x^24 + 2*x^23 + x^21 + x^20 + 2*x^19 + 2*x^18 + 2*x^17 + x^16 + x^15 + 2*x^14 + 2*x^13 + 2*x^12 + x^11 + x^10 + 2*x^9 + 2*x^8 + 2*x^6 + 2*x^5 + x^3 + x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 4930434487951977353297080106510020095651040,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 106,
+      "recurrence_order": 105,
+      "reflected_value": 104,
+      "tap_value": 1,
+      "v2_matrix_order": 5,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          27,
+          1,
+          3812798742493,
+          3812798742493
+        ],
+        [
+          77,
+          1,
+          5474401089420219382077155933569751762,
+          5474401089420219382077155933569751762
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^27 + 2*x^26 + x^25 + 2*x^24 + x^23 + 2*x^22 + 2*x^20 + 2*x^19 + x^18 + 2*x^13 + x^12 + 2*x^11 + x^10 + x^9 + x^8 + 2*x^7 + 2*x^5 + x^2 + 2*x + 2",
+        "x^77 + x^71 + x^70 + 2*x^69 + 2*x^67 + x^65 + 2*x^64 + x^62 + 2*x^61 + x^60 + x^59 + x^58 + x^56 + 2*x^55 + x^54 + x^52 + 2*x^51 + x^49 + 2*x^48 + 2*x^47 + 2*x^45 + 2*x^44 + 2*x^43 + x^41 + x^39 + x^38 + 2*x^36 + 2*x^35 + x^33 + x^32 + 2*x^30 + x^29 + 2*x^27 + 2*x^26 + x^23 + x^22 + x^21 + 2*x^20 + 2*x^19 + 2*x^18 + 2*x^17 + 2*x^16 + 2*x^15 + x^12 + x^11 + 2*x^10 + x^9 + 2*x^8 + 2*x^5 + x^4 + 2*x^2 + x + 1"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 2,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 20872789589643721706431965645816622962655771022666,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 107,
+      "recurrence_order": 105,
+      "reflected_value": 103,
+      "tap_value": 2,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          3,
+          26,
+          78
+        ],
+        [
+          32,
+          3,
+          1853020188851840,
+          5559060566555520
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + 2*x + 1",
+        "x^32 + x^30 + 2*x^29 + x^28 + x^27 + 2*x^26 + x^24 + x^23 + x^22 + 2*x^19 + 2*x^17 + x^16 + 2*x^15 + 2*x^14 + x^13 + 2*x^11 + 2*x^10 + 2*x^9 + x^6 + x^4 + 2*x^3 + x^2 + x + 2"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 12,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 72267787365221760,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 108,
+      "recurrence_order": 105,
+      "reflected_value": 102,
+      "tap_value": 3,
+      "v2_matrix_order": 7,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          5,
+          1,
+          121,
+          121
+        ],
+        [
+          8,
+          1,
+          1312,
+          1312
+        ],
+        [
+          23,
+          1,
+          94143178826,
+          94143178826
+        ],
+        [
+          65,
+          1,
+          5150525730438768726986773633921,
+          5150525730438768726986773633921
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + 2*x^2 + x + 1",
+        "x^5 + x^4 + 2*x^3 + 2*x + 2",
+        "x^8 + 2*x^7 + 2*x^4 + x^3 + x^2 + 2*x + 2",
+        "x^23 + x^22 + x^20 + 2*x^19 + x^17 + x^16 + 2*x^15 + x^14 + 2*x^13 + 2*x^12 + 2*x^11 + x^10 + 2*x^9 + 2*x^8 + x^6 + x^5 + x^4 + 1",
+        "x^65 + 2*x^64 + 2*x^62 + 2*x^61 + x^60 + x^59 + x^58 + x^57 + 2*x^56 + 2*x^55 + 2*x^54 + x^53 + 2*x^52 + 2*x^51 + x^49 + x^48 + 2*x^47 + 2*x^45 + 2*x^44 + x^42 + x^38 + 2*x^36 + 2*x^35 + 2*x^34 + 2*x^32 + 2*x^30 + 2*x^29 + x^25 + 2*x^24 + x^23 + x^22 + x^21 + x^20 + x^18 + x^16 + x^15 + x^14 + x^13 + 2*x^12 + x^11 + x^10 + 2*x^9 + 2*x^7 + 2*x^6 + 2*x^5 + 2*x^4 + x^3 + x + 2"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 4,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 4135115183770076959237586941683495965483929888,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 109,
+      "recurrence_order": 105,
+      "reflected_value": 101,
+      "tap_value": 4,
+      "v2_matrix_order": 5,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          10,
+          1,
+          2684,
+          2684
+        ],
+        [
+          11,
+          1,
+          88573,
+          88573
+        ],
+        [
+          20,
+          1,
+          13420,
+          13420
+        ],
+        [
+          20,
+          1,
+          13420,
+          13420
+        ],
+        [
+          44,
+          1,
+          442865,
+          442865
+        ]
+      ],
+      "factor_strings": [
+        "x^10 + 2*x^9 + 2*x^8 + 2*x^7 + x^6 + 2*x^5 + x^4 + x^3 + 1",
+        "x^11 + x^10 + 2*x^8 + 2*x^7 + x^6 + 2*x^5 + 2*x^3 + 2*x^2 + 2*x + 2",
+        "x^20 + 2*x^19 + 2*x^16 + x^14 + x^13 + x^12 + 2*x^11 + x^10 + x^9 + x^6 + x^4 + 2*x^3 + 2*x + 1",
+        "x^20 + 2*x^19 + x^18 + 2*x^17 + 2*x^15 + x^14 + x^13 + x^12 + x^9 + 2*x^8 + 2*x^7 + x^6 + 2*x^5 + x^3 + x^2 + x + 1",
+        "x^44 + 2*x^43 + x^42 + 2*x^39 + x^38 + x^36 + 2*x^35 + 2*x^34 + x^33 + 2*x^30 + x^29 + x^28 + 2*x^26 + x^25 + 2*x^24 + x^22 + x^20 + x^18 + x^16 + x^15 + 2*x^14 + x^13 + x^12 + 2*x^10 + x^9 + 2*x^7 + x^5 + x^4 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 110,
+      "gcd_matrix_with_value": 5,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 1188649660,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 110,
+      "recurrence_order": 105,
+      "reflected_value": 100,
+      "tap_value": 5,
+      "v2_matrix_order": 2,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          3,
+          3,
+          13,
+          39
+        ],
+        [
+          14,
+          3,
+          597871,
+          1793613
+        ],
+        [
+          15,
+          3,
+          7174453,
+          21523359
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^3 + x^2 + x + 2",
+        "x^14 + 2*x^12 + 2*x^10 + x^9 + 2*x^7 + 2*x^6 + 2*x^5 + x^3 + x^2 + 2*x + 1",
+        "x^15 + x^13 + 2*x^11 + 2*x^9 + 2*x^7 + x^4 + x^3 + x + 2"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 3,
+      "gcd_matrix_with_value": 6,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 102945537349512,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 111,
+      "recurrence_order": 105,
+      "reflected_value": 99,
+      "tap_value": 6,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          4,
+          1,
+          80,
+          80
+        ],
+        [
+          6,
+          1,
+          56,
+          56
+        ],
+        [
+          6,
+          1,
+          56,
+          56
+        ],
+        [
+          9,
+          1,
+          9841,
+          9841
+        ],
+        [
+          12,
+          1,
+          560,
+          560
+        ],
+        [
+          12,
+          1,
+          560,
+          560
+        ],
+        [
+          18,
+          1,
+          68887,
+          68887
+        ],
+        [
+          18,
+          1,
+          68887,
+          68887
+        ],
+        [
+          18,
+          1,
+          68887,
+          68887
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^4 + x + 2",
+        "x^6 + 2*x^4 + x^3 + x^2 + 2",
+        "x^6 + x^5 + x + 2",
+        "x^9 + x^8 + 2*x^6 + 2*x^5 + 2*x^3 + 2*x^2 + x + 2",
+        "x^12 + x^11 + x^10 + x^9 + x^8 + 2*x^7 + 2*x^6 + x^5 + x^4 + x^3 + 2*x^2 + 2",
+        "x^12 + 2*x^11 + 2*x^9 + 2*x^8 + x^7 + 2*x^6 + 2*x^5 + 2*x^4 + 2*x^3 + 2*x + 2",
+        "x^18 + x^16 + 2*x^14 + x^13 + x^12 + 2*x^10 + 2*x^9 + x^8 + x^7 + x^6 + x^5 + 2*x^4 + x^3 + 2*x + 1",
+        "x^18 + x^16 + x^15 + x^13 + 2*x^12 + 2*x^11 + x^10 + x^6 + 2*x^5 + 2*x^4 + 2*x^3 + 1",
+        "x^18 + 2*x^17 + 2*x^16 + x^15 + 2*x^13 + 2*x^12 + x^10 + x^9 + 2*x^7 + 2*x^6 + x^4 + 2*x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 112,
+      "gcd_matrix_with_value": 7,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 10,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 5510960,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 112,
+      "recurrence_order": 105,
+      "reflected_value": 98,
+      "tap_value": 7,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          29,
+          1,
+          68630377364882,
+          68630377364882
+        ],
+        [
+          75,
+          1,
+          304133393856678854559841996309430653,
+          304133393856678854559841996309430653
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^29 + x^28 + x^26 + 2*x^25 + x^24 + x^23 + 2*x^22 + 2*x^21 + x^18 + 2*x^17 + x^16 + 2*x^15 + 2*x^13 + x^11 + 2*x^9 + x^7 + x^6 + 2*x^5 + 2*x^4 + 2*x^3 + 2*x^2 + x + 1",
+        "x^75 + x^74 + x^72 + 2*x^70 + 2*x^69 + x^68 + 2*x^67 + x^65 + 2*x^64 + 2*x^62 + x^61 + x^60 + x^59 + x^53 + 2*x^52 + 2*x^48 + x^47 + x^46 + 2*x^45 + x^43 + 2*x^39 + 2*x^38 + x^37 + 2*x^35 + x^34 + 2*x^33 + x^32 + 2*x^31 + x^29 + x^28 + 2*x^27 + 2*x^25 + 2*x^22 + x^21 + 2*x^20 + x^19 + 2*x^17 + 2*x^14 + 2*x^13 + x^11 + 2*x^7 + x^6 + 2*x^5 + 2*x^4 + 2*x^2 + 2*x + 2"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 2,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 20872789589646154773582819076653101668123856527946,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 113,
+      "recurrence_order": 105,
+      "reflected_value": 97,
+      "tap_value": 8,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          3,
+          13,
+          39
+        ],
+        [
+          5,
+          3,
+          121,
+          363
+        ],
+        [
+          27,
+          3,
+          3812798742493,
+          11438396227479
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + 2*x + 2",
+        "x^5 + x^3 + x^2 + 2*x + 2",
+        "x^27 + 2*x^23 + x^20 + x^16 + x^15 + x^13 + x^12 + 2*x^11 + 2*x^8 + x^6 + 2*x^4 + x^3 + 2*x^2 + 2*x + 2"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 3,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 1384045943524959,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 114,
+      "recurrence_order": 105,
+      "reflected_value": 96,
+      "tap_value": 9,
+      "v2_matrix_order": 0,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          4,
+          1,
+          10,
+          10
+        ],
+        [
+          12,
+          1,
+          130,
+          130
+        ],
+        [
+          17,
+          1,
+          64570081,
+          64570081
+        ],
+        [
+          68,
+          1,
+          322850405,
+          322850405
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + x^2 + 2*x + 1",
+        "x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^12 + 2*x^11 + 2*x^10 + 2*x^9 + x^8 + 2*x^7 + x^5 + x^3 + x + 1",
+        "x^17 + x^16 + 2*x^14 + x^13 + x^12 + 2*x^9 + x^7 + 2*x^3 + 2",
+        "x^68 + 2*x^67 + x^66 + x^64 + 2*x^63 + x^62 + 2*x^61 + x^58 + x^56 + 2*x^55 + x^54 + x^53 + 2*x^50 + 2*x^49 + 2*x^48 + 2*x^47 + x^45 + 2*x^44 + 2*x^43 + x^39 + 2*x^38 + x^37 + 2*x^36 + 2*x^35 + 2*x^34 + x^32 + x^31 + x^30 + x^28 + x^27 + 2*x^26 + x^24 + 2*x^23 + x^22 + x^21 + x^19 + x^18 + 2*x^17 + x^16 + 2*x^15 + 2*x^13 + x^12 + x^9 + x^7 + x^6 + 2*x^3 + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 5,
+      "gcd_matrix_with_value": 10,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 8394110530,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 115,
+      "recurrence_order": 105,
+      "reflected_value": 95,
+      "tap_value": 10,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          6,
+          1,
+          364,
+          364
+        ],
+        [
+          11,
+          1,
+          177146,
+          177146
+        ],
+        [
+          32,
+          1,
+          109001187579520,
+          109001187579520
+        ],
+        [
+          53,
+          1,
+          19383245667680019896796722,
+          19383245667680019896796722
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + 2*x^2 + 1",
+        "x^6 + 2*x^5 + 2*x^4 + 2*x^3 + 2*x^2 + x + 1",
+        "x^11 + x^10 + 2*x^9 + x^8 + 2*x^7 + 2*x^6 + 2*x^5 + 2*x^4 + x^3 + x + 1",
+        "x^32 + x^31 + 2*x^29 + 2*x^27 + x^26 + x^24 + x^21 + 2*x^19 + 2*x^18 + 2*x^17 + 2*x^11 + x^10 + 2*x^7 + 2*x^6 + x^5 + x^3 + x^2 + 2*x + 2",
+        "x^53 + x^51 + 2*x^49 + x^48 + 2*x^47 + 2*x^46 + x^45 + x^44 + 2*x^43 + x^41 + x^39 + x^36 + x^35 + 2*x^34 + x^33 + 2*x^32 + x^31 + x^30 + 2*x^29 + 2*x^28 + x^26 + 2*x^25 + 2*x^24 + 2*x^22 + 2*x^21 + 2*x^20 + x^16 + x^15 + 2*x^14 + 2*x^13 + 2*x^8 + 2*x^7 + x^6 + 2*x^5 + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 4,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 8514722156569494157740343054542451340262040960,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 116,
+      "recurrence_order": 105,
+      "reflected_value": 94,
+      "tap_value": 11,
+      "v2_matrix_order": 7,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          6,
+          2,
+          18
+        ],
+        [
+          16,
+          3,
+          1345210,
+          4035630
+        ],
+        [
+          17,
+          3,
+          64570081,
+          193710243
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^16 + 2*x^15 + x^13 + x^9 + 2*x^8 + 2*x^6 + x^5 + x^2 + x + 1",
+        "x^17 + 2*x^16 + 2*x^15 + x^12 + 2*x^11 + 2*x^10 + x^6 + x^5 + 2*x^4 + x^2 + 2"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 9,
+      "gcd_matrix_with_value": 6,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 781742867958090,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 117,
+      "recurrence_order": 105,
+      "reflected_value": 93,
+      "tap_value": 12,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          5,
+          1,
+          121,
+          121
+        ],
+        [
+          100,
+          1,
+          257688760366005665518230564882810636351053761000,
+          257688760366005665518230564882810636351053761000
+        ]
+      ],
+      "factor_strings": [
+        "x^5 + x^4 + x^3 + 2*x^2 + x + 2",
+        "x^100 + 2*x^99 + 2*x^97 + 2*x^96 + x^95 + x^94 + x^93 + 2*x^92 + 2*x^91 + x^88 + 2*x^87 + 2*x^86 + 2*x^84 + 2*x^83 + 2*x^82 + x^80 + x^79 + x^78 + x^77 + x^76 + 2*x^75 + x^74 + x^73 + 2*x^71 + x^69 + 2*x^68 + x^67 + x^63 + 2*x^61 + 2*x^60 + x^59 + 2*x^57 + 2*x^56 + x^54 + 2*x^53 + x^51 + x^49 + 2*x^48 + 2*x^47 + x^46 + x^45 + 2*x^44 + x^43 + 2*x^42 + 2*x^41 + 2*x^40 + 2*x^39 + 2*x^36 + x^35 + 2*x^34 + 2*x^33 + x^32 + x^29 + x^26 + x^25 + 2*x^24 + x^23 + x^21 + 2*x^20 + x^19 + 2*x^18 + x^17 + 2*x^15 + x^14 + x^13 + x^12 + x^10 + x^8 + x^7 + x^5 + 2*x^4 + x + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 257688760366005665518230564882810636351053761000,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 118,
+      "recurrence_order": 105,
+      "reflected_value": 92,
+      "tap_value": 13,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          5,
+          1,
+          242,
+          242
+        ],
+        [
+          6,
+          1,
+          56,
+          56
+        ],
+        [
+          6,
+          1,
+          56,
+          56
+        ],
+        [
+          6,
+          1,
+          14,
+          14
+        ],
+        [
+          7,
+          1,
+          2186,
+          2186
+        ],
+        [
+          30,
+          1,
+          1694,
+          1694
+        ],
+        [
+          42,
+          1,
+          15302,
+          15302
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^5 + 2*x^4 + 2*x^2 + 2*x + 1",
+        "x^6 + 2*x^4 + 2*x^3 + x^2 + 2",
+        "x^6 + 2*x^5 + 2*x + 2",
+        "x^6 + 2*x^5 + x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^7 + x^6 + x^4 + 1",
+        "x^30 + x^29 + x^28 + 2*x^27 + x^26 + 2*x^25 + x^24 + 2*x^23 + 2*x^21 + x^19 + x^18 + x^16 + x^12 + 2*x^9 + 2*x^7 + x^6 + 2*x^2 + x + 1",
+        "x^42 + 2*x^41 + x^40 + x^39 + 2*x^37 + 2*x^34 + 2*x^32 + 2*x^31 + 2*x^30 + 2*x^29 + 2*x^27 + 2*x^26 + 2*x^25 + 2*x^23 + 2*x^21 + x^19 + x^18 + 2*x^17 + x^16 + x^15 + x^14 + x^13 + x^11 + 2*x^10 + x^8 + 2*x^6 + 2*x^4 + 1"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 7,
+      "gcd_matrix_with_value": 14,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 9,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 7406168,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 119,
+      "recurrence_order": 105,
+      "reflected_value": 91,
+      "tap_value": 14,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          4,
+          3,
+          40,
+          120
+        ],
+        [
+          4,
+          3,
+          40,
+          120
+        ],
+        [
+          5,
+          3,
+          242,
+          726
+        ],
+        [
+          20,
+          3,
+          1210,
+          3630
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^4 + x^2 + 2*x + 1",
+        "x^4 + x^3 + x^2 + 1",
+        "x^5 + x^3 + x + 1",
+        "x^20 + 2*x^18 + x^15 + x^14 + 2*x^12 + 2*x^11 + x^10 + 2*x^7 + x^3 + x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 120,
+      "gcd_matrix_with_value": 15,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 14520,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 120,
+      "recurrence_order": 105,
+      "reflected_value": 90,
+      "tap_value": 15,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          6,
+          1,
+          364,
+          364
+        ],
+        [
+          7,
+          1,
+          1093,
+          1093
+        ],
+        [
+          17,
+          1,
+          64570081,
+          64570081
+        ],
+        [
+          37,
+          1,
+          450283905890997362,
+          450283905890997362
+        ],
+        [
+          37,
+          1,
+          225141952945498681,
+          225141952945498681
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^6 + x^5 + x^3 + x^2 + 1",
+        "x^7 + 2*x^5 + 2*x^4 + x^3 + x^2 + 2*x + 2",
+        "x^17 + x^15 + x^14 + 2*x^12 + x^10 + x^9 + 2*x^8 + 2*x^6 + x^4 + 2*x^3 + x^2 + 2",
+        "x^37 + 2*x^35 + 2*x^34 + x^33 + 2*x^32 + x^31 + x^30 + 2*x^29 + x^26 + 2*x^25 + 2*x^24 + 2*x^23 + 2*x^20 + 2*x^19 + x^18 + x^17 + x^16 + x^15 + x^14 + x^13 + x^11 + x^10 + x^9 + x^8 + x^7 + 2*x^6 + 2*x^5 + x^4 + x^3 + 2*x + 1",
+        "x^37 + x^36 + x^35 + 2*x^33 + 2*x^30 + 2*x^27 + 2*x^26 + 2*x^25 + 2*x^24 + x^23 + x^21 + 2*x^19 + x^18 + x^16 + 2*x^14 + 2*x^13 + 2*x^12 + x^10 + x^8 + 2*x^7 + 2*x^6 + x^5 + x^4 + x + 2"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 4,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 5783747246746785312504338730172,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 121,
+      "recurrence_order": 105,
+      "reflected_value": 89,
+      "tap_value": 16,
+      "v2_matrix_order": 2,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          8,
+          1,
+          3280,
+          3280
+        ],
+        [
+          11,
+          1,
+          88573,
+          88573
+        ],
+        [
+          14,
+          1,
+          4782968,
+          4782968
+        ],
+        [
+          17,
+          1,
+          64570081,
+          64570081
+        ],
+        [
+          55,
+          1,
+          174449211009120179071170506,
+          174449211009120179071170506
+        ]
+      ],
+      "factor_strings": [
+        "x^8 + 2*x^6 + 2*x^5 + x^4 + 2*x^3 + 2*x^2 + 2*x + 1",
+        "x^11 + 2*x^3 + 2",
+        "x^14 + 2*x^10 + x^9 + x^8 + 2*x^6 + x^4 + 2",
+        "x^17 + x^13 + 2*x^11 + x^10 + 2*x^8 + x^7 + x^6 + x^5 + x^3 + x^2 + 2*x + 2",
+        "x^55 + x^53 + x^52 + 2*x^50 + x^49 + 2*x^48 + x^47 + x^45 + x^43 + 2*x^42 + 2*x^38 + x^37 + x^36 + x^34 + x^33 + x^31 + x^30 + 2*x^28 + 2*x^27 + 2*x^26 + 2*x^24 + 2*x^23 + 2*x^22 + 2*x^21 + x^20 + x^19 + 2*x^18 + x^17 + 2*x^16 + x^15 + 2*x^14 + 2*x^13 + x^11 + 2*x^10 + x^7 + x^6 + 2*x^5 + 2*x^4 + x^3 + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 11044642861228048025829024120922788002521840,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 122,
+      "recurrence_order": 105,
+      "reflected_value": 88,
+      "tap_value": 17,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          10,
+          3,
+          29524,
+          88572
+        ],
+        [
+          24,
+          3,
+          40347076640,
+          121041229920
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^10 + 2*x^7 + 2*x^6 + 2*x^5 + 2*x^2 + 1",
+        "x^24 + 2*x^23 + x^22 + x^20 + x^18 + x^17 + 2*x^13 + 2*x^12 + 2*x^11 + x^9 + 2*x^7 + x^6 + 2*x^5 + 2*x^3 + x^2 + x + 2"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 123,
+      "gcd_matrix_with_value": 6,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 893405318039520,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 123,
+      "recurrence_order": 105,
+      "reflected_value": 87,
+      "tap_value": 18,
+      "v2_matrix_order": 5,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          1,
+          13,
+          13
+        ],
+        [
+          16,
+          1,
+          43046720,
+          43046720
+        ],
+        [
+          21,
+          1,
+          5230176601,
+          5230176601
+        ],
+        [
+          65,
+          1,
+          10301051460877537453973547267842,
+          10301051460877537453973547267842
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + x^2 + x + 2",
+        "x^16 + 2*x^15 + x^14 + x^13 + 2*x^12 + 2*x^11 + 2*x^10 + x^9 + 2*x^8 + x^6 + x^5 + 2*x^3 + 2*x^2 + 2",
+        "x^21 + x^19 + 2*x^18 + x^17 + 2*x^16 + 2*x^13 + 2*x^12 + 2*x^11 + 2*x^10 + 2*x^9 + x^8 + x^7 + 2*x^6 + x^5 + 2*x^4 + 2*x^3 + 2",
+        "x^65 + x^63 + x^62 + x^59 + 2*x^58 + x^57 + x^55 + x^54 + 2*x^52 + x^48 + x^47 + x^45 + x^44 + x^43 + x^42 + 2*x^41 + 2*x^40 + x^39 + x^37 + x^36 + x^35 + x^34 + 2*x^31 + x^30 + x^29 + 2*x^28 + 2*x^26 + 2*x^25 + x^24 + 2*x^23 + 2*x^21 + x^20 + x^18 + x^17 + x^16 + 2*x^14 + x^13 + 2*x^12 + x^11 + x^10 + 2*x^9 + 2*x^6 + x^5 + x^3 + x^2 + x + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 4,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 1159599394598009714581996440348692188331138381120,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 124,
+      "recurrence_order": 105,
+      "reflected_value": 86,
+      "tap_value": 19,
+      "v2_matrix_order": 6,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          4,
+          1,
+          10,
+          10
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^20 + 2*x^17 + x^16 + x^15 + x^14 + x^13 + x^12 + 2*x^10 + x^8 + 2*x^6 + 2*x^4 + x^3 + 2*x^2 + 2*x + 2",
+        "x^20 + 2*x^18 + x^17 + x^16 + 2*x^14 + x^13 + 2*x^12 + 2*x^11 + x^10 + x^7 + 2*x^5 + x^3 + x + 2",
+        "x^20 + 2*x^19 + x^14 + x^12 + x^11 + 2*x^10 + 2*x^9 + 2*x^8 + x^6 + x^5 + 2*x^4 + 2*x^3 + 2*x + 2",
+        "x^20 + 2*x^19 + 2*x^18 + 2*x^15 + x^14 + 2*x^13 + x^12 + x^11 + x^9 + x^7 + x^6 + x^5 + x^3 + x^2 + 2",
+        "x^20 + 2*x^19 + 2*x^18 + 2*x^15 + 2*x^14 + x^12 + 2*x^11 + 2*x^7 + 2*x^6 + 2*x^5 + x^4 + 2*x^3 + x^2 + x + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 25,
+      "gcd_matrix_with_value": 20,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 7,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 3486784400,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 125,
+      "recurrence_order": 105,
+      "reflected_value": 85,
+      "tap_value": 20,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          5,
+          3,
+          121,
+          363
+        ],
+        [
+          30,
+          3,
+          847,
+          2541
+        ]
+      ],
+      "factor_strings": [
+        "x^5 + 2*x^4 + 2*x^3 + 2*x^2 + x + 2",
+        "x^30 + x^29 + 2*x^28 + x^27 + x^23 + 2*x^22 + x^19 + x^16 + 2*x^14 + x^12 + x^11 + x^9 + x^8 + 2*x^7 + 2*x^6 + x^5 + 2*x^4 + x^3 + x + 1"
+      ],
+      "gcd_matrix_with_order": 21,
+      "gcd_matrix_with_order_plus_value": 21,
+      "gcd_matrix_with_value": 21,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 2541,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 126,
+      "recurrence_order": 105,
+      "reflected_value": 84,
+      "tap_value": 21,
+      "v2_matrix_order": 0,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          3,
+          1,
+          13,
+          13
+        ],
+        [
+          99,
+          1,
+          85896253455335221839410188294270212117017920333,
+          85896253455335221839410188294270212117017920333
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^3 + 2*x + 2",
+        "x^99 + x^98 + 2*x^97 + x^96 + x^94 + x^93 + x^92 + 2*x^89 + 2*x^88 + 2*x^87 + 2*x^86 + x^85 + x^84 + x^83 + x^78 + x^76 + 2*x^75 + 2*x^74 + x^73 + 2*x^70 + 2*x^68 + 2*x^64 + 2*x^61 + x^57 + 2*x^56 + x^55 + x^54 + 2*x^52 + 2*x^51 + 2*x^49 + x^48 + 2*x^47 + x^46 + 2*x^43 + x^42 + 2*x^40 + x^39 + x^36 + x^35 + 2*x^34 + 2*x^32 + 2*x^31 + x^29 + 2*x^28 + 2*x^27 + x^26 + 2*x^25 + 2*x^24 + 2*x^22 + 2*x^21 + 2*x^20 + 2*x^19 + 2*x^18 + 2*x^17 + 2*x^16 + x^14 + x^12 + x^11 + 2*x^10 + x^8 + x^7 + x^6 + 2*x^4 + x^3 + x + 2"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 2,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 687170027642681774715281506354161696936143362664,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 127,
+      "recurrence_order": 105,
+      "reflected_value": 83,
+      "tap_value": 22,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          4,
+          1,
+          80,
+          80
+        ],
+        [
+          17,
+          1,
+          129140162,
+          129140162
+        ],
+        [
+          18,
+          1,
+          48427561,
+          48427561
+        ],
+        [
+          64,
+          1,
+          3433683820292512484657849089280,
+          3433683820292512484657849089280
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^4 + 2*x + 2",
+        "x^17 + 2*x^16 + 2*x^15 + 2*x^14 + x^13 + x^12 + x^11 + x^10 + 2*x^9 + x^7 + x^6 + 2*x^3 + x^2 + x + 1",
+        "x^18 + 2*x^17 + 2*x^16 + x^15 + 2*x^14 + x^13 + x^10 + x^9 + 2*x^8 + x^7 + 2*x^5 + 2*x^3 + 1",
+        "x^64 + 2*x^61 + x^60 + x^59 + 2*x^58 + 2*x^56 + x^55 + x^54 + x^53 + 2*x^52 + 2*x^51 + 2*x^49 + 2*x^48 + 2*x^47 + x^46 + 2*x^43 + x^40 + 2*x^39 + x^38 + 2*x^36 + x^31 + 2*x^30 + 2*x^26 + x^25 + x^24 + x^23 + x^22 + x^20 + x^18 + 2*x^17 + 2*x^16 + 2*x^13 + x^10 + x^7 + 2*x^5 + 2*x^4 + 2*x^3 + 2"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 128,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 10737031571060280883772069818000272179418932480,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 128,
+      "recurrence_order": 105,
+      "reflected_value": 82,
+      "tap_value": 23,
+      "v2_matrix_order": 8,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          13,
+          3,
+          1594322,
+          4782966
+        ],
+        [
+          21,
+          3,
+          5230176601,
+          15690529803
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^13 + x^12 + 2*x^7 + x^5 + 2*x + 1",
+        "x^21 + x^20 + 2*x^18 + 2*x^17 + 2*x^15 + x^14 + 2*x^13 + x^12 + 2*x^11 + x^10 + x^9 + 2*x^8 + x^7 + x^5 + 2*x^4 + 2*x^2 + 2"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 3,
+      "gcd_matrix_with_value": 6,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 25015756856578566,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 129,
+      "recurrence_order": 105,
+      "reflected_value": 81,
+      "tap_value": 24,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          21,
+          1,
+          5230176601,
+          5230176601
+        ],
+        [
+          84,
+          1,
+          26150883005,
+          26150883005
+        ]
+      ],
+      "factor_strings": [
+        "x^21 + x^20 + x^19 + x^18 + x^16 + 2*x^15 + x^14 + 2*x^13 + 2*x^12 + 2*x^11 + 2*x^10 + 2*x^8 + 2*x^7 + x^4 + 2*x^3 + 2*x^2 + 2*x + 2",
+        "x^84 + 2*x^83 + x^80 + x^79 + 2*x^77 + 2*x^76 + x^75 + x^74 + 2*x^73 + 2*x^72 + x^71 + 2*x^70 + 2*x^69 + x^68 + 2*x^67 + x^66 + x^64 + 2*x^62 + 2*x^61 + x^60 + 2*x^58 + 2*x^57 + 2*x^56 + 2*x^55 + x^54 + x^53 + x^52 + x^51 + 2*x^50 + 2*x^49 + x^40 + 2*x^39 + 2*x^38 + 2*x^37 + x^36 + x^35 + 2*x^34 + 2*x^32 + x^31 + 2*x^30 + x^29 + 2*x^25 + x^24 + 2*x^22 + x^21 + x^20 + 2*x^19 + 2*x^18 + x^17 + 2*x^16 + 2*x^15 + 2*x^14 + 2*x^12 + 2*x^11 + 2*x^9 + 2*x^8 + 2*x^7 + x^6 + 2*x^4 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 65,
+      "gcd_matrix_with_value": 5,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 26150883005,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 130,
+      "recurrence_order": 105,
+      "reflected_value": 80,
+      "tap_value": 25,
+      "v2_matrix_order": 0,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          4,
+          1,
+          80,
+          80
+        ],
+        [
+          7,
+          1,
+          2186,
+          2186
+        ],
+        [
+          34,
+          1,
+          16677181699666568,
+          16677181699666568
+        ],
+        [
+          59,
+          1,
+          7065193045869367252382405533,
+          7065193045869367252382405533
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^4 + 2*x^3 + 2*x^2 + x + 2",
+        "x^7 + x^6 + x^5 + 2*x^4 + 2*x^3 + 2*x^2 + 1",
+        "x^34 + x^33 + x^32 + 2*x^31 + x^29 + 2*x^28 + x^27 + x^26 + 2*x^24 + x^23 + x^22 + 2*x^21 + x^19 + x^18 + 2*x^17 + 2*x^16 + x^15 + x^14 + x^13 + 2*x^12 + x^10 + 2*x^9 + x^8 + 2*x^7 + x^4 + 2*x^3 + x^2 + 2*x + 2",
+        "x^59 + x^58 + x^50 + 2*x^48 + x^47 + 2*x^46 + 2*x^44 + x^43 + x^42 + 2*x^39 + x^38 + 2*x^37 + 2*x^36 + 2*x^34 + 2*x^33 + x^31 + x^30 + x^29 + 2*x^27 + 2*x^26 + x^23 + 2*x^22 + x^21 + x^20 + 2*x^19 + x^15 + 2*x^14 + 2*x^13 + 2*x^12 + x^10 + x^8 + x^7 + x^6 + 2*x^5 + 2*x^4 + x + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 2,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 1287854664289182329779845163640863636131445731920,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 131,
+      "recurrence_order": 105,
+      "reflected_value": 79,
+      "tap_value": 26,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          7,
+          3,
+          2186,
+          6558
+        ],
+        [
+          11,
+          3,
+          177146,
+          531438
+        ],
+        [
+          17,
+          3,
+          64570081,
+          193710243
+        ]
+      ],
+      "factor_strings": [
+        "x^7 + 2*x^6 + x^4 + 2*x + 1",
+        "x^11 + x^9 + x^8 + 2*x^7 + x^6 + x^5 + x^3 + 2*x + 1",
+        "x^17 + x^16 + x^14 + 2*x^13 + x^10 + 2*x^9 + 2*x^6 + x^5 + 2*x^4 + x + 2"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 6,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 37506289214180454,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 132,
+      "recurrence_order": 105,
+      "reflected_value": 78,
+      "tap_value": 27,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          5,
+          1,
+          242,
+          242
+        ],
+        [
+          6,
+          1,
+          14,
+          14
+        ],
+        [
+          9,
+          1,
+          9841,
+          9841
+        ],
+        [
+          18,
+          1,
+          68887,
+          68887
+        ],
+        [
+          18,
+          1,
+          68887,
+          68887
+        ],
+        [
+          18,
+          1,
+          68887,
+          68887
+        ],
+        [
+          30,
+          1,
+          1694,
+          1694
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^5 + 2*x^4 + 2*x^3 + x^2 + 1",
+        "x^6 + 2*x^5 + x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^9 + 2*x^7 + 2*x^5 + x^4 + 2*x^3 + 2",
+        "x^18 + x^16 + 2*x^14 + 2*x^13 + 2*x^12 + x^11 + x^10 + 2*x^9 + 2*x^7 + x^6 + 2*x^5 + x^4 + 2*x^3 + 2*x^2 + 1",
+        "x^18 + x^17 + x^16 + x^14 + 2*x^13 + x^12 + x^11 + x^5 + 2*x^3 + x^2 + 1",
+        "x^18 + 2*x^17 + x^15 + x^14 + 2*x^12 + x^11 + 2*x^10 + 2*x^7 + 2*x^5 + x^4 + x^3 + 1",
+        "x^30 + x^29 + 2*x^28 + 2*x^27 + 2*x^25 + 2*x^24 + x^22 + 2*x^21 + x^20 + 2*x^18 + x^13 + x^12 + 2*x^11 + 2*x^10 + x^9 + x^7 + x^6 + 2*x^4 + x^3 + 2*x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 7,
+      "gcd_matrix_with_value": 14,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 8,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 16670654,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 133,
+      "recurrence_order": 105,
+      "reflected_value": 77,
+      "tap_value": 28,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          5,
+          1,
+          242,
+          242
+        ],
+        [
+          17,
+          1,
+          64570081,
+          64570081
+        ],
+        [
+          38,
+          1,
+          1350851717672992088,
+          1350851717672992088
+        ],
+        [
+          42,
+          1,
+          15631284161644622744,
+          15631284161644622744
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + 2*x + 1",
+        "x^5 + 2*x^2 + x + 1",
+        "x^17 + x^15 + x^14 + 2*x^13 + 2*x^11 + 2*x^9 + x^8 + x^7 + x^6 + 2*x^5 + x^3 + 2*x^2 + 2",
+        "x^38 + x^36 + 2*x^33 + x^32 + 2*x^30 + x^29 + x^28 + 2*x^25 + x^24 + 2*x^23 + x^22 + 2*x^19 + x^18 + 2*x^16 + 2*x^15 + x^14 + x^13 + x^12 + 2*x^9 + 2*x^7 + 2*x^6 + 2*x^5 + x^4 + 2*x^2 + 2",
+        "x^42 + 2*x^40 + 2*x^39 + 2*x^38 + x^37 + 2*x^36 + 2*x^35 + 2*x^34 + x^33 + 2*x^31 + 2*x^29 + x^27 + x^26 + 2*x^24 + x^21 + x^20 + x^19 + 2*x^18 + 2*x^17 + x^16 + 2*x^15 + 2*x^14 + 2*x^13 + x^12 + x^10 + 2*x^9 + 2*x^8 + x^5 + x^3 + 2"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 20621917832566774243389473761839998364854189384,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 134,
+      "recurrence_order": 105,
+      "reflected_value": 76,
+      "tap_value": 29,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          6,
+          2,
+          18
+        ],
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          3,
+          3,
+          26,
+          78
+        ],
+        [
+          4,
+          3,
+          40,
+          120
+        ],
+        [
+          4,
+          3,
+          40,
+          120
+        ],
+        [
+          4,
+          6,
+          10,
+          90
+        ],
+        [
+          12,
+          3,
+          130,
+          390
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^3 + 2*x^2 + x + 1",
+        "x^4 + x^2 + x + 1",
+        "x^4 + 2*x^3 + x^2 + 1",
+        "x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^12 + x^11 + x^9 + x^7 + 2*x^5 + x^4 + 2*x^3 + 2*x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 45,
+      "gcd_matrix_with_value": 30,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 7,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 4680,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 135,
+      "recurrence_order": 105,
+      "reflected_value": 75,
+      "tap_value": 30,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          8,
+          1,
+          6560,
+          6560
+        ],
+        [
+          34,
+          1,
+          16677181699666568,
+          16677181699666568
+        ],
+        [
+          61,
+          1,
+          127173474825648610542883299602,
+          127173474825648610542883299602
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^8 + 2*x^4 + 2*x^3 + x + 2",
+        "x^34 + x^33 + 2*x^32 + 2*x^31 + x^30 + 2*x^29 + x^28 + x^26 + 2*x^25 + x^22 + 2*x^21 + x^19 + x^18 + 2*x^17 + 2*x^16 + 2*x^15 + x^13 + x^12 + x^10 + x^9 + x^8 + x^6 + x^5 + 2*x^3 + 2*x^2 + 2",
+        "x^61 + x^58 + x^57 + 2*x^56 + 2*x^53 + x^52 + 2*x^51 + x^48 + 2*x^46 + 2*x^44 + 2*x^43 + x^42 + x^41 + x^40 + 2*x^39 + 2*x^38 + 2*x^37 + 2*x^36 + 2*x^35 + 2*x^34 + 2*x^33 + x^29 + 2*x^28 + 2*x^27 + 2*x^26 + 2*x^25 + 2*x^24 + x^23 + x^21 + 2*x^17 + x^16 + 2*x^15 + x^14 + x^13 + 2*x^12 + 2*x^9 + x^7 + 2*x^6 + x^5 + x^4 + x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 8,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 869567010288578736850435252357498377809313433760,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 136,
+      "recurrence_order": 105,
+      "reflected_value": 74,
+      "tap_value": 31,
+      "v2_matrix_order": 5,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          13,
+          13
+        ],
+        [
+          8,
+          1,
+          410,
+          410
+        ],
+        [
+          43,
+          1,
+          328256967394537077626,
+          328256967394537077626
+        ],
+        [
+          50,
+          1,
+          358948993845926294385124,
+          358948993845926294385124
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + x^2 + x + 2",
+        "x^8 + x^7 + 2*x^5 + x^4 + x^3 + x + 1",
+        "x^43 + 2*x^42 + x^40 + x^39 + 2*x^38 + x^37 + x^36 + x^34 + 2*x^33 + x^30 + 2*x^29 + x^27 + x^24 + x^22 + x^21 + x^20 + 2*x^19 + x^17 + 2*x^16 + 2*x^13 + 2*x^12 + 2*x^10 + 2*x^9 + x^8 + 2*x^7 + 2*x^6 + 2*x^5 + x^4 + 2*x^3 + 2*x^2 + x + 1",
+        "x^50 + x^49 + x^47 + 2*x^46 + x^45 + x^44 + 2*x^42 + x^41 + x^40 + x^39 + x^38 + x^37 + x^36 + x^34 + x^33 + 2*x^32 + x^29 + x^26 + 2*x^24 + 2*x^19 + 2*x^17 + x^16 + 2*x^14 + x^12 + 2*x^11 + 2*x^10 + x^7 + 2*x^5 + x^4 + x + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 4,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 157005154635437836900775358173432755540574468980,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 137,
+      "recurrence_order": 105,
+      "reflected_value": 73,
+      "tap_value": 32,
+      "v2_matrix_order": 2,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          7,
+          3,
+          2186,
+          6558
+        ],
+        [
+          11,
+          3,
+          177146,
+          531438
+        ],
+        [
+          17,
+          3,
+          64570081,
+          193710243
+        ]
+      ],
+      "factor_strings": [
+        "x^7 + 2*x^3 + 2*x^2 + 2*x + 1",
+        "x^11 + 2*x^9 + x^7 + x^6 + 2*x^3 + 1",
+        "x^17 + x^15 + x^13 + x^11 + x^10 + 2*x^9 + 2*x^8 + 2*x^7 + 2*x^6 + x^4 + x^3 + x^2 + 2*x + 2"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 138,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 37506289214180454,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 138,
+      "recurrence_order": 105,
+      "reflected_value": 72,
+      "tap_value": 33,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          7,
+          1,
+          1093,
+          1093
+        ],
+        [
+          36,
+          1,
+          150094635296999120,
+          150094635296999120
+        ],
+        [
+          61,
+          1,
+          63586737412824305271441649801,
+          63586737412824305271441649801
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^7 + 2*x^6 + x^4 + x^3 + x^2 + 2",
+        "x^36 + x^34 + x^33 + 2*x^32 + x^28 + 2*x^27 + 2*x^25 + x^24 + 2*x^23 + 2*x^21 + 2*x^20 + x^19 + x^17 + x^16 + x^13 + 2*x^12 + x^11 + 2*x^10 + x^9 + 2*x^8 + x^7 + 2*x^6 + x^4 + 2",
+        "x^61 + x^58 + x^56 + 2*x^55 + x^54 + x^53 + x^51 + 2*x^50 + x^49 + 2*x^48 + x^47 + x^45 + 2*x^44 + x^43 + 2*x^42 + 2*x^41 + 2*x^40 + x^39 + x^37 + x^36 + 2*x^34 + x^33 + 2*x^31 + 2*x^30 + 2*x^29 + x^27 + x^23 + x^20 + 2*x^18 + x^17 + 2*x^16 + x^15 + x^14 + x^12 + 2*x^9 + 2*x^8 + x^6 + 2*x^5 + 2*x^4 + x^3 + x^2 + x + 2"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 2,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 10431622780742377427219177763882934491668976406160,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 139,
+      "recurrence_order": 105,
+      "reflected_value": 71,
+      "tap_value": 34,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          1,
+          13,
+          13
+        ],
+        [
+          6,
+          1,
+          91,
+          91
+        ],
+        [
+          6,
+          1,
+          91,
+          91
+        ],
+        [
+          6,
+          1,
+          91,
+          91
+        ],
+        [
+          12,
+          1,
+          455,
+          455
+        ],
+        [
+          12,
+          1,
+          65,
+          65
+        ],
+        [
+          12,
+          1,
+          455,
+          455
+        ],
+        [
+          12,
+          1,
+          455,
+          455
+        ],
+        [
+          12,
+          1,
+          455,
+          455
+        ],
+        [
+          12,
+          1,
+          455,
+          455
+        ],
+        [
+          12,
+          1,
+          455,
+          455
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + 2*x + 2",
+        "x^6 + x^4 + x^3 + 1",
+        "x^6 + x^5 + 2*x^3 + x^2 + x + 1",
+        "x^6 + 2*x^5 + x^4 + 2*x^2 + x + 1",
+        "x^12 + 2*x^9 + 2*x^7 + x^5 + 2*x^4 + x + 1",
+        "x^12 + x^10 + x^9 + x^8 + 2*x^6 + x^5 + 2*x^4 + x^2 + 2*x + 1",
+        "x^12 + x^11 + 2*x^7 + x^5 + x^3 + x^2 + 1",
+        "x^12 + x^11 + x^8 + x^7 + 2*x^6 + 2*x^5 + 2*x^3 + x^2 + x + 1",
+        "x^12 + x^11 + x^10 + 2*x^9 + 2*x^8 + 2*x^7 + 2*x^3 + 2*x + 1",
+        "x^12 + x^11 + 2*x^10 + x^9 + 2*x^7 + 2*x^6 + 1",
+        "x^12 + 2*x^11 + 2*x^9 + 2*x^8 + 2*x^7 + 2*x^6 + 2*x^5 + x^3 + 2*x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 35,
+      "gcd_matrix_with_value": 35,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 11,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 455,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 140,
+      "recurrence_order": 105,
+      "reflected_value": 70,
+      "tap_value": 35,
+      "v2_matrix_order": 0,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          3,
+          3,
+          26,
+          78
+        ],
+        [
+          7,
+          3,
+          1093,
+          3279
+        ],
+        [
+          9,
+          3,
+          9841,
+          29523
+        ],
+        [
+          15,
+          3,
+          7174453,
+          21523359
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + x^2 + 2*x + 1",
+        "x^7 + 2*x^5 + 2*x^4 + 2",
+        "x^9 + x^7 + 2*x^6 + 2*x^2 + 2",
+        "x^15 + x^14 + x^13 + 2*x^10 + x^9 + x^8 + 2*x^7 + 2*x^6 + 2*x^5 + x^4 + 2*x^3 + x^2 + 2"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 3,
+      "gcd_matrix_with_value": 6,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 35616897519918,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 141,
+      "recurrence_order": 105,
+      "reflected_value": 69,
+      "tap_value": 36,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          11,
+          1,
+          88573,
+          88573
+        ],
+        [
+          12,
+          1,
+          265720,
+          265720
+        ],
+        [
+          79,
+          1,
+          49269609804781974438694403402127765866,
+          49269609804781974438694403402127765866
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + 2*x^2 + 1",
+        "x^11 + 2*x^9 + x^8 + x^7 + x^6 + x^4 + 2*x^3 + 2",
+        "x^12 + 2*x^9 + 2*x^8 + x^7 + x^6 + x^5 + x^4 + 2*x^3 + 2*x^2 + 1",
+        "x^79 + x^78 + 2*x^77 + x^76 + x^75 + 2*x^74 + x^73 + x^72 + 2*x^70 + 2*x^68 + 2*x^67 + 2*x^66 + 2*x^65 + 2*x^62 + x^59 + x^58 + x^56 + x^55 + 2*x^53 + x^51 + x^50 + x^47 + 2*x^45 + x^44 + 2*x^43 + 2*x^42 + 2*x^40 + 2*x^39 + 2*x^38 + 2*x^37 + x^35 + 2*x^34 + x^29 + 2*x^28 + x^27 + x^26 + x^25 + 2*x^24 + 2*x^23 + x^22 + x^21 + x^20 + 2*x^18 + 2*x^17 + 2*x^16 + 2*x^14 + 2*x^13 + 2*x^12 + 2*x^11 + 2*x^10 + 2*x^9 + x^8 + x^7 + 2*x^6 + 2*x^3 + 2*x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 579795346847887404785403572092420993839699103480,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 142,
+      "recurrence_order": 105,
+      "reflected_value": 68,
+      "tap_value": 37,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          25,
+          1,
+          423644304721,
+          423644304721
+        ],
+        [
+          34,
+          1,
+          16677181699666568,
+          16677181699666568
+        ],
+        [
+          43,
+          1,
+          328256967394537077626,
+          328256967394537077626
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^25 + x^24 + 2*x^23 + 2*x^22 + 2*x^20 + 2*x^19 + x^18 + x^17 + 2*x^15 + 2*x^13 + x^11 + 2*x^10 + 2*x^9 + x^8 + x^7 + 2*x^6 + x^5 + x^4 + 2",
+        "x^34 + x^33 + x^32 + 2*x^31 + x^30 + 2*x^27 + x^26 + x^24 + 2*x^22 + 2*x^21 + 2*x^20 + 2*x^19 + x^18 + 2*x^17 + 2*x^16 + x^15 + 2*x^14 + x^13 + 2*x^12 + 2*x^10 + x^9 + 2*x^8 + x^7 + 2*x^6 + 2*x^5 + 2*x^4 + x^2 + 2*x + 2",
+        "x^43 + 2*x^42 + 2*x^41 + x^40 + 2*x^39 + x^38 + x^37 + x^36 + x^34 + 2*x^33 + x^26 + 2*x^25 + 2*x^24 + x^23 + x^21 + 2*x^19 + x^17 + 2*x^16 + 2*x^15 + x^14 + x^12 + 2*x^9 + x^8 + 2*x^7 + 2*x^6 + x^5 + 2*x^3 + x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 11,
+      "gcd_matrix_with_value": 2,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 1159599421645656825024052529762884488004595564264,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 143,
+      "recurrence_order": 105,
+      "reflected_value": 67,
+      "tap_value": 38,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          4,
+          3,
+          80,
+          240
+        ],
+        [
+          10,
+          3,
+          14762,
+          44286
+        ],
+        [
+          19,
+          3,
+          581130733,
+          1743392199
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^4 + 2*x^3 + x^2 + x + 2",
+        "x^10 + x^9 + x^8 + 2*x^7 + 2*x^6 + x^5 + x^4 + x^3 + 1",
+        "x^19 + x^18 + x^17 + 2*x^16 + x^14 + 2*x^13 + x^12 + x^10 + 2*x^9 + x^8 + 2*x^7 + 2*x^5 + 2*x^4 + 2*x^3 + 2"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 48,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 1029438225665520,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 144,
+      "recurrence_order": 105,
+      "reflected_value": 66,
+      "tap_value": 39,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          4,
+          1,
+          10,
+          10
+        ],
+        [
+          40,
+          1,
+          32800,
+          32800
+        ],
+        [
+          60,
+          1,
+          664300,
+          664300
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^40 + 2*x^35 + x^25 + 2*x^20 + x^15 + 2*x^5 + 2",
+        "x^60 + x^50 + 2*x^45 + x^40 + x^35 + x^30 + x^25 + x^20 + x^5 + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 5,
+      "gcd_matrix_with_value": 40,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 217890400,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 145,
+      "recurrence_order": 105,
+      "reflected_value": 65,
+      "tap_value": 40,
+      "v2_matrix_order": 5,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          5,
+          1,
+          242,
+          242
+        ],
+        [
+          34,
+          1,
+          16677181699666568,
+          16677181699666568
+        ],
+        [
+          66,
+          1,
+          7725788595658153090480160450882,
+          7725788595658153090480160450882
+        ]
+      ],
+      "factor_strings": [
+        "x^5 + 2*x^3 + x^2 + 1",
+        "x^34 + x^33 + x^30 + x^28 + 2*x^27 + x^25 + 2*x^24 + 2*x^22 + x^21 + 2*x^20 + x^19 + 2*x^18 + 2*x^15 + x^14 + 2*x^12 + x^11 + 2*x^10 + x^9 + x^5 + 2*x^4 + x^3 + 2",
+        "x^66 + 2*x^65 + 2*x^64 + x^61 + x^60 + 2*x^59 + x^58 + 2*x^55 + x^52 + x^51 + x^49 + 2*x^47 + 2*x^46 + 2*x^45 + x^44 + x^42 + 2*x^40 + x^39 + 2*x^38 + x^37 + 2*x^36 + 2*x^35 + x^34 + 2*x^33 + 2*x^32 + x^30 + 2*x^27 + 2*x^26 + 2*x^24 + x^23 + 2*x^22 + x^21 + 2*x^20 + x^19 + x^18 + 2*x^17 + 2*x^16 + x^15 + 2*x^12 + x^11 + x^10 + x^9 + x^8 + 2*x^7 + 2*x^3 + 2*x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 7795085001071670914516264550386507533196461535048,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 146,
+      "recurrence_order": 105,
+      "reflected_value": 64,
+      "tap_value": 41,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          4,
+          3,
+          80,
+          240
+        ],
+        [
+          6,
+          3,
+          14,
+          42
+        ],
+        [
+          12,
+          3,
+          560,
+          1680
+        ],
+        [
+          12,
+          3,
+          560,
+          1680
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^4 + x^3 + 2",
+        "x^6 + 2*x^5 + x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^12 + x^10 + x^9 + 2*x^8 + x^7 + x^6 + 2*x^5 + 2*x^4 + x^3 + 2*x^2 + x + 2",
+        "x^12 + 2*x^11 + 2*x^9 + x^8 + 2*x^7 + x^6 + x^5 + x^4 + 2*x^3 + 2*x + 2"
+      ],
+      "gcd_matrix_with_order": 105,
+      "gcd_matrix_with_order_plus_value": 21,
+      "gcd_matrix_with_value": 42,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": true,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 1680,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 147,
+      "recurrence_order": 105,
+      "reflected_value": 63,
+      "tap_value": 42,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          10,
+          1,
+          671,
+          671
+        ],
+        [
+          95,
+          1,
+          1060447573522657059745804793756422371815036053,
+          1060447573522657059745804793756422371815036053
+        ]
+      ],
+      "factor_strings": [
+        "x^10 + 2*x^8 + 2*x^7 + x^6 + x^5 + x^4 + 2*x^3 + x^2 + x + 1",
+        "x^95 + x^93 + x^92 + x^90 + 2*x^89 + 2*x^85 + x^84 + 2*x^83 + x^81 + 2*x^80 + 2*x^78 + x^77 + x^76 + x^75 + 2*x^74 + x^73 + 2*x^72 + 2*x^71 + 2*x^70 + x^69 + 2*x^68 + x^65 + x^64 + x^63 + x^62 + x^61 + x^60 + 2*x^59 + x^58 + 2*x^56 + x^55 + 2*x^54 + x^53 + 2*x^52 + 2*x^48 + 2*x^47 + 2*x^46 + 2*x^45 + 2*x^41 + 2*x^40 + x^39 + x^37 + 2*x^36 + 2*x^34 + 2*x^33 + 2*x^32 + 2*x^31 + x^30 + 2*x^26 + x^25 + x^23 + x^21 + x^19 + 2*x^18 + 2*x^17 + 2*x^14 + 2*x^13 + x^12 + 2*x^11 + 2*x^8 + x^7 + 2*x^6 + x^5 + x^4 + x^3 + x + 2"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 64687301984882080644494092419141764680717199233,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 148,
+      "recurrence_order": 105,
+      "reflected_value": 62,
+      "tap_value": 43,
+      "v2_matrix_order": 0,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          5,
+          1,
+          242,
+          242
+        ],
+        [
+          7,
+          1,
+          1093,
+          1093
+        ],
+        [
+          25,
+          1,
+          423644304721,
+          423644304721
+        ],
+        [
+          67,
+          1,
+          46354731573948918542880962705293,
+          46354731573948918542880962705293
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^5 + 2*x^3 + 2*x^2 + x + 1",
+        "x^7 + x^6 + 2*x^5 + x^4 + 2",
+        "x^25 + x^24 + x^23 + x^22 + 2*x^21 + x^20 + x^19 + 2*x^17 + x^13 + 2*x^12 + x^11 + 2*x^10 + 2*x^9 + x^7 + x^6 + x^5 + 2*x^4 + x + 2",
+        "x^67 + x^65 + x^64 + x^63 + x^62 + x^60 + x^59 + 2*x^58 + x^56 + x^55 + 2*x^51 + x^49 + 2*x^48 + 2*x^46 + 2*x^44 + x^42 + 2*x^41 + x^39 + 2*x^38 + x^37 + x^36 + x^35 + x^32 + x^31 + x^29 + x^27 + 2*x^26 + 2*x^25 + 2*x^23 + 2*x^22 + 2*x^19 + 2*x^18 + x^17 + x^16 + 2*x^15 + 2*x^12 + 2*x^11 + 2*x^9 + 2*x^8 + 2*x^5 + x + 2"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 22,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 42928488809588747845136512334838451486531921058,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 149,
+      "recurrence_order": 105,
+      "reflected_value": 61,
+      "tap_value": 44,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          3,
+          13,
+          39
+        ],
+        [
+          12,
+          3,
+          65,
+          195
+        ],
+        [
+          20,
+          3,
+          200,
+          600
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + x^2 + x + 2",
+        "x^12 + 2*x^11 + 2*x^9 + 2*x^7 + x^5 + x^4 + x^3 + 2*x^2 + x + 1",
+        "x^20 + 2*x^15 + x^10 + 1"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 150,
+      "gcd_matrix_with_value": 15,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 7800,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 150,
+      "recurrence_order": 105,
+      "reflected_value": 60,
+      "tap_value": 45,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          21,
+          1,
+          10460353202,
+          10460353202
+        ],
+        [
+          22,
+          1,
+          3922632451,
+          3922632451
+        ],
+        [
+          24,
+          1,
+          70607384120,
+          70607384120
+        ],
+        [
+          35,
+          1,
+          50031545098999706,
+          50031545098999706
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^21 + 2*x^20 + 2*x^19 + x^16 + 2*x^15 + 2*x^14 + 2*x^12 + 2*x^10 + 2*x^9 + 2*x^7 + x^6 + 2*x^5 + x^4 + x^3 + 2*x^2 + 1",
+        "x^22 + x^21 + x^20 + x^19 + 2*x^17 + 2*x^13 + 2*x^12 + 2*x^11 + 2*x^10 + x^7 + 2*x^5 + x^3 + 2*x^2 + 2*x + 1",
+        "x^24 + 2*x^22 + x^21 + x^19 + x^18 + x^17 + x^16 + x^14 + x^13 + 2*x^12 + x^11 + x^9 + x^7 + 2*x^6 + 2*x^4 + 2*x^3 + 1",
+        "x^35 + x^34 + x^32 + x^31 + x^30 + 2*x^29 + x^28 + 2*x^27 + x^24 + x^23 + 2*x^21 + 2*x^20 + 2*x^19 + 2*x^18 + x^17 + x^16 + 2*x^14 + x^13 + x^12 + x^11 + x^10 + 2*x^9 + 2*x^8 + x^7 + x^6 + 2*x^4 + 2*x^2 + x + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 46,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 2550318947267380800521053149275709936436040,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 151,
+      "recurrence_order": 105,
+      "reflected_value": 59,
+      "tap_value": 46,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          13,
+          1,
+          1594322,
+          1594322
+        ],
+        [
+          23,
+          1,
+          94143178826,
+          94143178826
+        ],
+        [
+          24,
+          1,
+          141214768240,
+          141214768240
+        ],
+        [
+          43,
+          1,
+          328256967394537077626,
+          328256967394537077626
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^13 + 2*x^12 + x^10 + 2*x^8 + 2*x^7 + x^6 + 2*x^2 + 2*x + 1",
+        "x^23 + x^18 + 2*x^15 + 2*x^14 + x^12 + 2*x^9 + 2*x^8 + 2*x^7 + 2*x^6 + 2*x^5 + 2*x^4 + x^3 + 2*x^2 + 2*x + 1",
+        "x^24 + x^22 + x^21 + x^18 + 2*x^14 + x^13 + x^11 + x^9 + x^8 + x^7 + x^6 + 2*x^5 + x^4 + 2*x^2 + 2*x + 1",
+        "x^43 + 2*x^42 + x^39 + x^38 + 2*x^37 + x^35 + x^34 + 2*x^32 + 2*x^31 + x^30 + x^29 + x^23 + 2*x^21 + x^20 + 2*x^19 + 2*x^18 + 2*x^16 + x^15 + 2*x^14 + x^13 + x^12 + 2*x^10 + 2*x^8 + 2*x^7 + 2*x^6 + 2*x^5 + x^4 + 2*x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 8,
+      "gcd_matrix_with_value": 47,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 869699020725228720913977903791808477940882386160,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 152,
+      "recurrence_order": 105,
+      "reflected_value": 58,
+      "tap_value": 47,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          6,
+          2,
+          18
+        ],
+        [
+          3,
+          3,
+          13,
+          39
+        ],
+        [
+          7,
+          3,
+          1093,
+          3279
+        ],
+        [
+          9,
+          3,
+          19682,
+          59046
+        ],
+        [
+          14,
+          3,
+          4782968,
+          14348904
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + 2*x + 2",
+        "x^7 + x^6 + x^5 + 2*x^3 + 2*x^2 + 2*x + 2",
+        "x^9 + 2*x^4 + x^3 + 2*x^2 + x + 1",
+        "x^14 + x^11 + x^10 + 2*x^9 + x^8 + x^7 + 2*x^6 + 2*x + 2"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 9,
+      "gcd_matrix_with_value": 24,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 423622692792,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 153,
+      "recurrence_order": 105,
+      "reflected_value": 57,
+      "tap_value": 48,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          15,
+          1,
+          7174453,
+          7174453
+        ],
+        [
+          30,
+          1,
+          50221171,
+          50221171
+        ],
+        [
+          30,
+          1,
+          50221171,
+          50221171
+        ],
+        [
+          30,
+          1,
+          50221171,
+          50221171
+        ]
+      ],
+      "factor_strings": [
+        "x^15 + 2*x^11 + 2*x^10 + x^9 + 2*x^6 + x^5 + 2*x^3 + 2",
+        "x^30 + x^27 + x^26 + x^25 + x^23 + 2*x^22 + x^20 + x^19 + x^18 + 2*x^15 + x^14 + x^10 + 2*x^9 + x^8 + 2*x^7 + x^4 + x^3 + x^2 + 2*x + 1",
+        "x^30 + x^29 + x^28 + 2*x^27 + x^26 + 2*x^25 + 2*x^24 + x^22 + 2*x^19 + x^18 + x^16 + 2*x^15 + x^14 + x^12 + 2*x^11 + x^9 + x^5 + x^4 + 2*x^3 + 2*x + 1",
+        "x^30 + 2*x^29 + x^27 + x^25 + x^22 + x^20 + x^18 + x^15 + x^14 + x^13 + 2*x^12 + x^10 + x^8 + x^6 + 2*x^5 + 2*x^4 + 2*x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 77,
+      "gcd_matrix_with_value": 7,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 50221171,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 154,
+      "recurrence_order": 105,
+      "reflected_value": 56,
+      "tap_value": 49,
+      "v2_matrix_order": 0,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          4,
+          1,
+          10,
+          10
+        ],
+        [
+          100,
+          1,
+          17433922000,
+          17433922000
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^100 + 2*x^95 + x^90 + 2*x^85 + x^80 + 2*x^75 + x^70 + 2*x^65 + x^60 + 2*x^55 + x^50 + x^45 + 2*x^40 + x^35 + 2*x^30 + x^25 + 2*x^20 + x^15 + 2*x^10 + x^5 + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 5,
+      "gcd_matrix_with_value": 50,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 17433922000,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 155,
+      "recurrence_order": 105,
+      "reflected_value": 55,
+      "tap_value": 50,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          35,
+          3,
+          25015772549499853,
+          75047317648499559
+        ]
+      ],
+      "factor_strings": [
+        "x^35 + 2*x^17 + 2"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 3,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 1,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 75047317648499559,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 156,
+      "recurrence_order": 105,
+      "reflected_value": 54,
+      "tap_value": 51,
+      "v2_matrix_order": 0,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          14,
+          1,
+          1195742,
+          1195742
+        ],
+        [
+          16,
+          1,
+          43046720,
+          43046720
+        ],
+        [
+          74,
+          1,
+          101377797952226284853280665436476884,
+          101377797952226284853280665436476884
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^14 + x^13 + 2*x^9 + 2*x^8 + x^7 + 2*x^6 + 2*x^5 + x^4 + 2*x^3 + 2*x^2 + 1",
+        "x^16 + 2*x^15 + x^14 + 2*x^13 + x^12 + x^9 + x^8 + 2*x^7 + x^6 + 2*x^3 + 2*x^2 + 2*x + 2",
+        "x^74 + 2*x^73 + x^72 + 2*x^71 + x^70 + 2*x^69 + x^68 + 2*x^65 + 2*x^64 + x^63 + 2*x^62 + x^58 + x^57 + x^56 + 2*x^55 + x^54 + x^53 + 2*x^52 + 2*x^51 + 2*x^50 + x^49 + 2*x^45 + 2*x^42 + x^41 + 2*x^39 + x^38 + 2*x^37 + 2*x^36 + 2*x^35 + 2*x^33 + x^31 + 2*x^30 + x^29 + 2*x^27 + 2*x^26 + x^25 + x^24 + 2*x^21 + x^19 + 2*x^17 + x^16 + 2*x^13 + 2*x^10 + x^8 + x^6 + 2*x^5 + x + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 4,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 652274523149309729598644174927587621929724099520,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 157,
+      "recurrence_order": 105,
+      "reflected_value": 53,
+      "tap_value": 52,
+      "v2_matrix_order": 6,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          8,
+          1,
+          1640,
+          1640
+        ],
+        [
+          15,
+          1,
+          14348906,
+          14348906
+        ],
+        [
+          82,
+          1,
+          1330279464729113309844748891857449678408,
+          1330279464729113309844748891857449678408
+        ]
+      ],
+      "factor_strings": [
+        "x^8 + 2*x^7 + 2*x^5 + 2*x^4 + 2*x^3 + 1",
+        "x^15 + x^14 + 2*x^13 + x^11 + 2*x^10 + x^8 + x^7 + x^5 + 2*x^4 + 1",
+        "x^82 + 2*x^80 + 2*x^78 + 2*x^76 + 2*x^75 + 2*x^73 + x^72 + 2*x^71 + x^70 + x^69 + 2*x^68 + x^66 + x^62 + x^61 + 2*x^58 + x^57 + x^56 + 2*x^49 + 2*x^48 + 2*x^47 + 2*x^46 + x^45 + 2*x^43 + 2*x^40 + 2*x^37 + 2*x^35 + 2*x^27 + x^26 + 2*x^25 + x^24 + x^22 + 2*x^21 + 2*x^20 + 2*x^18 + 2*x^17 + x^16 + x^15 + 2*x^14 + x^13 + x^12 + 2*x^11 + 2*x^10 + 2*x^9 + x^8 + 2*x^6 + x^4 + 2*x^3 + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 1956525636795657140496895585393837860608678718920,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 158,
+      "recurrence_order": 105,
+      "reflected_value": 52,
+      "tap_value": 53,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          6,
+          3,
+          728,
+          2184
+        ],
+        [
+          8,
+          3,
+          6560,
+          19680
+        ],
+        [
+          18,
+          3,
+          27672892,
+          83018676
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^6 + x^5 + 2",
+        "x^8 + x^5 + 2*x^4 + x^2 + 2",
+        "x^18 + x^16 + x^13 + 2*x^12 + x^11 + x^8 + 2*x^7 + x^6 + x^5 + x^3 + 1"
+      ],
+      "gcd_matrix_with_order": 105,
+      "gcd_matrix_with_order_plus_value": 3,
+      "gcd_matrix_with_value": 6,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": true,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 953054400480,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 159,
+      "recurrence_order": 105,
+      "reflected_value": 51,
+      "tap_value": 54,
+      "v2_matrix_order": 5,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          4,
+          1,
+          40,
+          40
+        ],
+        [
+          4,
+          1,
+          40,
+          40
+        ],
+        [
+          12,
+          1,
+          130,
+          130
+        ],
+        [
+          80,
+          1,
+          107616800,
+          107616800
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^3 + 2*x + 1",
+        "x^4 + x^2 + 2*x + 1",
+        "x^4 + x^3 + x^2 + 1",
+        "x^12 + x^10 + 2*x^9 + x^8 + 2*x^6 + 2*x^5 + 2*x^4 + x^2 + x + 1",
+        "x^80 + x^70 + x^60 + x^55 + x^50 + 2*x^45 + x^40 + x^30 + x^25 + 2*x^15 + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 160,
+      "gcd_matrix_with_value": 5,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 1399018400,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 160,
+      "recurrence_order": 105,
+      "reflected_value": 50,
+      "tap_value": 55,
+      "v2_matrix_order": 5,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          5,
+          1,
+          242,
+          242
+        ],
+        [
+          6,
+          1,
+          182,
+          182
+        ],
+        [
+          6,
+          1,
+          182,
+          182
+        ],
+        [
+          6,
+          1,
+          14,
+          14
+        ],
+        [
+          6,
+          1,
+          182,
+          182
+        ],
+        [
+          30,
+          1,
+          1694,
+          1694
+        ],
+        [
+          42,
+          1,
+          5096,
+          5096
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + 2*x^2 + x + 1",
+        "x^5 + 2*x^4 + x + 1",
+        "x^6 + x^5 + x^4 + x^3 + 2*x + 1",
+        "x^6 + x^5 + x^4 + 2*x^3 + 2*x^2 + 1",
+        "x^6 + 2*x^5 + x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^6 + 2*x^5 + 2*x^4 + x^3 + 1",
+        "x^30 + x^29 + x^28 + x^27 + x^25 + 2*x^24 + x^23 + 2*x^21 + 2*x^20 + 2*x^19 + x^18 + 2*x^17 + 2*x^15 + 2*x^14 + 2*x^13 + x^11 + x^9 + 2*x^8 + x^7 + 2*x^5 + 2*x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^42 + x^35 + 2*x^28 + x^14 + 2"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 7,
+      "gcd_matrix_with_value": 56,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 9,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 616616,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 161,
+      "recurrence_order": 105,
+      "reflected_value": 49,
+      "tap_value": 56,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          7,
+          3,
+          1093,
+          3279
+        ],
+        [
+          28,
+          3,
+          11438396227480,
+          34315188682440
+        ]
+      ],
+      "factor_strings": [
+        "x^7 + 2*x^6 + 2*x^5 + x^4 + 2*x^3 + x + 2",
+        "x^28 + x^27 + 2*x^26 + 2*x^25 + x^24 + 2*x^23 + 2*x^22 + 2*x^21 + 2*x^20 + x^19 + x^18 + x^17 + x^15 + x^14 + x^13 + x^11 + 2*x^10 + x^8 + x^6 + 2*x^5 + x^2 + x + 1"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 6,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 34315188682440,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 162,
+      "recurrence_order": 105,
+      "reflected_value": 48,
+      "tap_value": 57,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          13,
+          13
+        ],
+        [
+          4,
+          1,
+          80,
+          80
+        ],
+        [
+          7,
+          1,
+          1093,
+          1093
+        ],
+        [
+          9,
+          1,
+          9841,
+          9841
+        ],
+        [
+          81,
+          1,
+          221713244121518884974124815309574946401,
+          221713244121518884974124815309574946401
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + x^2 + x + 2",
+        "x^4 + 2*x^3 + 2",
+        "x^7 + 2*x^5 + 2*x^4 + 2*x^3 + 2*x^2 + 2",
+        "x^9 + x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + 2",
+        "x^81 + x^80 + 2*x^78 + x^76 + x^75 + x^71 + x^69 + x^68 + x^66 + 2*x^65 + x^64 + 2*x^63 + 2*x^62 + 2*x^61 + x^60 + x^58 + x^57 + x^56 + x^54 + x^53 + x^52 + x^51 + 2*x^50 + x^49 + 2*x^48 + 2*x^44 + 2*x^43 + 2*x^42 + 2*x^40 + 2*x^39 + 2*x^37 + x^36 + x^35 + 2*x^34 + x^33 + 2*x^32 + 2*x^31 + 2*x^30 + x^28 + 2*x^27 + 2*x^26 + 2*x^25 + 2*x^24 + x^20 + 2*x^17 + 2*x^15 + x^13 + x^12 + 2*x^11 + 2*x^9 + 2*x^7 + x^6 + x^5 + 2*x^4 + 2*x^3 + x^2 + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 2,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 19386606065985611302137473850669233313303440,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 163,
+      "recurrence_order": 105,
+      "reflected_value": 47,
+      "tap_value": 58,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          9,
+          1,
+          9841,
+          9841
+        ],
+        [
+          12,
+          1,
+          53144,
+          53144
+        ],
+        [
+          13,
+          1,
+          797161,
+          797161
+        ],
+        [
+          19,
+          1,
+          581130733,
+          581130733
+        ],
+        [
+          52,
+          1,
+          3230540944613336649466120,
+          3230540944613336649466120
+        ]
+      ],
+      "factor_strings": [
+        "x^9 + 2*x^7 + x^5 + x^3 + x^2 + 2*x + 2",
+        "x^12 + 2*x^11 + 2*x^10 + x^9 + 2*x^8 + x^7 + 2*x^6 + 2*x^3 + 1",
+        "x^13 + x^12 + 2*x^11 + x^9 + x^7 + x^6 + x^5 + 2*x^3 + x + 2",
+        "x^19 + 2*x^15 + x^12 + 2*x^11 + x^9 + x^7 + x^5 + x^4 + 2*x^2 + 2",
+        "x^52 + x^50 + 2*x^49 + 2*x^48 + x^47 + x^45 + 2*x^44 + x^41 + 2*x^36 + 2*x^35 + x^34 + 2*x^28 + 2*x^27 + 2*x^25 + x^24 + x^22 + x^21 + x^20 + x^17 + x^15 + x^13 + 2*x^12 + x^11 + x^10 + x^9 + 2*x^8 + 2*x^7 + 2*x^5 + 2*x^4 + x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 4,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 9440809303544908519010330849600320615960,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 164,
+      "recurrence_order": 105,
+      "reflected_value": 46,
+      "tap_value": 59,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          4,
+          3,
+          10,
+          30
+        ],
+        [
+          6,
+          3,
+          728,
+          2184
+        ],
+        [
+          12,
+          3,
+          3640,
+          10920
+        ],
+        [
+          12,
+          3,
+          3640,
+          10920
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^6 + x + 2",
+        "x^12 + x^11 + x^9 + 2*x^7 + 2*x^6 + x^4 + x^3 + x^2 + 2*x + 1",
+        "x^12 + 2*x^11 + x^10 + x^9 + x^7 + 2*x^6 + x^5 + 2*x^4 + 2*x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 105,
+      "gcd_matrix_with_order_plus_value": 15,
+      "gcd_matrix_with_value": 60,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": true,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 10920,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 165,
+      "recurrence_order": 105,
+      "reflected_value": 45,
+      "tap_value": 60,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          1,
+          13,
+          13
+        ],
+        [
+          102,
+          1,
+          331314120470578712809153583420756532451354835572,
+          331314120470578712809153583420756532451354835572
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + 2*x + 2",
+        "x^102 + x^100 + x^99 + x^98 + 2*x^97 + 2*x^96 + x^94 + 2*x^93 + x^92 + x^89 + x^87 + x^86 + x^85 + 2*x^84 + 2*x^83 + x^81 + 2*x^80 + x^79 + x^76 + x^74 + x^73 + x^72 + 2*x^71 + 2*x^70 + x^68 + 2*x^67 + x^66 + x^63 + x^61 + x^60 + x^59 + x^58 + 2*x^57 + 2*x^56 + x^54 + 2*x^53 + x^52 + x^49 + x^47 + x^46 + x^45 + 2*x^44 + 2*x^43 + x^41 + 2*x^40 + x^39 + x^36 + x^34 + x^33 + x^32 + 2*x^31 + 2*x^30 + x^28 + 2*x^27 + x^26 + x^23 + x^21 + x^20 + x^19 + 2*x^18 + 2*x^17 + x^15 + 2*x^14 + x^13 + x^10 + x^8 + x^7 + x^6 + 2*x^5 + 2*x^4 + x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 331314120470578712809153583420756532451354835572,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 166,
+      "recurrence_order": 105,
+      "reflected_value": 44,
+      "tap_value": 61,
+      "v2_matrix_order": 2,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          5,
+          1,
+          121,
+          121
+        ],
+        [
+          7,
+          1,
+          2186,
+          2186
+        ],
+        [
+          30,
+          1,
+          205891132094648,
+          205891132094648
+        ],
+        [
+          57,
+          1,
+          1570042899082081611640534562,
+          1570042899082081611640534562
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^3 + x^2 + 2*x + 1",
+        "x^5 + x^2 + x + 2",
+        "x^7 + x^3 + x^2 + x + 1",
+        "x^30 + 2*x^29 + 2*x^26 + x^25 + 2*x^24 + x^23 + x^22 + x^20 + x^19 + x^18 + x^17 + 2*x^15 + 2*x^14 + x^13 + x^12 + x^10 + x^9 + 2*x^8 + 2*x^7 + 2*x^6 + 2*x^2 + 2",
+        "x^57 + x^56 + x^54 + 2*x^52 + 2*x^51 + 2*x^50 + 2*x^49 + 2*x^47 + 2*x^46 + x^40 + 2*x^38 + 2*x^36 + 2*x^35 + x^34 + x^33 + x^29 + x^28 + 2*x^25 + x^22 + x^20 + x^19 + 2*x^18 + 2*x^17 + 2*x^15 + x^14 + x^12 + x^11 + 2*x^10 + x^7 + x^6 + 2*x^5 + 2*x^3 + 2*x^2 + x + 1"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 62,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 7,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 13589265213561001920175644768777163332770168,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 167,
+      "recurrence_order": 105,
+      "reflected_value": 43,
+      "tap_value": 62,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          3,
+          3,
+          26,
+          78
+        ],
+        [
+          6,
+          3,
+          182,
+          546
+        ],
+        [
+          6,
+          3,
+          56,
+          168
+        ],
+        [
+          6,
+          3,
+          56,
+          168
+        ],
+        [
+          6,
+          3,
+          182,
+          546
+        ],
+        [
+          6,
+          3,
+          182,
+          546
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^3 + 2*x^2 + 1",
+        "x^6 + 2*x^3 + x^2 + 1",
+        "x^6 + 2*x^4 + x^3 + x^2 + 2",
+        "x^6 + x^5 + x + 2",
+        "x^6 + 2*x^5 + x^4 + x^3 + 2*x + 1",
+        "x^6 + 2*x^5 + 2*x^4 + x^2 + x + 1"
+      ],
+      "gcd_matrix_with_order": 21,
+      "gcd_matrix_with_order_plus_value": 168,
+      "gcd_matrix_with_value": 21,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 7,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 2184,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 168,
+      "recurrence_order": 105,
+      "reflected_value": 42,
+      "tap_value": 63,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          104,
+          1,
+          41745579179292917813953351511015323088870709282080,
+          41745579179292917813953351511015323088870709282080
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^104 + 2*x^103 + x^102 + 2*x^101 + x^100 + 2*x^99 + x^98 + 2*x^97 + x^96 + 2*x^95 + x^94 + 2*x^93 + x^92 + 2*x^91 + x^90 + 2*x^89 + x^88 + 2*x^87 + x^86 + 2*x^85 + x^84 + 2*x^83 + x^82 + 2*x^81 + x^80 + 2*x^79 + x^78 + 2*x^77 + x^76 + 2*x^75 + x^74 + 2*x^73 + x^72 + 2*x^71 + x^70 + 2*x^69 + x^68 + 2*x^67 + x^66 + 2*x^65 + x^64 + x^63 + 2*x^62 + x^61 + 2*x^60 + x^59 + 2*x^58 + x^57 + 2*x^56 + x^55 + 2*x^54 + x^53 + 2*x^52 + x^51 + 2*x^50 + x^49 + 2*x^48 + x^47 + 2*x^46 + x^45 + 2*x^44 + x^43 + 2*x^42 + x^41 + 2*x^40 + x^39 + 2*x^38 + x^37 + 2*x^36 + x^35 + 2*x^34 + x^33 + 2*x^32 + x^31 + 2*x^30 + x^29 + 2*x^28 + x^27 + 2*x^26 + x^25 + 2*x^24 + x^23 + 2*x^22 + x^21 + 2*x^20 + x^19 + 2*x^18 + x^17 + 2*x^16 + x^15 + 2*x^14 + x^13 + 2*x^12 + x^11 + 2*x^10 + x^9 + 2*x^8 + x^7 + 2*x^6 + x^5 + 2*x^4 + x^3 + 2*x^2 + x + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 32,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 41745579179292917813953351511015323088870709282080,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 169,
+      "recurrence_order": 105,
+      "reflected_value": 41,
+      "tap_value": 64,
+      "v2_matrix_order": 5,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          7,
+          1,
+          2186,
+          2186
+        ],
+        [
+          14,
+          1,
+          4782968,
+          4782968
+        ],
+        [
+          28,
+          1,
+          10930,
+          10930
+        ],
+        [
+          28,
+          1,
+          23914840,
+          23914840
+        ],
+        [
+          28,
+          1,
+          23914840,
+          23914840
+        ]
+      ],
+      "factor_strings": [
+        "x^7 + x^6 + x^5 + x^4 + x^3 + x + 1",
+        "x^14 + 2*x^13 + 2*x^12 + x^10 + 2*x^9 + x^8 + 2*x^7 + x^6 + x^5 + 2*x^4 + 2*x + 2",
+        "x^28 + 2*x^27 + 2*x^22 + x^21 + x^20 + 2*x^19 + 2*x^17 + 2*x^16 + x^13 + x^12 + 2*x^11 + x^10 + 2*x^9 + 2*x^8 + x^7 + x^6 + 2*x^4 + x^3 + x^2 + 2*x + 1",
+        "x^28 + 2*x^27 + 2*x^22 + 2*x^21 + x^20 + x^19 + x^17 + x^16 + 2*x^12 + 2*x^11 + x^10 + x^9 + 2*x^7 + 2*x^6 + x^5 + 2*x^4 + 2*x^2 + x + 1",
+        "x^28 + 2*x^27 + x^26 + x^25 + 2*x^24 + x^23 + 2*x^21 + x^20 + x^19 + x^18 + 2*x^17 + 2*x^16 + x^14 + x^12 + 2*x^11 + 2*x^10 + x^9 + x^8 + x^7 + x^5 + 2*x^3 + x^2 + x + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 10,
+      "gcd_matrix_with_value": 5,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 23914840,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 170,
+      "recurrence_order": 105,
+      "reflected_value": 40,
+      "tap_value": 65,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          6,
+          2,
+          18
+        ],
+        [
+          14,
+          3,
+          4782968,
+          14348904
+        ],
+        [
+          19,
+          3,
+          1162261466,
+          3486784398
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^14 + 2*x^13 + x^11 + 2*x^9 + 2*x^7 + x^6 + 2*x^5 + x^3 + 2*x^2 + 2",
+        "x^19 + 2*x^18 + 2*x^17 + 2*x^14 + 2*x^13 + 2*x^11 + x^9 + 2*x^8 + x^7 + 2*x^6 + 2*x^5 + x^4 + 2*x^3 + 2*x^2 + x + 1"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 9,
+      "gcd_matrix_with_value": 6,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 25015767297799896,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 171,
+      "recurrence_order": 105,
+      "reflected_value": 39,
+      "tap_value": 66,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          6,
+          1,
+          728,
+          728
+        ],
+        [
+          14,
+          1,
+          2391484,
+          2391484
+        ],
+        [
+          37,
+          1,
+          450283905890997362,
+          450283905890997362
+        ],
+        [
+          48,
+          1,
+          19941610769218127465840,
+          19941610769218127465840
+        ]
+      ],
+      "factor_strings": [
+        "x^6 + x^5 + x^4 + 2*x^3 + 2*x^2 + 2*x + 2",
+        "x^14 + 2*x^13 + x^10 + 2*x^9 + x^8 + x^7 + 2*x^6 + x^5 + 2*x^4 + x^3 + 2*x + 1",
+        "x^37 + x^36 + x^34 + x^33 + x^29 + x^27 + 2*x^26 + x^25 + x^24 + x^23 + x^22 + 2*x^20 + x^19 + x^18 + 2*x^17 + 2*x^16 + 2*x^15 + 2*x^14 + x^13 + 2*x^12 + 2*x^9 + x^7 + 2*x^6 + 2*x^2 + 1",
+        "x^48 + 2*x^47 + x^46 + 2*x^44 + x^43 + x^42 + x^41 + x^40 + 2*x^39 + x^38 + 2*x^37 + x^36 + 2*x^35 + 2*x^34 + 2*x^33 + 2*x^32 + x^31 + 2*x^29 + x^26 + x^24 + 2*x^23 + x^22 + x^21 + 2*x^19 + x^18 + 2*x^16 + x^12 + x^8 + 2*x^7 + 2*x^6 + x^5 + 2*x^3 + x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 4,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 2684257359267576493925601755879762463670061840,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 172,
+      "recurrence_order": 105,
+      "reflected_value": 38,
+      "tap_value": 67,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          6,
+          1,
+          364,
+          364
+        ],
+        [
+          98,
+          1,
+          57264168970223481226273458862846808078011946888,
+          57264168970223481226273458862846808078011946888
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^6 + 2*x^5 + 2*x^3 + x^2 + 1",
+        "x^98 + x^96 + x^95 + x^94 + x^93 + x^92 + x^89 + x^87 + 2*x^86 + 2*x^84 + x^83 + x^80 + 2*x^79 + x^78 + 2*x^76 + 2*x^74 + x^73 + 2*x^72 + x^70 + x^69 + x^68 + 2*x^66 + x^65 + 2*x^62 + 2*x^61 + 2*x^60 + x^59 + x^57 + x^55 + 2*x^54 + x^53 + x^52 + 2*x^51 + x^48 + 2*x^47 + 2*x^43 + 2*x^41 + 2*x^39 + x^36 + x^35 + 2*x^32 + 2*x^31 + 2*x^29 + x^28 + 2*x^26 + x^24 + 2*x^23 + x^22 + x^20 + x^19 + x^18 + x^17 + 2*x^16 + x^14 + 2*x^13 + x^12 + 2*x^11 + 2*x^8 + 2*x^7 + x^5 + 2*x^3 + x + 2"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 4,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 5211039376290336791590884756519059535099087166808,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 173,
+      "recurrence_order": 105,
+      "reflected_value": 37,
+      "tap_value": 68,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          6,
+          3,
+          728,
+          2184
+        ],
+        [
+          13,
+          3,
+          797161,
+          2391483
+        ],
+        [
+          16,
+          3,
+          43046720,
+          129140160
+        ]
+      ],
+      "factor_strings": [
+        "x^6 + x^5 + x^3 + 2*x^2 + x + 2",
+        "x^13 + 2*x^12 + 2*x^11 + 2*x^9 + x^7 + x^5 + x^4 + 2*x + 2",
+        "x^16 + 2*x^14 + x^12 + 2*x^10 + x^8 + x^7 + x^6 + 2*x^5 + x^4 + 2"
+      ],
+      "gcd_matrix_with_order": 105,
+      "gcd_matrix_with_order_plus_value": 6,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": true,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 9368040416804160,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 174,
+      "recurrence_order": 105,
+      "reflected_value": 36,
+      "tap_value": 69,
+      "v2_matrix_order": 6,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          4,
+          1,
+          40,
+          40
+        ],
+        [
+          4,
+          1,
+          40,
+          40
+        ],
+        [
+          4,
+          1,
+          10,
+          10
+        ],
+        [
+          6,
+          1,
+          56,
+          56
+        ],
+        [
+          6,
+          1,
+          56,
+          56
+        ],
+        [
+          6,
+          1,
+          14,
+          14
+        ],
+        [
+          12,
+          1,
+          70,
+          70
+        ],
+        [
+          12,
+          1,
+          280,
+          280
+        ],
+        [
+          12,
+          1,
+          70,
+          70
+        ],
+        [
+          12,
+          1,
+          280,
+          280
+        ],
+        [
+          12,
+          1,
+          280,
+          280
+        ],
+        [
+          12,
+          1,
+          280,
+          280
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^4 + x^2 + x + 1",
+        "x^4 + 2*x^3 + x^2 + 1",
+        "x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^6 + 2*x^4 + 2*x^3 + x^2 + 2",
+        "x^6 + 2*x^5 + 2*x + 2",
+        "x^6 + 2*x^5 + x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^12 + x^10 + 2*x^8 + 2*x^7 + 2*x^5 + 2*x^4 + 2*x^3 + 2*x^2 + x + 1",
+        "x^12 + x^11 + 2*x^10 + x^9 + 2*x^8 + 2*x^6 + 2*x^5 + x^3 + x + 1",
+        "x^12 + x^11 + 2*x^10 + 2*x^9 + 2*x^8 + 2*x^7 + 2*x^5 + 2*x^4 + x^2 + 1",
+        "x^12 + 2*x^11 + 2*x^9 + x^7 + 2*x^6 + 2*x^4 + 2*x^3 + 2*x^2 + 2*x + 1",
+        "x^12 + 2*x^11 + x^10 + 2*x^9 + x^8 + x^7 + 2*x^6 + 2*x^5 + 2*x^4 + x^3 + 2*x^2 + x + 1",
+        "x^12 + 2*x^11 + 2*x^10 + 2*x^9 + 2*x^8 + x^7 + 2*x^6 + 2*x^5 + x^4 + x^3 + x^2 + x + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 35,
+      "gcd_matrix_with_value": 70,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 14,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 280,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 175,
+      "recurrence_order": 105,
+      "reflected_value": 35,
+      "tap_value": 70,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          3,
+          1,
+          13,
+          13
+        ],
+        [
+          4,
+          1,
+          80,
+          80
+        ],
+        [
+          9,
+          1,
+          9841,
+          9841
+        ],
+        [
+          87,
+          1,
+          161628954964587267146136990360680135926693,
+          161628954964587267146136990360680135926693
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^3 + x^2 + x + 2",
+        "x^4 + x^3 + x^2 + 2*x + 2",
+        "x^9 + 2*x^8 + x^7 + x^5 + 2*x^4 + 2*x^3 + x^2 + x + 2",
+        "x^87 + x^84 + 2*x^83 + x^82 + 2*x^81 + 2*x^80 + x^79 + 2*x^77 + x^76 + x^75 + 2*x^74 + x^73 + 2*x^72 + 2*x^69 + 2*x^68 + x^66 + 2*x^65 + 2*x^62 + 2*x^61 + x^59 + x^57 + 2*x^56 + 2*x^55 + 2*x^53 + x^52 + x^51 + 2*x^50 + 2*x^49 + 2*x^48 + x^47 + 2*x^45 + 2*x^44 + 2*x^43 + x^42 + 2*x^41 + x^40 + x^39 + 2*x^38 + x^37 + 2*x^36 + 2*x^35 + x^34 + 2*x^33 + x^32 + x^30 + x^26 + x^24 + 2*x^23 + x^20 + 2*x^16 + x^14 + 2*x^13 + x^12 + 2*x^11 + 2*x^9 + x^7 + 2*x^5 + 2*x^3 + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 16,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 9788249512655404898370056136242789031720528080,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 176,
+      "recurrence_order": 105,
+      "reflected_value": 34,
+      "tap_value": 71,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          17,
+          3,
+          129140162,
+          387420486
+        ],
+        [
+          17,
+          3,
+          64570081,
+          193710243
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^17 + x^15 + 2*x^14 + 2*x^13 + 2*x^12 + 2*x^11 + x^10 + x^8 + x^7 + 2*x^6 + x^5 + 2*x^4 + x^3 + 2*x^2 + 1",
+        "x^17 + 2*x^16 + x^14 + x^13 + x^12 + x^11 + x^10 + x^9 + x^8 + 2*x^6 + 2*x^5 + x^4 + x^2 + x + 2"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 3,
+      "gcd_matrix_with_value": 6,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 387420486,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 177,
+      "recurrence_order": 105,
+      "reflected_value": 33,
+      "tap_value": 72,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          25,
+          1,
+          77026237222,
+          77026237222
+        ],
+        [
+          80,
+          1,
+          13437166310395083937825746382398481600,
+          13437166310395083937825746382398481600
+        ]
+      ],
+      "factor_strings": [
+        "x^25 + 2*x^24 + 2*x^23 + x^22 + x^20 + x^17 + x^16 + x^15 + 2*x^12 + 2*x^10 + 2*x^9 + 2*x^8 + x^7 + 2*x^6 + 2*x^4 + x^3 + 2*x^2 + 2*x + 1",
+        "x^80 + x^79 + 2*x^78 + 2*x^77 + 2*x^75 + 2*x^74 + 2*x^73 + 2*x^72 + x^67 + x^66 + 2*x^65 + x^63 + 2*x^62 + 2*x^61 + x^56 + x^54 + x^53 + x^52 + x^51 + 2*x^49 + x^45 + 2*x^44 + x^43 + 2*x^42 + 2*x^41 + x^40 + x^39 + x^38 + 2*x^37 + 2*x^36 + x^35 + 2*x^30 + 2*x^27 + 2*x^26 + x^25 + 2*x^24 + x^23 + x^22 + 2*x^21 + 2*x^19 + 2*x^18 + 2*x^17 + 2*x^15 + 2*x^14 + x^13 + x^12 + 2*x^10 + 2*x^9 + 2*x^7 + 2*x^6 + x^5 + 2*x^4 + x^3 + x^2 + 2*x + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 47046107264361737269889447261356080411554641600,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 178,
+      "recurrence_order": 105,
+      "reflected_value": 32,
+      "tap_value": 73,
+      "v2_matrix_order": 6,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          13,
+          13
+        ],
+        [
+          4,
+          1,
+          80,
+          80
+        ],
+        [
+          30,
+          1,
+          14706509435332,
+          14706509435332
+        ],
+        [
+          67,
+          1,
+          46354731573948918542880962705293,
+          46354731573948918542880962705293
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + 2*x + 2",
+        "x^4 + x^3 + 2*x^2 + 2*x + 2",
+        "x^30 + x^29 + x^28 + 2*x^27 + 2*x^26 + 2*x^25 + 2*x^24 + x^23 + x^22 + 2*x^21 + x^20 + 2*x^19 + 2*x^17 + x^14 + 2*x^13 + x^12 + 2*x^11 + x^10 + 2*x^8 + x^7 + 2*x^6 + 2*x^5 + x^3 + x^2 + x + 1",
+        "x^67 + x^65 + 2*x^64 + 2*x^63 + 2*x^62 + x^60 + 2*x^59 + 2*x^58 + 2*x^57 + 2*x^56 + x^55 + x^54 + x^53 + x^50 + 2*x^48 + x^47 + 2*x^46 + x^45 + 2*x^43 + 2*x^42 + x^41 + x^40 + 2*x^39 + 2*x^38 + 2*x^36 + x^35 + x^34 + x^33 + 2*x^32 + 2*x^29 + 2*x^28 + x^27 + x^26 + 2*x^25 + 2*x^24 + 2*x^23 + 2*x^22 + 2*x^21 + 2*x^20 + x^18 + 2*x^15 + x^13 + 2*x^11 + 2*x^9 + x^8 + x^7 + x^6 + x^5 + 2*x^4 + x^2 + x + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 2,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 13634325945291238832829527421270222171152245520,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 179,
+      "recurrence_order": 105,
+      "reflected_value": 31,
+      "tap_value": 74,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          7,
+          3,
+          1093,
+          3279
+        ],
+        [
+          28,
+          3,
+          5465,
+          16395
+        ]
+      ],
+      "factor_strings": [
+        "x^7 + x^6 + x^4 + 2*x + 2",
+        "x^28 + 2*x^27 + x^26 + x^25 + 2*x^23 + x^22 + 2*x^21 + 2*x^20 + 2*x^19 + 2*x^18 + x^17 + x^15 + 2*x^14 + 2*x^13 + x^12 + 2*x^10 + x^9 + 2*x^8 + 2*x^6 + 2*x^4 + 2*x^3 + x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 15,
+      "gcd_matrix_with_value": 15,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 16395,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 180,
+      "recurrence_order": 105,
+      "reflected_value": 30,
+      "tap_value": 75,
+      "v2_matrix_order": 0,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          5,
+          1,
+          121,
+          121
+        ],
+        [
+          9,
+          1,
+          19682,
+          19682
+        ],
+        [
+          13,
+          1,
+          1594322,
+          1594322
+        ],
+        [
+          26,
+          1,
+          2541865828328,
+          2541865828328
+        ],
+        [
+          51,
+          1,
+          1076846981537778883155373,
+          1076846981537778883155373
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^5 + x^4 + 2",
+        "x^9 + x^8 + x^6 + 2*x^5 + 2*x^4 + x^3 + x^2 + x + 1",
+        "x^13 + x^11 + 2*x^10 + 2*x^9 + 2*x^6 + x^5 + x^4 + 2*x + 1",
+        "x^26 + 2*x^25 + x^24 + x^23 + x^22 + 2*x^20 + x^19 + x^18 + 2*x^17 + x^15 + x^14 + x^13 + x^12 + x^9 + 2*x^8 + x^7 + 2*x^4 + 2*x + 2",
+        "x^51 + x^50 + 2*x^49 + 2*x^48 + 2*x^47 + x^42 + x^41 + x^38 + x^35 + 2*x^33 + x^32 + x^31 + x^30 + x^26 + x^25 + 2*x^24 + 2*x^23 + x^20 + 2*x^19 + x^18 + 2*x^16 + x^15 + 2*x^14 + x^13 + x^9 + 2*x^7 + 2*x^5 + x^3 + 2*x + 2"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 4,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 250719358293713281417092593677591754691368,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 181,
+      "recurrence_order": 105,
+      "reflected_value": 29,
+      "tap_value": 76,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          9,
+          1,
+          9841,
+          9841
+        ],
+        [
+          18,
+          1,
+          68887,
+          68887
+        ],
+        [
+          18,
+          1,
+          68887,
+          68887
+        ],
+        [
+          18,
+          1,
+          68887,
+          68887
+        ],
+        [
+          42,
+          1,
+          2548,
+          2548
+        ]
+      ],
+      "factor_strings": [
+        "x^9 + 2*x^8 + x^5 + 2*x^4 + 2",
+        "x^18 + x^17 + x^15 + x^14 + 2*x^13 + x^12 + 2*x^11 + x^10 + 2*x^8 + x^7 + 2*x^5 + x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^18 + x^17 + x^15 + 2*x^14 + 2*x^13 + x^12 + x^11 + x^10 + x^9 + x^6 + 2*x^4 + 2*x^3 + x^2 + x + 1",
+        "x^18 + 2*x^17 + 2*x^16 + 2*x^15 + x^13 + 2*x^12 + 2*x^11 + 2*x^9 + x^7 + 2*x^6 + x^5 + 2*x^4 + 2*x^3 + 2*x^2 + 1",
+        "x^42 + x^35 + x^28 + 1"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 182,
+      "gcd_matrix_with_value": 7,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 1928836,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 182,
+      "recurrence_order": 105,
+      "reflected_value": 28,
+      "tap_value": 77,
+      "v2_matrix_order": 2,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          32,
+          3,
+          926510094425920,
+          2779530283277760
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^32 + x^31 + x^30 + 2*x^29 + x^27 + x^24 + x^21 + x^20 + x^19 + 2*x^18 + x^16 + x^13 + x^12 + x^11 + 2*x^10 + x^8 + x^5 + x^4 + x^3 + 2*x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 3,
+      "gcd_matrix_with_value": 6,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 2779530283277760,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 183,
+      "recurrence_order": 105,
+      "reflected_value": 27,
+      "tap_value": 78,
+      "v2_matrix_order": 6,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          103,
+          1,
+          13915193059764305937984450503671774362956903094026,
+          13915193059764305937984450503671774362956903094026
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^103 + x^102 + 2*x^101 + 2*x^99 + 2*x^98 + x^97 + x^95 + x^94 + 2*x^93 + 2*x^91 + 2*x^90 + x^89 + x^87 + x^86 + 2*x^85 + 2*x^83 + 2*x^82 + x^81 + x^79 + x^78 + x^77 + 2*x^76 + 2*x^74 + 2*x^73 + x^72 + x^70 + x^69 + 2*x^68 + 2*x^66 + 2*x^65 + x^64 + x^62 + x^61 + 2*x^60 + 2*x^58 + 2*x^57 + x^56 + x^54 + x^53 + 2*x^52 + 2*x^50 + 2*x^49 + x^48 + x^46 + x^45 + 2*x^44 + 2*x^42 + 2*x^41 + x^40 + x^38 + x^37 + 2*x^36 + 2*x^34 + 2*x^33 + x^32 + x^30 + x^29 + 2*x^28 + 2*x^26 + 2*x^25 + x^24 + x^22 + x^21 + 2*x^20 + 2*x^18 + 2*x^17 + x^16 + x^14 + x^13 + 2*x^12 + 2*x^10 + 2*x^9 + x^8 + x^6 + x^5 + 2*x^4 + 2*x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 8,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 55660772239057223751937802014687097451827612376104,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 184,
+      "recurrence_order": 105,
+      "reflected_value": 26,
+      "tap_value": 79,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          4,
+          1,
+          10,
+          10
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^20 + 2*x^16 + x^15 + 2*x^12 + x^11 + x^9 + 2*x^8 + x^5 + 2*x^4 + 2*x^3 + 2*x^2 + 2",
+        "x^20 + x^18 + x^17 + 2*x^16 + 2*x^15 + 2*x^14 + x^12 + x^11 + 2*x^10 + 2*x^9 + 2*x^8 + 2*x^7 + 2*x^5 + 2*x^3 + 2",
+        "x^20 + 2*x^18 + 2*x^17 + 2*x^15 + x^14 + x^13 + x^12 + x^11 + x^10 + x^9 + x^8 + 2*x^7 + x^6 + 2*x^5 + x^4 + x + 2",
+        "x^20 + x^19 + 2*x^18 + 2*x^16 + 2*x^15 + 2*x^13 + 2*x^11 + x^9 + 2*x^8 + x^7 + 2*x^6 + 2*x^5 + x^3 + x^2 + x + 2",
+        "x^20 + 2*x^19 + 2*x^18 + 2*x^15 + 2*x^14 + x^13 + x^12 + 2*x^11 + 2*x^9 + 2*x^8 + 2*x^7 + x^6 + x^4 + 2*x^3 + x + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 5,
+      "gcd_matrix_with_value": 80,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 7,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 3486784400,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 185,
+      "recurrence_order": 105,
+      "reflected_value": 25,
+      "tap_value": 80,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          3,
+          26,
+          78
+        ],
+        [
+          13,
+          3,
+          797161,
+          2391483
+        ],
+        [
+          19,
+          3,
+          1162261466,
+          3486784398
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + 2*x + 1",
+        "x^13 + x^11 + x^8 + 2*x^7 + 2*x^4 + 2*x + 2",
+        "x^19 + 2*x^16 + x^15 + x^14 + 2*x^13 + 2*x^12 + 2*x^11 + x^10 + x^9 + 2*x^8 + x^7 + x^6 + 2*x^5 + 2*x^4 + 2*x^3 + x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 6,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 36133870987423014,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 186,
+      "recurrence_order": 105,
+      "reflected_value": 24,
+      "tap_value": 81,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          20,
+          1,
+          871696100,
+          871696100
+        ],
+        [
+          81,
+          1,
+          17054864932424529613394216562274995877,
+          17054864932424529613394216562274995877
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + 2*x^2 + x + 1",
+        "x^20 + 2*x^18 + 2*x^17 + 2*x^16 + 2*x^14 + x^13 + 2*x^12 + x^11 + 2*x^7 + 2*x^5 + 2*x^4 + 2*x^2 + x + 1",
+        "x^81 + x^79 + 2*x^78 + x^77 + x^73 + x^72 + x^71 + 2*x^70 + 2*x^69 + 2*x^65 + x^64 + x^57 + x^55 + 2*x^50 + 2*x^48 + x^44 + x^43 + x^42 + x^41 + x^38 + x^37 + x^36 + x^35 + x^33 + 2*x^32 + x^31 + 2*x^30 + x^29 + x^27 + 2*x^25 + 2*x^24 + 2*x^23 + 2*x^21 + x^20 + 2*x^19 + 2*x^17 + 2*x^15 + x^14 + x^12 + 2*x^11 + 2*x^10 + x^9 + 2*x^5 + 2*x^4 + x^3 + x^2 + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 11,
+      "gcd_matrix_with_value": 2,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 193266570219075938108293202418576773435460736100,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 187,
+      "recurrence_order": 105,
+      "reflected_value": 23,
+      "tap_value": 82,
+      "v2_matrix_order": 2,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          8,
+          1,
+          3280,
+          3280
+        ],
+        [
+          11,
+          1,
+          88573,
+          88573
+        ],
+        [
+          86,
+          1,
+          53876318321529089048712330120226711975564,
+          53876318321529089048712330120226711975564
+        ]
+      ],
+      "factor_strings": [
+        "x^8 + x^6 + x^5 + x^4 + 2*x^3 + 1",
+        "x^11 + 2*x^9 + 2",
+        "x^86 + 2*x^83 + 2*x^81 + 2*x^80 + 2*x^79 + x^78 + x^76 + x^75 + x^74 + 2*x^73 + 2*x^72 + x^71 + 2*x^70 + 2*x^66 + x^63 + 2*x^62 + x^58 + 2*x^56 + x^54 + 2*x^53 + x^52 + 2*x^51 + x^50 + 2*x^49 + 2*x^48 + 2*x^45 + 2*x^44 + 2*x^43 + x^42 + x^40 + x^39 + 2*x^37 + 2*x^35 + 2*x^33 + 2*x^32 + x^31 + 2*x^29 + 2*x^26 + x^24 + 2*x^21 + 2*x^20 + x^19 + x^17 + x^16 + 2*x^13 + 2*x^12 + x^11 + x^8 + x^7 + 2*x^5 + 2*x^4 + x^3 + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 4,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 3913029457008092723535509716905849259045536741040,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 188,
+      "recurrence_order": 105,
+      "reflected_value": 22,
+      "tap_value": 83,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          6,
+          2,
+          18
+        ],
+        [
+          3,
+          3,
+          13,
+          39
+        ],
+        [
+          6,
+          3,
+          91,
+          273
+        ],
+        [
+          6,
+          3,
+          91,
+          273
+        ],
+        [
+          6,
+          3,
+          91,
+          273
+        ],
+        [
+          6,
+          6,
+          14,
+          126
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + x^2 + x + 2",
+        "x^6 + x^5 + 2*x^4 + 2*x^3 + 1",
+        "x^6 + 2*x^5 + x^4 + x^3 + 2*x^2 + 1",
+        "x^6 + 2*x^5 + x^4 + 2*x^3 + x + 1",
+        "x^6 + 2*x^5 + x^4 + 2*x^3 + x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 21,
+      "gcd_matrix_with_order_plus_value": 63,
+      "gcd_matrix_with_value": 42,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 1638,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 189,
+      "recurrence_order": 105,
+      "reflected_value": 21,
+      "tap_value": 84,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          9,
+          1,
+          19682,
+          19682
+        ],
+        [
+          20,
+          1,
+          400,
+          400
+        ],
+        [
+          36,
+          1,
+          98410,
+          98410
+        ],
+        [
+          40,
+          1,
+          16400,
+          16400
+        ]
+      ],
+      "factor_strings": [
+        "x^9 + 2*x^8 + x^7 + x^6 + x^5 + 2*x^4 + x^3 + 1",
+        "x^20 + 2*x^15 + x^10 + x^5 + 2",
+        "x^36 + x^35 + x^33 + 2*x^32 + 2*x^29 + x^28 + 2*x^27 + 2*x^26 + 2*x^24 + x^23 + x^22 + 2*x^21 + 2*x^17 + x^11 + x^10 + 2*x^8 + x^5 + x^4 + 2*x^3 + 1",
+        "x^40 + 2*x^35 + 2*x^30 + 2*x^25 + x^15 + 2*x^10 + 2*x^5 + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 10,
+      "gcd_matrix_with_value": 5,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 161392400,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 190,
+      "recurrence_order": 105,
+      "reflected_value": 20,
+      "tap_value": 85,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          25,
+          1,
+          847288609442,
+          847288609442
+        ],
+        [
+          25,
+          1,
+          38513118611,
+          38513118611
+        ],
+        [
+          52,
+          1,
+          6461081889226673298932240,
+          6461081889226673298932240
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^25 + x^24 + 2*x^23 + x^21 + 2*x^18 + x^17 + 2*x^16 + 2*x^15 + 2*x^13 + x^12 + x^11 + x^7 + 2*x^6 + 2*x^4 + x^2 + 2*x + 1",
+        "x^25 + 2*x^24 + 2*x^23 + 2*x^21 + 2*x^20 + 2*x^19 + 2*x^17 + 2*x^12 + x^11 + 2*x^9 + 2*x^8 + 2*x^7 + 2*x^5 + 2*x^4 + x^3 + x^2 + x + 2",
+        "x^52 + x^51 + x^50 + 2*x^49 + 2*x^48 + x^46 + x^45 + x^44 + 2*x^43 + 2*x^41 + x^40 + x^38 + 2*x^34 + x^33 + 2*x^32 + x^31 + 2*x^29 + 2*x^28 + 2*x^27 + x^26 + 2*x^24 + x^23 + x^19 + 2*x^17 + x^16 + 2*x^15 + x^13 + x^12 + 2*x^11 + 2*x^10 + x^9 + 2*x^8 + x^6 + x^5 + 2*x^3 + x^2 + x + 2"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 2,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 2737200544706879150093964206491105040,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 191,
+      "recurrence_order": 105,
+      "reflected_value": 19,
+      "tap_value": 86,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          3,
+          3,
+          13,
+          39
+        ],
+        [
+          4,
+          3,
+          80,
+          240
+        ],
+        [
+          10,
+          3,
+          59048,
+          177144
+        ],
+        [
+          16,
+          3,
+          43046720,
+          129140160
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^3 + 2*x + 2",
+        "x^4 + x + 2",
+        "x^10 + x^7 + x^5 + 2*x + 2",
+        "x^16 + x^15 + 2*x^12 + x^11 + 2*x^9 + 2*x^8 + x^6 + 2*x^3 + x^2 + 2*x + 2"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 192,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 12391385772480,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 192,
+      "recurrence_order": 105,
+      "reflected_value": 18,
+      "tap_value": 87,
+      "v2_matrix_order": 6,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          6,
+          1,
+          728,
+          728
+        ],
+        [
+          7,
+          1,
+          1093,
+          1093
+        ],
+        [
+          10,
+          1,
+          1342,
+          1342
+        ],
+        [
+          78,
+          1,
+          16423203268260658146231467800709255288,
+          16423203268260658146231467800709255288
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + x^2 + 2*x + 1",
+        "x^6 + 2*x^5 + 2*x^4 + 2*x^3 + x^2 + 2",
+        "x^7 + 2*x^6 + x^5 + 2*x^3 + 2*x^2 + x + 2",
+        "x^10 + 2*x^9 + 2*x^8 + 2*x^7 + x^6 + 2*x^5 + 2*x^4 + 1",
+        "x^78 + x^77 + 2*x^76 + x^72 + 2*x^71 + 2*x^67 + x^66 + x^65 + 2*x^64 + 2*x^63 + 2*x^62 + x^60 + x^59 + x^55 + 2*x^54 + x^52 + x^51 + x^50 + x^49 + 2*x^48 + 2*x^47 + x^46 + 2*x^40 + x^38 + 2*x^37 + 2*x^36 + x^35 + x^34 + x^33 + 2*x^32 + x^28 + x^26 + x^25 + 2*x^23 + x^22 + x^21 + 2*x^20 + 2*x^19 + x^18 + 2*x^17 + 2*x^16 + 2*x^15 + 2*x^14 + x^13 + 2*x^10 + x^9 + 2*x^6 + x^3 + 2*x^2 + 2*x + 2"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 88,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 12044826546552171466420597179443569955985064,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 193,
+      "recurrence_order": 105,
+      "reflected_value": 17,
+      "tap_value": 88,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          1,
+          26,
+          26
+        ],
+        [
+          29,
+          1,
+          581613367499,
+          581613367499
+        ],
+        [
+          73,
+          1,
+          67585198634817523235520443624317922,
+          67585198634817523235520443624317922
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + 2*x^2 + 1",
+        "x^29 + 2*x^28 + 2*x^26 + 2*x^25 + 2*x^24 + 2*x^21 + x^20 + 2*x^18 + 2*x^17 + 2*x^16 + x^15 + x^14 + x^12 + x^11 + 2*x^10 + x^9 + x^7 + x^6 + 2*x^5 + 2",
+        "x^73 + 2*x^72 + x^70 + x^68 + 2*x^67 + 2*x^66 + x^64 + 2*x^63 + 2*x^62 + x^61 + x^60 + 2*x^59 + x^58 + 2*x^57 + 2*x^56 + x^52 + 2*x^51 + x^50 + 2*x^49 + 2*x^48 + x^46 + x^42 + x^41 + 2*x^36 + x^35 + x^34 + x^33 + 2*x^32 + x^31 + x^29 + x^27 + 2*x^26 + 2*x^24 + x^23 + x^22 + x^21 + x^20 + x^18 + 2*x^17 + x^15 + 2*x^14 + 2*x^13 + 2*x^12 + x^9 + x^4 + 2*x^3 + x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 511009914624105484099014403006573103798174222014,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 194,
+      "recurrence_order": 105,
+      "reflected_value": 16,
+      "tap_value": 89,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          4,
+          3,
+          10,
+          30
+        ],
+        [
+          6,
+          3,
+          728,
+          2184
+        ],
+        [
+          12,
+          3,
+          3640,
+          10920
+        ],
+        [
+          12,
+          3,
+          3640,
+          10920
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^6 + x^5 + 2*x^4 + x^3 + x^2 + 2",
+        "x^12 + x^10 + 2*x^8 + x^7 + 2*x^5 + x^4 + 2*x^2 + 1",
+        "x^12 + 2*x^11 + x^10 + x^5 + x^4 + x^3 + 2*x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 105,
+      "gcd_matrix_with_order_plus_value": 195,
+      "gcd_matrix_with_value": 30,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": true,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 10920,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 195,
+      "recurrence_order": 105,
+      "reflected_value": 15,
+      "tap_value": 90,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          15,
+          1,
+          7174453,
+          7174453
+        ],
+        [
+          30,
+          1,
+          50221171,
+          50221171
+        ],
+        [
+          30,
+          1,
+          50221171,
+          50221171
+        ],
+        [
+          30,
+          1,
+          50221171,
+          50221171
+        ]
+      ],
+      "factor_strings": [
+        "x^15 + x^13 + 2*x^12 + x^11 + 2*x^7 + x^5 + x^2 + 2",
+        "x^30 + 2*x^29 + x^26 + x^25 + 2*x^23 + x^22 + x^21 + x^19 + x^18 + x^17 + 2*x^13 + 2*x^12 + 2*x^11 + x^10 + 2*x^9 + 2*x^7 + x^6 + x^5 + 2*x^3 + x + 1",
+        "x^30 + 2*x^29 + x^27 + 2*x^25 + 2*x^23 + x^22 + x^21 + 2*x^20 + 2*x^18 + 2*x^17 + x^15 + 2*x^14 + 2*x^13 + 2*x^12 + x^11 + x^6 + 2*x^5 + 2*x^3 + x^2 + 1",
+        "x^30 + 2*x^29 + 2*x^28 + 2*x^27 + x^25 + x^24 + 2*x^23 + x^22 + x^21 + 2*x^20 + 2*x^18 + x^17 + 2*x^16 + 2*x^15 + 2*x^14 + 2*x^13 + 2*x^11 + 2*x^10 + x^9 + 2*x^7 + 2*x^6 + 2*x^5 + 2*x^4 + x^3 + x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 7,
+      "gcd_matrix_with_value": 91,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 50221171,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 196,
+      "recurrence_order": 105,
+      "reflected_value": 14,
+      "tap_value": 91,
+      "v2_matrix_order": 0,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          5,
+          1,
+          121,
+          121
+        ],
+        [
+          11,
+          1,
+          88573,
+          88573
+        ],
+        [
+          43,
+          1,
+          164128483697268538813,
+          164128483697268538813
+        ],
+        [
+          45,
+          1,
+          2954312706550833698642,
+          2954312706550833698642
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^5 + 2*x^4 + x^3 + x + 2",
+        "x^11 + x^9 + x^8 + 2*x^7 + 2*x^6 + 2*x^4 + 2*x^3 + 2*x^2 + x + 2",
+        "x^43 + 2*x^40 + 2*x^37 + 2*x^35 + 2*x^34 + x^32 + 2*x^31 + 2*x^30 + x^29 + 2*x^28 + x^26 + x^25 + 2*x^24 + x^20 + 2*x^19 + x^16 + 2*x^15 + x^13 + 2*x^12 + 2*x^11 + 2*x^10 + 2*x^9 + x^8 + x^7 + 2*x^6 + x^5 + x^2 + 2*x + 2",
+        "x^45 + 2*x^43 + 2*x^42 + x^41 + 2*x^39 + 2*x^38 + x^37 + x^36 + 2*x^33 + x^32 + 2*x^30 + 2*x^29 + x^28 + x^26 + 2*x^24 + 2*x^23 + 2*x^21 + 2*x^20 + x^19 + x^18 + x^15 + 2*x^13 + 2*x^12 + x^10 + x^9 + x^6 + x^5 + 2*x^4 + x^3 + 2*x^2 + 1"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 46,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 42947884284235164038659001419784383375421833058,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 197,
+      "recurrence_order": 105,
+      "reflected_value": 13,
+      "tap_value": 92,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          16,
+          3,
+          10761680,
+          32285040
+        ],
+        [
+          19,
+          3,
+          581130733,
+          1743392199
+        ]
+      ],
+      "factor_strings": [
+        "x^16 + x^15 + 2*x^14 + 2*x^11 + x^10 + 2*x^9 + x^8 + 2*x^6 + 2*x^2 + x + 1",
+        "x^19 + 2*x^18 + 2*x^17 + x^15 + 2*x^13 + 2*x^12 + 2*x^11 + x^10 + 2*x^9 + x^8 + 2*x^7 + x^6 + 2*x^5 + x^4 + x^2 + x + 2"
+      ],
+      "gcd_matrix_with_order": 15,
+      "gcd_matrix_with_order_plus_value": 6,
+      "gcd_matrix_with_value": 3,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 2,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 18761828960134320,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 198,
+      "recurrence_order": 105,
+      "reflected_value": 12,
+      "tap_value": 93,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          5,
+          1,
+          121,
+          121
+        ],
+        [
+          7,
+          1,
+          1093,
+          1093
+        ],
+        [
+          23,
+          1,
+          94143178826,
+          94143178826
+        ],
+        [
+          67,
+          1,
+          92709463147897837085761925410586,
+          92709463147897837085761925410586
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^5 + 2*x^4 + 2*x^2 + 2",
+        "x^7 + 2*x^5 + x^4 + 2*x^2 + 2",
+        "x^23 + 2*x^22 + 2*x^20 + 2*x^19 + 2*x^18 + x^17 + x^14 + 2*x^12 + x^8 + 2*x^5 + x^2 + x + 1",
+        "x^67 + x^65 + 2*x^63 + 2*x^61 + x^60 + 2*x^57 + 2*x^56 + 2*x^54 + x^53 + 2*x^52 + 2*x^51 + 2*x^50 + x^49 + x^48 + x^46 + 2*x^45 + 2*x^44 + 2*x^42 + 2*x^40 + x^39 + 2*x^37 + x^36 + x^35 + x^34 + x^32 + x^31 + 2*x^29 + 2*x^27 + 2*x^26 + 2*x^25 + x^24 + 2*x^23 + x^22 + 2*x^21 + 2*x^19 + 2*x^18 + x^17 + 2*x^16 + x^14 + 2*x^13 + 2*x^9 + x^8 + x^7 + x^6 + x^4 + 2*x^3 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 1,
+      "gcd_matrix_with_order_plus_value": 1,
+      "gcd_matrix_with_value": 94,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 2308598731516086253663432116410239796526692234216,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 199,
+      "recurrence_order": 105,
+      "reflected_value": 11,
+      "tap_value": 94,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": true
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          4,
+          1,
+          40,
+          40
+        ],
+        [
+          4,
+          1,
+          40,
+          40
+        ],
+        [
+          19,
+          1,
+          1162261466,
+          1162261466
+        ],
+        [
+          76,
+          1,
+          5811307330,
+          5811307330
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^4 + x^2 + 2*x + 1",
+        "x^4 + x^3 + x^2 + 1",
+        "x^19 + x^17 + 2*x^16 + 2*x^12 + 2*x^11 + x^10 + 2*x^9 + x^6 + x^5 + x^4 + x^2 + x + 1",
+        "x^76 + 2*x^74 + x^73 + x^72 + 2*x^69 + x^68 + 2*x^67 + 2*x^65 + x^64 + 2*x^61 + x^60 + 2*x^59 + 2*x^58 + 2*x^55 + 2*x^54 + x^52 + 2*x^51 + x^50 + x^49 + 2*x^48 + x^47 + 2*x^46 + 2*x^45 + x^44 + x^42 + x^41 + x^38 + x^36 + 2*x^35 + x^34 + 2*x^33 + x^32 + x^30 + 2*x^28 + 2*x^27 + x^25 + 2*x^24 + 2*x^21 + 2*x^20 + x^19 + x^18 + x^16 + 2*x^15 + 2*x^14 + 2*x^11 + x^10 + 2*x^9 + x^7 + 2*x^5 + x^4 + x^3 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 40,
+      "gcd_matrix_with_value": 5,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 23245229320,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 200,
+      "recurrence_order": 105,
+      "reflected_value": 10,
+      "tap_value": 95,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          3,
+          2,
+          6
+        ],
+        [
+          12,
+          3,
+          531440,
+          1594320
+        ],
+        [
+          22,
+          3,
+          15690529804,
+          47071589412
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^12 + x^11 + x^10 + x^8 + 2*x^5 + x^4 + x^2 + 2",
+        "x^22 + x^21 + 2*x^20 + x^19 + x^18 + x^17 + x^16 + 2*x^15 + x^14 + x^13 + x^8 + 2*x^7 + 2*x^6 + x^5 + x^4 + x^3 + 2*x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 105,
+      "gcd_matrix_with_order_plus_value": 201,
+      "gcd_matrix_with_value": 48,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": true,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 6253931369278320,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 201,
+      "recurrence_order": 105,
+      "reflected_value": 9,
+      "tap_value": 96,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          3,
+          1,
+          13,
+          13
+        ],
+        [
+          6,
+          1,
+          728,
+          728
+        ],
+        [
+          16,
+          1,
+          43046720,
+          43046720
+        ],
+        [
+          20,
+          1,
+          871696100,
+          871696100
+        ],
+        [
+          25,
+          1,
+          423644304721,
+          423644304721
+        ],
+        [
+          35,
+          1,
+          25015772549499853,
+          25015772549499853
+        ]
+      ],
+      "factor_strings": [
+        "x^3 + x^2 + x + 2",
+        "x^6 + x^5 + 2*x^4 + 2*x^2 + 2*x + 2",
+        "x^16 + x^15 + x^14 + 2*x^13 + 2*x^10 + x^8 + 2*x^7 + 2*x^6 + x^5 + x^4 + x^3 + 2*x^2 + x + 2",
+        "x^20 + 2*x^19 + x^18 + x^16 + x^15 + x^14 + 2*x^12 + x^11 + x^10 + x^9 + 2*x^7 + x^6 + x^5 + 2*x^4 + 2*x^3 + 2*x + 1",
+        "x^25 + 2*x^24 + 2*x^23 + x^22 + x^21 + x^20 + 2*x^19 + 2*x^16 + x^15 + x^14 + x^13 + 2*x^12 + 2*x^11 + x^10 + 2*x^9 + 2*x^5 + 2*x^4 + x^3 + x^2 + 2*x + 2",
+        "x^35 + 2*x^34 + 2*x^33 + 2*x^31 + x^29 + x^28 + x^26 + x^25 + x^23 + x^22 + x^21 + 2*x^19 + 2*x^17 + x^16 + x^14 + x^13 + x^11 + 2*x^10 + 2*x^7 + 2*x^5 + x^4 + 2*x^3 + 2*x + 2"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 123583678011668233837767424636792015524800,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 202,
+      "recurrence_order": 105,
+      "reflected_value": 8,
+      "tap_value": 97,
+      "v2_matrix_order": 6,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          6,
+          1,
+          14,
+          14
+        ],
+        [
+          14,
+          1,
+          4782968,
+          4782968
+        ],
+        [
+          42,
+          1,
+          33480776,
+          33480776
+        ],
+        [
+          42,
+          1,
+          33480776,
+          33480776
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^6 + 2*x^5 + x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^14 + 2*x^12 + 2*x^11 + x^10 + 2*x^9 + x^8 + 2*x^7 + 2*x^6 + 2*x^5 + x^4 + 2*x^3 + x^2 + 2*x + 2",
+        "x^42 + x^41 + x^40 + x^39 + 2*x^38 + x^37 + x^36 + 2*x^33 + x^31 + 2*x^30 + x^29 + 2*x^28 + x^27 + x^25 + 2*x^24 + 2*x^23 + 2*x^22 + x^20 + x^17 + x^16 + x^15 + x^14 + 2*x^13 + x^12 + x^11 + x^10 + x^9 + 2*x^8 + 2*x^6 + 2*x^5 + x^3 + 2*x^2 + x + 2",
+        "x^42 + 2*x^41 + x^40 + x^38 + 2*x^37 + 2*x^35 + 2*x^34 + 2*x^32 + x^31 + x^30 + x^29 + 2*x^28 + 2*x^27 + x^26 + 2*x^25 + x^22 + x^21 + 2*x^20 + x^18 + 2*x^17 + 2*x^16 + 2*x^15 + 2*x^14 + x^12 + x^11 + 2*x^10 + x^8 + 2*x^7 + 2*x^6 + x^4 + 2*x^3 + 2*x^2 + 2"
+      ],
+      "gcd_matrix_with_order": 7,
+      "gcd_matrix_with_order_plus_value": 7,
+      "gcd_matrix_with_value": 14,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 33480776,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 203,
+      "recurrence_order": 105,
+      "reflected_value": 7,
+      "tap_value": 98,
+      "v2_matrix_order": 3,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          35,
+          3,
+          25015772549499853,
+          75047317648499559
+        ]
+      ],
+      "factor_strings": [
+        "x^35 + 2*x^33 + 2"
+      ],
+      "gcd_matrix_with_order": 3,
+      "gcd_matrix_with_order_plus_value": 3,
+      "gcd_matrix_with_value": 33,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 1,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 75047317648499559,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 204,
+      "recurrence_order": 105,
+      "reflected_value": 6,
+      "tap_value": 99,
+      "v2_matrix_order": 0,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          13,
+          13
+        ],
+        [
+          4,
+          1,
+          10,
+          10
+        ],
+        [
+          12,
+          1,
+          65,
+          65
+        ],
+        [
+          17,
+          1,
+          129140162,
+          129140162
+        ],
+        [
+          68,
+          1,
+          645700810,
+          645700810
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^3 + 2*x + 2",
+        "x^4 + 2*x^3 + x^2 + 2*x + 1",
+        "x^12 + x^10 + x^9 + x^8 + 2*x^6 + x^5 + 2*x^4 + x^2 + 2*x + 1",
+        "x^17 + x^16 + 2*x^14 + 2*x^13 + x^12 + x^11 + 2*x^9 + 2*x^8 + 2*x^7 + x^6 + 2*x^5 + 2*x^3 + x^2 + 2*x + 1",
+        "x^68 + 2*x^67 + x^66 + 2*x^63 + 2*x^62 + x^61 + x^60 + x^56 + 2*x^54 + 2*x^50 + x^47 + x^46 + 2*x^45 + x^42 + 2*x^40 + 2*x^39 + x^38 + 2*x^37 + 2*x^36 + 2*x^35 + 2*x^34 + 2*x^33 + 2*x^32 + x^30 + 2*x^28 + x^27 + 2*x^22 + 2*x^21 + x^19 + 2*x^18 + x^17 + x^16 + x^15 + 2*x^13 + 2*x^12 + 2*x^10 + x^9 + x^6 + 2*x^5 + x^4 + x + 1"
+      ],
+      "gcd_matrix_with_order": 5,
+      "gcd_matrix_with_order_plus_value": 5,
+      "gcd_matrix_with_value": 10,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 6,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 8394110530,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 205,
+      "recurrence_order": 105,
+      "reflected_value": 5,
+      "tap_value": 100,
+      "v2_matrix_order": 1,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          7,
+          1,
+          2186,
+          2186
+        ],
+        [
+          20,
+          1,
+          3486784400,
+          3486784400
+        ],
+        [
+          78,
+          1,
+          4105800817065164536557866950177313822,
+          4105800817065164536557866950177313822
+        ]
+      ],
+      "factor_strings": [
+        "x^7 + 2*x^6 + 2*x^4 + 2*x + 1",
+        "x^20 + x^19 + x^18 + x^17 + x^16 + 2*x^14 + x^13 + x^11 + 2*x^10 + 2*x^9 + x^8 + x^7 + 2*x^6 + 2*x^4 + 2*x^3 + x^2 + x + 2",
+        "x^78 + x^75 + 2*x^73 + x^72 + 2*x^70 + x^69 + x^68 + x^67 + 2*x^65 + x^63 + x^62 + x^61 + x^60 + 2*x^59 + x^58 + x^57 + x^56 + 2*x^54 + 2*x^52 + x^51 + x^50 + 2*x^47 + x^44 + x^41 + 2*x^39 + 2*x^38 + 2*x^37 + x^35 + 2*x^31 + x^30 + 2*x^28 + x^27 + x^25 + 2*x^24 + 2*x^20 + x^19 + 2*x^16 + x^15 + x^14 + x^10 + 2*x^7 + x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 2,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 3,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 7823717083312962976013498897907570864910098321200,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 206,
+      "recurrence_order": 105,
+      "reflected_value": 4,
+      "tap_value": 101,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          6,
+          2,
+          18
+        ],
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          8,
+          3,
+          6560,
+          19680
+        ],
+        [
+          11,
+          3,
+          88573,
+          265719
+        ],
+        [
+          12,
+          3,
+          132860,
+          398580
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^2 + x + 2",
+        "x^8 + x^7 + x^6 + 2*x^5 + 2*x^4 + 2*x^3 + 2*x + 2",
+        "x^11 + x^10 + 2*x^6 + x^5 + 2*x^4 + x^3 + x^2 + 2",
+        "x^12 + 2*x^10 + 2*x^9 + x^8 + 2*x^6 + x + 1"
+      ],
+      "gcd_matrix_with_order": 105,
+      "gcd_matrix_with_order_plus_value": 207,
+      "gcd_matrix_with_value": 6,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": true,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 34738571518560,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 207,
+      "recurrence_order": 105,
+      "reflected_value": 3,
+      "tap_value": 102,
+      "v2_matrix_order": 5,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          2,
+          1,
+          8,
+          8
+        ],
+        [
+          4,
+          1,
+          80,
+          80
+        ],
+        [
+          6,
+          1,
+          728,
+          728
+        ],
+        [
+          93,
+          1,
+          235655016338368235499067731945871638181119122,
+          235655016338368235499067731945871638181119122
+        ]
+      ],
+      "factor_strings": [
+        "x^2 + 2*x + 2",
+        "x^4 + 2*x + 2",
+        "x^6 + x^5 + 2*x^4 + x^2 + 2",
+        "x^93 + 2*x^91 + x^90 + 2*x^89 + x^87 + x^86 + x^84 + x^83 + x^82 + x^79 + x^78 + 2*x^77 + 2*x^76 + x^75 + 2*x^74 + x^73 + 2*x^71 + x^70 + x^69 + x^67 + 2*x^64 + 2*x^60 + 2*x^59 + x^58 + x^57 + 2*x^56 + 2*x^55 + x^54 + x^52 + x^51 + x^50 + x^49 + 2*x^47 + x^46 + 2*x^44 + 2*x^42 + 2*x^41 + x^40 + x^39 + x^38 + 2*x^37 + 2*x^35 + 2*x^34 + x^32 + x^31 + x^30 + x^29 + 2*x^28 + x^27 + 2*x^26 + 2*x^25 + 2*x^24 + x^22 + x^21 + x^20 + 2*x^19 + x^18 + x^17 + 2*x^13 + x^11 + 2*x^10 + 2*x^9 + x^8 + 2*x^7 + x^5 + 2*x^4 + 2*x^2 + x + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 208,
+      "gcd_matrix_with_value": 1,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 4,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": true,
+      "matrix_order": 65983404574743105939738964944844058690713354160,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 208,
+      "recurrence_order": 105,
+      "reflected_value": 2,
+      "tap_value": 103,
+      "v2_matrix_order": 4,
+      "v_divides_matrix_order": false
+    },
+    {
+      "antiperiod_decision_mode": "ZERO_BY_ODD_DETERMINANT_THEOREM",
+      "factor_degree_multiplicity": [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          5,
+          1,
+          242,
+          242
+        ],
+        [
+          16,
+          1,
+          1049920,
+          1049920
+        ],
+        [
+          30,
+          1,
+          102945566047324,
+          102945566047324
+        ],
+        [
+          53,
+          1,
+          19383245667680019896796722,
+          19383245667680019896796722
+        ]
+      ],
+      "factor_strings": [
+        "x + 1",
+        "x^5 + x^4 + x^2 + x + 1",
+        "x^16 + 2*x^12 + x^10 + x^9 + x^8 + 2*x + 2",
+        "x^30 + x^29 + 2*x^28 + 2*x^27 + x^26 + 2*x^23 + 2*x^22 + 2*x^20 + x^19 + 2*x^18 + x^17 + x^16 + 2*x^15 + x^13 + x^12 + x^11 + 2*x^10 + 2*x^9 + 2*x^8 + x^5 + x^4 + x^2 + x + 1",
+        "x^53 + 2*x^52 + x^51 + x^47 + 2*x^45 + 2*x^44 + x^42 + 2*x^39 + 2*x^38 + x^37 + x^31 + x^30 + 2*x^29 + 2*x^28 + x^27 + 2*x^26 + x^25 + x^24 + 2*x^23 + 2*x^22 + x^21 + x^19 + x^18 + 2*x^17 + 2*x^14 + x^13 + 2*x^10 + 2*x^8 + 2*x^7 + x^6 + x^5 + 2*x^3 + 2*x^2 + 2*x + 1"
+      ],
+      "gcd_matrix_with_order": 35,
+      "gcd_matrix_with_order_plus_value": 11,
+      "gcd_matrix_with_value": 104,
+      "global_antiperiod_h": null,
+      "irreducible_factor_count": 5,
+      "k_divides_matrix_order": false,
+      "k_plus_v_divides_matrix_order": false,
+      "matrix_order": 261878815426571974247456540177575827839830720,
+      "matrix_order_equals_order": false,
+      "matrix_order_equals_order_plus_value": false,
+      "order_plus_value": 209,
+      "recurrence_order": 105,
+      "reflected_value": 1,
+      "tap_value": 104,
+      "v2_matrix_order": 6,
+      "v_divides_matrix_order": true
+    }
+  ],
+  "runtime_seconds": 0.532326
+}

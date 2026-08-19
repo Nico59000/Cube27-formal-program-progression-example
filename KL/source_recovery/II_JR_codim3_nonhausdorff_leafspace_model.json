@@ -1,0 +1,19 @@
+{
+  "finite_neighborhood_audit": {
+    "depth": 12,
+    "nonseparation_checks": 144,
+    "retraction_continuity_checks": 48
+  },
+  "guard": "L_dbl is a local support model motivated by the source non-Hausdorff leaf-space problem. No homeomorphism between the actual Epstein-Vogt leaf space and the doubled-origin line is claimed.",
+  "model": "line with doubled origin L_dbl",
+  "phase": "II-JR",
+  "source_motivation": "Sullivan explicitly asks for Thom stratification of the leaf space after allowing non-Hausdorffness; Epstein-Vogt supply spinning/doubling and locally unbounded first-return geometry.",
+  "status": "PASS_EXPLICIT_NONHAUSDORFF_SUPPORT_MODEL__TWO_CONTROLLED_BRANCH_RETRACTIONS__HAUSDORFF_TARGETS_MUST_COLLAPSE_BRANCH_ORIGINS",
+  "theorems": {
+    "Hausdorff_target_collapse": "every continuous map from L_dbl to a Hausdorff target identifies 0+ and 0-",
+    "controlled_branch_retractions": "r_+ and r_- collapse the opposite origin and are continuous retractions onto either one-origin branch",
+    "no_simultaneous_Hausdorff_resolver": "a Hausdorff-valued quotient cannot preserve the distinction of the two origins",
+    "non_Hausdorff": "0+ and 0- admit no disjoint neighborhoods"
+  },
+  "topology": "0+ and 0- each have neighborhoods consisting of that origin plus a punctured interval; all punctured points are shared"
+}

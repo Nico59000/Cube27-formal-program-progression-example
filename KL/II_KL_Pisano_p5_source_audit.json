@@ -1,0 +1,31 @@
+{
+  "decision": "PASS_TERMINAL_SCOPED_P5_NORMALIZATION_OBSTRUCTION_PRESERVED__FUTURE_NEW_SOURCE_REOPENS_GATE",
+  "fresh_retrieval_observation": "targeted Library search returned the inherited ramified epsilon/sign authority and prior obstruction records, not a new complete historical p=5 additive-character/Haar packet",
+  "full_historical_p5_Tate_packet": "SEPARATED_NOT_RECOVERED",
+  "historical_source": {
+    "available_keys": [
+      "decision",
+      "field",
+      "maximal_discriminant",
+      "normalization",
+      "odd_channels",
+      "phase",
+      "ramified_prime_5",
+      "records",
+      "ring_order_discriminant",
+      "two_adic_gauss_sum"
+    ],
+    "name": "II_JT_theta_ramified_epsilon.json",
+    "sha256": "2ebb337c2105642e4346c0a4204cdfb479a9396677bbbbdfdffb0128c2785e24"
+  },
+  "inherited_nonuniqueness": "epsilon5=-1 alone is compatible with two nonsquare residue scales 2 and 3 and does not identify the historical additive normalization",
+  "phase": "II-KL",
+  "required_full_local_Tate_packet": [
+    "explicit K_5/local extension identifier",
+    "explicit additive character psi5 byte formula",
+    "self-dual Haar measure convention",
+    "conductor and different exponents in the finite Tate denominator",
+    "uniformizer/coordinate representative list",
+    "finite Gauss/Tate sum bytes"
+  ]
+}

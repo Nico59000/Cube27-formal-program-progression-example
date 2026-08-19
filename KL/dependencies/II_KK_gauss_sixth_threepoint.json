@@ -1,0 +1,75 @@
+{
+  "carrier": "Gauss analytic trace-class transfer operator plus digit perturbation; no carrier identification with the finite counterexample used for the information no-go",
+  "fredholm_d6": {
+    "certified_interval": [
+      -1.3044149105061709,
+      0.3867748908143932
+    ],
+    "newton_identity": "6 d6=-(d5 trL+d4 trL2+d3 trL3+d2 trL4+d1 trL5+trL6)",
+    "normalization": "det(I-zL)=1+d1 z+...",
+    "status": "PASS_CERTIFIED_D6_FROM_PREDECESSOR_INTERVALS_AND_NEW_TRL6"
+  },
+  "guards": [
+    "the Rademacher construction is a logic/information counterexample only and is not a model of the Gauss process",
+    "the sixth trace tail is positive and outward-enclosed",
+    "no sign is claimed for d6 if the certified interval crosses zero"
+  ],
+  "phase": "II-KK",
+  "runtime": {
+    "arb_precision_bits": 160,
+    "python": "3.13.5",
+    "python_flint": "0.9.0"
+  },
+  "runtime_seconds": 2.583,
+  "sixth_trace": {
+    "box_N": 10,
+    "certified_interval": [
+      0.43856648810448556,
+      8.379252728897598
+    ],
+    "ordered_word_count": 1000000,
+    "orientation": "six inverse branches have determinant +1, fixed-point contribution q/(1-q)",
+    "partial_ball": "[0.438566495699822152062860452427285078789270 +/- 4.48e-43]",
+    "status": "PASS_CERTIFIED_TR_L6",
+    "tail_ball": "[7.94068622560243920184069056355635641160921743 +/- 4.48e-45]",
+    "tail_bound": "positive continuant product bound with safe 4/3 geometric denominator factor"
+  },
+  "status": "PASS_SIXTH_FREDHOLM_TRACE_COEFFICIENT_AND_CERTIFIED_PAIRWISE_ONLY_THREEPOINT_OBSTRUCTION",
+  "three_point_cumulant_route": {
+    "Gauss_three_point_summability": "SEPARATED_REQUIRES_GENUINE_HIGHER_ORDER_MIXING_OR_REDUCED_RESOLVENT_CERTIFICATE",
+    "finite_counterexample": {
+      "model_A": "independent centered Rademacher X,Y,Z",
+      "model_A_moments": {
+        "means": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pair": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "triple": 0.0
+      },
+      "model_B": "X,Y independent centered Rademacher and Z=XY",
+      "model_B_moments": {
+        "means": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pair": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "triple": 1.0
+      }
+    },
+    "pairwise_only_route": "REFUTED_AS_INFORMATIONALLY_INSUFFICIENT",
+    "status": "PASS_CERTIFIED_OBSTRUCTION_TO_PAIRWISE_ONLY_ROUTE__ACTUAL_GAUSS_THREE_POINT_SUMMABILITY_SEPARATED",
+    "theorem": "one-point and all pairwise moments/correlations do not determine the third joint cumulant; therefore a proof route using only the already certified one/two-point Gauss data cannot certify the three-point cumulant series",
+    "third_pressure_response": "SEPARATED_PRESERVED"
+  }
+}

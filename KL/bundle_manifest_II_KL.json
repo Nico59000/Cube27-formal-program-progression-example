@@ -1,0 +1,455 @@
+{
+  "authority_registry": "II_KL_authority_registry.json",
+  "bundle_revision": "R1",
+  "files": [
+    {
+      "bytes": 1173,
+      "path": "II_KL_D5_post_A1BI_source_audit.json",
+      "sha256": "9d09f64ad11d1221100bf12ceeecabd61777c09baabc8bf8e5c7264c6da7643f"
+    },
+    {
+      "bytes": 381063,
+      "path": "II_KL_FilteredRees_Fredholm_Germinal_Golden_FLINT_R1.pdf",
+      "sha256": "ceb29933a6b86d211a5e35df255c6090d5b91fcc4c5eafd71a150b1dd6e9aac9"
+    },
+    {
+      "bytes": 9726,
+      "path": "II_KL_FilteredRees_Fredholm_Germinal_Golden_FLINT_R1.tex",
+      "sha256": "bb5d520808b1f9ac61064b5c80977e2ed196d65a7d3ee799754c9758777e7ec2"
+    },
+    {
+      "bytes": 1330,
+      "path": "II_KL_Pisano_p5_source_audit.json",
+      "sha256": "179faabfaf5082d6de58c5f305fa41b705e8d0dbb32c5d964565ad82ec2803cf"
+    },
+    {
+      "bytes": 1808,
+      "path": "II_KL_authority_registry.json",
+      "sha256": "2077d8e2dbeb49792bdaacc245bcf30586cc76648989ae82e6f4a9b4fe6534da"
+    },
+    {
+      "bytes": 4835,
+      "path": "II_KL_certificate.json",
+      "sha256": "7a551b3573fa7d4084005463546352fc3092c36e14386f2a53b52a1829ef564e"
+    },
+    {
+      "bytes": 7390,
+      "path": "II_KL_codim3_quotient_germinal.json",
+      "sha256": "83cb2b459fe6e871d11e9061309ebe64a30d47373294c8c0e9c3e2fab724c33c"
+    },
+    {
+      "bytes": 2281,
+      "path": "II_KL_compte_rendu.md",
+      "sha256": "c5678496a2cd2d7e48ab73e82f75004282cad51946be6b1e065a852cf20bf39f"
+    },
+    {
+      "bytes": 623548,
+      "path": "II_KL_contact_sheet.png",
+      "sha256": "ca20c15eadfa38286ed5916c206bc5d789f9aa5acc6e57f84b00da3d7b15afea"
+    },
+    {
+      "bytes": 243788,
+      "path": "II_KL_cube27_filtered_rees_ext.json",
+      "sha256": "8d9cfeefb6e6f70022dab8cfa303866ce3e07c61a4af15cbb7a504bf080cf6b4"
+    },
+    {
+      "bytes": 3360,
+      "path": "II_KL_gauss_seventh_reduced_resolvent.json",
+      "sha256": "a616f3dc6124a19001f8573c639f5c9b74d6cccf06bffe1e20be420029407a97"
+    },
+    {
+      "bytes": 1682,
+      "path": "II_KL_golden_H5_wall_audit.json",
+      "sha256": "d4d5437bfa747a2d76c6e7cec0aa35ccd4271602220ab538863473e1941b96f4"
+    },
+    {
+      "bytes": 3068,
+      "path": "II_KL_golden_native_H5_type4.json",
+      "sha256": "e811ca5b46ee3b3682ee39f8ffeaca8648a4798b5f1bfece3918d4772a2d7435"
+    },
+    {
+      "bytes": 698,
+      "path": "II_KL_layout_QA.json",
+      "sha256": "e8ffdb1736e54bdcc445f5ecf7ff34279289f4df790660cba4cbe9f909be1624"
+    },
+    {
+      "bytes": 1397,
+      "path": "II_KL_project_value_attempt.json",
+      "sha256": "dc6b216d0543dadf20cf1264fadd14199036b99a7671bc6edac3a5014c72f9ed"
+    },
+    {
+      "bytes": 165025,
+      "path": "II_KL_recurrence_chunk_100.json",
+      "sha256": "951a121d76e769956b2bbe0b84dc8465b2155720fe8f1ee572d721df0c233313"
+    },
+    {
+      "bytes": 176684,
+      "path": "II_KL_recurrence_chunk_101.json",
+      "sha256": "12c72a52bab1a8ad0bdbac1d9ceeea85fbeca895be4121882620049eefc0799b"
+    },
+    {
+      "bytes": 151239,
+      "path": "II_KL_recurrence_chunk_102.json",
+      "sha256": "6a70754020afabb4829109a4a321859fb7f4c036c3289c7e1b4025e1ed3f0311"
+    },
+    {
+      "bytes": 179987,
+      "path": "II_KL_recurrence_chunk_103.json",
+      "sha256": "0ebd4d9ea3beac0cea5126cb35812d5a86a3e456c37e446b6e5bc3d28c648c28"
+    },
+    {
+      "bytes": 153811,
+      "path": "II_KL_recurrence_chunk_104.json",
+      "sha256": "a52847d441a03e090af16930038957f94a98da437d5b645a268a624c9cd25672"
+    },
+    {
+      "bytes": 167361,
+      "path": "II_KL_recurrence_chunk_105.json",
+      "sha256": "f90cef8688a74af5c33a041ba283a8cb535616882588e1c5d69ceaf37a6425f7"
+    },
+    {
+      "bytes": 145475,
+      "path": "II_KL_recurrence_chunk_89.json",
+      "sha256": "6a597bff878dee1d7f544a2b112bfe644a62bdd04cff4c61258ec2fbd593d28a"
+    },
+    {
+      "bytes": 132803,
+      "path": "II_KL_recurrence_chunk_96.json",
+      "sha256": "832550bb13187d138d0d5ede161d6347935c4cb299845da8ef9596d1bfe8bab6"
+    },
+    {
+      "bytes": 163865,
+      "path": "II_KL_recurrence_chunk_97.json",
+      "sha256": "57de6f774a003515d8fd3d03366a1723a3ab393bb6f25b08df8f73d0f7471dcf"
+    },
+    {
+      "bytes": 157637,
+      "path": "II_KL_recurrence_chunk_98.json",
+      "sha256": "b2aae9729b5e5b23468d26e6dcaf524522cf30b7afd5f51334d5a73dfc73e8a6"
+    },
+    {
+      "bytes": 149904,
+      "path": "II_KL_recurrence_chunk_99.json",
+      "sha256": "70645987ed3670a415ef5cb5c29641819ba1b08f3dcc126731e16cb69c7d8338"
+    },
+    {
+      "bytes": 79081,
+      "path": "II_KL_recurrence_order_value_89_96_105.csv",
+      "sha256": "267519c258a88b0b518e5fe5fd755bd1755aa1d9cfe0e2c043d4bfa1484b3f32"
+    },
+    {
+      "bytes": 1858697,
+      "path": "II_KL_recurrence_order_value_89_96_105.json",
+      "sha256": "8034adf544fc7741b6a4c0129256165add211b0d4c2d7f0e734c8922b80af307"
+    },
+    {
+      "bytes": 9439,
+      "path": "build_registries_II_KL.py",
+      "sha256": "0585878e140545f0625bc6e5d1cf177c9ec9c66688da0b8f0e13f1235059f1c0"
+    },
+    {
+      "bytes": 217,
+      "path": "codim3_II_KL_stdout.json",
+      "sha256": "fd6de6794cc7c6f2303cee340bda8f537c67ce8d8e3dd59294cb8f9780b43a41"
+    },
+    {
+      "bytes": 2843,
+      "path": "codim3_newton_funcs.py",
+      "sha256": "c1a9802a691d44112803be28aa35deccb72d49772e52538057c43c7538b46f26"
+    },
+    {
+      "bytes": 4017,
+      "path": "codim3_quotient_germinal_II_KL.py",
+      "sha256": "66609df91062b238d53cb6f96723bc67cafcd97bdd8775db26f38c74be685c15"
+    },
+    {
+      "bytes": 551,
+      "path": "cube27_II_KL_stdout.json",
+      "sha256": "0f7283ace5830e9796da3aa76617bb3f55f1a56baecbc8d4e4bb1ff45466fbdf"
+    },
+    {
+      "bytes": 8738,
+      "path": "cube27_full_rees_ext_II_KL.py",
+      "sha256": "78259f2a8eb3345e0949149758a754e7bdf44254976e8f541d7c145a02d4b89f"
+    },
+    {
+      "bytes": 696044,
+      "path": "dependencies/II_JY_golden_native_raw_all.json",
+      "sha256": "8cfe79fb56af3022bc8362f412a068f8952c41f3ca6e828ce4a48a4e06a877d0"
+    },
+    {
+      "bytes": 2909432,
+      "path": "dependencies/II_JZ_golden_residual_H3.json",
+      "sha256": "3ef4d809c52205b9a0252d52a04dac23fd96391b57eb7762668e16e6a47fa5ea"
+    },
+    {
+      "bytes": 2914,
+      "path": "dependencies/II_KA_cube27_tensor_table.csv",
+      "sha256": "7c5a3b64e79d8cd9d4140ce129d9935f4b6288b8c87be0c4d4a4a9c6057609ff"
+    },
+    {
+      "bytes": 2994,
+      "path": "dependencies/II_KF_gauss_nuclear_determinant.json",
+      "sha256": "caf068a66924911e6315d6a089232e245cab4f7e4be9f3e2ad712345dc8e064a"
+    },
+    {
+      "bytes": 7037,
+      "path": "dependencies/II_KG_cube27_overorder_conductor.json",
+      "sha256": "8984d68925053398872262b35ec7ac22c1b59704afb4bcb10946b438e9dcbffe"
+    },
+    {
+      "bytes": 38909,
+      "path": "dependencies/II_KG_golden_H5_entry.json",
+      "sha256": "2e12073ca25c5427184175b63873ddc74787845f22181251ce34992b2ea89f89"
+    },
+    {
+      "bytes": 773902,
+      "path": "dependencies/II_KG_recurrence_order_value_45_55.json",
+      "sha256": "b4956a267797e2e345cbb5861312b11138b1258ad41e29dc2110f694048423bf"
+    },
+    {
+      "bytes": 2473,
+      "path": "dependencies/II_KH_gauss_fredholm_riesz.json",
+      "sha256": "1a5b167dde2312bb0bb4eb259b1a7cbd3f05a346b176735bd5fd9dd49bf9b5ff"
+    },
+    {
+      "bytes": 809112,
+      "path": "dependencies/II_KH_recurrence_order_value_56_65.json",
+      "sha256": "632742c7e4e830e467bf5f85df0346bc6ecdd8bb0abe43b98b43ac656b8baad7"
+    },
+    {
+      "bytes": 4204,
+      "path": "dependencies/II_KI_cube27_aug_semigroup.json",
+      "sha256": "97903565416f8e26675dc22cd000b93ed11eb67c3e181361db53f57e3497a264"
+    },
+    {
+      "bytes": 2702,
+      "path": "dependencies/II_KI_gauss_fredholm_second_riesz.json",
+      "sha256": "2ab15268a33278921cd06196ab10d92c9d8990634c25d4785472be68e1413959"
+    },
+    {
+      "bytes": 1292,
+      "path": "dependencies/II_KI_golden_native_H5_type2.json",
+      "sha256": "aed404a427a854b2c9bf9eeceba7cd1be53e097cde375370750eca4dd0d12c67"
+    },
+    {
+      "bytes": 988783,
+      "path": "dependencies/II_KI_recurrence_order_value_66_75.json",
+      "sha256": "6549cff5317efa80a6d01731f8069435fb170226e604028ee773831df5accef5"
+    },
+    {
+      "bytes": 109606,
+      "path": "dependencies/II_KJ_cube27_rees_cocycle.json",
+      "sha256": "f649b461c84d90fbdadacbc19e04da7751634407266915fe708478c0aa445447"
+    },
+    {
+      "bytes": 2976,
+      "path": "dependencies/II_KJ_gauss_fifth_third_riesz.json",
+      "sha256": "a09f1e3f934a21514970390ad0973a9bee651260d1b0c638e011ff950a0e98f0"
+    },
+    {
+      "bytes": 1156620,
+      "path": "dependencies/II_KJ_recurrence_order_value_76_85.json",
+      "sha256": "806da4e9df94d57c2ff69354c31485fae3c83adb82c3d4ec4b71fc4a784efaf7"
+    },
+    {
+      "bytes": 1118,
+      "path": "dependencies/II_KK_D5_post_A1BI_source_audit.json",
+      "sha256": "e8187bc574283f66d6b7ad78ab6c3115a313f6f254de5f5a9e29622ecf9093a8"
+    },
+    {
+      "bytes": 2450,
+      "path": "dependencies/II_KK_Pisano_p5_terminal_scope.json",
+      "sha256": "281c651f0264412f61e326c2a66a7519cb0842f6c49120f73a2492abdd037f3d"
+    },
+    {
+      "bytes": 5455,
+      "path": "dependencies/II_KK_certificate.json",
+      "sha256": "ffbfed18e582b562319309c2287867f3dab9ae1bbffbf2601067dbc0e6b31e2c"
+    },
+    {
+      "bytes": 4587,
+      "path": "dependencies/II_KK_codim3_source_groupoid_newton.json",
+      "sha256": "dd81de02685368e1009eb21776b2f6ab5df9fe5bdf4d5faecb6bffea2ecfa983"
+    },
+    {
+      "bytes": 17789,
+      "path": "dependencies/II_KK_cube27_rees_yoneda.json",
+      "sha256": "0ea2d3dc621804c3015a82485f9948bed8d840007046de97ac4afc38cea7e7b7"
+    },
+    {
+      "bytes": 2773,
+      "path": "dependencies/II_KK_gauss_sixth_threepoint.json",
+      "sha256": "de00e5bcb0087e0c4cb6f069896a33dea36f1b7a9884ae22a0349f62dcf7f7dc"
+    },
+    {
+      "bytes": 6113,
+      "path": "dependencies/II_KK_golden_wall_H5_audit.json",
+      "sha256": "53986aece65c1312a206bacfc0ab473bf7573f7c1d571bcd3059f43a69a5e508"
+    },
+    {
+      "bytes": 1338,
+      "path": "dependencies/II_KK_project_value_attempt.json",
+      "sha256": "572a8ca9e47c7ee66614e5bd46d8f6729f9b90b90d4d998e609d28d2e95b8484"
+    },
+    {
+      "bytes": 831948,
+      "path": "dependencies/II_KK_recurrence_order_value_86_95.json",
+      "sha256": "8e9e723fe57f31a839151f92da9660a49aa9ede4a3bd18ca10b7b555322eb9f7"
+    },
+    {
+      "bytes": 4889,
+      "path": "dependencies/master_merge_registry_II_KK.json",
+      "sha256": "9bddbfeba92fde980e7fd427116debff9f3f855b72a6cd68d2839b0ef0982077"
+    },
+    {
+      "bytes": 8750,
+      "path": "dependencies/master_status_registry_II_KK.json",
+      "sha256": "3bd3abd54af39dc31f3ae77b76a90cd270bf457c8731a5c6b89ada29f394e842"
+    },
+    {
+      "bytes": 1712,
+      "path": "dependencies/recurrence_factor_core_II_KC.py",
+      "sha256": "c4b64ca55401bde36caae9df7d0ba9abc02cf5a662a22669c364bc8bf5345247"
+    },
+    {
+      "bytes": 281,
+      "path": "gauss_II_KL_stdout.json",
+      "sha256": "94f1b2bfc7382a841db6a89ed2d7fcf5282499b3d24efa41d13a38669a08375b"
+    },
+    {
+      "bytes": 5508,
+      "path": "gauss_seventh_reduced_resolvent_II_KL.py",
+      "sha256": "cbbce835ed225b87906825e9e5e21b70c9983592325769a162a4cacf5cb81b69"
+    },
+    {
+      "bytes": 2113,
+      "path": "golden_H5_wall_audit_II_KL.py",
+      "sha256": "e4551cda848416ac4ed8e6a5a307225511f71531de29d06e78b9107dd6de733a"
+    },
+    {
+      "bytes": 1682,
+      "path": "golden_H5_wall_audit_stdout.json",
+      "sha256": "9eb67004535c24fb186d483bba42fd41179bdd67091551af4ed75537901f683d"
+    },
+    {
+      "bytes": 7725,
+      "path": "golden_native_H5_type4_E8_II_KL.py",
+      "sha256": "d67cdf507a35f302e7191681dc81a6743858504ec1d7893bf3b6458e4df6ca30"
+    },
+    {
+      "bytes": 194,
+      "path": "golden_type4_II_KL_stdout.txt",
+      "sha256": "b4be9ad8538095b5b0fb704ae38517d57e58c57fde9c67821f5ea5457b4ab0fd"
+    },
+    {
+      "bytes": 17987,
+      "path": "make_final_docs_II_KL.py",
+      "sha256": "f417c1a55dc40b45bf9720e4338a640a04762d534d29f61f4835606ed8e7fafc"
+    },
+    {
+      "bytes": 5566,
+      "path": "master_merge_registry_II_KL.json",
+      "sha256": "e97d281f669b572ef98edecdd913e869bc6f5e8da41bc92ed2b1826bf605fef6"
+    },
+    {
+      "bytes": 10455,
+      "path": "master_status_registry_II_KL.json",
+      "sha256": "e697eb55c31d4c8e74006e52f2f564fc6b3a65c70e033fe82518edd0449d33b3"
+    },
+    {
+      "bytes": 2720,
+      "path": "package_II_KL.py",
+      "sha256": "8325b6cc38dd3a5557456f2e09e96ca1306be3f7b8cbe006022f0f6acce8bfff"
+    },
+    {
+      "bytes": 188,
+      "path": "pdf_preflight_II_KL.txt",
+      "sha256": "37a7d73701400b70ff6010f9961f5914f9abde801882e03d7acf1ac329ae98fc"
+    },
+    {
+      "bytes": 2074,
+      "path": "recurrence_II_KL_stdout.json",
+      "sha256": "b71720c89f5db133f6225b02d7d68698dce5eefbf2541e0b4c58786d17313efa"
+    },
+    {
+      "bytes": 12600,
+      "path": "recurrence_flint_full_II_KL.py",
+      "sha256": "f347ef4f289f521c4786f21802cb49d0b59d4a54ca877d5dcffef15f0792af66"
+    },
+    {
+      "bytes": 387,
+      "path": "registry_II_KL_stdout.json",
+      "sha256": "985a29410efdb3f96659246c8f059e8985aadf27b3b447caf9aacf7359834f6a"
+    },
+    {
+      "bytes": 4001,
+      "path": "source_gates_II_KL.py",
+      "sha256": "149a69394bae9159f170f6173e1155360221af8e120880a920538431042fd460"
+    },
+    {
+      "bytes": 287,
+      "path": "source_gates_II_KL_stdout.json",
+      "sha256": "85cb08d3b76c3f475c322fdea4561ff716d1ff27d149a48f46abaaa1ef613f89"
+    },
+    {
+      "bytes": 15167,
+      "path": "source_recovery/II_HQ_RLM_cofinal_Jdescent_zRtail_ReesCoker_H3axis_R1.tex",
+      "sha256": "3bd1117ccbac3c92304b04055875dc0a27b10fed30530a86581530f39e5cea21"
+    },
+    {
+      "bytes": 2389,
+      "path": "source_recovery/II_IK_stone_real_partial_payload.json",
+      "sha256": "067dcf2d769477f3ce2727b415278c075c6bb3a62ba9312b1e29770453ad6b57"
+    },
+    {
+      "bytes": 466136,
+      "path": "source_recovery/II_JF_Cube27_Bockstein_Stacking_GoldenHodge_PLR_R36_R1.pdf",
+      "sha256": "88d205aaec97eacc0a0eb1fc4389d54a7da9cf4fd189d3b32b8b434b4f0536fc"
+    },
+    {
+      "bytes": 908,
+      "path": "source_recovery/II_JF_codimension3_support_context.json",
+      "sha256": "82723815ebeec0535c5e4b8d0982b1bc6445e15aa9005c6753734933dce2e32a"
+    },
+    {
+      "bytes": 1346,
+      "path": "source_recovery/II_JR_codim3_nonhausdorff_leafspace_model.json",
+      "sha256": "3737ec188b80594b31c60d80d5012bbc56f72b13168ebf42aa8f9e265c4e2a11"
+    },
+    {
+      "bytes": 1511,
+      "path": "source_recovery/II_JT_theta_ramified_epsilon.json",
+      "sha256": "2ebb337c2105642e4346c0a4204cdfb479a9396677bbbbdfdffb0128c2785e24"
+    },
+    {
+      "bytes": 445881,
+      "path": "source_recovery/II_JU_Cube27_Picard_Pisano_Golden_2adic_R1.pdf",
+      "sha256": "b678abb9de271c947e943eafb6c7dc6b86a90d4979fc464d3f508db2a9dcf398"
+    },
+    {
+      "bytes": 9528,
+      "path": "source_recovery/formalisation_morphisme_reversion_transfert_ternaire_A1BH.tex",
+      "sha256": "323876dcabf1b32275b172fdd2ac9900c1432cc63220f89aa076d5f1992203d2"
+    },
+    {
+      "bytes": 3160,
+      "path": "verifier_run_stdout.txt",
+      "sha256": "890dc01b0a197c2063b03e6391720d0c3caf5701adb859653ced85b1bafbcb3a"
+    },
+    {
+      "bytes": 3160,
+      "path": "verifier_stdout_II_KL_deep.json",
+      "sha256": "890dc01b0a197c2063b03e6391720d0c3caf5701adb859653ced85b1bafbcb3a"
+    },
+    {
+      "bytes": 6855,
+      "path": "verify_II_KL.py",
+      "sha256": "885a655f7f8afbe617a12b68addf0b4fa0620aef10bbe2d7723cf1cca4caac00"
+    }
+  ],
+  "payload_file_count": 89,
+  "pdf": "II_KL_FilteredRees_Fredholm_Germinal_Golden_FLINT_R1.pdf",
+  "phase": "II-KL",
+  "source_tex": "II_KL_FilteredRees_Fredholm_Germinal_Golden_FLINT_R1.tex"
+}

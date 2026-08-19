@@ -1,0 +1,71 @@
+{
+  "ABI_complete_actual_project_packets": 0,
+  "active_project_NT_count": 37,
+  "guards": [
+    "truth and mergeability axes remain orthogonal and append-only",
+    "low-degree associated graded plus periodic tail is not silently promoted to all filtered Rees extension data",
+    "Ext is abelian-group Ext for the conductor sequence, not Ext over the Green ring",
+    "pairwise-data counterexample is not a model of the Gauss process",
+    "doubled-origin support model is not identified with the actual Epstein-Vogt leaf space",
+    "coinvariant no-go refutes uniqueness of reconstruction, not existence of a Wall map",
+    "adaptive recurrence campaign does not claim full scans for orders89/91/93/95",
+    "numerical recurrence collisions/divisibility never identify external carriers",
+    "zero source hits are scoped discovery evidence only"
+  ],
+  "historical_replay": "NT_NOT_EXHAUSTIVE",
+  "key_results": [
+    "Cube27: low-degree associated graded gr0..gr3 is serialized; gr1/gr2/gr3 Smith profiles are (2,2,12), (2,2,2,2,2,12), (2,2,2,2,2,2,12); 30 relation checks and 225 commutativity checks; explicit nonzero pullback class in Ext^1_Z(Z/2,A2).",
+    "Gauss: rigorous tr(L^6) and d6 intervals; pairwise-only data route to third joint cumulant is refuted by an exact finite counterexample; actual Gauss three-point cumulant summability remains separated.",
+    "Codimension-3: Arb interval Newton narrows the two previously unique crossings; source-bound C8 bad-stratum transition skeleton from the Epstein-Vogt support lineage; actual compactified leaf groupoid remains separated.",
+    "Golden: type2 native H5=14 preserved; coinvariant data cannot uniquely recover a free F2[H]-Wall lift because coinvariants have nonzero kernel; free Wall degree4 and remaining native H5 closures remain separated.",
+    "D5: fresh A1BI/post-A1BH scoped search found no continuous rank3 transition packet; actual packet remains NT.",
+    "Pisano: historical p5 sign/class source remains insufficient for additive-character/Haar/conductor/uniformizer/Tate-sum bytes; terminal only for the retrieved scope.",
+    "Recurrence: adaptive k=86..95 campaign gives 531 full-order records plus 36 selected odd-order probes; 111/111 applicable reflection pairs on full even scans; five new fixed centers satisfy ord=4k and h=2k; collision and divisibility atlases updated.",
+    "Stone/Fibonacci: no ABI-complete actual packet; 37 gates preserved."
+  ],
+  "merge_counts": {
+    "PROVEN-MERGEABLE": 663,
+    "PROVEN-NOT-MERGEABLE": 448
+  },
+  "observational_continuity": "PASS_296",
+  "overall": "PASS",
+  "phase": "II-KK",
+  "predecessor": "II-KJ",
+  "promoted_project_values": 0,
+  "safe_successor": "II-KL -- Cube27 full filtered-Rees extension data and 2-primary conductor Ext localization/product audit; Gauss seventh Fredholm trace/coefficient and genuine higher-order mixing/reduced-resolvent certificate for the third pressure cumulant; codimension-three source-bound quotient-atlas/germinal holonomy acquisition with further Arb crossing localization; Golden trusted free F2[H]-Wall degree-four producer or second native H5/B5 closure beyond type2; post-A1BI D5 transition-source ingestion; Pisano historical p5 local Tate packet acquisition; recurrence adaptive orders 96--105 with divisibility/collision theorem search; plus external Stone/Fibonacci ABI-complete packet execution.",
+  "source_sha256": {
+    "II_HQ_RLM_cofinal_Jdescent_zRtail_ReesCoker_H3axis_R1.tex": "3bd1117ccbac3c92304b04055875dc0a27b10fed30530a86581530f39e5cea21",
+    "II_IK_stone_real_partial_payload.json": "067dcf2d769477f3ce2727b415278c075c6bb3a62ba9312b1e29770453ad6b57",
+    "II_JF_codimension3_support_context.json": "82723815ebeec0535c5e4b8d0982b1bc6445e15aa9005c6753734933dce2e32a",
+    "II_JR_codim3_nonhausdorff_leafspace_model.json": "3737ec188b80594b31c60d80d5012bbc56f72b13168ebf42aa8f9e265c4e2a11",
+    "II_JT_theta_ramified_epsilon.json": "2ebb337c2105642e4346c0a4204cdfb479a9396677bbbbdfdffb0128c2785e24",
+    "II_JU_theta_2adic_gauss.json": "88bc57ffc053fd61817e16a716163c1895a00ab65da018c5883c517cf80e4d9c",
+    "II_JZ_StableGreen_GreenKubo_Return_Golden_D5_Recurrence_R1.tex": "a82243e737bb9a5d8364afdfa4ee582f8951739a4aa3e77dd5257faa95ed17d9",
+    "II_KF_Pisano_p5_independent_gauss.json": "c6a43832dacf8cbd53ebfb19b34e7b1e295ad924fd925aba492c514945996de5",
+    "formalisation_morphisme_reversion_transfert_ternaire_A1BH.tex": "323876dcabf1b32275b172fdd2ac9900c1432cc63220f89aa076d5f1992203d2",
+    "python_flint-0.9.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": "2a0d8db1fab69104afdc7a9763a690337a1cecafbf476b310f5bcd8ccc97b29b"
+  },
+  "status_counts": {
+    "NT": 84,
+    "PASS": 1404,
+    "REFUTED": 293,
+    "SEPARATED": 442,
+    "ZERO": 96
+  },
+  "title": "Low-degree Cube27 Rees and Yoneda class; sixth Gauss Fredholm; source-bound codim3 transition skeleton; Golden Wall obstruction; p5/D5/project gates; adaptive recurrence 86-95",
+  "verification": {
+    "assertion_count": 1328,
+    "coverage_units": 1109622,
+    "explicit_witness_instances": 667,
+    "families": 10
+  },
+  "layout": {
+    "pdf": "II_KK_Rees_Fredholm_Germinal_Golden_Recurrence_R1.pdf",
+    "pages": 3,
+    "decision": "PASS_ZERO_OVERFULL_AND_ZERO_RENDERED_PAGE_OVERFLOW",
+    "overfull_box_count": 0,
+    "word_bbox_page_violation_count": 0,
+    "render_edge_violation_count": 0,
+    "visual_contact_sheet_inspection": "PASS_NO_CLIPPING_OR_OVERLAP_OBSERVED"
+  }
+}

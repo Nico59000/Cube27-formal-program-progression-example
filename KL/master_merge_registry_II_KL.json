@@ -1,0 +1,154 @@
+{
+  "append_rows": [
+    {
+      "adapter_or_obstruction": "exact gr3 tail glue plus period-two semigroup",
+      "id": "PM-KL-01",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "low augmentation maps",
+      "target_carrier": "all-n associated graded"
+    },
+    {
+      "adapter_or_obstruction": "localization at 2 preserves the finite 2-primary quotient",
+      "id": "PM-KL-02",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "conductor Yoneda class",
+      "target_carrier": "2-local Ext class"
+    },
+    {
+      "adapter_or_obstruction": "explicit F2 detector functional",
+      "id": "PM-KL-03",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "A2/2A2 class",
+      "target_carrier": "Ext1(Z2,Z2) pushout"
+    },
+    {
+      "adapter_or_obstruction": "Newton identity on the same trace-class carrier",
+      "id": "PM-KL-04",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "Gauss traces1-7",
+      "target_carrier": "Fredholm d7"
+    },
+    {
+      "adapter_or_obstruction": "spectral complementary inverse via Riesz decomposition",
+      "id": "PM-KL-05",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "Gauss Riesz projector/gap",
+      "target_carrier": "reduced resolvent S"
+    },
+    {
+      "adapter_or_obstruction": "same axis-start transverse carrier and Arb integration",
+      "id": "PM-KL-06",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "regular return formula",
+      "target_carrier": "seven interval germ records"
+    },
+    {
+      "adapter_or_obstruction": "source-bound alternating incidence",
+      "id": "PM-KL-07",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "Epstein-Vogt bad-set support",
+      "target_carrier": "C8 stratum atlas"
+    },
+    {
+      "adapter_or_obstruction": "direct-sum E8 restrictions with actual B5 blocks",
+      "id": "PM-KL-08",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "native Golden products",
+      "target_carrier": "type4 H5 closure"
+    },
+    {
+      "adapter_or_obstruction": "9/9 exact matrix-order/antiperiod qualification",
+      "id": "PM-KL-09",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "old selected order89 records",
+      "target_carrier": "full FLINT order89 census"
+    },
+    {
+      "adapter_or_obstruction": "same characteristic polynomial and root-order semantics",
+      "id": "PM-KL-10",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "FLINT factor ABI",
+      "target_carrier": "full orders96-105 atlas"
+    },
+    {
+      "adapter_or_obstruction": "exact finite equivalence relation",
+      "id": "PM-KL-11",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "matrix-order equality",
+      "target_carrier": "collision quotient"
+    },
+    {
+      "adapter_or_obstruction": "same required-field contracts",
+      "id": "PM-KL-12",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "historical ABI schemas",
+      "target_carrier": "current D5/Pisano/Stone/Fib preflight"
+    },
+    {
+      "adapter_or_obstruction": "class is annihilated after inverting 2",
+      "id": "PNM-KL-01",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "2-primary conductor class",
+      "target_carrier": "odd-prime localization"
+    },
+    {
+      "adapter_or_obstruction": "pairwise data remain insufficient; reduced-resolvent existence is a different channel",
+      "id": "PNM-KL-02",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "pairwise Gauss information",
+      "target_carrier": "absolute third cumulant series"
+    },
+    {
+      "adapter_or_obstruction": "incidence data do not supply cross-singular holonomy arrows",
+      "id": "PNM-KL-03",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "C8 stratum incidence",
+      "target_carrier": "actual leaf holonomy groupoid"
+    },
+    {
+      "adapter_or_obstruction": "no homeomorphism/quotient-atlas adapter",
+      "id": "PNM-KL-04",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "doubled-origin support model",
+      "target_carrier": "actual Epstein-Vogt leaf space"
+    },
+    {
+      "adapter_or_obstruction": "coinvariants are nonfaithful and do not reconstruct a free lift",
+      "id": "PNM-KL-05",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "coinvariant Golden comparison bytes",
+      "target_carrier": "free F2[H]-Wall degree4 map"
+    },
+    {
+      "adapter_or_obstruction": "runtime behavior is engine-dependent evidence, not a carrier invariant",
+      "id": "PNM-KL-06",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "old SymPy timeout",
+      "target_carrier": "mathematical order89 specialness"
+    },
+    {
+      "adapter_or_obstruction": "no transition/trivialization adapter",
+      "id": "PNM-KL-07",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "A1BH finite lineage",
+      "target_carrier": "continuous D5 rank3 bundle"
+    },
+    {
+      "adapter_or_obstruction": "missing decisive fields block merge",
+      "id": "PNM-KL-08",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "partial Stone/Fibonacci sources",
+      "target_carrier": "promoted project values"
+    }
+  ],
+  "counts": {
+    "PROVEN-MERGEABLE": 675,
+    "PROVEN-NOT-MERGEABLE": 456
+  },
+  "inherited_counts": {
+    "PROVEN-MERGEABLE": 663,
+    "PROVEN-NOT-MERGEABLE": 448
+  },
+  "phase": "II-KL",
+  "predecessor": "II-KK"
+}

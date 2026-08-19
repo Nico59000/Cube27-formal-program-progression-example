@@ -1,0 +1,55 @@
+{
+  "abstract_H5_dimensions": [
+    38,
+    38,
+    14,
+    56,
+    34,
+    56,
+    34
+  ],
+  "free_Wall_degree4": {
+    "new_trusted_producer_found": false,
+    "predecessor_no_go": "coinvariant degree3 bytes do not determine a unique F2[H]-free lift; REFUTED preserved from II-KK",
+    "required_bytes": [
+      "free Wall basis through degree4",
+      "equivariant d4",
+      "twisting cochain or contracting homotopy",
+      "free Phi3 lift",
+      "Phi4 with d_bar Phi4=Phi3 d4"
+    ],
+    "status": "SEPARATED_TRUSTED_FREE_WALL_DEGREE4_PRODUCER_NOT_FOUND"
+  },
+  "guards": [
+    "type4 closure is independent of the invalid naive shuffle and does not use a free Wall comparison",
+    "E8 restrictions are detection maps on actual native cocycles, not carrier identifications",
+    "closure of type4 is not extrapolated to types3,5,6 even when dimensions repeat"
+  ],
+  "native_H5_closures": {
+    "remaining_types": [
+      0,
+      1,
+      3,
+      5,
+      6
+    ],
+    "type2": {
+      "dimension": 14,
+      "group_order": 48,
+      "method": "odd-index Sylow2 restriction plus actual streamed B5 reduction",
+      "status": "PASS_INHERITED_II_KI"
+    },
+    "type4": {
+      "E8_subgroups_found": 16,
+      "E8_subgroups_used": 6,
+      "candidate_pivots": 34,
+      "dimension": 34,
+      "group_order": 32,
+      "method": "direct-sum restrictions of actual native product cocycles to six elementary abelian E8 subgroups with independent actual B5 blocks",
+      "rows_processed": 196608,
+      "status": "PASS_NEW_II_KL_SECOND_NATIVE_H5_CLOSURE"
+    }
+  },
+  "phase": "II-KL",
+  "status": "PASS_SECOND_NATIVE_H5_B5_CLOSURE_TYPE4__FREE_WALL_DEGREE4_STILL_SEPARATED"
+}

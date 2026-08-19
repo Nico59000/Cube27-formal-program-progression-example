@@ -1,0 +1,60 @@
+{
+  "decision": "PASS_EXPLICIT_P5_LOCAL_SIGN_AND_FORCED_P2_SIGN__DIRECT_P2_GAUSS_SUM_SEPARATED",
+  "field": "Q(sqrt(-5))",
+  "maximal_discriminant": -20,
+  "normalization": "same Epstein/class-character completion as II-JR/II-JS; local additive character normalized by the different",
+  "odd_channels": {
+    "epsilon_2": -1,
+    "epsilon_2_times_epsilon_5": 1,
+    "epsilon_5": -1,
+    "k": [
+      1,
+      3
+    ]
+  },
+  "phase": "II-JT",
+  "ramified_prime_5": {
+    "class_in_ring_class_group": "g^2, the unique nontrivial involution",
+    "epsilon_formula_in_declared_normalization": "epsilon_5=chi_k(p5)",
+    "local_character_value": "chi_k(g^2)=(-1)^k"
+  },
+  "records": [
+    {
+      "chi_k(p5=g^2)": 1,
+      "epsilon_2": 1,
+      "epsilon_5": 1,
+      "k": 0,
+      "primitive_conductor": 1,
+      "product": 1
+    },
+    {
+      "chi_k(p5=g^2)": -1,
+      "epsilon_2": -1,
+      "epsilon_5": -1,
+      "k": 1,
+      "primitive_conductor": 2,
+      "product": 1
+    },
+    {
+      "chi_k(p5=g^2)": 1,
+      "epsilon_2": 1,
+      "epsilon_5": 1,
+      "k": 2,
+      "primitive_conductor": 1,
+      "product": 1
+    },
+    {
+      "chi_k(p5=g^2)": -1,
+      "epsilon_2": -1,
+      "epsilon_5": -1,
+      "k": 3,
+      "primitive_conductor": 2,
+      "product": 1
+    }
+  ],
+  "ring_order_discriminant": -80,
+  "two_adic_gauss_sum": {
+    "forced_sign": "epsilon_2=-1 for k=1,3 from global W=+1 and the direct p5 sign",
+    "status": "SEPARATED_DIRECT_FINITE_GAUSS_SUM_NOT_INDEPENDENTLY_REPLAYED"
+  }
+}

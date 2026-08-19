@@ -1,0 +1,140 @@
+{
+  "append_rows": [
+    {
+      "adapter_or_obstruction": "explicit quotient relation matrices",
+      "id": "PM-KK-01",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "augmentation lattices K1/K2/K3",
+      "target_carrier": "low-degree associated graded"
+    },
+    {
+      "adapter_or_obstruction": "serialized integral multiplication matrices",
+      "id": "PM-KK-02",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "augmentation generators",
+      "target_carrier": "gr1->gr2->gr3"
+    },
+    {
+      "adapter_or_obstruction": "explicit pullback Yoneda representative",
+      "id": "PM-KK-03",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "conductor quotient order-two class",
+      "target_carrier": "Ext1_Z(Z/2,A2)"
+    },
+    {
+      "adapter_or_obstruction": "Newton identity on same trace-class carrier",
+      "id": "PM-KK-04",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "Gauss certified traces1-5",
+      "target_carrier": "sixth Fredholm coefficient"
+    },
+    {
+      "adapter_or_obstruction": "same Arb integral/derivative carrier",
+      "id": "PM-KK-05",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "KJ unique crossings",
+      "target_carrier": "KK narrower crossings"
+    },
+    {
+      "adapter_or_obstruction": "source-bound alternating incidence",
+      "id": "PM-KK-06",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "Epstein-Vogt bad-set support",
+      "target_carrier": "C8 transition skeleton"
+    },
+    {
+      "adapter_or_obstruction": "same characteristic-polynomial ABI",
+      "id": "PM-KK-07",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "factor engine",
+      "target_carrier": "orders86-95 adaptive atlas"
+    },
+    {
+      "adapter_or_obstruction": "finite equivalence relation",
+      "id": "PM-KK-08",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "exact matrix-order equality",
+      "target_carrier": "collision quotient"
+    },
+    {
+      "adapter_or_obstruction": "same frozen historical normalization scope",
+      "id": "PM-KK-09",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "historical p5 sign source",
+      "target_carrier": "p5 source-depth obstruction"
+    },
+    {
+      "adapter_or_obstruction": "explicit required-packet schema",
+      "id": "PM-KK-10",
+      "merge_status": "PROVEN-MERGEABLE",
+      "source_carrier": "A1BH finite source lineage",
+      "target_carrier": "post-A1BI retrieval gate"
+    },
+    {
+      "adapter_or_obstruction": "finite counterexample proves informational insufficiency",
+      "id": "PNM-KK-01",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "pairwise Gauss data",
+      "target_carrier": "third joint cumulant series"
+    },
+    {
+      "adapter_or_obstruction": "no source-bound quotient-atlas adapter",
+      "id": "PNM-KK-02",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "doubled-origin support model",
+      "target_carrier": "actual Epstein-Vogt leaf groupoid"
+    },
+    {
+      "adapter_or_obstruction": "coinvariant functor has nonzero kernel",
+      "id": "PNM-KK-03",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "coinvariant comparison bytes",
+      "target_carrier": "free F2[H] Wall lift"
+    },
+    {
+      "adapter_or_obstruction": "no injective detection theorem",
+      "id": "PNM-KK-04",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "C2 H5 restriction lower bounds",
+      "target_carrier": "exact remaining native H5 groups"
+    },
+    {
+      "adapter_or_obstruction": "sign cannot recover additive/Haar bytes",
+      "id": "PNM-KK-05",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "historical p5 sign/class",
+      "target_carrier": "full p5 Tate byte packet"
+    },
+    {
+      "adapter_or_obstruction": "no typed cross-carrier adapter",
+      "id": "PNM-KK-06",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "adaptive recurrence collision numbers",
+      "target_carrier": "Golden/Stone/geometric carriers"
+    },
+    {
+      "adapter_or_obstruction": "theta/chain/coupling/anchor missing",
+      "id": "PNM-KK-07",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "partial Stone packet",
+      "target_carrier": "integer project value"
+    },
+    {
+      "adapter_or_obstruction": "same-carrier instance missing",
+      "id": "PNM-KK-08",
+      "merge_status": "PROVEN-NOT-MERGEABLE",
+      "source_carrier": "Fibonacci theorem source",
+      "target_carrier": "project witness value"
+    }
+  ],
+  "counts": {
+    "PROVEN-MERGEABLE": 663,
+    "PROVEN-NOT-MERGEABLE": 448
+  },
+  "inherited_counts": {
+    "PROVEN-MERGEABLE": 653,
+    "PROVEN-NOT-MERGEABLE": 440
+  },
+  "phase": "II-KK",
+  "predecessor": "II-KJ"
+}

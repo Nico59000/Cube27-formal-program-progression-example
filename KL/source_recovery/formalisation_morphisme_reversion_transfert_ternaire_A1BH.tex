@@ -1,0 +1,286 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,longtable,array}
+\usepackage[margin=23mm]{geometry}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Théorème}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemme}
+\newtheorem{corollary}[theorem]{Corollaire}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Définition}
+\newtheorem{remark}[theorem]{Remarque}
+
+\newcommand{\Rev}{\operatorname{rev}}
+\newcommand{\In}{\operatorname{In}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\T}{\mathsf{T}}
+\newcommand{\NT}{\mathsf{NT}}
+
+\title{Formalisation finie du morphisme analytique de réversion,\\
+de sa tour naturelle et du transfert ternaire d'inertie\\
+\large Extension CORE7Q\_A1BH, degrés 58 à 64}
+\author{Audit formel fini CORE7Q}
+\date{9 août 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Ce document formalise trois objets qui doivent rester strictement typés. Le premier est
+l'entrelaceur linéaire associé à une étoile finie munie d'une involution. Le deuxième est
+la naturalité abstraite de la famille de ces entrelaceurs entre degrés successifs. Le
+troisième est un transfert dans le monoïde des inerties, observé aux degrés
+$58,60,62,64$. Les identités décimales $329$, $159$ et $59\leftrightarrow95$ sont
+également établies comme identités de mots de chiffres, puis séparées explicitement des
+preuves analytiques. Toutes les conclusions sont finies; aucune revendication RH, aucune
+positivité globale et aucune fermeture du complément infini n'en résultent.
+\end{abstract}
+
+\section{Étoile réversible et entrelaceur entier}
+
+\begin{definition}[Étoile de niveau $n$]
+Soit $S_n$ un ensemble de cardinal $2n-1$ muni d'une involution $J_n$ possédant
+exactement un point fixe $f$ et $n-1$ orbites doubles
+$\{a_r,b_r\}$, $1\le r\le n-1$. On note $\mathbb{R}^{S_n}$ l'espace des
+coordonnées indexées par $S_n$.
+\end{definition}
+
+Dans la base canonique $(e_s)_{s\in S_n}$, on définit les colonnes
+\[
+ u_0=e_f,\qquad u_r=e_{a_r}+e_{b_r},\qquad
+ v_r=e_{a_r}-e_{b_r}.
+\]
+L'application $\Phi_n$ est la matrice entière dont les colonnes sont
+$u_0,u_1,\ldots,u_{n-1},v_1,\ldots,v_{n-1}$.
+
+\begin{theorem}[Entrelacement fini]
+Pour tout $n\ge2$,
+\[
+ J_n\Phi_n=\Phi_n\diag(I_n,-I_{n-1}),
+ \qquad |\det\Phi_n|=2^{n-1}.
+\]
+En particulier,
+\[
+ \dim E_+(J_n)=n,\qquad \dim E_-(J_n)=n-1.
+\]
+\end{theorem}
+
+\begin{proof}
+Le point fixe fournit une colonne propre de valeur propre $+1$. Sur chaque orbite
+double, la somme est propre de valeur $+1$ et la différence de valeur $-1$. Après
+permutation des lignes et colonnes, $\Phi_n$ est somme directe d'un bloc $[1]$ et de
+$n-1$ blocs $\left[\begin{smallmatrix}1&1\\1&-1\end{smallmatrix}\right]$, de
+déterminant $-2$. L'identité et le déterminant en découlent.
+\end{proof}
+
+Aux niveaux testés, la taille $2n-1$ et la scission sont
+\[
+59=30+29,\quad61=31+30,\quad63=32+31,\quad65=33+32.
+\]
+
+\section{Transport des formes et inertie}
+
+Soient $G_n$ une forme de Gram positive et $Q_n$ une forme symétrique sur
+$\mathbb{R}^{S_n}$. Pour un seuil commun $\mu$, posons
+$L_n=Q_n-\mu G_n$. Le transport par congruence est
+\[
+ \widehat G_n=\Phi_n^{\!T}G_n\Phi_n,
+ \quad \widehat Q_n=\Phi_n^{\!T}Q_n\Phi_n,
+ \quad \widehat L_n=\widehat Q_n-\mu\widehat G_n.
+\]
+
+\begin{proposition}[Covariance et inertie]
+Si $\Phi_n$ est inversible, alors
+\[
+ \In(G_n)=\In(\widehat G_n),\quad
+ \In(Q_n)=\In(\widehat Q_n),\quad
+ \In(L_n)=\In(\widehat L_n).
+\]
+Cette conclusion est une covariance par congruence. Elle n'implique ni
+$J_n^TQ_nJ_n=Q_n$, ni une permutation des entrées brutes de $Q_n$.
+\end{proposition}
+
+\begin{proof}
+Il s'agit de la loi d'inertie de Sylvester. La dernière phrase distingue une congruence
+par un entrelaceur inversible d'un automorphisme brut, obligation algébrique plus forte
+et non certifiée ici.
+\end{proof}
+
+\section{Tour naturelle abstraite}
+
+Soit $\iota_n$ une inclusion abstraite d'une étoile de taille $2n-1$ dans une étoile
+de taille $2n+1$. On définit
+\[
+ \kappa_n=\Phi_{n+1}\iota_n\Phi_n^{-1}.
+\]
+
+\begin{theorem}[Carré commutatif transporté]
+La famille $(\Phi_n)$ satisfait exactement
+\[
+ \kappa_n\Phi_n=\Phi_{n+1}\iota_n.
+\]
+Si $\iota_n$ commute avec les involutions abstraites, alors
+\[
+ J_{n+1}\kappa_n=\kappa_nJ_n.
+\]
+\end{theorem}
+
+\begin{proof}
+La première identité résulte de la définition de $\kappa_n$. Pour la seconde, on
+insère les identités d'entrelacement de $\Phi_n$ et $\Phi_{n+1}$ et la commutation de
+$\iota_n$ avec les décompositions $E_+\oplus E_-$. Toutes les opérations sont finies.
+\end{proof}
+
+Cette naturalité abstraite est certifiée. Elle ne choisit pas un ancrage canonique
+parmi les supports résiduels bruts. Les candidats observés sont
+\[
+\begin{array}{c|c|c}
+\text{degré}&\text{nombre}&\text{orbites candidates}\\
+\hline
+58&1&(3,26)\\
+60&2&(3,27),(6,24)\\
+62&3&(5,26),(6,25),(8,23)\\
+64&1&(3,29).
+\end{array}
+\]
+L'injection brute conservant l'indice gauche envoie $(a,b)$ sur $(a,b+1)$.
+Elle possède un bord $58\to60$ et un bord $60\to62$, mais aucun bord
+$62\to64$. Il n'existe donc pas de fil concret sur les quatre niveaux pour cette
+injection. L'unicité locale au degré $64$ ne répare pas cette rupture globale.
+
+\section{Audit des identités décimales}
+
+\begin{definition}[Réversion de largeur fixe]
+Pour un entier $x$ écrit sur exactement $k$ chiffres, $\Rev_k(x)$ est l'entier obtenu
+en renversant le mot de chiffres, avec conservation préalable des zéros initiaux.
+Sur les mots, $\Rev(uv)=\Rev(v)\Rev(u)$; c'est une anti-involution du monoïde libre.
+\end{definition}
+
+\subsection{Identité 329}
+
+Les égalités suivantes sont exactes :
+\[
+ \Rev_2(32)=23,\qquad 32-23=9,
+\]
+\[
+ \boxed{329=10\cdot32+(32-\Rev_2(32))=11\cdot32-\Rev_2(32)},
+\]
+et
+\[
+ \Rev_3(329)=923=100\cdot9+23.
+\]
+Au degré $58$, $329$ est aussi la cardinalité de la clôture réversible minimale du
+support résiduel étudié. Cette coïncidence est donc une identité décimale attachée à
+une cardinalité certifiée.
+
+Elle ne se généralise pas aux successeurs :
+\[
+\begin{array}{c|r|r|r|r|c}
+\text{degré}&C&\Rev_3(C)&p&\Rev_2(p)&C\bmod10=p-\Rev_2(p)\\
+\hline
+58&329&923&32&23&\T\\
+60&451&154&45&54&\NT\\
+62&525&525&52&25&\NT\\
+64&506&605&50&05&\NT.
+\end{array}
+\]
+Ainsi, la règle $329$ n'est pas une loi de la tour des clôtures.
+
+\subsection{Identité 159 et réversion 59--95}
+
+Le mot $159$ code le couple ``un point fixe, étoile de taille $59$'' :
+\[
+159=\operatorname{concat}(1,59),\qquad \Rev_2(59)=95,
+\]
+\[
+\boxed{\Rev_3(159)=951=\operatorname{concat}(95,1)}.
+\]
+Les successeurs du même encodage sont
+\[
+\begin{array}{c|c|c|c}
+\text{degré}&1\Vert(2n-1)&\Rev_2(2n-1)&\Rev_3(1\Vert(2n-1))\\
+\hline
+58&159&95&951\\
+60&161&16&161\\
+62&163&36&361\\
+64&165&56&561.
+\end{array}
+\]
+Il s'agit d'une anti-involution exacte de mots de chiffres. Une cardinalité, même
+écrite de cette manière, ne définit ni une application linéaire, ni une congruence de
+formes, ni un entrelaceur analytique. Un tel objet exige des coefficients et une
+identité commutative vérifiés séparément.
+
+\section{Transfert ternaire d'inertie}
+
+\begin{definition}[Monoïde des inerties]
+On note $\mathcal I=\mathbb N^3$ l'ensemble des triplets $(p,q,z)$, avec addition
+composante par composante. Le rang est $r(p,q,z)=p+q+z$.
+\end{definition}
+
+Pour $k\le p$, définissons la translation partielle
+\[
+ \tau_k(p,q,z)=(p-k,q+k,z).
+\]
+
+\begin{proposition}[Générateur ternaire exact]
+Sur chaque parité, le passage de $Q$ à $Q-\mu G$ applique
+\[
+ g=(-1,+1,0).
+\]
+Sur la somme directe des deux parités, il applique
+\[
+ 2g=(-2,+2,0),\qquad -2g=(+2,-2,0)
+\]
+pour le passage inverse. Ces vecteurs conservent le rang.
+\end{proposition}
+
+\begin{proof}
+Chaque canal possède exactement une direction négative sous le même seuil $\mu$.
+Une direction passe donc du compte positif au compte négatif dans chaque canal.
+L'addition des inerties des deux canaux donne le facteur deux. La somme des composantes
+du générateur est nulle, ce qui préserve le rang.
+\end{proof}
+
+Les certifications finies donnent :
+\[
+\begin{array}{c|c|c|c}
+\text{degré}&\In(Q)&\In(Q-\mu G)&\Delta\\
+\hline
+58&(59,0,0)&(57,2,0)&(-2,+2,0)\\
+60&(61,0,0)&(59,2,0)&(-2,+2,0)\\
+62&(63,0,0)&(61,2,0)&(-2,+2,0)\\
+64&(65,0,0)&(63,2,0)&(-2,+2,0).
+\end{array}
+\]
+Les propositions $(-2,-1,0)$ et $(2,1,0)$ ne peuvent pas être des différences
+d'inertie : leurs sommes valent respectivement $-3$ et $3$, donc elles changeraient
+le rang. Leur correction typée est $(-2,+2,0)$ et $(+2,-2,0)$.
+
+\section{Conclusion et frontières}
+
+Au degré $64$, l'extension finie est certifiée par
+\[
+\In(Q_{\mathrm{pair}})=(33,0,0),\quad
+\In(Q_{\mathrm{impair}})=(32,0,0),
+\]
+\[
+\In(L_{\mathrm{pair}})=(32,1,0),\quad
+\In(L_{\mathrm{impair}})=(31,1,0).
+\]
+La tour abstraite des entrelaceurs est $\T$; la covariance par congruence est $\T$;
+le transfert ternaire fini est $\T$. Le fil brut testé est $\NT$ entre $62$ et $64$.
+Les identités décimales sont $\T$ comme identités de mots, mais leur promotion en
+morphisme analytique supplémentaire est ouverte et n'est pas utilisée.
+
+Les gardes finales sont : calcul fini seulement; aucune permutation des entrées brutes;
+aucune extrapolation au degré suivant; aucune autorisation CORE7Q\_A2; aucune
+revendication RH; complément infini, inertie de Paley--Wiener complète et positivité
+globale ouverts.
+
+\end{document}

@@ -1,0 +1,19 @@
+{
+  "phase": "II-KL",
+  "decision": "PASS_ZERO_OVERFULL_AND_ZERO_RENDERED_PAGE_OVERFLOW",
+  "pdf": "II_KL_FilteredRees_Fredholm_Germinal_Golden_FLINT_R1.pdf",
+  "pages": 3,
+  "renderer": "render_pdf.py/pdfium at 200 dpi",
+  "overfull_box_count": 0,
+  "underfull_box_count": 5,
+  "word_bbox_page_violation_count": 0,
+  "render_edge_violation_count": 0,
+  "visual_contact_sheet_inspection": "PASS_NO_CLIPPING_OR_OVERLAP_OBSERVED",
+  "contact_sheet": "II_KL_contact_sheet.png",
+  "notes": [
+    "underfull boxes occur only in the scriptsize/sloppy safe-successor paragraph and are not overflow",
+    "all three rendered pages inspected visually"
+  ],
+  "bbox_violations": [],
+  "edge_violations": []
+}

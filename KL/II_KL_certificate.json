@@ -1,0 +1,62 @@
+{
+  "ABI_complete_actual_project_packets": 0,
+  "active_project_NT_count": 37,
+  "certificate_digest_without_self": "84653d9b776ba6a7c645cb62b8a2dfef821214c9d22643a398d7d04cb2f5f789",
+  "guards": [
+    "truth and mergeability axes remain orthogonal and append-only",
+    "89 is a Fibonacci-number coordinate worth studying, but the old SymPy timeout is not itself mathematical evidence of specialness; FLINT completes the full sweep rapidly",
+    "full filtered associated-graded multiplication data are not a new identity with geometric carriers",
+    "Ext localization/product claims are in the abelian-group conductor exact sequence",
+    "reduced-resolvent existence does not imply absolute time-domain three-point cumulant summability or a numerical P third derivative",
+    "regular holonomy germs and C8 bad-stratum incidence do not manufacture a cross-singular leaf groupoid",
+    "type4 H5 closure is not extrapolated to repeated-dimension stabilizer types",
+    "free Wall degree4 remains separated despite native H5 progress",
+    "zero source hits are scoped discovery evidence only"
+  ],
+  "historical_replay": "NT_NOT_EXHAUSTIVE",
+  "key_results": [
+    "Cube27: full all-n degree-one multiplication data on gr_I is serialized by low maps plus the proven period-two tail; A2/2A2 has dimension 13, the nonzero conductor class is explicitly detected, survives 2-localization, dies away from 2, and its detected Ext1(Z/2,Z/2) pushout has zero Yoneda square in Ext2.",
+    "Gauss: certified seventh trace and d7 intervals; the reduced resolvent on the Riesz complement exists abstractly from the simple isolated leading eigenvalue, giving an exact third-pressure Riesz identity; numerical reduced-resolvent norm and numerical third response remain separated.",
+    "Codimension-3: one further Arb interval-Newton contraction on each unique crossing; seven regular axis-start germinal holonomy records H_c=R_u S_0 T; C8 bad-stratum atlas source-bound, cross-singular quotient groupoid still separated.",
+    "Golden: a second exact native H5/B5 closure is obtained for type4/order32: six elementary-abelian E8 restrictions with independent actual B5 blocks reach the independent dimension 34 after 196608 rows; type2=14 remains closed; free Wall degree4 remains separated.",
+    "D5: fresh post-A1BI scoped retrieval finds no continuous rank3 transition packet; NT preserved.",
+    "Pisano: no new historical p5 additive-character/Haar/Tate byte packet; terminal obstruction only for the retrieved scope.",
+    "Recurrence: python-flint factor engine completes the previously resource-gated full order89 sweep (88/88 taps) and matches all nine old probes; full orders96-105 contribute 995 exact records; 124/124 reflection pairs and five fixed centers pass; 237 new/repaired collision classes are serialized.",
+    "Stone/Fibonacci: no ABI-complete actual packet; zero promoted values; 37 gates preserved."
+  ],
+  "layout": {
+    "decision": "PASS_ZERO_OVERFULL_AND_ZERO_RENDERED_PAGE_OVERFLOW",
+    "overfull_box_count": 0,
+    "pages": 3,
+    "pdf": "II_KL_FilteredRees_Fredholm_Germinal_Golden_FLINT_R1.pdf",
+    "render_edge_violation_count": 0,
+    "renderer": "render_pdf.py/pdfium at 200 dpi",
+    "underfull_box_count": 5,
+    "visual_contact_sheet_inspection": "PASS_NO_CLIPPING_OR_OVERLAP_OBSERVED",
+    "word_bbox_page_violation_count": 0
+  },
+  "merge_counts": {
+    "PROVEN-MERGEABLE": 675,
+    "PROVEN-NOT-MERGEABLE": 456
+  },
+  "observational_continuity": "PASS_297",
+  "overall": "PASS",
+  "phase": "II-KL",
+  "predecessor": "II-KK",
+  "promoted_project_values": 0,
+  "safe_successor": "II-KM -- Cube27 2-local conductor-Ext module filtration and completed Rees exactness/periodic-module audit; Gauss eighth Fredholm trace/coefficient and certified reduced-resolvent norm or proof-grade numerical third-pressure enclosure; codimension-three cross-singular quotient/holonomy source ingestion with sharper Arb crossing localization; Golden third native H5/B5 closure or a trusted free F2[H]-Wall degree-four producer; post-A1BI/A1BJ D5 transition-source ingestion; Pisano historical p5 additive-character/Haar/Tate packet acquisition; recurrence FLINT repair of full orders 91/93/95 plus full orders 106--115 and divisibility/collision theorem refinement; plus external Stone/Fibonacci ABI-complete packet execution.",
+  "status_counts": {
+    "NT": 87,
+    "PASS": 1432,
+    "REFUTED": 294,
+    "SEPARATED": 450,
+    "ZERO": 97
+  },
+  "title": "Full filtered Cube27 Rees/Ext localization; seventh Gauss Fredholm and reduced resolvent; codim3 regular germ atlas; second native Golden H5 closure; FLINT order89 repair and full 96-105 recurrence atlas",
+  "verification": {
+    "coverage_units": 1137096,
+    "explicit_verifier_assertions": 1727,
+    "explicit_witness_records": 1376,
+    "family_count": 10
+  }
+}

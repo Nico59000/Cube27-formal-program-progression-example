@@ -1,0 +1,12 @@
+sub 0 new 6 joint 6
+sub 1 new 9 joint 15
+sub 2 new 13 joint 28
+sub 3 new 0 joint 28
+sub 4 new 5 joint 33
+sub 5 new 1 joint 34
+{
+  "closed": true,
+  "used": 6,
+  "rank": 34,
+  "runtime": 3.714
+}

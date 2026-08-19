@@ -1,0 +1,51 @@
+{
+  "gr": {
+    "gr0": "Z",
+    "gr1_snf": [
+      2,
+      2,
+      12
+    ],
+    "gr2_snf": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      12
+    ],
+    "gr3_and_all_tail_snf": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      12
+    ]
+  },
+  "checks": [
+    30,
+    225
+  ],
+  "A2mod2_dim": 13,
+  "detector": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "ext": "PASS_NONZERO_2LOCAL_CLASS_VANISHES_AWAY_FROM2_AND_DETECTED_PUSHOUT_HAS_ZERO_YONEDA_SQUARE"
+}

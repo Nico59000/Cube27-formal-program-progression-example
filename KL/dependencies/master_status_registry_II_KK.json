@@ -1,0 +1,267 @@
+{
+  "active_project_NT_count": 37,
+  "append_rows": [
+    {
+      "domain": "Cube27",
+      "id": "PASS-KK-01",
+      "reason": "gr0=Z and Smith profiles gr1/gr2/gr3 serialized with relation matrices",
+      "status": "PASS",
+      "subject": "low-degree associated graded gr0-gr3"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KK-02",
+      "reason": "15 gr1->gr2 and 15 gr2->gr3 maps pass relation-lattice checks",
+      "status": "PASS",
+      "subject": "low-degree multiplication maps"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KK-03",
+      "reason": "225 degree-one commutativity checks pass modulo gr3 relations",
+      "status": "PASS",
+      "subject": "low-degree commutativity"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KK-04",
+      "reason": "gr3 is explicitly bound to KJ odd tail and all-n period-two theorem",
+      "status": "PASS",
+      "subject": "tail glue"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KK-05",
+      "reason": "x=e12+e14 gives order-two quotient class and explicit pullback extension",
+      "status": "PASS",
+      "subject": "Yoneda pullback representative"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KK-06",
+      "reason": "2x notin 2R+f proves nonzero class in A2/2A2",
+      "status": "PASS",
+      "subject": "nonzero Ext1_Z(Z/2,A2) class"
+    },
+    {
+      "domain": "Cube27",
+      "id": "SEPARATED-KK-01",
+      "reason": "associated graded low degrees plus periodic tail do not by themselves serialize all filtered Rees multiplication/extension data",
+      "status": "SEPARATED",
+      "subject": "full multiplicative Rees algebra presentation"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KK-07",
+      "reason": "10^6 six-branch words plus positive continuant tail give certified interval",
+      "status": "PASS",
+      "subject": "sixth transfer trace"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KK-08",
+      "reason": "Newton identity combines certified predecessor intervals and trL6",
+      "status": "PASS",
+      "subject": "sixth Fredholm coefficient d6"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KK-09",
+      "reason": "two finite centered models share all one/two-point moments but have distinct triple moment",
+      "status": "PASS",
+      "subject": "pairwise-information counterexample"
+    },
+    {
+      "domain": "Gauss",
+      "id": "REFUTED-KK-01",
+      "reason": "one/two-point data are informationally insufficient for third cumulant determination",
+      "status": "REFUTED",
+      "subject": "pairwise-only route to third joint cumulant"
+    },
+    {
+      "domain": "Gauss",
+      "id": "SEPARATED-KK-02",
+      "reason": "requires higher-order mixing or a reduced-resolvent certificate",
+      "status": "SEPARATED",
+      "subject": "proof-grade Gauss three-point cumulant summability"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "PASS-KK-10",
+      "reason": "one high-resolution interval-Newton contraction strictly narrows KJ bracket",
+      "status": "PASS",
+      "subject": "sqrt5/4 crossing sharper Arb bracket"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "PASS-KK-11",
+      "reason": "one high-resolution interval-Newton contraction strictly narrows KJ bracket",
+      "status": "PASS",
+      "subject": "pi/6 crossing sharper Arb bracket"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "PASS-KK-12",
+      "reason": "retrieved Epstein-Vogt support shadow gives exact C8 with alternating 4*S3+4*T2",
+      "status": "PASS",
+      "subject": "source-bound bad-stratum transition skeleton"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "SEPARATED-KK-03",
+      "reason": "doubled-origin model is support-only and actual quotient atlas/germ holonomy bytes are absent",
+      "status": "SEPARATED",
+      "subject": "actual compactified/germinal leaf groupoid"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "PASS-KK-13",
+      "reason": "actual native products and odd-index Sylow restriction remain authoritative at dimension 14",
+      "status": "PASS",
+      "subject": "type2 native H5 closure preserved"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "PASS-KK-14",
+      "reason": "(h+1)e is nonzero free-module element killed by coinvariants for h!=1",
+      "status": "PASS",
+      "subject": "coinvariant-kernel obstruction"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "REFUTED-KK-02",
+      "reason": "coinvariant functor is not faithful on nontrivial free F2[H] modules",
+      "status": "REFUTED",
+      "subject": "unique free Wall lift from coinvariant bytes"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "SEPARATED-KK-04",
+      "reason": "free basis d4 twisting cochain and Phi4 bytes remain absent",
+      "status": "SEPARATED",
+      "subject": "genuine free Wall degree4 map"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "SEPARATED-KK-05",
+      "reason": "no new trusted native B5 reducer closes predecessor lower-bound gaps",
+      "status": "SEPARATED",
+      "subject": "native H5 closures types0,1,3,4,5,6"
+    },
+    {
+      "domain": "D5",
+      "id": "PASS-KK-15",
+      "reason": "Library/GitHub scoped search executed with zero new transition packet",
+      "status": "PASS",
+      "subject": "fresh post-A1BH/A1BI retrieval audit"
+    },
+    {
+      "domain": "D5",
+      "id": "NT-KK-01",
+      "reason": "base cover trivializations gij and metric provenance remain absent",
+      "status": "NT",
+      "subject": "continuous rank3 transition packet"
+    },
+    {
+      "domain": "Pisano-Theta",
+      "id": "PASS-KK-16",
+      "reason": "recovered lineage still provides sign/class but not full local Tate bytes",
+      "status": "PASS",
+      "subject": "terminal scoped p5 source-depth audit"
+    },
+    {
+      "domain": "Pisano-Theta",
+      "id": "SEPARATED-KK-06",
+      "reason": "additive-character Haar conductor/uniformizer finite-sum bytes not recovered",
+      "status": "SEPARATED",
+      "subject": "full historical p5 Tate normalization packet"
+    },
+    {
+      "domain": "Binary recurrence",
+      "id": "PASS-KK-17",
+      "reason": "531 full-order records plus 36 selected resource-adaptive odd-order probes",
+      "status": "PASS",
+      "subject": "adaptive orders86-95 factorization"
+    },
+    {
+      "domain": "Binary recurrence",
+      "id": "PASS-KK-18",
+      "reason": "111/111 applicable pairs on fully scanned even orders pass exact prediction",
+      "status": "PASS",
+      "subject": "reflection theorem 86-94"
+    },
+    {
+      "domain": "Binary recurrence",
+      "id": "PASS-KK-19",
+      "reason": "k=86,88,90,92,94 centers satisfy ord=4k and anti=2k",
+      "status": "PASS",
+      "subject": "fixed reflection centers"
+    },
+    {
+      "domain": "Binary recurrence",
+      "id": "ZERO-KK-01",
+      "reason": "determinant obstruction preserved; full87 and selected 89/91/93/95 agree",
+      "status": "ZERO",
+      "subject": "odd-order full global-antiperiod sector"
+    },
+    {
+      "domain": "Binary recurrence",
+      "id": "PASS-KK-20",
+      "reason": "exact equal-matrix-order quotient updated on declared adaptive atlas",
+      "status": "PASS",
+      "subject": "collision quotient 45-95"
+    },
+    {
+      "domain": "Binary recurrence",
+      "id": "PASS-KK-21",
+      "reason": "k|ord, v|ord and (k+v)|ord statistics serialized with full/selected scope labels",
+      "status": "PASS",
+      "subject": "order-value divisibility atlas"
+    },
+    {
+      "domain": "Binary recurrence",
+      "id": "SEPARATED-KK-07",
+      "reason": "finite statistics are exploratory and no general law is promoted",
+      "status": "SEPARATED",
+      "subject": "universal order-value divisibility law"
+    },
+    {
+      "domain": "Stone/Fibonacci",
+      "id": "PASS-KK-22",
+      "reason": "Library/GitHub scoped searches executed",
+      "status": "PASS",
+      "subject": "fresh ABI exact-field preflight"
+    },
+    {
+      "domain": "Stone",
+      "id": "NT-KK-02",
+      "reason": "d theta K_Z C and framing anchor remain absent",
+      "status": "NT",
+      "subject": "ABI-complete project packet"
+    },
+    {
+      "domain": "Fibonacci",
+      "id": "NT-KK-03",
+      "reason": "carrier U cofinal basis and trace table remain absent",
+      "status": "NT",
+      "subject": "ABI-complete project instance"
+    }
+  ],
+  "counts": {
+    "NT": 84,
+    "PASS": 1404,
+    "REFUTED": 293,
+    "SEPARATED": 442,
+    "ZERO": 96
+  },
+  "inherited_counts": {
+    "NT": 81,
+    "PASS": 1382,
+    "REFUTED": 291,
+    "SEPARATED": 435,
+    "ZERO": 95
+  },
+  "note": "truth axis append-only; historical rows are not rewritten",
+  "phase": "II-KK",
+  "predecessor": "II-KJ"
+}

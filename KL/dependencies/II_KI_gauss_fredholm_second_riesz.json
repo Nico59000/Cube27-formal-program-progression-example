@@ -1,0 +1,61 @@
+{
+  "carrier": "Gauss Perron-Frobenius analytic/Hardy trace-class lane with digit perturbation L_t=sum n^t W_n",
+  "fourth_trace": {
+    "box_N": 50,
+    "certified_interval": [
+      0.8994287992178291,
+      1.2687285024955526
+    ],
+    "fixed_point_formula": "for H_d H_c H_b H_a=[[A,B],[C,D]] with det=+1, Cx^2+(D-A)x-B=0, q=(Cx+D)^-2, contribution=q/(1-q)",
+    "ordered_word_count": 6250000,
+    "partial_ball": "[0.89942879966267473804183377558532816395253 +/- 4.74e-42]",
+    "status": "PASS_CERTIFIED_TR_L4",
+    "tail_ball": "[0.36929970238803241532313836463115297657647193 +/- 1.60e-45]",
+    "tail_bound": "q<=1/(abcd+3)^2<=1/16, hence outside-box tail <=(16/15)*(zeta(2)^4-S_N^4)"
+  },
+  "fredholm_d4": {
+    "certified_interval": [
+      -0.07166203729279652,
+      0.03487377822468157
+    ],
+    "newton_identity": "4 d4=-(d3 trL+d2 trL2+d1 trL3+trL4)",
+    "normalization": "det(I-zL)=1+d1 z+d2 z^2+d3 z^3+d4 z^4+...",
+    "status": "PASS_CERTIFIED_D4_FROM_KH_TRACE_INTERVALS_AND_NEW_TRL4"
+  },
+  "guards": [
+    "the d4 trace computation is on the inherited analytic trace-class carrier and does not assert a determinant identity on an unrelated Banach realization",
+    "the second-order result promotes the normalized scalar Riesz/Abel pairing; it does not manufacture an operator-norm inverse on the entire weighted space",
+    "the Green-Kubo interval is the frozen JZ same Gauss digit process interval, not the single-symbol variance"
+  ],
+  "phase": "II-KI",
+  "runtime": {
+    "arb_precision_bits": 160,
+    "python": "3.13.5",
+    "python_flint": "0.9.0"
+  },
+  "second_order_khinchin_riesz": {
+    "full_weighted_operator_norm_reduced_resolvent": "SEPARATED_NO_NEW_UNIFORM_OPERATOR_NORM_BOUND_CLAIMED",
+    "green_kubo_pressure_second_interval": [
+      0.7644834493625606,
+      1.5553010005765677
+    ],
+    "identities": [
+      "u=L_prime h-lambda_prime h, ell(u)=0",
+      "h_prime=(I-L)^(-1)_red u in Abel scalar pairing",
+      "lambda_double_prime=ell(L_double_prime h)+2 ell(L_prime h_prime)",
+      "P_double_prime(0)=lambda_double_prime(0)-lambda_prime(0)^2=sigma_GK^2",
+      "lambda_double_prime(0)=sigma_GK^2+lambda_prime(0)^2"
+    ],
+    "lambda_double_prime_interval": [
+      1.740141004223195,
+      2.5311467627919915
+    ],
+    "mean_interval": [
+      0.9877537958344573,
+      0.9878490575123677
+    ],
+    "scalar_Abel_Riesz_pairing": "PASS_ABSOLUTE_COVARIANCE_SUMMABILITY_JUSTIFIES_SCALAR_REDUCED_RESOLVENT_PAIRING",
+    "status": "PASS_SECOND_ORDER_SCALAR_RIESZ_PRESSURE_PAIRING_WITH_CERTIFIED_INTERVAL__FULL_OPERATOR_NORM_RESOLVENT_SEPARATED"
+  },
+  "status": "PASS_FOURTH_FREDHOLM_COEFFICIENT_AND_SECOND_ORDER_KHINCHIN_SCALAR_RIESZ_PERTURBATION"
+}

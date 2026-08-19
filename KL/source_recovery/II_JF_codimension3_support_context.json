@@ -1,0 +1,24 @@
+{
+  "exact_combinatorial_shadow": {
+    "bead_types": "4*S3 + 4*T2 alternating",
+    "edges": 8,
+    "graph": "C8",
+    "two_step_rotation": "C4 on each bead-type four-set",
+    "vertices": 8
+  },
+  "guard": "documentary support and methodology only; no raw identity with Cube27, PLR, Pisano/CBF4 or Kepler carriers",
+  "phase": "II-JF",
+  "sources": [
+    {
+      "name": "PMIHES_1976__46__5_0.pdf",
+      "role": "Sullivan 1976 codimension-three boundary, bad-set hierarchy and obstruction context",
+      "sha256": "a01219d3a53c4fc9d980a7baa9c10a43a6cc95a83f1b21db44be14c75cd93fc1"
+    },
+    {
+      "name": "epstein1978.pdf",
+      "role": "Epstein-Vogt 1978 polynomial codimension-three example, spinning/doubling and stratified bad set",
+      "sha256": "e3e3f74ceef5c1d9bb3e1dbe1662c70ca46c893af1e50ae38a0b913cdbe70a8d"
+    }
+  ],
+  "status": "PASS_SUPPORT_CONTEXT_SEPARATED_FROM_PROJECT_CARRIERS"
+}
