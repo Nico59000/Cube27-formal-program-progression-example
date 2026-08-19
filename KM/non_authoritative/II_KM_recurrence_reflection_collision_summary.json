@@ -1,0 +1,63 @@
+{
+  "collision_classes_in_current_raw_scope": 423,
+  "collision_classes_involving_new_pair": 234,
+  "cross_order_collision_classes_in_current_raw_scope": 68,
+  "cross_order_collision_classes_involving_new_pair": 51,
+  "fixed_centers": [
+    {
+      "global_antiperiod_h": 212,
+      "h_eq_2k": true,
+      "k": 106,
+      "matrix_order": 424,
+      "ord_eq_4k": true,
+      "v": 53
+    },
+    {
+      "global_antiperiod_h": 216,
+      "h_eq_2k": true,
+      "k": 108,
+      "matrix_order": 432,
+      "ord_eq_4k": true,
+      "v": 54
+    },
+    {
+      "global_antiperiod_h": 220,
+      "h_eq_2k": true,
+      "k": 110,
+      "matrix_order": 440,
+      "ord_eq_4k": true,
+      "v": 55
+    },
+    {
+      "global_antiperiod_h": 224,
+      "h_eq_2k": true,
+      "k": 112,
+      "matrix_order": 448,
+      "ord_eq_4k": true,
+      "v": 56
+    },
+    {
+      "global_antiperiod_h": 228,
+      "h_eq_2k": true,
+      "k": 114,
+      "matrix_order": 456,
+      "ord_eq_4k": true,
+      "v": 57
+    }
+  ],
+  "formula_hits_new": {
+    "ord_eq_k": [],
+    "ord_eq_k_plus_v": []
+  },
+  "guards": [
+    "collision counts are on current raw scope: II-KL raw 89,96-105 plus II-KM 91,93,95,106-115; they are not silently promoted to the full historical 45-115 atlas until all raw predecessor records are reloaded"
+  ],
+  "new_records": 1371,
+  "phase": "II-KM",
+  "reflection_106_114": {
+    "checks": 136,
+    "failed": [],
+    "passed": 136
+  },
+  "scope_raw_records": 2454
+}

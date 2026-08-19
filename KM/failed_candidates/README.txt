@@ -1,0 +1,1 @@
+This monolithic two-root 256-bit attempt exceeded the bounded execution window; it is non-authoritative and was replaced by codim3_refine_one.py run root-by-root. No mathematical failure is inferred from the timeout.

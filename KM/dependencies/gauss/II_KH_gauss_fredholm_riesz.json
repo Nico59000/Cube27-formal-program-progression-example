@@ -1,0 +1,71 @@
+{
+  "carrier": "Gauss Perron-Frobenius analytic/Hardy trace-class lane with digit perturbation L_t",
+  "fredholm_coefficients": {
+    "d1": [
+      -0.7711255236904124,
+      -0.7711171903570175
+    ],
+    "d2": [
+      -0.25583704877709007,
+      -0.25096544029134954
+    ],
+    "d3": [
+      0.014714692074239009,
+      0.03341193013585609
+    ],
+    "newton_identity_m3": "3 d3=-(d2 trL+d1 trL^2+trL^3)",
+    "normalization": "det(I-zL)=1+d1 z+d2 z^2+d3 z^3+...",
+    "status": "PASS_CERTIFIED_D1_D2_D3"
+  },
+  "khinchin_leading_riesz_pairing": {
+    "certified_interval": [
+      0.9877537958344573,
+      0.9878490575123677
+    ],
+    "derivative_identity": "lambda_prime(0)=ell(L_prime_0 h)=sum_n p_n log n, p_n=log_2((n+1)^2/(n(n+2)))",
+    "guard": "this closes the leading eigenvalue derivative only for the declared Gauss PF/digit perturbation carrier; no identification with unrelated weighted Riesz carriers is made",
+    "left_eigenfunctional": "ell(f)=integral_0^1 f(x) dx; ell L_0=ell and ell(h)=1",
+    "partial_N": 200000,
+    "perturbation": "L_t=sum_{n>=1} n^t W_n",
+    "projector_formula": "P f=h*ell(f), so lambda_prime(0)=ell(L_prime_0 h) under the frozen normalization ell(h)=1",
+    "right_eigenfunction": "h(x)=1/(log(2)*(1+x)); L_0 h=h by telescoping sum 1/((n+x)(n+x+1))",
+    "status": "PASS_EXPLICIT_LEFT_RIGHT_RIESZ_PAIRING_AND_LEADING_KHINCHIN_DERIVATIVE_ON_DECLARED_PF_CARRIER",
+    "tail_upper_formula": "(log N+1)/(N log 2)"
+  },
+  "phase": "II-KH",
+  "runtime": {
+    "arb_precision_bits": 160,
+    "python": "3.13.5",
+    "python_flint": "0.9.0"
+  },
+  "runtime_seconds": 15.057,
+  "status": "PASS_HIGHER_FREDHOLM_D3_AND_EXPLICIT_KHINCHIN_RIESZ_PAIRING_DERIVATIVE",
+  "trace_data": {
+    "trL": {
+      "N": 120000,
+      "interval": [
+        0.7711171903570175,
+        0.7711255236904124
+      ],
+      "tail": "<=1/N"
+    },
+    "trL2": {
+      "Nbox": 450,
+      "interval": [
+        1.096565453879266,
+        1.1062958187738048
+      ],
+      "tail_ball": "[0.00973036486524065851963797867434775174146331 +/- 5.16e-45]"
+    },
+    "trL3": {
+      "Nbox": 180,
+      "formula": "for 3-branch orientation-reversing composition with matrix [[A,B],[C,D]], fixed x solves Cx^2+(D-A)x-B=0; q=(Cx+D)^-2; contribution=q/(1+q)",
+      "interval": [
+        0.9501396304948476,
+        0.9949600998915421
+      ],
+      "tail_ball": "[0.04482046924708298570654267320619565739318740 +/- 2.82e-45]",
+      "word_count": 5832000
+    }
+  }
+}

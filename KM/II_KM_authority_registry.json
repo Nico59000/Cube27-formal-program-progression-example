@@ -1,0 +1,24 @@
+{
+  "authority_order": [
+    "II_KM_cube27_2local_completed_rees.json",
+    "II_KM_gauss_eighth_fredholm.json",
+    "II_KM_codim3_sharp_crossing_source_audit.json",
+    "II_KM_golden_native_H5_type3.json",
+    "II_KM_recurrence_odd_repair_91_93_95.json",
+    "II_KM_recurrence_106_115.json",
+    "II_KM_recurrence_full_45_115_collision_divisibility.json",
+    "II_KM_source_project_gates.json",
+    "master_status_registry_II_KM.json",
+    "master_merge_registry_II_KM.json",
+    "verifier_stdout_II_KM_deep.json",
+    "II_KM_certificate.json"
+  ],
+  "guards": [
+    "producer JSONs are authorities only on their declared carriers",
+    "the PDF is editorial synthesis, not a replacement for producer payloads",
+    "source retrieval gives provenance evidence and never mathematical nonexistence",
+    "standard literature supplies general completion theorem only; project-specific hypotheses are locally checked"
+  ],
+  "phase": "II-KM",
+  "safe_successor": "II-KN -- Cube27 completed-Rees extension-class splitting/no-splitting and topological-algebra presentation audit; Gauss ninth Fredholm trace/coefficient plus quantitative reduced-resolvent enclosure or proof-grade third-pressure value; codimension-3 cross-singular transition/holonomy packet acquisition and compactified leaf-groupoid cocycle audit; Golden fourth native H5/B5 closure among types 0,1,5,6 or trusted free F2[H]-Wall degree-four producer; post-A1BJ/A1BK D5 continuous transition-source ingestion; historical Pisano p=5 local Tate packet acquisition; recurrence full orders 116--125 with collision/divisibility-stratum refinement beyond the equal-order reflection theorem; plus external Stone/Fibonacci ABI-complete packet execution."
+}

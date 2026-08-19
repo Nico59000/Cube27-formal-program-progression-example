@@ -1,0 +1,111 @@
+{
+  "ABI_complete_actual_project_packets": 0,
+  "active_project_NT_count": 37,
+  "coverage_units": 2463320,
+  "deep_mode": true,
+  "evidence_families": [
+    {
+      "assertions": 134,
+      "coverage_units": 130,
+      "name": "Cube27_2local_Ext_completion",
+      "note": "three exact Smith replays, 2-local filtration, 60 operator checks, conductor detector and Noetherian completion exactness guard",
+      "witnesses": 15
+    },
+    {
+      "assertions": 12,
+      "coverage_units": 1679616,
+      "name": "Gauss_eighth_Fredholm",
+      "note": "1,679,616 branch words with exact trace grouping; d8 interval crosses zero; quantitative resolvent/third-pressure gates remain separated",
+      "witnesses": 8
+    },
+    {
+      "assertions": 14,
+      "coverage_units": 217600,
+      "name": "Codim3_256bit_Arb_crossings_and_source_gate",
+      "note": "expensive 256-bit producers are preexecuted/resource-gated; verifier checks strict nesting, negative derivative enclosures and source separation",
+      "witnesses": 2
+    },
+    {
+      "assertions": 22,
+      "coverage_units": 557056,
+      "name": "Golden_native_H5_type3_multi_E8",
+      "note": "17 actual E8+B5 blocks reach the independent native H5 dimension 56 on type3",
+      "witnesses": 29
+    },
+    {
+      "assertions": 288,
+      "coverage_units": 276,
+      "name": "Recurrence_full_91_93_95_repair",
+      "note": "all formerly selected odd-order scopes are replaced by exact full FLINT scans",
+      "witnesses": 276
+    },
+    {
+      "assertions": 1110,
+      "coverage_units": 1095,
+      "name": "Recurrence_full_106_115",
+      "note": "all tap pairs on ten new orders are factor-certified with odd-order determinant zeros preserved",
+      "witnesses": 1095
+    },
+    {
+      "assertions": 5625,
+      "coverage_units": 5609,
+      "name": "Recurrence_full_45_115_atlas",
+      "note": "all exact (k,v) keys are present once across the continuous full atlas",
+      "witnesses": 5609
+    },
+    {
+      "assertions": 704,
+      "coverage_units": 691,
+      "name": "Recurrence_general_reflection_collision_theorem",
+      "note": "determinant parity sharpens the inherited reflection formula to equal exact order for every even-k/odd-v pair",
+      "witnesses": 691
+    },
+    {
+      "assertions": 1180,
+      "coverage_units": 1165,
+      "name": "Recurrence_fixed_center_divisibility_and_collision_quotient",
+      "note": "35 centers satisfy exact 4k/2k divisibility corollary; 1130 collision classes include 297 cross-order",
+      "witnesses": 1130
+    },
+    {
+      "assertions": 14,
+      "coverage_units": 20,
+      "name": "Source_gates_D5_Pisano_Stone_Fibonacci",
+      "note": "fresh scoped Library/GitHub preflight; zero hits are discovery evidence only",
+      "witnesses": 4
+    },
+    {
+      "assertions": 12,
+      "coverage_units": 62,
+      "name": "Append_only_ledgers",
+      "note": "truth and mergeability remain independent append-only axes",
+      "witnesses": 2
+    }
+  ],
+  "explicit_verifier_assertions": 9115,
+  "explicit_witness_records": 8861,
+  "family_count": 11,
+  "guards": [
+    "deep verifier invokes only local producer scripts; no runtime connector/web/library calls",
+    "the expensive 256-bit codim3 Arb integrations are preexecuted/resource-gated and their frozen outputs are structurally verified against II-KL nesting",
+    "the full high-order FLINT factor scans are frozen arithmetic authorities; deep replay checks exact scopes, theorem consequences and merged atlas rather than re-factorizing every polynomial",
+    "coverage units are producer-work units and are not mislabeled as proof assertions",
+    "source retrieval observations remain separate from mathematical replay"
+  ],
+  "historical_replay": "NT_NOT_EXHAUSTIVE",
+  "merge_counts": {
+    "PROVEN-MERGEABLE": 687,
+    "PROVEN-NOT-MERGEABLE": 464
+  },
+  "observational_continuity": "PASS_298",
+  "overall": "PASS",
+  "phase": "II-KM",
+  "promoted_project_values": 0,
+  "status_counts": {
+    "NT": 90,
+    "PASS": 1457,
+    "REFUTED": 295,
+    "SEPARATED": 460,
+    "ZERO": 100
+  }
+}

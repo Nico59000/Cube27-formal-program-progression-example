@@ -1,0 +1,309 @@
+{
+  "active_project_NT_count": 37,
+  "append_rows": [
+    {
+      "domain": "Cube27",
+      "id": "PASS-KL-01",
+      "reason": "low maps plus period-two tail serialize multiplication by 15 augmentation generators on every graded degree",
+      "status": "PASS",
+      "subject": "all-n filtered associated graded"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KL-02",
+      "reason": "gr3 is the exact odd tail entry and tail operator hashes match the KJ authority",
+      "status": "PASS",
+      "subject": "low/tail Rees glue"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KL-03",
+      "reason": "A2/2A2 has dimension 13 and an explicit F2 functional detects the Yoneda class",
+      "status": "PASS",
+      "subject": "A2 mod 2 detector"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KL-04",
+      "reason": "the nonzero class survives localization at 2",
+      "status": "PASS",
+      "subject": "2-local Ext survival"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KL-05",
+      "reason": "the 2-primary class dies after inverting 2 and at odd localizations",
+      "status": "PASS",
+      "subject": "away-from-2 Ext vanishing"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KL-06",
+      "reason": "pushout epsilon is nonzero in Ext1_Z(Z2,Z2) and epsilon squared vanishes in Ext2 by projective dimension one",
+      "status": "PASS",
+      "subject": "detected Yoneda product audit"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KL-07",
+      "reason": "7^7 inverse-branch words plus positive continuant tail give an Arb enclosure",
+      "status": "PASS",
+      "subject": "seventh transfer trace"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KL-08",
+      "reason": "Newton identity combines certified traces/coefficient intervals through d6 with trL7",
+      "status": "PASS",
+      "subject": "seventh Fredholm coefficient"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KL-09",
+      "reason": "simple isolated leading eigenvalue and Riesz projector imply bounded inverse on the complementary spectral subspace",
+      "status": "PASS",
+      "subject": "reduced resolvent existence"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KL-10",
+      "reason": "the exact reduced-resolvent formula defines lambda3 and P third derivative on the analytic perturbation carrier",
+      "status": "PASS",
+      "subject": "third Riesz-pressure identity"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "PASS-KL-11",
+      "reason": "one additional 192-bit Arb interval-Newton contraction succeeds",
+      "status": "PASS",
+      "subject": "sqrt5/4 crossing refinement"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "PASS-KL-12",
+      "reason": "one additional 192-bit Arb interval-Newton contraction succeeds",
+      "status": "PASS",
+      "subject": "pi/6 crossing refinement"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "PASS-KL-13",
+      "reason": "seven axis-start regular levels carry interval-certified H_c=R_u S_0 T involutive germs",
+      "status": "PASS",
+      "subject": "regular germinal holonomy atlas"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "PASS-KL-14",
+      "reason": "retrieved Epstein-Vogt support gives C8 with alternating four S3/four T2 pieces and shared-circle incidence",
+      "status": "PASS",
+      "subject": "source-bound bad-stratum atlas"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "PASS-KL-15",
+      "reason": "sixteen elementary abelian order-eight subgroups are enumerated on the actual type4 order32 stabilizer",
+      "status": "PASS",
+      "subject": "E8 subgroup census type4"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "PASS-KL-16",
+      "reason": "six independent actual B5 blocks and native product restrictions give 34 candidate pivots after 196608 rows",
+      "status": "PASS",
+      "subject": "joint E8 B5 detection"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "PASS-KL-17",
+      "reason": "type4 native product span reaches the independent H5 dimension 34",
+      "status": "PASS",
+      "subject": "second native H5 closure"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KL-18",
+      "reason": "python-flint nmod_poly/fmpz engine replaces the resource-heavy SymPy route for high-degree tap-pair factorization",
+      "status": "PASS",
+      "subject": "FLINT factor engine upgrade"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KL-19",
+      "reason": "all nine old selected order89 certificates match the new FLINT full-sweep values",
+      "status": "PASS",
+      "subject": "order89 engine qualification"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KL-20",
+      "reason": "all 88 tap values are factorized exactly in the upgraded engine",
+      "status": "PASS",
+      "subject": "full order89 census"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KL-21",
+      "reason": "all 995 tap values for k=96..105 are factorized exactly",
+      "status": "PASS",
+      "subject": "full orders96-105 census"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KL-22",
+      "reason": "124/124 applicable even-k odd-v reflection pairs pass on k=96,98,100,102,104",
+      "status": "PASS",
+      "subject": "reflection theorem validation"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KL-23",
+      "reason": "five new centers satisfy ord(C)=4k and h_anti=2k",
+      "status": "PASS",
+      "subject": "fixed-center theorem validation"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KL-24",
+      "reason": "237 collision classes involving repaired/new pairs are serialized, including 68 cross-order classes",
+      "status": "PASS",
+      "subject": "collision quotient"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KL-25",
+      "reason": "k|ord, v|ord and (k+v)|ord strata are tabulated with fixed-center ratio4 preserved",
+      "status": "PASS",
+      "subject": "divisibility atlas"
+    },
+    {
+      "domain": "D5",
+      "id": "PASS-KL-26",
+      "reason": "fresh Library/GitHub scopes are audited against the explicit continuous rank3 transition ABI",
+      "status": "PASS",
+      "subject": "post-A1BI retrieval audit"
+    },
+    {
+      "domain": "Pisano-Theta",
+      "id": "PASS-KL-27",
+      "reason": "fresh source scan preserves the exact missing additive-character/Haar/Tate byte schema",
+      "status": "PASS",
+      "subject": "historical p5 retrieval audit"
+    },
+    {
+      "domain": "Project oracle",
+      "id": "PASS-KL-28",
+      "reason": "fresh exact-field searches preserve zero complete packets, zero promotions and 37 active gates",
+      "status": "PASS",
+      "subject": "Stone/Fibonacci ABI preflight"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "ZERO-KL-01",
+      "reason": "full order89 and full odd orders97,99,101,103,105 remain ZERO by the determinant theorem",
+      "status": "ZERO",
+      "subject": "new odd-order global antiperiod sectors"
+    },
+    {
+      "domain": "Gauss",
+      "id": "SEPARATED-KL-01",
+      "reason": "reduced-resolvent existence alone does not prove an absolutely summable time-domain three-point cumulant series",
+      "status": "SEPARATED",
+      "subject": "absolute three-point cumulant summability"
+    },
+    {
+      "domain": "Gauss",
+      "id": "SEPARATED-KL-02",
+      "reason": "no certified reduced-resolvent operator norm or numerical S u1/S u2 evaluation is available",
+      "status": "SEPARATED",
+      "subject": "numerical third pressure response"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "SEPARATED-KL-03",
+      "reason": "no source-bound map glues the regular germ atlas to the true C8 bad-stratum leaf quotient",
+      "status": "SEPARATED",
+      "subject": "cross-singular quotient atlas"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "SEPARATED-KL-04",
+      "reason": "actual cross-singular holonomy transition bytes are still absent",
+      "status": "SEPARATED",
+      "subject": "compactified germinal leaf groupoid"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "SEPARATED-KL-05",
+      "reason": "free basis, equivariant d4, twisting cochain and Phi4 bytes remain absent",
+      "status": "SEPARATED",
+      "subject": "free Wall degree4 producer"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "SEPARATED-KL-06",
+      "reason": "types0,1,3,5,6 are not extrapolated from the new type4 closure",
+      "status": "SEPARATED",
+      "subject": "remaining native H5 types"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "SEPARATED-KL-07",
+      "reason": "exact atlas shows multiple strata; no single linear order/value law is promoted",
+      "status": "SEPARATED",
+      "subject": "universal divisibility law beyond fixed center"
+    },
+    {
+      "domain": "Pisano-Theta",
+      "id": "SEPARATED-KL-08",
+      "reason": "historical additive character, self-dual Haar, denominator and representative bytes remain unrecovered",
+      "status": "SEPARATED",
+      "subject": "historical p5 full Tate packet"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "REFUTED-KL-01",
+      "reason": "the old SymPy bounded-window overrun is not invariant: the FLINT engine completes all 88 taps and matches all nine prior probes",
+      "status": "REFUTED",
+      "subject": "engine-independent order89 resource obstruction"
+    },
+    {
+      "domain": "D5",
+      "id": "NT-KL-01",
+      "reason": "no A1BI-or-later or independent complete transition packet recovered",
+      "status": "NT",
+      "subject": "continuous rank3 project transition packet"
+    },
+    {
+      "domain": "Stone",
+      "id": "NT-KL-02",
+      "reason": "five decisive project fields remain absent",
+      "status": "NT",
+      "subject": "project lambdaTheta/integer value"
+    },
+    {
+      "domain": "Fibonacci",
+      "id": "NT-KL-03",
+      "reason": "carrier/U/cofinal-basis/trace-table instance remains absent",
+      "status": "NT",
+      "subject": "project same-carrier value"
+    }
+  ],
+  "counts": {
+    "NT": 87,
+    "PASS": 1432,
+    "REFUTED": 294,
+    "SEPARATED": 450,
+    "ZERO": 97
+  },
+  "inherited_counts": {
+    "NT": 84,
+    "PASS": 1404,
+    "REFUTED": 293,
+    "SEPARATED": 442,
+    "ZERO": 96
+  },
+  "note": "append-only truth/status axis; mergeability remains separate",
+  "phase": "II-KL",
+  "predecessor": "II-KK"
+}

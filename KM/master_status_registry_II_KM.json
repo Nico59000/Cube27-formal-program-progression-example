@@ -1,0 +1,442 @@
+{
+  "active_project_NT_count": 37,
+  "append_rows": [
+    {
+      "domain": "Cube27",
+      "id": "PASS-KM-01",
+      "last_reassessment": "II-KM",
+      "reason": "actual Smith forms localize 12 to 4 and give exact gr1/gr2/all-tail primary modules",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "2-local associated-graded primary decomposition",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KM-02",
+      "last_reassessment": "II-KM",
+      "reason": "the mod-2 and 2M dimensions are recomputed on gr1, gr2 and the all-n tail",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "2-step module filtration 0<2M<M",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KM-03",
+      "last_reassessment": "II-KM",
+      "reason": "all 60 integer-linear degree-one multiplication operators preserve 2M functorially",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "augmentation-operator filtration preservation",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KM-04",
+      "last_reassessment": "II-KM",
+      "reason": "the declared rank-16 integral Green algebra is module-finite over Z; localization at 2 is Noetherian",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "2-local Noetherian input",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KM-05",
+      "last_reassessment": "II-KM",
+      "reason": "Noetherian completion exactness applies to every 0->I^(n+1)->I^n->gr^n->0 over R_(2)",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "I-adic completion exactness on finite filtered steps",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "PASS-KM-06",
+      "last_reassessment": "II-KM",
+      "reason": "the 13-dimensional mod-2 detector keeps the nonzero conductor class at 2 and kills it away from 2",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "2-local conductor Ext filtration/detector",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KM-07",
+      "last_reassessment": "II-KM",
+      "reason": "6^8 exact branch words grouped by matrix trace plus a positive conservative continuant tail give a 192-bit enclosure",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "eighth transfer trace",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "PASS-KM-08",
+      "last_reassessment": "II-KM",
+      "reason": "Newton identity combines the frozen d1..d7/trace intervals with the new trace L^8 enclosure",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "eighth Fredholm coefficient",
+      "tier": "head"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "PASS-KM-09",
+      "last_reassessment": "II-KM",
+      "reason": "higher-resolution Arb interval-Newton contracts the inherited unique regular crossing strictly",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "sqrt5/4 256-bit crossing refinement",
+      "tier": "head"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "PASS-KM-10",
+      "last_reassessment": "II-KM",
+      "reason": "higher-resolution Arb interval-Newton contracts the inherited unique regular crossing strictly",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "pi/6 256-bit crossing refinement",
+      "tier": "head"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "PASS-KM-11",
+      "last_reassessment": "II-KM",
+      "reason": "both refined intervals have strictly negative derivative enclosures on the declared regular carrier",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "higher-resolution regular return campaign",
+      "tier": "head"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "PASS-KM-12",
+      "last_reassessment": "II-KM",
+      "reason": "29 elementary-abelian E8 subgroups are enumerated on the actual type3 order32 stabilizer",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "type3 E8 subgroup census",
+      "tier": "head"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "PASS-KM-13",
+      "last_reassessment": "II-KM",
+      "reason": "17 independent actual B5 blocks and native product restrictions reach 56 candidate pivots after 557056 rows",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "type3 joint B5 restriction detection",
+      "tier": "head"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "PASS-KM-14",
+      "last_reassessment": "II-KM",
+      "reason": "type3 displayed native products attain the independent H5 dimension 56",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "third native H5 closure",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KM-15",
+      "last_reassessment": "II-KM",
+      "reason": "all 276 formerly selected odd-order tap pairs are now factor-certified exactly by FLINT",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "full repair orders91/93/95",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KM-16",
+      "last_reassessment": "II-KM",
+      "reason": "all 1095 tap-pair families are factor-certified exactly",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "full orders106-115 census",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KM-17",
+      "last_reassessment": "II-KM",
+      "reason": "all 5609 pairs (k,v), 45<=k<=115 and 1<=v<k, are present exactly once",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "full exact atlas45-115",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KM-18",
+      "last_reassessment": "II-KM",
+      "reason": "determinant parity sharpens C_ref~-C^-1 to ord C(k,k-v)=ord C(k,v) for every even k and odd v",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "general reflection equal-order collision theorem",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KM-19",
+      "last_reassessment": "II-KM",
+      "reason": "all 691 unordered applicable reflection pairs in the full 45-115 atlas have equal exact matrix order",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "reflection theorem full-atlas replay",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KM-20",
+      "last_reassessment": "II-KM",
+      "reason": "all 35 even fixed centers satisfy ordC=4k, hanti=2k, gcd(ordC,k+v)=k/2 and (k+v) does not divide ordC",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "fixed-center divisibility refinement",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KM-21",
+      "last_reassessment": "II-KM",
+      "reason": "1130 equal-order collision classes are serialized, including 297 cross-order classes",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "full collision quotient45-115",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "PASS-KM-22",
+      "last_reassessment": "II-KM",
+      "reason": "exact counts k|ord=621, v|ord=1311, (k+v)|ord=494 are serialized on 5609 records",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "full divisibility census45-115",
+      "tier": "head"
+    },
+    {
+      "domain": "D5",
+      "id": "PASS-KM-23",
+      "last_reassessment": "II-KM",
+      "reason": "fresh Library and connected-repository scopes are checked against the complete continuous rank3 ABI",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "post-A1BI/A1BJ retrieval audit",
+      "tier": "head"
+    },
+    {
+      "domain": "Pisano-Theta",
+      "id": "PASS-KM-24",
+      "last_reassessment": "II-KM",
+      "reason": "fresh scopes are checked against the explicit additive-character/Haar/conductor/uniformizer/Tate ABI",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "historical p5 retrieval audit",
+      "tier": "head"
+    },
+    {
+      "domain": "Project oracle",
+      "id": "PASS-KM-25",
+      "last_reassessment": "II-KM",
+      "reason": "fresh exact-field preflight preserves zero complete actual packets, zero promotions and 37 active gates",
+      "source_phase": "II-KM",
+      "status": "PASS",
+      "subject": "Stone/Fibonacci ABI preflight",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "ZERO-KM-01",
+      "last_reassessment": "II-KM",
+      "reason": "no odd k record has a global antiperiod; determinant obstruction and full replay agree",
+      "source_phase": "II-KM",
+      "status": "ZERO",
+      "subject": "odd-order global antiperiod sector on full 45-115 atlas",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "ZERO-KM-02",
+      "last_reassessment": "II-KM",
+      "reason": "no exact record in the declared full finite atlas satisfies ordC=k",
+      "source_phase": "II-KM",
+      "status": "ZERO",
+      "subject": "ordC equals k on full 45-115 atlas",
+      "tier": "head"
+    },
+    {
+      "domain": "Recurrence",
+      "id": "ZERO-KM-03",
+      "last_reassessment": "II-KM",
+      "reason": "no exact record in the declared full finite atlas satisfies ordC=k+v",
+      "source_phase": "II-KM",
+      "status": "ZERO",
+      "subject": "ordC equals k+v on full 45-115 atlas",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "SEPARATED-KM-01",
+      "last_reassessment": "II-KM",
+      "reason": "exact completion of filtration sequences does not supply compatible splittings",
+      "source_phase": "II-KM",
+      "status": "SEPARATED",
+      "subject": "split/product presentation of completed Rees",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "SEPARATED-KM-02",
+      "last_reassessment": "II-KM",
+      "reason": "associated-graded periodicity alone does not determine a polynomial presentation of the completion",
+      "source_phase": "II-KM",
+      "status": "SEPARATED",
+      "subject": "new polynomial quotient presentation of completed Rees",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "SEPARATED-KM-03",
+      "last_reassessment": "II-KM",
+      "reason": "existence of the bounded reduced resolvent does not provide a proof-grade numerical norm",
+      "source_phase": "II-KM",
+      "status": "SEPARATED",
+      "subject": "certified numerical reduced-resolvent norm",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "SEPARATED-KM-04",
+      "last_reassessment": "II-KM",
+      "reason": "no certified numerical P third derivative enclosure is produced",
+      "source_phase": "II-KM",
+      "status": "SEPARATED",
+      "subject": "proof-grade numerical third pressure",
+      "tier": "head"
+    },
+    {
+      "domain": "Gauss",
+      "id": "SEPARATED-KM-05",
+      "last_reassessment": "II-KM",
+      "reason": "the Fredholm calculation is a distinct evidence channel and does not close absolute three-point summability",
+      "source_phase": "II-KM",
+      "status": "SEPARATED",
+      "subject": "absolute time-domain three-point cumulant summability",
+      "tier": "head"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "SEPARATED-KM-06",
+      "last_reassessment": "II-KM",
+      "reason": "no source-bound transition arrows glue the regular germs across the C8 bad stratum",
+      "source_phase": "II-KM",
+      "status": "SEPARATED",
+      "subject": "cross-singular quotient/holonomy source",
+      "tier": "head"
+    },
+    {
+      "domain": "Codimension-3",
+      "id": "SEPARATED-KM-07",
+      "last_reassessment": "II-KM",
+      "reason": "sharper regular-root localization does not identify the source-bound singular quotient groupoid",
+      "source_phase": "II-KM",
+      "status": "SEPARATED",
+      "subject": "actual compactified leaf groupoid",
+      "tier": "head"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "SEPARATED-KM-08",
+      "last_reassessment": "II-KM",
+      "reason": "free basis, equivariant d4, twisting data, free Phi3 and Phi4 remain absent",
+      "source_phase": "II-KM",
+      "status": "SEPARATED",
+      "subject": "trusted free F2[H]-Wall degree4 producer",
+      "tier": "head"
+    },
+    {
+      "domain": "Golden-Hodge",
+      "id": "SEPARATED-KM-09",
+      "last_reassessment": "II-KM",
+      "reason": "type3 closure is not transferred or extrapolated to other stabilizer carriers",
+      "source_phase": "II-KM",
+      "status": "SEPARATED",
+      "subject": "remaining native H5 types0,1,5,6",
+      "tier": "head"
+    },
+    {
+      "domain": "Pisano-Theta",
+      "id": "SEPARATED-KM-10",
+      "last_reassessment": "II-KM",
+      "reason": "explicit additive-character/Haar/conductor/uniformizer/Tate bytes remain unrecovered",
+      "source_phase": "II-KM",
+      "status": "SEPARATED",
+      "subject": "historical p5 full local Tate packet",
+      "tier": "head"
+    },
+    {
+      "domain": "Cube27",
+      "id": "REFUTED-KM-01",
+      "last_reassessment": "II-KM",
+      "reason": "extension data can vary while associated graded repeats; no compatible splitting has been serialized",
+      "source_phase": "II-KM",
+      "status": "REFUTED",
+      "subject": "period-two associated graded implies period-two filtered/completed splitting",
+      "tier": "head"
+    },
+    {
+      "domain": "D5",
+      "id": "NT-KM-01",
+      "last_reassessment": "II-KM",
+      "reason": "no post-A1BI/A1BJ or independent complete transition packet is recovered in the declared scopes",
+      "source_phase": "II-KM",
+      "status": "NT",
+      "subject": "continuous rank3 project transition packet",
+      "tier": "head"
+    },
+    {
+      "domain": "Stone",
+      "id": "NT-KM-02",
+      "last_reassessment": "II-KM",
+      "reason": "project d, theta, K_Z, C and framing/residue provenance remain absent",
+      "source_phase": "II-KM",
+      "status": "NT",
+      "subject": "actual project lambdaTheta/integer value",
+      "tier": "head"
+    },
+    {
+      "domain": "Fibonacci",
+      "id": "NT-KM-03",
+      "last_reassessment": "II-KM",
+      "reason": "carrier/localization/cofinal-basis/trace-table decisive packet remains absent",
+      "source_phase": "II-KM",
+      "status": "NT",
+      "subject": "actual same-carrier project value",
+      "tier": "head"
+    }
+  ],
+  "counts": {
+    "NT": 90,
+    "PASS": 1457,
+    "REFUTED": 295,
+    "SEPARATED": 460,
+    "ZERO": 100
+  },
+  "inherited_counts": {
+    "NT": 87,
+    "PASS": 1432,
+    "REFUTED": 294,
+    "SEPARATED": 450,
+    "ZERO": 97
+  },
+  "note": "append-only truth/status axis; mergeability remains separate; ZERO rows are scoped to the declared full finite recurrence atlas where stated",
+  "phase": "II-KM",
+  "predecessor": "II-KL"
+}

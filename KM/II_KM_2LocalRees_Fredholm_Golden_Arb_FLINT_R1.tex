@@ -1,0 +1,125 @@
+\documentclass[9.5pt,a4paper]{article}
+\usepackage[margin=1.38cm]{geometry}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,mathtools,booktabs,array,tabularx,enumitem,xurl}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0.30em}\setlength{\emergencystretch}{4em}\setlist{nosep,leftmargin=*}
+\newcommand{\PASS}{\textsf{PASS}}\newcommand{\ZERO}{\textsf{ZERO}}\newcommand{\SEP}{\textsf{SEPARATED}}\newcommand{\REF}{\textsf{REFUTED}}\newcommand{\NT}{\textsf{NT}}
+\title{\textbf{II-KM -- 2-local Cube27 completion, eighth Gauss Fredholm,}\\\textbf{sharper codimension-three Arb localization, third native Golden $H^5$,}\\\textbf{and full recurrence atlas $45$--$115$}}
+\author{Nico Begue Marquot -- formal HT+NT continuation bundle}\date{19 August 2026}
+\begin{document}\maketitle\vspace{-1.25em}
+\begin{abstract}\small
+II-KM freezes II-KL under the append-only HT+NT discipline.  It localizes the Cube27 augmentation filtration at $2$, closes exact $I$-adic completion on the finite filtered modules while refusing an unsupported splitting of the completed Rees algebra, computes an eighth Gauss transfer trace/Fredholm coefficient, strictly narrows both regular codimension-three return crossings at 256-bit Arb precision, obtains the third native Golden $H^5/B^5$ closure (type 3, order 32, dimension 56), and repairs the recurrence atlas to a full exact census for every $45\le k\le115$.  The recurrence reflection law is sharpened to a general equal-order collision theorem for even $k$ and odd $v$.  Missing $D_5$, historical $p=5$, Stone and Fibonacci source packets remain explicitly gated.
+\end{abstract}
+\section{Frozen semantics and checkpoint}
+Truth states remain $\{\PASS,\ZERO,\SEP,\REF,\NT\}$; mergeability remains an independent axis.  Retrieval, numerical replay, theorem application and project-value promotion are separate evidence channels.  II-KL enters at $(1432,97,450,294,87)$ with merge counts $(675,456)$.
+
+\section{Cube27: $2$-local filtration and exact completion}
+The actual relation matrices reproduce
+\[
+\operatorname{gr}^1_{I,(2)}R\simeq(\mathbb Z/2)^2\oplus\mathbb Z/4,\qquad
+\operatorname{gr}^2_{I,(2)}R\simeq(\mathbb Z/2)^5\oplus\mathbb Z/4,
+\]
+\[
+\boxed{\operatorname{gr}^n_{I,(2)}R\simeq(\mathbb Z/2)^6\oplus\mathbb Z/4\quad(n\ge3).}
+\]
+The filtration $0\subset2M\subset M$ has $(\dim M/2M,\dim 2M)=(3,1),(6,1),(7,1)$ in degrees $1,2,\ge3$, and all $60$ serialized degree-one operators preserve it.
+
+On the declared Cube27 carrier, the integral ring is finite free of rank $16$ over $\mathbb Z$; hence its localization $R_{(2)}$ is Noetherian.  Completion exactness for finite modules over a Noetherian ring (Stacks Project, Algebra Lemma 10.97.2, tag 00MB) therefore applies to
+\[
+0\to I^{n+1}_{(2)}\to I^n_{(2)}\to\operatorname{gr}^n_I(R)_{(2)}\to0,
+\]
+giving
+\[
+\boxed{0\to\widehat{I^{n+1}_{(2)}}\to\widehat{I^n_{(2)}}\to\operatorname{gr}^n_I(R)_{(2)}\to0.}
+\]
+The conductor class remains nonzero at $2$: $\dim_{\mathbb F_2}A_2/2A_2=13$ and the frozen detector has value $1$.  It vanishes after inverting $2$.  Exact completion does \emph{not} provide compatible splittings; ``period-two associated graded implies period-two filtered completion'' is \REF{} as an inference, while a split/polynomial completed-Rees presentation remains \SEP.
+
+\section{Gauss and codimension-three return}
+For the inherited trace-class Gauss carrier, $6^8=1{,}679{,}616$ exact branch words are grouped into $53{,}613$ matrix-trace classes.  At 192-bit Arb precision,
+\[
+\boxed{0.1690543204202985<\operatorname{tr}(L^8)<39.00586060099235}
+\]
+and Newton's identity yields
+\[
+\boxed{-5.038088123389629<d_8<2.113462121846312.}
+\]
+The $d_8$ interval crosses zero.  The reduced resolvent exists abstractly from II-KL, but a certified numerical norm and a proof-grade numerical $P'''(0)$ remain \SEP.
+
+At 256 bits the two regular crossings contract strictly to
+\[
+\boxed{c_{\sqrt5/4}\in[0.8726469017985619,0.8732370528298088]},\qquad
+\boxed{c_{\pi/6}\in[0.9226384987737402,0.9232502005793504]}.
+\]
+Their derivative enclosures remain strictly negative.  The alternating source-bound $C_8$ bad-stratum incidence is retained, but no cross-singular transition arrows are recovered; the true compactified germinal leaf groupoid remains \SEP.
+
+\section{Golden-Hodge: third native $H^5/B^5$ closure}
+II-KM treats the actual type-3 stabilizer of order $32$.  It finds $29$ elementary-abelian $E_8$ subgroups.  The candidate family contains $3884$ products built only from actual native $H^1,H^2,H^3$ representatives.  Each selected $E_8$ contributes an independent actual block
+\[
+B^5(E)=\operatorname{im}(\delta:C^4(E;\mathbb F_2)\to C^5(E;\mathbb F_2)).
+\]
+The joint candidate rank progresses through $21,27,33,34,\ldots,49,53,56$ and reaches the independent upper bound after $17$ subgroups and
+\[
+\boxed{557056\text{ streamed }C^5(E_8)\text{ rows}.}
+\]
+Therefore
+\[
+\boxed{\dim H^5_{\rm native}(\text{type }3)=56,\qquad\text{displayed native products span }H^5:\PASS.}
+\]
+This is the third native degree-five closure, after types 2 and 4.  It is not transferred to types $0,1,5,6$.  The free $\mathbb F_2[H]$-Wall degree-four producer remains \SEP.
+
+\section{Recurrence: a full exact atlas and a reflection collision theorem}
+For
+\[
+f_{k,v}(x)=x^k-x^v-1\in\mathbb F_3[x],\qquad 1\le v<k,
+\]
+II-KM repairs full orders $91,93,95$ ($276$ records), scans all orders $106$--$115$ ($1095$ records), and merges the exact predecessor scopes into
+\[
+\boxed{\sum_{k=45}^{115}(k-1)=5609\text{ factor-certified families}.}
+\]
+No state-space $3^k$ enumeration is used.
+
+For even $k$ and odd $v$,
+\[
+f_{k,k-v}(x)=-x^k f_{k,v}(-1/x),
+\]
+so $C(k,k-v)$ is similar to $-C(k,v)^{-1}$.  Let $N=\operatorname{ord}C(k,v)$.  Since $\det C=-1$, $N$ is even.  If $-I\notin\langle C\rangle$, the reflected order is $\operatorname{lcm}(2,N)=N$.  If $C^{N/2}=-I$, determinants force $4\mid N$, hence $\gcd(N,N/2-1)=1$ and again the reflected order is $N$.  Thus
+\[
+\boxed{\operatorname{ord}C(k,k-v)=\operatorname{ord}C(k,v)\quad(k\text{ even},\ v\text{ odd}).}
+\]
+The full atlas verifies $691/691$ unordered applicable pairs with zero violations.
+
+The exact quotient has $1130$ collision classes, including $297$ cross-order classes.  The largest class has size 11 at matrix order 6461081889226673298932240.  The divisibility census gives
+\[
+\boxed{k\mid\operatorname{ord}C:621,\quad v\mid\operatorname{ord}C:1311,\quad(k+v)\mid\operatorname{ord}C:494.}
+\]
+All $35$ even fixed centers satisfy
+\[
+\boxed{\operatorname{ord}C=4k,\quad h_{\rm anti}=2k,\quad \gcd(\operatorname{ord}C,k+v)=k/2,\quad(k+v)\nmid\operatorname{ord}C.}
+\]
+The odd-order global-antiperiod sector is \ZERO{} on the entire full atlas.  Likewise there are no finite-scope hits of $\operatorname{ord}C=k$ or $\operatorname{ord}C=k+v$.
+
+\section{Source gates, ledger and safe continuation}
+Fresh declared Library/GitHub searches recover no new continuous rank-three $D_5$ transition packet and no full historical $p=5$ local Tate byte packet.  These are scoped retrieval observations only.  Stone still lacks the actual project $d,\theta,K_Z,C$ and framing/residue provenance; Fibonacci still lacks an instantiated carrier/localization/cofinal-basis/trace-table packet.  Hence
+\[
+\boxed{\text{ABI-complete actual packets}=0,\quad\text{promoted values}=0,\quad37\text{ gates active}.}
+\]
+The append-only checkpoint closes at
+\[
+\boxed{1457\ \PASS,\ 100\ \ZERO,\ 460\ \SEP,\ 295\ \REF,\ 90\ \NT},
+\]
+\[
+\boxed{687\ \textsf{PROVEN-MERGEABLE},\qquad464\ \textsf{PROVEN-NOT-MERGEABLE}.}
+\]
+The deep verifier closes 11 families with 9115 explicit assertions, 8861 witness records and 2463320 coverage units.  Observational continuity is \texttt{PASS\_298}; exhaustive historical replay remains \texttt{NT\_NOT\_EXHAUSTIVE}.
+
+\par\noindent\textbf{Safe successor.}\par\smallskip
+\begin{minipage}{\linewidth}\scriptsize\raggedright\sloppy
+II-KN -- Cube27 completed-Rees extension-class splitting/no-splitting and topological-algebra presentation audit; Gauss ninth Fredholm trace/coefficient plus quantitative reduced-resolvent enclosure or proof-grade third-pressure value; codimension-3 cross-singular transition/holonomy packet acquisition and compactified leaf-groupoid cocycle audit; Golden fourth native H5/B5 closure among types 0,1,5,6 or trusted free F2[H]-Wall degree-four producer; post-A1BJ/A1BK D5 continuous transition-source ingestion; historical Pisano p=5 local Tate packet acquisition; recurrence full orders 116--125 with collision/divisibility-stratum refinement beyond the equal-order reflection theorem; plus external Stone/Fibonacci ABI-complete packet execution.
+\end{minipage}
+\begin{thebibliography}{9}\small
+\bibitem{KL} II-KL frozen formal bundle and authority registry.
+\bibitem{StacksCompletion} The Stacks Project, Algebra, Lemma 10.97.2 (tag 00MB), completion for Noetherian rings.
+\bibitem{EV} D. B. A. Epstein and E. Vogt, A Counterexample to the Periodic Orbit Conjecture in Codimension 3, Ann. of Math. 108 (1978), 539--552; project copy hash-locked in the predecessor lineage.
+\end{thebibliography}
+\end{document}

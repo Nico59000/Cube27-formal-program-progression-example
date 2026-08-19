@@ -1,0 +1,14 @@
+{
+  "decision": "PASS_ZERO_OVERFULL_ZERO_UNDERFULL_ZERO_WORD_BBOX_AND_ZERO_RENDER_EDGE_VIOLATIONS",
+  "overfull_hbox_vbox": 0,
+  "page_size": "A4",
+  "pages": 3,
+  "pdf": "II_KM_2LocalRees_Fredholm_Golden_Arb_FLINT_R1.pdf",
+  "phase": "II-KM",
+  "preflight": "PASS_OPENABLE_UNENCRYPTED_NOT_SCANNED_NO_XFA",
+  "render_edge_violations": 0,
+  "underfull_hbox_vbox": 0,
+  "visual_review": "PASS_3_OF_3_PAGES_VISUALLY_INSPECTED_NO_CLIPPING_OVERLAP_BLACK_BOX_OR_BROKEN_GLYPH",
+  "word_bbox_examples": [],
+  "word_bbox_page_violations": 0
+}

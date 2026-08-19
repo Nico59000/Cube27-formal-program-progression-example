@@ -1,0 +1,6 @@
+PDF: II_KM_2LocalRees_Fredholm_Golden_Arb_FLINT_R1.pdf
+Pages: 3
+Encrypted: False
+Openable (PyMuPDF): True
+Likely scanned: False
+XFA present: False

@@ -1,0 +1,73 @@
+{
+  "D5": {
+    "fresh_result": "NO_NEW_POST_A1BI_A1BJ_COMPLETE_TRANSITION_PACKET_IN_DECLARED_SCOPES",
+    "required_packet": [
+      "continuous base B",
+      "open cover {U_i}",
+      "rank-3 local trivializations phi_i",
+      "continuous transition maps g_ij",
+      "inverse and Cech triple law",
+      "metric/norm transport provenance"
+    ],
+    "status": "NT_PRESERVED"
+  },
+  "Fibonacci": {
+    "ABI_complete": false,
+    "missing": [
+      "instantiated carrier_id",
+      "localization family",
+      "represented cofinal basis",
+      "same-carrier trace table or decisive trace-zero witness"
+    ],
+    "project_value": "NT"
+  },
+  "Pisano_p5": {
+    "fresh_result": "NO_NEW_FULL_HISTORICAL_P5_LOCAL_TATE_PACKET_IN_DECLARED_SCOPES",
+    "required_packet": [
+      "explicit K_5/local extension identifier",
+      "explicit additive character psi5 byte formula",
+      "self-dual Haar measure convention",
+      "conductor and different exponents",
+      "uniformizer/coordinate representative list",
+      "finite Gauss/Tate sum bytes"
+    ],
+    "status": "SEPARATED_NOT_RECOVERED"
+  },
+  "Stone": {
+    "ABI_complete": false,
+    "missing": [
+      "project differential d",
+      "project theta row",
+      "primitive K_Z",
+      "integer-surjective incidence coupling C",
+      "stable residue/framing anchor",
+      "secondary-chain provenance"
+    ],
+    "project_value": "NT"
+  },
+  "decision": "PASS_FRESH_SCOPED_SOURCE_PREFLIGHT__D5_NT_PISANO_P5_SEPARATED_STONE_FIBONACCI_UNPROMOTED",
+  "phase": "II-KM",
+  "predecessor": "II-KL",
+  "project_summary": {
+    "ABI_complete_actual_packets": 0,
+    "active_project_gates": 37,
+    "promoted_project_values": 0
+  },
+  "retrieval_scope": {
+    "connected_github_repository": "Nico59000/Modular-recurrence-symetry-analyzer-",
+    "github_queries": [
+      "CORE7Q_A1BJ D5 transition trivialization continuous rank-3",
+      "additive character Haar Tate p5 Pisano",
+      "theta K_Z coupling framing anchor Stone",
+      "Fibonacci carrier localization cofinal trace table"
+    ],
+    "guard": "zero retrieval hits are scoped discovery evidence only; they are not a mathematical nonexistence theorem",
+    "library_queries": [
+      "post-A1BJ continuous D5 rank-3 transition bundle trivialization Cech metric norm",
+      "Pisano p=5 additive character self-dual Haar conductor different uniformizer Tate sum bytes",
+      "Stone ABI d theta K_Z incidence coupling framing anchor project packet",
+      "Fibonacci ABI carrier localization cofinal basis trace table project packet"
+    ],
+    "new_complete_packet_hits": 0
+  }
+}

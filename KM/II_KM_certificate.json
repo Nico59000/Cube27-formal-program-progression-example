@@ -1,0 +1,82 @@
+{
+  "ABI_complete_actual_project_packets": 0,
+  "active_project_NT_count": 37,
+  "historical_replay": "NT_NOT_EXHAUSTIVE",
+  "infrastructure": {
+    "lean_4_30_archive_verified": true,
+    "lean_archive_sha256": "1e334ce3f54d3f2b82556ef5bb36c94bf40d79eb817a987a4aa007c7c210a611",
+    "lean_extraction": "DEFERRED_UNTIL_SELECTIVE_MATHLIB_TREE",
+    "proof_assistant_claim": "NO_LEAN_THEOREM_REPLAY_CLAIMED_IN_II_KM"
+  },
+  "key_results": [
+    "Cube27: exact 2-local primary associated-graded modules are (Z/2)^2+Z/4, (Z/2)^5+Z/4, then (Z/2)^6+Z/4 for every n>=3; all 60 degree-one maps preserve 0<2M<M.",
+    "Cube27: R_(2) is Noetherian on the declared rank-16 finite integral carrier; I-adic completion is exact on every finite filtered short exact sequence. No splitting or polynomial completed-Rees presentation is inferred.",
+    "Gauss: certified eighth trace and d8 intervals are produced; d8 crosses zero; numerical reduced-resolvent norm and numerical third pressure remain SEPARATED.",
+    "Codimension-3: 256-bit Arb strictly narrows both unique regular return crossings; cross-singular quotient/holonomy bytes remain SEPARATED.",
+    "Golden: type3/order32 has 29 E8 subgroups; 17 actual E8+B5 blocks reach candidate rank 56 after 557056 rows, closing the third native H5/B5 carrier exactly.",
+    "Recurrence: full repairs 91/93/95 and full 106-115 yield a continuous exact atlas of 5609 tap pairs for every k=45..115.",
+    "Recurrence: for every even k and odd v, reflection has equal exact matrix order; 691/691 full-atlas reflection pairs verify the general theorem. The atlas has 1130 collision classes, 297 cross-order.",
+    "Recurrence: all 35 even fixed centers satisfy ordC=4k and hanti=2k; k+v never divides ordC there, with gcd(ordC,k+v)=k/2.",
+    "D5/Pisano/Stone/Fibonacci: fresh scoped preflight finds no complete new source packet; D5 remains NT, historical p5 remains SEPARATED, and 37 project gates remain active."
+  ],
+  "layout": {
+    "decision": "PASS_ZERO_OVERFULL_ZERO_UNDERFULL_ZERO_WORD_BBOX_AND_ZERO_RENDER_EDGE_VIOLATIONS",
+    "overfull_hbox_vbox": 0,
+    "page_size": "A4",
+    "pages": 3,
+    "pdf": "II_KM_2LocalRees_Fredholm_Golden_Arb_FLINT_R1.pdf",
+    "phase": "II-KM",
+    "preflight": "PASS_OPENABLE_UNENCRYPTED_NOT_SCANNED_NO_XFA",
+    "render_edge_violations": 0,
+    "underfull_hbox_vbox": 0,
+    "visual_review": "PASS_3_OF_3_PAGES_VISUALLY_INSPECTED_NO_CLIPPING_OVERLAP_BLACK_BOX_OR_BROKEN_GLYPH",
+    "word_bbox_examples": [],
+    "word_bbox_page_violations": 0
+  },
+  "merge_counts": {
+    "PROVEN-MERGEABLE": 687,
+    "PROVEN-NOT-MERGEABLE": 464
+  },
+  "observational_continuity": "PASS_298",
+  "overall": "PASS",
+  "pdf_sha256": "1cc185f1ac51bc128dbff6d17e328734479cc9f9bac0ebe0485aa8a40a34544e",
+  "phase": "II-KM",
+  "predecessor": "II-KL",
+  "promoted_project_values": 0,
+  "safe_successor": "II-KN -- Cube27 completed-Rees extension-class splitting/no-splitting and topological-algebra presentation audit; Gauss ninth Fredholm trace/coefficient plus quantitative reduced-resolvent enclosure or proof-grade third-pressure value; codimension-3 cross-singular transition/holonomy packet acquisition and compactified leaf-groupoid cocycle audit; Golden fourth native H5/B5 closure among types 0,1,5,6 or trusted free F2[H]-Wall degree-four producer; post-A1BJ/A1BK D5 continuous transition-source ingestion; historical Pisano p=5 local Tate packet acquisition; recurrence full orders 116--125 with collision/divisibility-stratum refinement beyond the equal-order reflection theorem; plus external Stone/Fibonacci ABI-complete packet execution.",
+  "source_sha256": {
+    "II_KM_codim3_sharp_crossing_source_audit.json": "9dee719dccae0cbbb3a2b70e13a9fb787ec6779e8a3f398858ea7c4c917c112e",
+    "II_KM_cube27_2local_completed_rees.json": "be98e1c9b7b28174d83a57cf5f41003965bee6b5563859f6427d560e2b20942a",
+    "II_KM_gauss_eighth_fredholm.json": "5b93d20a0daa29b4cedecf4f2cfb70f14890b1cd831e5c3c5b26df64f9724978",
+    "II_KM_golden_native_H5_type3.json": "56e01327acc341ce369d37f8ffdb649d78ee1d0ba37d1bf307f9a290b1b33a4a",
+    "II_KM_recurrence_106_115.json": "21c9a2c95dc17f708d7b895b2644293c9bafcac53347028e3443a60358c67a91",
+    "II_KM_recurrence_full_45_115_collision_divisibility.json": "21371249d0bfae9d20dacd665802d60aa4d9d2fee3df0cba9ba65bcbf5374a77",
+    "II_KM_recurrence_odd_repair_91_93_95.json": "41dabba5d111b25668f9f3da097b0d79cfdbc8642e07b9f0461f5c7004041a28",
+    "II_KM_source_project_gates.json": "87703d16e5b527881ec858b6d8eef147d05e838824b0b1f6bfd80fd200751634",
+    "master_merge_registry_II_KM.json": "d87c1aaa33b266653674a0199b952e0f78807a9c5a026c432d020508a405f0b1",
+    "master_status_registry_II_KM.json": "f0a516366386a43f9cfb4b0a9a2553d18943d6fc4bfa3f3e42b4bc3ed0c2c3c6",
+    "verifier_stdout_II_KM_deep.json": "3965f6aaaca59960b8c9eb6e9c43f2f2c91589ba7070bcbed0a106254ac1b7d0"
+  },
+  "standard_theorem_dependency": {
+    "reference": "Stacks Project, Algebra Lemma 10.97.2 (tag 00MB), completion exact on finitely generated modules over a Noetherian ring",
+    "use": "Cube27 I-adic completion exactness only; project-specific finiteness/SNF/filter data are replayed locally"
+  },
+  "status_counts": {
+    "NT": 90,
+    "PASS": 1457,
+    "REFUTED": 295,
+    "SEPARATED": 460,
+    "ZERO": 100
+  },
+  "tex_sha256": "389af679cefe24f44f1b2cbb2eb53ff767f839f0fa4394d12a41045aa7d41edc",
+  "title": "Cube27 2-local completed filtration; eighth Gauss Fredholm; sharper codim3 Arb; third native Golden H5; full recurrence 45-115 and reflection collision theorem",
+  "verification": {
+    "coverage_units": 2463320,
+    "explicit_verifier_assertions": 9115,
+    "explicit_witness_records": 8861,
+    "family_count": 11,
+    "verification_sha256": "3965f6aaaca59960b8c9eb6e9c43f2f2c91589ba7070bcbed0a106254ac1b7d0",
+    "verifier": "verifier_stdout_II_KM_deep.json",
+    "verifier_source_sha256": "e20f410c126c40ae97ff97d7728726aad62c6f476b36f02cf87a7d12b38785e3"
+  }
+}
